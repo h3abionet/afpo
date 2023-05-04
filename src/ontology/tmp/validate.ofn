@@ -1,0 +1,47 @@
+Prefix(:=<http://purl.obolibrary.org/obo/afpo.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/afpo.owl>
+<http://purl.obolibrary.org/obo/afpo/releases/2023-05-04/afpo.owl>
+Annotation(<http://purl.org/dc/terms/description> "None")
+Annotation(<http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/unspecified>)
+Annotation(<http://purl.org/dc/terms/title> "African Population Ontology")
+Annotation(owl:versionInfo "2023-05-04")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/AFPO_0000000>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/description>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.org/dc/terms/description> (description)
+
+AnnotationAssertion(rdfs:label <http://purl.org/dc/terms/description> "description")
+
+# Annotation Property: <http://purl.org/dc/terms/license> (license)
+
+AnnotationAssertion(rdfs:label <http://purl.org/dc/terms/license> "license")
+
+# Annotation Property: <http://purl.org/dc/terms/title> (title)
+
+AnnotationAssertion(rdfs:label <http://purl.org/dc/terms/title> "title")
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/AFPO_0000000> (root node)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AFPO_0000000> "root node"@en)
+
+
+)

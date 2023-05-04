@@ -1,0 +1,24 @@
+id: afpo
+title: "African Population Ontology"
+github_org: h3abionet
+git_main_branch: main
+repo: afpo
+namespaces: 
+  - http://purl.obolibrary.org/obo/AfPO_
+edit_format: ofn
+release_artefacts:
+  - base
+  - full
+  - simple
+primary_release: full
+export_formats:
+  - owl
+  - obo
+  - json
+robot_java_args: "-Xmx8G"
+robot_report:
+  use_labels: TRUE
+  fail_on: ERROR
+  custom_profile: TRUE
+  report_on:
+    - edit

@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/afpo
+
+idspace: AFPO
+base_url: /obo/afpo
+
+products:
+- afpo.owl: https://raw.githubusercontent.com/h3abionet/afpo/main/afpo.owl
+- afpo.obo: https://raw.githubusercontent.com/h3abionet/afpo/main/afpo.obo
+
+term_browser: ontobee
+example_terms:
+- AFPO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/h3abionet/afpo/v
+
+- prefix: /tracker/
+  replacement: https://github.com/h3abionet/afpo/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/AFPO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/h3abionet/afpo/main/
+
