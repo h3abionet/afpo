@@ -1,2 +1,2 @@
-# afpo
+# AfPO
 AfPO: African population ontology
