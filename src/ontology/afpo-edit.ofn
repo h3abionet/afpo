@@ -526,7 +526,7 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000567>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000568>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000569>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000570>))
-Declaration(AnnotationProperty(dce:description))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(dcterms:contributor))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
@@ -535,7 +535,6 @@ Declaration(AnnotationProperty(<http://webprotege.stanford.edu/project/AfPO#lang
 Declaration(AnnotationProperty(<http://webprotege.stanford.edu/project/AfPO#population:crossref>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#creation_date>))
 Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#altLabel>))
-Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#definition>))
 ############################
 #   Annotation Properties
 ############################
@@ -721,9 +720,9 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000569> "us
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000570> "was"@en)
 
-# Annotation Property: dce:description (definition)
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
 
-AnnotationAssertion(rdfs:label dce:description "definition")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
 
 # Annotation Property: dcterms:description (description)
 
@@ -3875,7 +3874,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000187> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000188> (Eastern African)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000272> <http://purl.obolibrary.org/obo/AfPO_0000188> "94 populations")
-AnnotationAssertion(dce:description <http://purl.obolibrary.org/obo/AfPO_0000188> "People living in: Burundi OR Comoros OR Djibouti OR Eritrea OR Ethiopia OR Kenya OR Madagascar OR Malawi OR Mauritius OR Mayotte OR Mozambique OR Rwanda OR Réunion OR Seychelles OR Somalia OR South Sudan OR Sudan OR Uganda OR United Republic of Tanzania OR Zimbabwe")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000188> "People living in: Burundi OR Comoros OR Djibouti OR Eritrea OR Ethiopia OR Kenya OR Madagascar OR Malawi OR Mauritius OR Mayotte OR Mozambique OR Rwanda OR Réunion OR Seychelles OR Somalia OR South Sudan OR Sudan OR Uganda OR United Republic of Tanzania OR Zimbabwe")
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/AfPO_0000188> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000188> "2020-05-25T14:14:55.213279Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000188> "Eastern African")
@@ -3962,7 +3961,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.obolibrary.org/obo/AfPO_0000190> "Nilo-Saharan, Eastern Sudanic")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000567> <http://purl.obolibrary.org/obo/AfPO_0000190> "nub")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.obolibrary.org/obo/AfPO_0000190> <https://www.101lasttribes.com/tribes/nubi.html>)
-AnnotationAssertion(dce:description <http://purl.obolibrary.org/obo/AfPO_0000190> "'The Nubians are known as people of the Nile and are located between Egypt and northern Sudan.' taken from: Culture and Customs of Sudan. Written by De Kwame Essien, Toyin Falola Ph.D.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000190> "'The Nubians are known as people of the Nile and are located between Egypt and northern Sudan.' taken from: Culture and Customs of Sudan. Written by De Kwame Essien, Toyin Falola Ph.D.")
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/AfPO_0000190> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000190> "2020-05-26T10:54:46.784167Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000190> "Nubian Eastern")
@@ -4509,7 +4508,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000566> <http://purl.obolibrary.org/obo/AfPO_0000216> "suda1236")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000567> <http://purl.obolibrary.org/obo/AfPO_0000216> "apd")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.obolibrary.org/obo/AfPO_0000216> <https://www.101lasttribes.com/tribes/nuba.html>)
-AnnotationAssertion(dce:description <http://purl.obolibrary.org/obo/AfPO_0000216> "'The Nuba trace their geographical roots to the area around the Nuba mountains, the uppermost regions around the Ingessana hills and communities close to the Red Sea.' taken from: Culture and Customs of Sudan. Written by De Kwame Essien, Toyin Falola Ph.D.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000216> "'The Nuba trace their geographical roots to the area around the Nuba mountains, the uppermost regions around the Ingessana hills and communities close to the Red Sea.' taken from: Culture and Customs of Sudan. Written by De Kwame Essien, Toyin Falola Ph.D.")
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/AfPO_0000216> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000216> "2020-05-31T21:09:10.899867Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000216> "Nuba")
@@ -4810,7 +4809,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000235> <http://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000458> <http://purl.obolibrary.org/obo/AfPO_0000239> "Chewa")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.obolibrary.org/obo/AfPO_0000239> "2.486 millions")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.obolibrary.org/obo/AfPO_0000239> <https://www.101lasttribes.com/tribes/maravi.html>)
-AnnotationAssertion(dce:description <http://purl.obolibrary.org/obo/AfPO_0000239> "the people of the lake")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000239> "the people of the lake")
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/AfPO_0000239> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000239> "2020-06-10T15:03:41.125728Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000239> "Mang'anja")
@@ -5193,7 +5192,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000260> ObjectSomeValuesFrom(<h
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000235> <http://purl.obolibrary.org/obo/AfPO_0000261> <https://en.wikipedia.org/wiki/Zoreilles>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000458> <http://purl.obolibrary.org/obo/AfPO_0000261> "French")
-AnnotationAssertion(dce:description <http://purl.obolibrary.org/obo/AfPO_0000261> "French people who were born in Metropolitan France.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000261> "French people who were born in Metropolitan France.")
 AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/AfPO_0000261> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000261> "2020-06-16T08:42:06.267055Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000261> "Zoreille")
@@ -5385,28 +5384,28 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000273> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000274> (Central African)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000272> <http://purl.obolibrary.org/obo/AfPO_0000274> "38 populations")
-AnnotationAssertion(dce:description <http://purl.obolibrary.org/obo/AfPO_0000274> "People living in: Angola OR Cameroon OR Central African Republic OR Chad OR Congo OR Democratic Republic of the Congo OR Gabon OR Zambia")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000274> "People living in: Angola OR Cameroon OR Central African Republic OR Chad OR Congo OR Democratic Republic of the Congo OR Gabon OR Zambia")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000274> "Central African")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000274> <http://purl.obolibrary.org/obo/AfPO_0000146>)
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000275> (Northern African)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000272> <http://purl.obolibrary.org/obo/AfPO_0000275> "18 populations")
-AnnotationAssertion(dce:description <http://purl.obolibrary.org/obo/AfPO_0000275> "People living in: Algeria OR Egypt OR Libya OR Mauritania OR Morocco OR Tunisia OR Western Sahara")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000275> "People living in: Algeria OR Egypt OR Libya OR Mauritania OR Morocco OR Tunisia OR Western Sahara")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000275> "Northern African")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000275> <http://purl.obolibrary.org/obo/AfPO_0000146>)
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000276> (Southern African)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000272> <http://purl.obolibrary.org/obo/AfPO_0000276> "40 populations")
-AnnotationAssertion(dce:description <http://purl.obolibrary.org/obo/AfPO_0000276> "People living in: Botswana OR Eswatini OR Lesotho OR Namibia OR South Africa")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000276> "People living in: Botswana OR Eswatini OR Lesotho OR Namibia OR South Africa")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000276> "Southern African")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000276> <http://purl.obolibrary.org/obo/AfPO_0000146>)
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000277> (Western African)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000272> <http://purl.obolibrary.org/obo/AfPO_0000277> "61 populations")
-AnnotationAssertion(dce:description <http://purl.obolibrary.org/obo/AfPO_0000277> "People living in: Benin OR Burkina Faso OR Cabo Verde OR Cote d'Ivoire OR Equatorial Guinea OR Gambia OR Ghana OR Guinea OR Guinea-Bissau OR Liberia OR Mali OR Niger OR Nigeria OR Saint Helena OR Sao Tome and Principe OR Senegal OR Sierra Leone OR Togo")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000277> "People living in: Benin OR Burkina Faso OR Cabo Verde OR Cote d'Ivoire OR Equatorial Guinea OR Gambia OR Ghana OR Guinea OR Guinea-Bissau OR Liberia OR Mali OR Niger OR Nigeria OR Saint Helena OR Sao Tome and Principe OR Senegal OR Sierra Leone OR Togo")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000277> "Western African")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000277> <http://purl.obolibrary.org/obo/AfPO_0000146>)
 
@@ -5780,7 +5779,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000565> <http://purl.obolibrary.org/obo/AfPO_0000290> "Niger–Congo, Bantu")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000567> <http://purl.obolibrary.org/obo/AfPO_0000290> "ewo")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000567> <http://purl.obolibrary.org/obo/AfPO_0000290> "fak")
-AnnotationAssertion(dce:description <http://purl.obolibrary.org/obo/AfPO_0000290> "group of 20 sub-ethnicities")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000290> "group of 20 sub-ethnicities")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000290> "Beti-Pahuin")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000290> <http://purl.obolibrary.org/obo/AfPO_0000273>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000290> <http://purl.obolibrary.org/obo/AfPO_0000412>)
@@ -7017,7 +7016,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000450> <http://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000458> <http://purl.obolibrary.org/obo/AfPO_0000329> "English")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.obolibrary.org/obo/AfPO_0000329> "0.03 millions")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.obolibrary.org/obo/AfPO_0000329> "Indo-European")
-AnnotationAssertion(dce:description <http://purl.obolibrary.org/obo/AfPO_0000329> "Persons of mixed race claiming both European and African descent.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000329> "Persons of mixed race claiming both European and African descent.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000329> "Goffel")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000329> <http://purl.obolibrary.org/obo/AfPO_0000276>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000329> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000441> <http://purl.obolibrary.org/obo/AfPO_0000019>))
@@ -7159,9 +7158,9 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000233> <http://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000235> <http://purl.obolibrary.org/obo/AfPO_0000335> <https://en.wikipedia.org/wiki/List_of_Sotho-Tswana_clans>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000458> <http://purl.obolibrary.org/obo/AfPO_0000335> "Sotho")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.obolibrary.org/obo/AfPO_0000335> "Niger–Congo, Bantu")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000335> "People of the place of the buffalo")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000335> "Banareng")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000335> <http://www.mohlalaads.co.za/gallery/short%20history%20of%20banareng%20ba%20letsoalo.pdf>)
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#definition> <http://purl.obolibrary.org/obo/AfPO_0000335> "People of the place of the buffalo")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000335> <http://purl.obolibrary.org/obo/AfPO_0000326>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000335> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000441> <http://purl.obolibrary.org/obo/AfPO_0000048>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000335> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000441> <http://purl.obolibrary.org/obo/AfPO_0000051>))
@@ -7644,7 +7643,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000354> ObjectSomeValuesFrom(<h
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000233> <http://purl.obolibrary.org/obo/AfPO_0000355> "https://www.google.com/search?tbm=bks&hl=fr&q='Andalusian+people'+AND+'North+Africa'"^^xsd:anyURI)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000458> <http://purl.obolibrary.org/obo/AfPO_0000355> "Arabic based")
-AnnotationAssertion(dce:description <http://purl.obolibrary.org/obo/AfPO_0000355> "Descendants of Andalusians people")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000355> "Descendants of Andalusians people")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000355> "Andalusian")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000355> <http://purl.obolibrary.org/obo/AfPO_0000275>)
 
@@ -8390,7 +8389,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000452> <http://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000453> <http://purl.obolibrary.org/obo/AfPO_0000380> "Birgid, Birguid, Birkit, Birqed, Kajjara, Murgi, Murgi Birked")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000458> <http://purl.obolibrary.org/obo/AfPO_0000380> "Birked")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000567> <http://purl.obolibrary.org/obo/AfPO_0000380> "brk")
-AnnotationAssertion(dce:description <http://purl.obolibrary.org/obo/AfPO_0000380> "'The Birked live north and east of Dago and Bayko, between Gebel Harayz and Rizaykat and are much larger tribe then either.' from a: A History of the Arabs in the Sudan. Written by De H. A. MacMichael.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000380> "'The Birked live north and east of Dago and Bayko, between Gebel Harayz and Rizaykat and are much larger tribe then either.' from a: A History of the Arabs in the Sudan. Written by De H. A. MacMichael.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000380> "Birged")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000380> <http://purl.obolibrary.org/obo/AfPO_0000190>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000380> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000441> <http://purl.obolibrary.org/obo/AfPO_0000044>))
@@ -8721,7 +8720,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000453> <http://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000458> <http://purl.obolibrary.org/obo/AfPO_0000392> "Gurage")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.obolibrary.org/obo/AfPO_0000392> "1.9 millions")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.obolibrary.org/obo/AfPO_0000392> "Afro-Asiatic|Semitic|South|Ethiopian|South|Outer|tt-Group|West")
-AnnotationAssertion(dce:description <http://purl.obolibrary.org/obo/AfPO_0000392> "subdivided in three groups: East, North, West")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000392> "subdivided in three groups: East, North, West")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000392> "Gurage")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000392> <http://purl.obolibrary.org/obo/AfPO_0000184>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000392> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000441> <http://purl.obolibrary.org/obo/AfPO_0000031>))
