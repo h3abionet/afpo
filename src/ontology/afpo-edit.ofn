@@ -24,7 +24,8 @@ Annotation(dcterms:contributor <https://orcid.org/0000-0002-7073-9172>)
 Annotation(dcterms:contributor <https://orcid.org/0000-0003-1058-2668>)
 Annotation(dcterms:contributor <https://orcid.org/0000-0003-4905-0941>)
 Annotation(dcterms:description "None")
-Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
+Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
+
 Annotation(dcterms:title "African Population Ontology")
 Annotation(rdfs:comment "Aymen Ben Chaalia and Hamza Dallali are also contributors. However they don't have ORCIDs yet. H3Africa Phenotype Harmonisation working group members are also contributors.")
 
