@@ -25,7 +25,6 @@ Annotation(dcterms:contributor <https://orcid.org/0000-0003-1058-2668>)
 Annotation(dcterms:contributor <https://orcid.org/0000-0003-4905-0941>)
 Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
-
 Annotation(dcterms:title "African Population Ontology")
 Annotation(rdfs:comment "Aymen Ben Chaalia and Hamza Dallali are also contributors. However they don't have ORCIDs yet. H3Africa Phenotype Harmonisation working group members are also contributors.")
 
@@ -2690,9 +2689,9 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000089> <http://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000089> <http://purl.obolibrary.org/obo/AfPO_0000104> "Western Niger Fulfulde
 14°15'N, 0°31'W
 14.25, -0.52")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000152> <http://purl.obolibrary.org/obo/AfPO_0000104> "https://www.internationalgenome.org/gambian-genome-variation-project/#:~:text=Gambian%20Genome%20Variation%20Project%20aims,variants%20that%20influence%20human%20disease"^^xsd:anyURI)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000152> <http://purl.obolibrary.org/obo/AfPO_0000104> <https://www.nature.com/articles/nature13997>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000152> <http://purl.obolibrary.org/obo/AfPO_0000104> <https://www.ncbi.nlm.nih.gov/pubmed/26614524>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000152> <http://purl.obolibrary.org/obo/AfPO_0000104> "https://www.internationalgenome.org/gambian-genome-variation-project/#:~:text=Gambian%20Genome%20Variation%20Project%20aims,variants%20that%20influence%20human%20disease"^^xsd:anyURI)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000221> <http://purl.obolibrary.org/obo/AfPO_0000104> <http://www-01.sil.org/iso639-3/documentation.asp?id=ful>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000223> <http://purl.obolibrary.org/obo/AfPO_0000104> <http://glottolog.org/resource/languoid/id/fula1264.bigmap.html>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000226> <http://purl.obolibrary.org/obo/AfPO_0000104> <https://doi.org/10.1186/s13073-014-0099-x>)
@@ -4300,9 +4299,9 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000089> <http://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000089> <http://purl.obolibrary.org/obo/AfPO_0000205> "Mlomp
 12°50'N, 16°32'W
 12.83, -16.54")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000152> <http://purl.obolibrary.org/obo/AfPO_0000205> <https://www.nature.com/articles/nature13997>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000152> <http://purl.obolibrary.org/obo/AfPO_0000205> "https://www.internationalgenome.org/gambian-genome-variation-project/#:~:text=Gambian%"^^xsd:anyURI)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000152> <http://purl.obolibrary.org/obo/AfPO_0000205> "https://www.internationalgenome.org/gambian-genome-variation-project/#:~:text=Gambian%20Genome%20Variation%20Project%20aims,variants%20that%20influence%20human%20disease"^^xsd:anyURI)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000152> <http://purl.obolibrary.org/obo/AfPO_0000205> <https://www.nature.com/articles/nature13997>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000223> <http://purl.obolibrary.org/obo/AfPO_0000205> <http://glottolog.org/resource/languoid/id/jola1264.bigmap.html>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000226> <http://purl.obolibrary.org/obo/AfPO_0000205> <https://doi.org/10.1186/s13073-014-0099-x>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000230> <http://purl.obolibrary.org/obo/AfPO_0000205> "glottolog.org/resource/languoid/id/jola1264")
@@ -4972,11 +4971,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000245> ObjectSomeValuesFrom(<h
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000247> (Tsimihety)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000233> <http://purl.obolibrary.org/obo/AfPO_0000247> "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Tsimihety+people'+OR+'Tsimihety+tribe'+%29+AND+'Africa'"^^xsd:anyURI)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000089> <http://purl.obolibrary.org/obo/AfPO_0000247> "Tsimihety Malagasy
 15°26'S, 48°49'E
 -15.43, 48.81")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000226> <http://purl.obolibrary.org/obo/AfPO_0000247> <https://doi.org/10.1093/ije/dyx071>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000233> <http://purl.obolibrary.org/obo/AfPO_0000247> "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Tsimihety+people'+OR+'Tsimihety+tribe'+%29+AND+'Africa'"^^xsd:anyURI)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000235> <http://purl.obolibrary.org/obo/AfPO_0000247> <https://en.wikipedia.org/wiki/Tsimihety_people>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000267> <http://purl.obolibrary.org/obo/AfPO_0000247> <https://www.peoplegroups.org/explore/GroupDetails.aspx?peid=15306>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000458> <http://purl.obolibrary.org/obo/AfPO_0000247> "Malagasy")
@@ -9668,8 +9667,8 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000089> <http://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000089> <http://purl.obolibrary.org/obo/AfPO_0000428> "Wolof
 15°15'N, 15°23'W
 15.25, -15.38")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000152> <http://purl.obolibrary.org/obo/AfPO_0000428> "https://www.internationalgenome.org/gambian-genome-variation-project/#:~:text=Gambian%20Genome%20Variation%20Project%20aims,variants%20that%20influence%20human%20disease"^^xsd:anyURI)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000152> <http://purl.obolibrary.org/obo/AfPO_0000428> <https://www.nature.com/articles/nature13997>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000152> <http://purl.obolibrary.org/obo/AfPO_0000428> "https://www.internationalgenome.org/gambian-genome-variation-project/#:~:text=Gambian%20Genome%20Variation%20Project%20aims,variants%20that%20influence%20human%20disease"^^xsd:anyURI)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000221> <http://purl.obolibrary.org/obo/AfPO_0000428> <http://www-01.sil.org/iso639-3/documentation.asp?id=wof>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000221> <http://purl.obolibrary.org/obo/AfPO_0000428> <http://www-01.sil.org/iso639-3/documentation.asp?id=wol>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000223> <http://purl.obolibrary.org/obo/AfPO_0000428> <http://glottolog.org/resource/languoid/id/wolo1247.bigmap.html>)
@@ -9725,13 +9724,13 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000429> ObjectSomeValuesFrom(<h
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000089> <http://purl.obolibrary.org/obo/AfPO_0000430> "Mandinka
 12°49'N, 15°39'W
 12.82, -15.65")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000152> <http://purl.obolibrary.org/obo/AfPO_0000430> "https://www.internationalgenome.org/gambian-genome-variation-project/#:~:text=Gambian%20Genome%20Variation%20Project%20aims,variants%20that%20influence%20human%20disease"^^xsd:anyURI)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000152> <http://purl.obolibrary.org/obo/AfPO_0000430> <https://www.nature.com/articles/nature13997>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000152> <http://purl.obolibrary.org/obo/AfPO_0000430> <https://www.nature.com/articles/5201408>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000152> <http://purl.obolibrary.org/obo/AfPO_0000430> <https://www.ncbi.nlm.nih.gov/pubmed/15803201/>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000152> <http://purl.obolibrary.org/obo/AfPO_0000430> <https://www.ncbi.nlm.nih.gov/pubmed/26614524>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000152> <http://purl.obolibrary.org/obo/AfPO_0000430> <https://www.ncbi.nlm.nih.gov/pubmed/26703842/>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000152> <http://purl.obolibrary.org/obo/AfPO_0000430> <https://www.ncbi.nlm.nih.gov/pubmed/27654912/>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000152> <http://purl.obolibrary.org/obo/AfPO_0000430> "https://www.internationalgenome.org/gambian-genome-variation-project/#:~:text=Gambian%20Genome%20Variation%20Project%20aims,variants%20that%20influence%20human%20disease"^^xsd:anyURI)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000221> <http://purl.obolibrary.org/obo/AfPO_0000430> <http://www-01.sil.org/iso639-3/documentation.asp?id=mnk>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000223> <http://purl.obolibrary.org/obo/AfPO_0000430> <https://glottolog.org/resource/languoid/id/mand1436.bigmap.html>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000226> <http://purl.obolibrary.org/obo/AfPO_0000430> "10.1186/s13073-014-0099-x")
@@ -10182,12 +10181,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000221> <http://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000221> <http://purl.obolibrary.org/obo/AfPO_0000443> <https://iso639-3.sil.org/code/kro>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000223> <http://purl.obolibrary.org/obo/AfPO_0000443> <http://glottolog.org/resource/languoid/id/krua1234.bigmap.html>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000230> <http://purl.obolibrary.org/obo/AfPO_0000443> <http://glottolog.org/resource/languoid/id/krua1234>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000233> <http://purl.obolibrary.org/obo/AfPO_0000443> "https://google.com/search?tbm=bks&hl=fr&q=%28+'Kru+tribe'+OR+'Kru+people'%29+AND+%28+'Africa'%29"^^xsd:anyURI)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000234> <http://purl.obolibrary.org/obo/AfPO_0000443> <https://en.wikipedia.org/wiki/Bila_language>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000234> <http://purl.obolibrary.org/obo/AfPO_0000443> <https://en.wikipedia.org/wiki/Kru_languages>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000235> <http://purl.obolibrary.org/obo/AfPO_0000443> <https://en.wikipedia.org/wiki/Kru_people>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000267> <http://purl.obolibrary.org/obo/AfPO_0000443> <https://peoplegroups.org/explore/GroupDetails.aspx?peid=13510#topmenu>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000267> <http://purl.obolibrary.org/obo/AfPO_0000443> <https://peoplegroups.org/explore/GroupDetails.aspx?peid=14285#topmenu>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000233> <http://purl.obolibrary.org/obo/AfPO_0000443> "https://google.com/search?tbm=bks&hl=fr&q=%28+'Kru+tribe'+OR+'Kru+people'%29+AND+%28+'Africa'%29"^^xsd:anyURI)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000450> <http://purl.obolibrary.org/obo/AfPO_0000443> "Kroo, Krou or Kuru")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000452> <http://purl.obolibrary.org/obo/AfPO_0000443> "krua1234")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000458> <http://purl.obolibrary.org/obo/AfPO_0000443> "Kru")
