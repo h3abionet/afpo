@@ -1,6 +1,494 @@
 Level	Rule Name	Subject	Property	Value
-WARN	missing_definition	root node	IAO:0000115	
-WARN	missing_definition	description	IAO:0000115	
-WARN	missing_definition	license	IAO:0000115	
-WARN	missing_definition	title	IAO:0000115	
-INFO	missing_superclass	root node	rdfs:subClassOf	
+WARN	missing_definition	Americas	definition	
+WARN	missing_definition	Africa	definition	
+WARN	missing_definition	Asia	definition	
+WARN	missing_definition	Europe	definition	
+WARN	missing_definition	Oceania	definition	
+WARN	missing_definition	Northern Africa	definition	
+WARN	missing_definition	Western Africa	definition	
+WARN	missing_definition	Eastern Africa	definition	
+WARN	missing_definition	Central Africa	definition	
+WARN	missing_definition	Southern Africa	definition	
+WARN	missing_definition	Eritrea	definition	
+WARN	missing_definition	Réunion	definition	
+WARN	missing_definition	South Sudan	definition	
+WARN	missing_definition	Rwanda	definition	
+WARN	missing_definition	Seychelles	definition	
+WARN	missing_definition	Somalia	definition	
+WARN	missing_definition	Madagascar	definition	
+WARN	missing_definition	Zambia	definition	
+WARN	missing_definition	Kenya	definition	
+WARN	missing_definition	Mauritius	definition	
+WARN	missing_definition	Burundi	definition	
+WARN	missing_definition	Djibouti	definition	
+WARN	missing_definition	Mozambique	definition	
+WARN	missing_definition	Malawi	definition	
+WARN	missing_definition	United Republic of Tanzania	definition	
+WARN	missing_definition	Comoros	definition	
+WARN	missing_definition	Mayotte	definition	
+WARN	missing_definition	Uganda	definition	
+WARN	missing_definition	Zimbabwe	definition	
+WARN	missing_definition	Ethiopia	definition	
+WARN	missing_definition	Gabon	definition	
+WARN	missing_definition	Cameroon	definition	
+WARN	missing_definition	Angola	definition	
+WARN	missing_definition	Chad	definition	
+WARN	missing_definition	Sao Tome and Principe	definition	
+WARN	missing_definition	Central African Republic	definition	
+WARN	missing_definition	Democratic Republic of the Congo	definition	
+WARN	missing_definition	Equatorial Guinea	definition	
+WARN	missing_definition	Congo	definition	
+WARN	missing_definition	Western Sahara	definition	
+WARN	missing_definition	Morocco	definition	
+WARN	missing_definition	Egypt	definition	
+WARN	missing_definition	Sudan	definition	
+WARN	missing_definition	Algeria	definition	
+WARN	missing_definition	Libya	definition	
+WARN	missing_definition	Tunisia	definition	
+WARN	missing_definition	Botswana	definition	
+WARN	missing_definition	Namibia	definition	
+WARN	missing_definition	Eswatini	definition	
+WARN	missing_definition	South Africa	definition	
+WARN	missing_definition	Lesotho	definition	
+WARN	missing_definition	Continent	definition	
+WARN	missing_definition	Maasai	definition	
+WARN	missing_definition	Samburu	definition	
+WARN	missing_definition	Tiv	definition	
+WARN	missing_definition	Nama	definition	
+WARN	missing_definition	Susu	definition	
+WARN	missing_definition	Taveta	definition	
+WARN	missing_definition	Bassa	definition	
+WARN	missing_definition	Zulu	definition	
+WARN	missing_definition	Dinka	definition	
+WARN	missing_definition	Bambara	definition	
+WARN	missing_definition	Sebei	definition	
+WARN	missing_definition	Masalit	definition	
+WARN	missing_definition	Bulu	definition	
+WARN	missing_definition	Taita	definition	
+WARN	missing_definition	Igbo	definition	
+WARN	missing_definition	Kikuyu	definition	
+WARN	missing_definition	language:glottolog:wgs84	definition	
+WARN	missing_definition	Terik	definition	
+WARN	missing_definition	Anuak	definition	
+WARN	missing_definition	Nandi	definition	
+WARN	missing_definition	Lunda	definition	
+WARN	missing_definition	Tsonga	definition	
+WARN	missing_definition	Fulani	definition	
+WARN	missing_definition	Yoruba	definition	
+WARN	missing_definition	Zaghawa	definition	
+WARN	missing_definition	Tugen	definition	
+WARN	missing_definition	Meru	definition	
+WARN	missing_definition	Oromo	definition	
+WARN	missing_definition	Fur	definition	
+WARN	missing_definition	Xhosa	definition	
+WARN	missing_definition	Minianka	definition	
+WARN	missing_definition	Herero	definition	
+WARN	missing_definition	Hausa	definition	
+WARN	missing_definition	Nuer	definition	
+WARN	missing_definition	Mijikenda	definition	
+WARN	missing_definition	Fang	definition	
+WARN	missing_definition	Mossi	definition	
+WARN	missing_definition	Bemba	definition	
+WARN	missing_definition	Kamba	definition	
+WARN	missing_definition	Rendille	definition	
+WARN	missing_definition	Ga-Adangbe	definition	
+WARN	missing_definition	Bulsa	definition	
+WARN	missing_definition	Chewa	definition	
+WARN	missing_definition	Soninke	definition	
+WARN	missing_definition	Tswana	definition	
+WARN	missing_definition	synonym	definition	
+WARN	missing_definition	Tuareg	definition	
+WARN	missing_definition	Population	definition	
+WARN	missing_definition	Dagomba	definition	
+WARN	missing_definition	Kusasi	definition	
+WARN	missing_definition	Frafra	definition	
+WARN	missing_definition	Gurunsi	definition	
+WARN	missing_definition	Gurma	definition	
+WARN	missing_definition	population:genetic:study	definition	
+WARN	missing_definition	Dagaaba	definition	
+WARN	missing_definition	Dyula	definition	
+WARN	missing_definition	Bihari Mauritian	definition	
+WARN	missing_definition	Mauritian Creole	definition	
+WARN	missing_definition	Tamil	definition	
+WARN	missing_definition	Nankani	definition	
+WARN	missing_definition	Seychellois	definition	
+WARN	missing_definition	Khoisan Eastern	definition	
+WARN	missing_definition	Semitic Eastern	definition	
+WARN	missing_definition	Semite Northern	definition	
+WARN	missing_definition	Semite Central	definition	
+WARN	missing_definition	Pygmy Eastern	definition	
+WARN	missing_definition	Berber Western	definition	
+WARN	missing_definition	Mattokki	definition	
+WARN	missing_definition	Banda	definition	
+WARN	missing_definition	Mahas	definition	
+WARN	missing_definition	Luo	definition	
+WARN	missing_definition	Kalenjin	definition	
+WARN	missing_definition	Pygmy Southern	definition	
+WARN	missing_definition	Senufo	definition	
+WARN	missing_definition	Akan	definition	
+WARN	missing_definition	Daza	definition	
+WARN	missing_definition	Jola	definition	
+WARN	missing_definition	Songhai	definition	
+WARN	missing_definition	Banyarwanda	definition	
+WARN	missing_definition	Ari	definition	
+WARN	missing_definition	Gaaliin	definition	
+WARN	missing_definition	Shaigiya	definition	
+WARN	missing_definition	Messiria	definition	
+WARN	missing_definition	Hadendoa	definition	
+WARN	missing_definition	Halfawieen	definition	
+WARN	missing_definition	Sahrawi	definition	
+WARN	missing_definition	language:ISO639-3:description	definition	
+WARN	missing_definition	sub:groups	definition	
+WARN	missing_definition	language:glottolog:bigmap	definition	
+WARN	missing_definition	Jarawa	definition	
+WARN	missing_definition	Hadza	definition	
+WARN	missing_definition	population:microbiome:study	definition	
+WARN	missing_definition	Serer	definition	
+WARN	missing_definition	Manjak	definition	
+WARN	missing_definition	Balanta	definition	
+WARN	missing_definition	language:glottolog:description	definition	
+WARN	missing_definition	Mozabite	definition	
+WARN	missing_definition	population:joshuaproject:description	definition	
+WARN	missing_definition	population:googlebook	definition	
+WARN	missing_definition	language:wikipedia:description	definition	
+WARN	missing_definition	population:wikipedia:description	definition	
+WARN	missing_definition	Ngoni	definition	
+WARN	missing_definition	Lomwe	definition	
+WARN	missing_definition	Yao	definition	
+WARN	missing_definition	Sena	definition	
+WARN	missing_definition	Bongo	definition	
+WARN	missing_definition	Chipeta	definition	
+WARN	missing_definition	Nyakyusa	definition	
+WARN	missing_definition	Burunge	definition	
+WARN	missing_definition	Antankarana	definition	
+WARN	missing_definition	population:distribution	definition	
+WARN	missing_definition	Tsimihety	definition	
+WARN	missing_definition	Sakalava	definition	
+WARN	missing_definition	Betsimisaraka	definition	
+WARN	missing_definition	Antemoro	definition	
+WARN	missing_definition	Betsileo	definition	
+WARN	missing_definition	Zafimaniry	definition	
+WARN	missing_definition	Merina	definition	
+WARN	missing_definition	Bara	definition	
+WARN	missing_definition	Vezo	definition	
+WARN	missing_definition	Antandroy	definition	
+WARN	missing_definition	Mahafaly	definition	
+WARN	missing_definition	Cafre	definition	
+WARN	missing_definition	Malbar	definition	
+WARN	missing_definition	Zarabe	definition	
+WARN	missing_definition	Sinwa	definition	
+WARN	missing_definition	!Kung	definition	
+WARN	missing_definition	Ubangi Central	definition	
+WARN	missing_definition	Nilotic Central	definition	
+WARN	missing_definition	Bangba	definition	
+WARN	missing_definition	population:peoplegroups:description	definition	
+WARN	missing_definition	Mayogo	definition	
+WARN	missing_definition	Cushitic Eastern	definition	
+WARN	missing_definition	Nilotic Western	definition	
+WARN	missing_definition	Sudanic	definition	
+WARN	missing_definition	number:populations	definition	
+WARN	missing_definition	Bantu Central	definition	
+WARN	missing_definition	Kanuri	definition	
+WARN	missing_definition	Kotoko	definition	
+WARN	missing_definition	Masa	definition	
+WARN	missing_definition	Pygmy Central	definition	
+WARN	missing_definition	Aka	definition	
+WARN	missing_definition	Baka_Cameroon	definition	
+WARN	missing_definition	Mbuti	definition	
+WARN	missing_definition	Efé	definition	
+WARN	missing_definition	Sua	definition	
+WARN	missing_definition	Twa	definition	
+WARN	missing_definition	Kwatay	definition	
+WARN	missing_definition	Kanembu	definition	
+WARN	missing_definition	Chokwe	definition	
+WARN	missing_definition	Kongo	definition	
+WARN	missing_definition	Luba	definition	
+WARN	missing_definition	Mbundu	definition	
+WARN	missing_definition	Moghamo	definition	
+WARN	missing_definition	Mongo	definition	
+WARN	missing_definition	Ngala	definition	
+WARN	missing_definition	Ngamambo	definition	
+WARN	missing_definition	Tikar	definition	
+WARN	missing_definition	Ovimbundu	definition	
+WARN	missing_definition	Mbunda	definition	
+WARN	missing_definition	Gbaya	definition	
+WARN	missing_definition	Ngbandi	definition	
+WARN	missing_definition	Zande	definition	
+WARN	missing_definition	Baggara	definition	
+WARN	missing_definition	Sara	definition	
+WARN	missing_definition	Toubou	definition	
+WARN	missing_definition	Mauritania	definition	
+WARN	missing_definition	Benin	definition	
+WARN	missing_definition	Burkina Faso	definition	
+WARN	missing_definition	Cabo Verde	definition	
+WARN	missing_definition	Cote d'Ivoire	definition	
+WARN	missing_definition	Gambia	definition	
+WARN	missing_definition	Ghana	definition	
+WARN	missing_definition	Guinea	definition	
+WARN	missing_definition	Guinea-Bissau	definition	
+WARN	missing_definition	Liberia	definition	
+WARN	missing_definition	Mali	definition	
+WARN	missing_definition	Niger	definition	
+WARN	missing_definition	Nigeria	definition	
+WARN	missing_definition	Saint Helena	definition	
+WARN	missing_definition	Senegal	definition	
+WARN	missing_definition	Sierra Leone	definition	
+WARN	missing_definition	Togo	definition	
+WARN	missing_definition	Afrikaner	definition	
+WARN	missing_definition	Bantu Southern	definition	
+WARN	missing_definition	British diaspora	definition	
+WARN	missing_definition	Coloured	definition	
+WARN	missing_definition	French diaspora	definition	
+WARN	missing_definition	Khoekhoe	definition	
+WARN	missing_definition	San	definition	
+WARN	missing_definition	Khoisan South	definition	
+WARN	missing_definition	Taa	definition	
+WARN	missing_definition	Himba	definition	
+WARN	missing_definition	Kwangali	definition	
+WARN	missing_definition	Lemba	definition	
+WARN	missing_definition	Makua	definition	
+WARN	missing_definition	Nguni	definition	
+WARN	missing_definition	Ovambo	definition	
+WARN	missing_definition	Shona	definition	
+WARN	missing_definition	Sotho	definition	
+WARN	missing_definition	Tonga	definition	
+WARN	missing_definition	Venda	definition	
+WARN	missing_definition	Yeyi	definition	
+WARN	missing_definition	Pedi	definition	
+WARN	missing_definition	Kalanga	definition	
+WARN	missing_definition	Nambya	definition	
+WARN	missing_definition	Ndebele	definition	
+WARN	missing_definition	Swazi	definition	
+WARN	missing_definition	North Ndebele	definition	
+WARN	missing_definition	South Ndebele	definition	
+WARN	missing_definition	Kgatla	definition	
+WARN	missing_definition	Berber Northern	definition	
+WARN	missing_definition	Copt	definition	
+WARN	missing_definition	Nubian Northern	definition	
+WARN	missing_definition	Algerian Berber	definition	
+WARN	missing_definition	Lybian Berber	definition	
+WARN	missing_definition	Moroccan Berber	definition	
+WARN	missing_definition	Shilha	definition	
+WARN	missing_definition	Tunisian Andalusian	definition	
+WARN	missing_definition	Tunisian Berber	definition	
+WARN	missing_definition	Egyptian	definition	
+WARN	missing_definition	Haratin	definition	
+WARN	missing_definition	Maghrebi	definition	
+WARN	missing_definition	Gumuz	definition	
+WARN	missing_definition	Moor	definition	
+WARN	missing_definition	Bantu Eastern	definition	
+WARN	missing_definition	Malagasy	definition	
+WARN	missing_definition	Nilotic Eastern	definition	
+WARN	missing_definition	Wolaita	definition	
+WARN	missing_definition	Bari	definition	
+WARN	missing_definition	Acholi	definition	
+WARN	missing_definition	Kwama	definition	
+WARN	missing_definition	Turkana	definition	
+WARN	missing_definition	Alur	definition	
+WARN	missing_definition	Lango	definition	
+WARN	missing_definition	Shilluk	definition	
+WARN	missing_definition	Dongolese	definition	
+WARN	missing_definition	Hill Nubian	definition	
+WARN	missing_definition	Afar	definition	
+WARN	missing_definition	Agaw	definition	
+WARN	missing_definition	Beja	definition	
+WARN	missing_definition	Bilen	definition	
+WARN	missing_definition	Saho	definition	
+WARN	missing_definition	Sidama	definition	
+WARN	missing_definition	Somali	definition	
+WARN	missing_definition	Lugbara	definition	
+WARN	missing_definition	Amhara	definition	
+WARN	missing_definition	Habesha	definition	
+WARN	missing_definition	Rashaida	definition	
+WARN	missing_definition	Sudanese Arab	definition	
+WARN	missing_definition	Tigrinya	definition	
+WARN	missing_definition	Tigré	definition	
+WARN	missing_definition	Baka_South_Sudan	definition	
+WARN	missing_definition	Sandawe	definition	
+WARN	missing_definition	Basoga	definition	
+WARN	missing_definition	Chaga	definition	
+WARN	missing_definition	Embu	definition	
+WARN	missing_definition	Ganda	definition	
+WARN	missing_definition	Kisii	definition	
+WARN	missing_definition	Luhya	definition	
+WARN	missing_definition	Makonde	definition	
+WARN	missing_definition	Nyoro	definition	
+WARN	missing_definition	Swahili	definition	
+WARN	missing_definition	Tumbuka	definition	
+WARN	missing_definition	Adele	definition	
+WARN	missing_definition	Aku	definition	
+WARN	missing_definition	Bantu Western	definition	
+WARN	missing_definition	Biafada	definition	
+WARN	missing_definition	Bubi	definition	
+WARN	missing_definition	Buduma	definition	
+WARN	missing_definition	Dogon	definition	
+WARN	missing_definition	Edo	definition	
+WARN	missing_definition	Efik	definition	
+WARN	missing_definition	Eket	definition	
+WARN	missing_definition	Esan	definition	
+WARN	missing_definition	Ewe	definition	
+WARN	missing_definition	Fon	definition	
+WARN	missing_definition	Ibibio	definition	
+WARN	missing_definition	Ijaw	definition	
+WARN	missing_definition	Mande Western	definition	
+WARN	missing_definition	Mole-Dagbani	definition	
+WARN	missing_definition	Urhobo	definition	
+WARN	missing_definition	Wolof	definition	
+WARN	missing_definition	Bissa	definition	
+WARN	missing_definition	Mandinka	definition	
+WARN	missing_definition	Marka	definition	
+WARN	missing_definition	Mende	definition	
+WARN	missing_definition	Kassena	definition	
+WARN	missing_definition	Zarma	definition	
+WARN	missing_definition	Dendi	definition	
+WARN	missing_definition	Okiek	definition	
+WARN	missing_definition	Hutu	definition	
+WARN	missing_definition	Tutsi	definition	
+WARN	missing_definition	Colonial History	definition	
+WARN	missing_definition	Bamileke	definition	
+WARN	missing_definition	Country_of_Origin	definition	
+WARN	missing_definition	Isoko	definition	
+WARN	missing_definition	Kru	definition	
+WARN	missing_definition	MajorLangGroups	definition	
+WARN	missing_definition	Population_group	definition	
+WARN	missing_definition	Region	definition	
+WARN	missing_definition	population:synonym	definition	
+WARN	missing_definition	has_Relation	definition	
+WARN	missing_definition	language:official	definition	
+WARN	missing_definition	language:synonym	definition	
+WARN	missing_definition	population:genetic:RefChromY	definition	
+WARN	missing_definition	population:genetic:RefMitochondrialHap	definition	
+WARN	missing_definition	population:genetic:chromosomeYHap	definition	
+WARN	missing_definition	population:genetic:mitochondrialHap	definition	
+WARN	missing_definition	population:language:spoken	definition	
+WARN	missing_definition	population:size	definition	
+WARN	missing_definition	reference	definition	
+WARN	missing_definition	Duala	definition	
+WARN	missing_definition	Eshira	definition	
+WARN	missing_definition	Hema	definition	
+WARN	missing_definition	Kota	definition	
+WARN	missing_definition	Makaa	definition	
+WARN	missing_definition	Myene	definition	
+WARN	missing_definition	Nande	definition	
+WARN	missing_definition	Ngumba	definition	
+WARN	missing_definition	Obamba	definition	
+WARN	missing_definition	Pende	definition	
+WARN	missing_definition	Punu	definition	
+WARN	missing_definition	Teke	definition	
+WARN	missing_definition	Vili	definition	
+WARN	missing_definition	Mandar	definition	
+WARN	missing_definition	Mangbetu	definition	
+WARN	missing_definition	Manja	definition	
+WARN	missing_definition	Marba	definition	
+WARN	missing_definition	Mbum	definition	
+WARN	missing_definition	Nzebi	definition	
+WARN	missing_definition	Podoko	definition	
+WARN	missing_definition	Gyele	definition	
+WARN	missing_definition	Yaka	definition	
+WARN	missing_definition	Tupuri	definition	
+WARN	missing_definition	Wuzlam	definition	
+WARN	missing_definition	Yakoma	definition	
+WARN	missing_definition	Chopi	definition	
+WARN	missing_definition	Mbeere	definition	
+WARN	missing_definition	Kiga	definition	
+WARN	missing_definition	Lambya	definition	
+WARN	missing_definition	Masaba	definition	
+WARN	missing_definition	Segeju	definition	
+WARN	missing_definition	Nkole	definition	
+WARN	missing_definition	Nyamwezi	definition	
+WARN	missing_definition	Pokomo	definition	
+WARN	missing_definition	Ndau	definition	
+WARN	missing_definition	Sukuma	definition	
+WARN	missing_definition	Tharaka	definition	
+WARN	missing_definition	Aweer	definition	
+WARN	missing_definition	Elmolo	definition	
+WARN	missing_definition	Hadiya	definition	
+WARN	missing_definition	Borana	definition	
+WARN	missing_definition	Gabra	definition	
+WARN	missing_definition	Antambahoaka	definition	
+WARN	missing_definition	Antanosy	definition	
+WARN	missing_definition	Bezanozano	definition	
+WARN	missing_definition	Mikea	definition	
+WARN	missing_definition	Sihanaka	definition	
+WARN	missing_definition	Tanala	definition	
+WARN	missing_definition	Marakwet	definition	
+WARN	missing_definition	Pokot	definition	
+WARN	missing_definition	Kunama	definition	
+WARN	missing_definition	Nara	definition	
+WARN	missing_definition	Teso	definition	
+WARN	missing_definition	Jeberti	definition	
+WARN	missing_definition	Aushi	definition	
+WARN	missing_definition	Okavango	definition	
+WARN	missing_definition	Lozi	definition	
+WARN	missing_definition	Damara	definition	
+WARN	missing_definition	Aghem	definition	
+WARN	missing_definition	Aja	definition	
+WARN	missing_definition	Fante	definition	
+WARN	missing_definition	Anaang	definition	
+WARN	missing_definition	Baule	definition	
+WARN	missing_definition	Bamum	definition	
+WARN	missing_definition	Kombe	definition	
+WARN	missing_definition	Luvale	definition	
+WARN	missing_definition	Bedik	definition	
+WARN	missing_definition	Bassari	definition	
+WARN	missing_definition	Diffa Arabs	definition	
+WARN	missing_definition	Ditammari	definition	
+WARN	missing_definition	Ekoi	definition	
+WARN	missing_definition	Gola	definition	
+WARN	missing_definition	Guan	definition	
+WARN	missing_definition	Bariba	definition	
+WARN	missing_definition	Konkomba	definition	
+WARN	missing_definition	Lilse	definition	
+WARN	missing_definition	Lobi	definition	
+WARN	missing_definition	Pana	definition	
+WARN	missing_definition	Samoya	definition	
+WARN	missing_definition	Itsekiri	definition	
+WARN	missing_definition	Bandial	definition	
+WARN	missing_definition	Dan	definition	
+WARN	missing_definition	Kabye	definition	
+WARN	missing_definition	Krio	definition	
+WARN	missing_definition	Krahn	definition	
+WARN	missing_definition	Grebo	definition	
+WARN	missing_definition	Kulango	definition	
+WARN	missing_definition	Limba	definition	
+WARN	missing_definition	Jakhanke	definition	
+WARN	missing_definition	Kono	definition	
+WARN	missing_definition	Kpelle	definition	
+WARN	missing_definition	Kuranko	definition	
+WARN	missing_definition	Loko	definition	
+WARN	missing_definition	Mano	definition	
+WARN	missing_definition	Vai	definition	
+WARN	missing_definition	Yalunka	definition	
+WARN	missing_definition	Mankanya	definition	
+WARN	missing_definition	Oron	definition	
+WARN	missing_definition	Papel	definition	
+WARN	missing_definition	Sherbro	definition	
+WARN	missing_definition	Temne	definition	
+WARN	missing_definition	Lebu	definition	
+WARN	missing_definition	Nuna	definition	
+WARN	missing_definition	family	definition	
+WARN	missing_definition	language:glottolog:id	definition	
+WARN	missing_definition	language:ISO639-3:id	definition	
+WARN	missing_definition	population:101lasttribes	definition	
+WARN	missing_definition	user-preferred name	definition	
+WARN	missing_definition	was	definition	
+WARN	missing_definition	Kango	definition	
+WARN	missing_definition	Ewondo	definition	
+WARN	missing_definition	Birwa	definition	
+WARN	missing_definition	Kissi	definition	
+WARN	missing_definition	Ngazidja	definition	
+WARN	missing_definition	Maore	definition	
+WARN	missing_definition	Mwali	definition	
+WARN	missing_definition	Ndzwani	definition	
+WARN	missing_definition	<http://purl.obolibrary.org/obo/afpo.owl#Kuria>	definition	
+WARN	missing_definition	<http://purl.obolibrary.org/obo/afpo.owl#Karonica>	definition	
+WARN	missing_definition	definition	definition	
+WARN	missing_definition	description	definition	
+WARN	missing_definition	license	definition	
+WARN	missing_definition	title	definition	
+INFO	lowercase_definition	Nubian Eastern	definition	'The Nubians are known as people of the Nile and are located between Egypt and northern Sudan.' taken from: Culture and Customs of Sudan. Written by De Kwame Essien, Toyin Falola Ph.D.
+INFO	lowercase_definition	Nuba	definition	'The Nuba trace their geographical roots to the area around the Nuba mountains, the uppermost regions around the Ingessana hills and communities close to the Red Sea.' taken from: Culture and Customs of Sudan. Written by De Kwame Essien, Toyin Falola Ph.D.
+INFO	lowercase_definition	Mang'anja	definition	the people of the lake
+INFO	lowercase_definition	Beti-Pahuin	definition	group of 20 sub-ethnicities
+INFO	lowercase_definition	Birged	definition	'The Birked live north and east of Dago and Bayko, between Gebel Harayz and Rizaykat and are much larger tribe then either.' from a: A History of the Arabs in the Sudan. Written by De H. A. MacMichael.
+INFO	lowercase_definition	Gurage	definition	subdivided in three groups: East, North, West

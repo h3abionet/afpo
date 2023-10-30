@@ -1,8 +1,7 @@
 format-version: 1.2
-data-version: afpo/releases/2023-10-30/afpo-base.owl
+data-version: afpo/releases/2023-10-30/afpo-simple.owl
 remark: Aymen Ben Chaalia and Hamza Dallali are also contributors. However they don't have ORCIDs yet. H3Africa Phenotype Harmonisation working group members are also contributors.
-ontology: afpo/afpo-base
-property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
+ontology: afpo/afpo-simple
 property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-5868-4204
 property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-8351-264X
 property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0001-8801-5781
@@ -87,7 +86,6 @@ relationship: AfPO:0000447 AfPO:0000214 ! Population_group Hadendoa
 relationship: AfPO:0000447 AfPO:00003674 ! Population_group Gumuz
 relationship: AfPO:0000447 AfPO:0000383 ! Population_group Afar
 relationship: AfPO:0000447 AfPO:0000384 ! Population_group Agaw
-relationship: AfPO:0000447 AfPO:0000385 ! Population_group Beja
 relationship: AfPO:0000447 AfPO:0000386 ! Population_group Bilen
 relationship: AfPO:0000447 AfPO:0000387 ! Population_group Saho
 relationship: AfPO:0000447 AfPO:0000393 ! Population_group Habesha
@@ -150,8 +148,6 @@ property_value: seeAlso ISO:3166-2:SS
 id: AfPO:0000015
 name: Rwanda
 is_a: AfPO:0000009 ! Eastern Africa
-relationship: AfPO:0000447 AfPO:0000187 ! Population_group Pygmy Eastern
-relationship: AfPO:0000447 AfPO:0000207 ! Population_group Banyarwanda
 relationship: AfPO:0000447 AfPO:0000287 ! Population_group Twa
 relationship: AfPO:0000447 AfPO:0000437 ! Population_group Hutu
 relationship: AfPO:0000447 AfPO:0000438 ! Population_group Tutsi
@@ -229,14 +225,12 @@ relationship: AfPO:0000447 AfPO:0000247 ! Population_group Tsimihety
 relationship: AfPO:0000447 AfPO:0000248 ! Population_group Sakalava
 relationship: AfPO:0000447 AfPO:0000249 ! Population_group Betsimisaraka
 relationship: AfPO:0000447 AfPO:0000250 ! Population_group Antemoro
-relationship: AfPO:0000447 AfPO:0000251 ! Population_group Betsileo
 relationship: AfPO:0000447 AfPO:0000252 ! Population_group Zafimaniry
 relationship: AfPO:0000447 AfPO:0000253 ! Population_group Merina
 relationship: AfPO:0000447 AfPO:0000254 ! Population_group Bara
 relationship: AfPO:0000447 AfPO:0000255 ! Population_group Vezo
 relationship: AfPO:0000447 AfPO:0000256 ! Population_group Antandroy
 relationship: AfPO:0000447 AfPO:0000257 ! Population_group Mahafaly
-relationship: AfPO:0000447 AfPO:0000370 ! Population_group Malagasy
 relationship: AfPO:0000447 AfPO:0000503 ! Population_group Antambahoaka
 relationship: AfPO:0000447 AfPO:0000504 ! Population_group Antanosy
 relationship: AfPO:0000447 AfPO:0000505 ! Population_group Bezanozano
@@ -291,15 +285,11 @@ relationship: AfPO:0000447 AfPO:0000088 ! Population_group Kikuyu
 relationship: AfPO:0000447 AfPO:0000091 ! Population_group Terik
 relationship: AfPO:0000447 AfPO:0000098 ! Population_group Nandi
 relationship: AfPO:0000447 AfPO:0000112 ! Population_group Meru
-relationship: AfPO:0000447 AfPO:0000113 ! Population_group Oromo
-relationship: AfPO:0000447 AfPO:0000127 ! Population_group Mijikenda
 relationship: AfPO:0000447 AfPO:0000134 ! Population_group Kamba
 relationship: AfPO:0000447 AfPO:0000135 ! Population_group Rendille
 relationship: AfPO:0000447 AfPO:0000198 ! Population_group Luo
-relationship: AfPO:0000447 AfPO:0000199 ! Population_group Kalenjin
 relationship: AfPO:0000447 AfPO:0000376 ! Population_group Turkana
 relationship: AfPO:0000447 AfPO:0000389 ! Population_group Somali
-relationship: AfPO:0000447 AfPO:0000402 ! Population_group Embu
 relationship: AfPO:0000447 AfPO:0000404 ! Population_group Kisii
 relationship: AfPO:0000447 AfPO:0000405 ! Population_group Luhya
 relationship: AfPO:0000447 AfPO:0000408 ! Population_group Swahili
@@ -385,9 +375,7 @@ relationship: AfPO:0000447 AfPO:0000238 ! Population_group Yao
 relationship: AfPO:0000447 AfPO:0000240 ! Population_group Sena
 relationship: AfPO:0000447 AfPO:0000338 ! Population_group Lemba
 relationship: AfPO:0000447 AfPO:0000339 ! Population_group Makua
-relationship: AfPO:0000447 AfPO:0000342 ! Population_group Shona
 relationship: AfPO:0000447 AfPO:0000351 ! Population_group Swazi
-relationship: AfPO:0000447 AfPO:0000369 ! Population_group Bantu Eastern
 relationship: AfPO:0000447 AfPO:0000406 ! Population_group Makonde
 relationship: AfPO:0000447 AfPO:0000408 ! Population_group Swahili
 relationship: AfPO:0000447 AfPO:0000486 ! Population_group Chopi
@@ -409,7 +397,6 @@ property_value: seeAlso ISO:3166-2:MZ
 id: AfPO:0000025
 name: Malawi
 is_a: AfPO:0000009 ! Eastern Africa
-relationship: AfPO:0000447 AfPO:0000140 ! Population_group Chewa
 relationship: AfPO:0000447 AfPO:0000236 ! Population_group Ngoni
 relationship: AfPO:0000447 AfPO:0000237 ! Population_group Lomwe
 relationship: AfPO:0000447 AfPO:0000238 ! Population_group Yao
@@ -434,7 +421,6 @@ id: AfPO:0000026
 name: United Republic of Tanzania
 is_a: AfPO:0000009 ! Eastern Africa
 relationship: AfPO:0000447 AfPO:0000056 ! Population_group Maasai
-relationship: AfPO:0000447 AfPO:0000127 ! Population_group Mijikenda
 relationship: AfPO:0000447 AfPO:0000140 ! Population_group Chewa
 relationship: AfPO:0000447 AfPO:0000187 ! Population_group Pygmy Eastern
 relationship: AfPO:0000447 AfPO:0000225 ! Population_group Hadza
@@ -500,10 +486,6 @@ id: AfPO:0000029
 name: Uganda
 is_a: AfPO:0000009 ! Eastern Africa
 relationship: AfPO:0000447 AfPO:0000075 ! Population_group Sebei
-relationship: AfPO:0000447 AfPO:0000187 ! Population_group Pygmy Eastern
-relationship: AfPO:0000447 AfPO:0000198 ! Population_group Luo
-relationship: AfPO:0000447 AfPO:0000199 ! Population_group Kalenjin
-relationship: AfPO:0000447 AfPO:0000207 ! Population_group Banyarwanda
 relationship: AfPO:0000447 AfPO:0000287 ! Population_group Twa
 relationship: AfPO:0000447 AfPO:0000373 ! Population_group Bari
 relationship: AfPO:0000447 AfPO:0000374 ! Population_group Acholi
@@ -544,14 +526,11 @@ relationship: AfPO:0000447 AfPO:0000327 ! Population_group British diaspora
 relationship: AfPO:0000447 AfPO:0000329 ! Population_group Goffel
 relationship: AfPO:0000447 AfPO:0000332 ! Population_group San
 relationship: AfPO:0000447 AfPO:0000338 ! Population_group Lemba
-relationship: AfPO:0000447 AfPO:0000342 ! Population_group Shona
-relationship: AfPO:0000447 AfPO:0000343 ! Population_group Sotho
 relationship: AfPO:0000447 AfPO:0000344 ! Population_group Tonga
 relationship: AfPO:0000447 AfPO:0000345 ! Population_group Venda
 relationship: AfPO:0000447 AfPO:0000347 ! Population_group Pedi
 relationship: AfPO:0000447 AfPO:0000348 ! Population_group Kalanga
 relationship: AfPO:0000447 AfPO:0000349 ! Population_group Nambya
-relationship: AfPO:0000447 AfPO:0000350 ! Population_group Ndebele
 relationship: AfPO:0000447 AfPO:0000352 ! Population_group North Ndebele
 relationship: AfPO:0000447 AfPO:0000495 ! Population_group Ndau
 relationship: AfPO:0000447 AfPO:0000518 ! Population_group Lozi
@@ -586,7 +565,6 @@ id: AfPO:0000031
 name: Ethiopia
 is_a: AfPO:0000009 ! Eastern Africa
 relationship: AfPO:0000447 AfPO:0000095 ! Population_group Anuak
-relationship: AfPO:0000447 AfPO:0000113 ! Population_group Oromo
 relationship: AfPO:0000447 AfPO:0000209 ! Population_group Ari
 relationship: AfPO:0000447 AfPO:0000372 ! Population_group Wolaita
 relationship: AfPO:0000447 AfPO:0000375 ! Population_group Kwama
@@ -649,7 +627,6 @@ relationship: AfPO:0000447 AfPO:0000080 ! Population_group Masalit
 relationship: AfPO:0000447 AfPO:0000104 ! Population_group Fulani
 relationship: AfPO:0000447 AfPO:0000125 ! Population_group Hausa
 relationship: AfPO:0000447 AfPO:0000128 ! Population_group Fang
-relationship: AfPO:0000447 AfPO:0000278 ! Population_group Kanuri
 relationship: AfPO:0000447 AfPO:0000279 ! Population_group Kotoko
 relationship: AfPO:0000447 AfPO:0000280 ! Population_group Masa
 relationship: AfPO:0000447 AfPO:0000288 ! Population_group Kwatay
@@ -697,7 +674,6 @@ relationship: AfPO:0000447 AfPO:0000102 ! Population_group Lunda
 relationship: AfPO:0000447 AfPO:0000123 ! Population_group Herero
 relationship: AfPO:0000447 AfPO:0000263 ! Population_group !Kung
 relationship: AfPO:0000447 AfPO:0000291 ! Population_group Chokwe
-relationship: AfPO:0000447 AfPO:0000292 ! Population_group Kongo
 relationship: AfPO:0000447 AfPO:0000294 ! Population_group Mbundu
 relationship: AfPO:0000447 AfPO:0000297 ! Population_group Ngala
 relationship: AfPO:0000447 AfPO:0000300 ! Population_group Ovimbundu
@@ -751,7 +727,6 @@ id: AfPO:0000036
 name: Sao Tome and Principe
 is_a: AfPO:0000008 ! Western Africa
 relationship: AfPO:0000447 AfPO:0000084 ! Population_group Bulu
-relationship: AfPO:0000447 AfPO:0000290 ! Population_group Beti-Pahuin
 relationship: AfPO:0000447 AfPO:0000572 ! Population_group Ewondo
 property_value: AfPO:0000439 "Portugal" xsd:string
 property_value: AfPO:0000452 "Portuguese" xsd:string
@@ -792,7 +767,6 @@ id: AfPO:0000038
 name: Democratic Republic of the Congo
 is_a: AfPO:0000010 ! Central Africa
 relationship: AfPO:0000447 AfPO:0000194 ! Population_group Banda
-relationship: AfPO:0000447 AfPO:0000207 ! Population_group Banyarwanda
 relationship: AfPO:0000447 AfPO:0000266 ! Population_group Bangba
 relationship: AfPO:0000447 AfPO:0000268 ! Population_group Mayogo
 relationship: AfPO:0000447 AfPO:0000284 ! Population_group Mbuti
@@ -936,7 +910,6 @@ is_a: AfPO:0000007 ! Northern Africa
 relationship: AfPO:0000447 AfPO:0000191 ! Population_group Mattokki
 relationship: AfPO:0000447 AfPO:0000214 ! Population_group Hadendoa
 relationship: AfPO:0000447 AfPO:0000357 ! Population_group Copt
-relationship: AfPO:0000447 AfPO:0000358 ! Population_group Nubian Northern
 relationship: AfPO:0000447 AfPO:0000365 ! Population_group Egyptian
 property_value: AfPO:0000439 "United Kingdom" xsd:string
 property_value: AfPO:0000452 "Arabic" xsd:string
@@ -991,8 +964,6 @@ relationship: AfPO:0000447 AfPO:0000107 ! Population_group Zaghawa
 relationship: AfPO:0000447 AfPO:0000113 ! Population_group Oromo
 relationship: AfPO:0000447 AfPO:0000115 ! Population_group Fur
 relationship: AfPO:0000447 AfPO:0000125 ! Population_group Hausa
-relationship: AfPO:0000447 AfPO:0000187 ! Population_group Pygmy Eastern
-relationship: AfPO:0000447 AfPO:0000190 ! Population_group Nubian Eastern
 relationship: AfPO:0000447 AfPO:0000195 ! Population_group Mahas
 relationship: AfPO:0000447 AfPO:0000204 ! Population_group Daza
 relationship: AfPO:0000447 AfPO:0000211 ! Population_group Gaaliin
@@ -1002,15 +973,12 @@ relationship: AfPO:0000447 AfPO:0000214 ! Population_group Hadendoa
 relationship: AfPO:0000447 AfPO:0000215 ! Population_group Halfawieen
 relationship: AfPO:0000447 AfPO:0000216 ! Population_group Nuba
 relationship: AfPO:0000447 AfPO:0000241 ! Population_group Bongo
-relationship: AfPO:0000447 AfPO:0000305 ! Population_group Baggara
 relationship: AfPO:0000447 AfPO:0000357 ! Population_group Copt
 relationship: AfPO:0000447 AfPO:00003674 ! Population_group Gumuz
 relationship: AfPO:0000447 AfPO:0000373 ! Population_group Bari
 relationship: AfPO:0000447 AfPO:0000380 ! Population_group Birged
 relationship: AfPO:0000447 AfPO:0000381 ! Population_group Dongolese
-relationship: AfPO:0000447 AfPO:0000385 ! Population_group Beja
 relationship: AfPO:0000447 AfPO:0000394 ! Population_group Rashaida
-relationship: AfPO:0000447 AfPO:0000395 ! Population_group Sudanese Arab
 relationship: AfPO:0000447 AfPO:0000397 ! Population_group Tigré
 relationship: AfPO:0000447 AfPO:0000398 ! Population_group Baka_South_Sudan
 relationship: AfPO:0000447 AfPO:0000511 ! Population_group Kunama
@@ -1182,12 +1150,8 @@ is_a: AfPO:0000011 ! Southern Africa
 relationship: AfPO:0000447 AfPO:0000060 ! Population_group Nama
 relationship: AfPO:0000447 AfPO:0000123 ! Population_group Herero
 relationship: AfPO:0000447 AfPO:0000140 ! Population_group Chewa
-relationship: AfPO:0000447 AfPO:0000142 ! Population_group Tswana
-relationship: AfPO:0000447 AfPO:0000332 ! Population_group San
-relationship: AfPO:0000447 AfPO:0000333 ! Population_group Khoisan South
 relationship: AfPO:0000447 AfPO:0000334 ! Population_group Taa
 relationship: AfPO:0000447 AfPO:0000335 ! Population_group Banareng
-relationship: AfPO:0000447 AfPO:0000342 ! Population_group Shona
 relationship: AfPO:0000447 AfPO:0000346 ! Population_group Yeyi
 relationship: AfPO:0000447 AfPO:0000347 ! Population_group Pedi
 relationship: AfPO:0000447 AfPO:0000348 ! Population_group Kalanga
@@ -1216,15 +1180,10 @@ relationship: AfPO:0000447 AfPO:0000060 ! Population_group Nama
 relationship: AfPO:0000447 AfPO:0000123 ! Population_group Herero
 relationship: AfPO:0000447 AfPO:0000140 ! Population_group Chewa
 relationship: AfPO:0000447 AfPO:0000142 ! Population_group Tswana
-relationship: AfPO:0000447 AfPO:0000200 ! Population_group Pygmy Southern
 relationship: AfPO:0000447 AfPO:0000263 ! Population_group !Kung
 relationship: AfPO:0000447 AfPO:0000287 ! Population_group Twa
 relationship: AfPO:0000447 AfPO:0000325 ! Population_group Afrikaner
-relationship: AfPO:0000447 AfPO:0000326 ! Population_group Bantu Southern
 relationship: AfPO:0000447 AfPO:0000328 ! Population_group Coloured
-relationship: AfPO:0000447 AfPO:0000331 ! Population_group Khoekhoe
-relationship: AfPO:0000447 AfPO:0000332 ! Population_group San
-relationship: AfPO:0000447 AfPO:0000333 ! Population_group Khoisan South
 relationship: AfPO:0000447 AfPO:0000334 ! Population_group Taa
 relationship: AfPO:0000447 AfPO:0000336 ! Population_group Himba
 relationship: AfPO:0000447 AfPO:0000337 ! Population_group Kwangali
@@ -1271,15 +1230,10 @@ relationship: AfPO:0000447 AfPO:0000325 ! Population_group Afrikaner
 relationship: AfPO:0000447 AfPO:0000327 ! Population_group British diaspora
 relationship: AfPO:0000447 AfPO:0000328 ! Population_group Coloured
 relationship: AfPO:0000447 AfPO:0000330 ! Population_group French diaspora
-relationship: AfPO:0000447 AfPO:0000331 ! Population_group Khoekhoe
-relationship: AfPO:0000447 AfPO:0000332 ! Population_group San
-relationship: AfPO:0000447 AfPO:0000333 ! Population_group Khoisan South
 relationship: AfPO:0000447 AfPO:0000335 ! Population_group Banareng
 relationship: AfPO:0000447 AfPO:0000338 ! Population_group Lemba
-relationship: AfPO:0000447 AfPO:0000343 ! Population_group Sotho
 relationship: AfPO:0000447 AfPO:0000345 ! Population_group Venda
 relationship: AfPO:0000447 AfPO:0000347 ! Population_group Pedi
-relationship: AfPO:0000447 AfPO:0000350 ! Population_group Ndebele
 relationship: AfPO:0000447 AfPO:0000351 ! Population_group Swazi
 relationship: AfPO:0000447 AfPO:0000353 ! Population_group South Ndebele
 relationship: AfPO:0000447 AfPO:0000438 ! Population_group Tutsi
@@ -1317,8 +1271,6 @@ id: AfPO:0000052
 name: Lesotho
 is_a: AfPO:0000011 ! Southern Africa
 relationship: AfPO:0000447 AfPO:0000142 ! Population_group Tswana
-relationship: AfPO:0000447 AfPO:0000326 ! Population_group Bantu Southern
-relationship: AfPO:0000447 AfPO:0000343 ! Population_group Sotho
 relationship: AfPO:0000447 AfPO:0000347 ! Population_group Pedi
 property_value: AfPO:0000439 "United Kingdom" xsd:string
 property_value: AfPO:0000452 "English" xsd:string
@@ -1400,9 +1352,6 @@ property_value: AfPO:0000567 "tiv" xsd:string
 id: AfPO:0000060
 name: Nama
 is_a: AfPO:0000333 ! Khoisan South
-relationship: AfPO:0000441 AfPO:0000048 ! Country_of_Origin Botswana
-relationship: AfPO:0000441 AfPO:0000049 ! Country_of_Origin Namibia
-relationship: AfPO:0000441 AfPO:0000051 ! Country_of_Origin South Africa
 property_value: AfPO:0000089 "Nama\n25°04'S, 17°59'E\n-25.07, 17.98" xsd:string
 property_value: AfPO:0000223 https://glottolog.org/resource/languoid/id/nama1265.bigmap.html
 property_value: AfPO:0000230 https://glottolog.org/resource/languoid/id/nama1265
@@ -1425,7 +1374,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/nama.html
 id: AfPO:0000064
 name: Susu
 is_a: AfPO:0000425 ! Mande Western
-relationship: AfPO:0000441 AfPO:0000315 ! Country_of_Origin Guinea
 relationship: AfPO:0000441 AfPO:0000323 ! Country_of_Origin Sierra Leone
 property_value: AfPO:0000089 "Susu\n10°24'N, 13°22'W\n10.40, -13.36" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=sus
@@ -1446,7 +1394,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/susu.html
 id: AfPO:0000066
 name: Taveta
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000020 ! Country_of_Origin Kenya
 property_value: AfPO:0000089 "Taveta\n3°25'S, 37°42'E\n-3.42, 37.71" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=tvs
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/tave1240.bigmap.html
@@ -1505,7 +1452,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/bassa.html
 id: AfPO:0000069
 name: Zulu
 is_a: AfPO:0000340 ! Nguni
-relationship: AfPO:0000441 AfPO:0000051 ! Country_of_Origin South Africa
 property_value: AfPO:0000089 "Zulu\n28°54'S, 30°12'E\n-28.90, 30.20" xsd:string
 property_value: AfPO:0000152 https://www.nature.com/articles/nature13997
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/zulu1248.bigmap.html
@@ -1562,7 +1508,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/dinka.html
 id: AfPO:0000074
 name: Bambara
 is_a: AfPO:0000425 ! Mande Western
-relationship: AfPO:0000441 AfPO:0000312 ! Country_of_Origin Cote d'Ivoire
 relationship: AfPO:0000441 AfPO:0000313 ! Country_of_Origin Gambia
 relationship: AfPO:0000441 AfPO:0000318 ! Country_of_Origin Mali
 property_value: AfPO:0000089 "Bambara\n12°54'N, 7°39'W\n12.90, -7.65" xsd:string
@@ -1586,8 +1531,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/bambara.html
 id: AfPO:0000075
 name: Sebei
 is_a: AfPO:0000199 ! Kalenjin
-relationship: AfPO:0000441 AfPO:0000020 ! Country_of_Origin Kenya
-relationship: AfPO:0000441 AfPO:0000029 ! Country_of_Origin Uganda
 property_value: AfPO:0000089 "Kupsabiny\n1°20'N, 34°36'E\n1.33, 34.60" xsd:string
 property_value: AfPO:0000089 "Sabaot\n1°01'N, 34°40'E\n1.01, 34.67" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=spy
@@ -1613,7 +1556,6 @@ id: AfPO:0000080
 name: Masalit
 is_a: AfPO:0000188 ! Eastern African
 is_a: AfPO:0000265 ! Nilotic Central
-relationship: AfPO:0000441 AfPO:0000035 ! Country_of_Origin Chad
 relationship: AfPO:0000441 AfPO:0000044 ! Country_of_Origin Sudan
 property_value: AfPO:0000089 "Massalat\n13°31'N, 19°44'E\n13.52, 19.73" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=mls
@@ -1635,7 +1577,6 @@ property_value: AfPO:0000567 "mls" xsd:string
 id: AfPO:0000084
 name: Bulu
 is_a: AfPO:0000290 ! Beti-Pahuin
-relationship: AfPO:0000441 AfPO:0000033 ! Country_of_Origin Cameroon
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=bjl
 property_value: AfPO:0000223 https://glottolog.org/resource/languoid/id/bulu1253.bigmap.html
 property_value: AfPO:0000230 https://glottolog.org/resource/languoid/id/bulu1253
@@ -1649,7 +1590,6 @@ property_value: AfPO:0000567 "bjl" xsd:string
 id: AfPO:0000085
 name: Taita
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000020 ! Country_of_Origin Kenya
 property_value: AfPO:0000089 "Sagalla\n3°36'S, 38°30'E\n-3.60, 38.50" xsd:string
 property_value: AfPO:0000089 "Taita\n3°48'S, 38°34'E\n-3.79, 38.57" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=dav
@@ -1696,7 +1636,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/igbo.html
 id: AfPO:0000088
 name: Kikuyu
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000020 ! Country_of_Origin Kenya
 property_value: AfPO:0000089 "Kikuyu\n0°17'S, 36°43'E\n-0.29, 36.72" xsd:string
 property_value: AfPO:0000152 https://www.nature.com/articles/nature13997
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=kik
@@ -1722,7 +1661,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/kikuyu.html
 id: AfPO:0000091
 name: Terik
 is_a: AfPO:0000199 ! Kalenjin
-relationship: AfPO:0000441 AfPO:0000020 ! Country_of_Origin Kenya
 property_value: AfPO:0000089 "Terik\n0°36'N, 35°E\n0.60, 35.00" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=tec
 property_value: AfPO:0000223 https://glottolog.org/resource/languoid/id/teri1244.bigmap.html
@@ -1760,7 +1698,6 @@ property_value: AfPO:0000567 "anu" xsd:string
 id: AfPO:0000098
 name: Nandi
 is_a: AfPO:0000199 ! Kalenjin
-relationship: AfPO:0000441 AfPO:0000020 ! Country_of_Origin Kenya
 property_value: AfPO:0000089 "Nandi\n0°48'N, 35°25'E\n0.79, 35.41" xsd:string
 property_value: AfPO:0000230 "https://glottolog.org/resource/languoid/id/nand1266" xsd:string
 property_value: AfPO:0000230 "https://glottolog.org/resource/languoid/id/nand1266.bigmap.html" xsd:string
@@ -1776,8 +1713,6 @@ property_value: seeAlso http://www-01.sil.org/iso639-3/documentation.asp?id=niq
 id: AfPO:0000102
 name: Lunda
 is_a: AfPO:0000273 ! Bantu Central
-relationship: AfPO:0000441 AfPO:0000019 ! Country_of_Origin Zambia
-relationship: AfPO:0000441 AfPO:0000034 ! Country_of_Origin Angola
 relationship: AfPO:0000441 AfPO:0000040 ! Country_of_Origin Congo
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=lun
 property_value: AfPO:0000221 https://glottolog.org/resource/languoid/id/lund1266
@@ -1795,7 +1730,6 @@ is_a: AfPO:0000326 ! Bantu Southern
 relationship: AfPO:0000441 AfPO:0000024 ! Country_of_Origin Mozambique
 relationship: AfPO:0000441 AfPO:0000030 ! Country_of_Origin Zimbabwe
 relationship: AfPO:0000441 AfPO:0000050 ! Country_of_Origin Eswatini
-relationship: AfPO:0000441 AfPO:0000051 ! Country_of_Origin South Africa
 property_value: AfPO:0000089 "Tsonga\n23°35'S, 31°49'E\n-23.58, 31.81" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=tso
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/tson1249.bigmap.html
@@ -1923,7 +1857,6 @@ name: Zaghawa
 is_a: AfPO:0000265 ! Nilotic Central
 is_a: AfPO:0000275 ! Northern African
 is_a: AfPO:0000371 ! Nilotic Eastern
-relationship: AfPO:0000441 AfPO:0000035 ! Country_of_Origin Chad
 relationship: AfPO:0000441 AfPO:0000044 ! Country_of_Origin Sudan
 relationship: AfPO:0000441 AfPO:0000046 ! Country_of_Origin Libya
 property_value: AfPO:0000089 "Beria\n17°29'N, 23°28'E\n17.48, 23.46" xsd:string
@@ -1964,7 +1897,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/tugen.html
 id: AfPO:0000112
 name: Meru
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000020 ! Country_of_Origin Kenya
 property_value: AfPO:0000089 "Meru\n0°16'N, 37°44'E\n0.26, 37.74" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=mer
 property_value: AfPO:0000223 https://glottolog.org/resource/languoid/id/meru1245.bigmap.html
@@ -2045,7 +1977,6 @@ id: AfPO:0000116
 name: Xhosa
 is_a: AfPO:0000340 ! Nguni
 relationship: AfPO:0000441 AfPO:0000030 ! Country_of_Origin Zimbabwe
-relationship: AfPO:0000441 AfPO:0000051 ! Country_of_Origin South Africa
 property_value: AfPO:0000089 "Xhosa\n31°02'S, 28°05'E\n-31.04, 28.08" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=xho
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/xhos1239.bigmap.html
@@ -2070,7 +2001,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/xhosa.html
 id: AfPO:0000121
 name: Minianka
 is_a: AfPO:0000201 ! Senufo
-relationship: AfPO:0000441 AfPO:0000318 ! Country_of_Origin Mali
 property_value: AfPO:0000089 "Mamara Senoufo\n12°29'N, 5°17'W\n12.49, -5.28" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=myk
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/mama1271.bigmap.html
@@ -2090,8 +2020,6 @@ id: AfPO:0000123
 name: Herero
 is_a: AfPO:0000326 ! Bantu Southern
 relationship: AfPO:0000441 AfPO:0000034 ! Country_of_Origin Angola
-relationship: AfPO:0000441 AfPO:0000048 ! Country_of_Origin Botswana
-relationship: AfPO:0000441 AfPO:0000049 ! Country_of_Origin Namibia
 property_value: AfPO:0000089 "Herero\n21°01'S, 20°34'E\n-21.02, 20.57" xsd:string
 property_value: AfPO:0000152 https://www.ncbi.nlm.nih.gov/pubmed/27654912/
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=her
@@ -2174,8 +2102,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/nuer.html
 id: AfPO:0000127
 name: Mijikenda
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000020 ! Country_of_Origin Kenya
-relationship: AfPO:0000441 AfPO:0000026 ! Country_of_Origin United Republic of Tanzania
 property_value: AfPO:0000089 "Chonyi-Dzihana-Kauma\n6°31'S, 38°40'E\n-6.52, 38.67" xsd:string
 property_value: AfPO:0000089 "Digo\n4°37'S, 39°11'E\n-4.62, 39.18" xsd:string
 property_value: AfPO:0000089 "Duruma\n4°06'S, 39°19'E\n-4.10, 39.32" xsd:string
@@ -2198,8 +2124,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/mijikenda.html
 id: AfPO:0000128
 name: Fang
 is_a: AfPO:0000273 ! Bantu Central
-relationship: AfPO:0000441 AfPO:0000032 ! Country_of_Origin Gabon
-relationship: AfPO:0000441 AfPO:0000033 ! Country_of_Origin Cameroon
 relationship: AfPO:0000441 AfPO:0000039 ! Country_of_Origin Equatorial Guinea
 property_value: AfPO:0000089 "Fang (Cameroon)\n6°33'N, 10°19'E\n6.54, 10.32" xsd:string
 property_value: AfPO:0000089 "Fang (Equatorial Guinea)\n1°43'N, 11°37'E\n1.72, 11.61" xsd:string
@@ -2223,9 +2147,7 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/fang.html
 id: AfPO:0000131
 name: Mossi
 is_a: AfPO:0000151 ! Gurma
-relationship: AfPO:0000441 AfPO:0000310 ! Country_of_Origin Burkina Faso
 relationship: AfPO:0000441 AfPO:0000312 ! Country_of_Origin Cote d'Ivoire
-relationship: AfPO:0000441 AfPO:0000314 ! Country_of_Origin Ghana
 property_value: AfPO:0000089 "Mossi\n11°57'N, 1°19'W\n11.95, -1.32" xsd:string
 property_value: AfPO:0000143 "Mooré, Mòoré, Mõõré, Moré, Moshi, Moore, More" xsd:string
 property_value: AfPO:0000152 https://www.ncbi.nlm.nih.gov/pubmed/26614524
@@ -2288,7 +2210,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/bemba.html
 id: AfPO:0000134
 name: Kamba
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000020 ! Country_of_Origin Kenya
 property_value: AfPO:0000089 "Kamba (Kenya)\n1°36'S, 37°57'E\n-1.61, 37.95" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=kam
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/kamb1297.bigmap.html
@@ -2382,10 +2303,6 @@ id: AfPO:0000140
 name: Chewa
 is_a: AfPO:0000369 ! Bantu Eastern
 relationship: AfPO:0000441 AfPO:0000019 ! Country_of_Origin Zambia
-relationship: AfPO:0000441 AfPO:0000024 ! Country_of_Origin Mozambique
-relationship: AfPO:0000441 AfPO:0000025 ! Country_of_Origin Malawi
-relationship: AfPO:0000441 AfPO:0000026 ! Country_of_Origin United Republic of Tanzania
-relationship: AfPO:0000441 AfPO:0000030 ! Country_of_Origin Zimbabwe
 relationship: AfPO:0000441 AfPO:0000048 ! Country_of_Origin Botswana
 relationship: AfPO:0000441 AfPO:0000049 ! Country_of_Origin Namibia
 property_value: AfPO:0000089 "Nyanja\n14°48'S, 32°49'E\n-14.80, 32.81" xsd:string
@@ -2412,10 +2329,8 @@ name: Soninke
 is_a: AfPO:0000425 ! Mande Western
 relationship: AfPO:0000441 AfPO:0000308 ! Country_of_Origin Mauritania
 relationship: AfPO:0000441 AfPO:0000310 ! Country_of_Origin Burkina Faso
-relationship: AfPO:0000441 AfPO:0000312 ! Country_of_Origin Cote d'Ivoire
 relationship: AfPO:0000441 AfPO:0000313 ! Country_of_Origin Gambia
 relationship: AfPO:0000441 AfPO:0000314 ! Country_of_Origin Ghana
-relationship: AfPO:0000441 AfPO:0000315 ! Country_of_Origin Guinea
 relationship: AfPO:0000441 AfPO:0000316 ! Country_of_Origin Guinea-Bissau
 relationship: AfPO:0000441 AfPO:0000318 ! Country_of_Origin Mali
 relationship: AfPO:0000441 AfPO:0000322 ! Country_of_Origin Senegal
@@ -2441,10 +2356,6 @@ id: AfPO:0000142
 name: Tswana
 is_a: AfPO:0000326 ! Bantu Southern
 relationship: AfPO:0000441 AfPO:0000030 ! Country_of_Origin Zimbabwe
-relationship: AfPO:0000441 AfPO:0000048 ! Country_of_Origin Botswana
-relationship: AfPO:0000441 AfPO:0000049 ! Country_of_Origin Namibia
-relationship: AfPO:0000441 AfPO:0000051 ! Country_of_Origin South Africa
-relationship: AfPO:0000441 AfPO:0000052 ! Country_of_Origin Lesotho
 property_value: AfPO:0000089 "Tswana\n24°22'S, 24°46'E\n-24.37, 24.76" xsd:string
 property_value: AfPO:0000152 https://www.internationalgenome.org/data-portal/population
 property_value: AfPO:0000152 https://www.nature.com/articles/5201408
@@ -2468,11 +2379,6 @@ id: AfPO:0000145
 name: Tuareg
 is_a: AfPO:0000189 ! Berber Western
 is_a: AfPO:0000356 ! Berber Northern
-relationship: AfPO:0000441 AfPO:0000042 ! Country_of_Origin Morocco
-relationship: AfPO:0000441 AfPO:0000045 ! Country_of_Origin Algeria
-relationship: AfPO:0000441 AfPO:0000046 ! Country_of_Origin Libya
-relationship: AfPO:0000441 AfPO:0000047 ! Country_of_Origin Tunisia
-relationship: AfPO:0000441 AfPO:0000310 ! Country_of_Origin Burkina Faso
 relationship: AfPO:0000441 AfPO:0000318 ! Country_of_Origin Mali
 relationship: AfPO:0000441 AfPO:0000319 ! Country_of_Origin Niger
 property_value: AfPO:0000089 "Tahaggart Tamahaq\n22°35'N, 8°44'E\n22.59, 8.73" xsd:string
@@ -2524,8 +2430,6 @@ creation_date: 2020-05-01T13:50:22.535335Z
 id: AfPO:0000148
 name: Kusasi
 is_a: AfPO:0000150 ! Gurunsi
-relationship: AfPO:0000441 AfPO:0000310 ! Country_of_Origin Burkina Faso
-relationship: AfPO:0000441 AfPO:0000314 ! Country_of_Origin Ghana
 property_value: AfPO:0000089 "Kusaal\n10°58'N, 0°23'W\n10.97, -0.39" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=kus
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/kusa1250.bigmap.html
@@ -2545,7 +2449,6 @@ creation_date: 2020-05-01T13:54:06.644543Z
 id: AfPO:0000149
 name: Frafra
 is_a: AfPO:0000150 ! Gurunsi
-relationship: AfPO:0000441 AfPO:0000314 ! Country_of_Origin Ghana
 property_value: AfPO:0000089 "Farefare\n11°06'N, 0°49'W\n11.09, -0.81" xsd:string
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/fare1241.bigmap.html
 property_value: AfPO:0000230 http://glottolog.org/resource/languoid/id/fare1241
@@ -2564,8 +2467,6 @@ creation_date: 2020-05-01T14:08:04.310248Z
 id: AfPO:0000150
 name: Gurunsi
 is_a: AfPO:0000151 ! Gurma
-relationship: AfPO:0000441 AfPO:0000310 ! Country_of_Origin Burkina Faso
-relationship: AfPO:0000441 AfPO:0000314 ! Country_of_Origin Ghana
 property_value: AfPO:0000089 "Bago-Kusuntu\n8°32'N, 1°25'E\n8.53, 1.41" xsd:string
 property_value: AfPO:0000089 "Chakali\n9°50'N, 1°54'W\n9.83, -1.90" xsd:string
 property_value: AfPO:0000089 "Chala\n8°N, 0°31'E\n8.00, 0.51" xsd:string
@@ -2654,7 +2555,6 @@ id: AfPO:0000161
 name: Dyula
 is_a: AfPO:0000425 ! Mande Western
 relationship: AfPO:0000441 AfPO:0000310 ! Country_of_Origin Burkina Faso
-relationship: AfPO:0000441 AfPO:0000312 ! Country_of_Origin Cote d'Ivoire
 relationship: AfPO:0000441 AfPO:0000314 ! Country_of_Origin Ghana
 relationship: AfPO:0000441 AfPO:0000318 ! Country_of_Origin Mali
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=dyu
@@ -2730,8 +2630,6 @@ creation_date: 2020-05-04T10:56:12.352811Z
 id: AfPO:0000179
 name: Nankani
 is_a: AfPO:0000149 ! Frafra
-relationship: AfPO:0000441 AfPO:0000310 ! Country_of_Origin Burkina Faso
-relationship: AfPO:0000441 AfPO:0000314 ! Country_of_Origin Ghana
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Nankani+tribe'+OR+'Nankani+people'%29+AND+%28+'Africa'%29" xsd:anyURI
 property_value: AfPO:0000450 "Nankana" xsd:string
 property_value: AfPO:0000458 "Frafra" xsd:string
@@ -2884,7 +2782,6 @@ creation_date: 2020-05-26T10:54:46.784167Z
 id: AfPO:0000191
 name: Mattokki
 is_a: AfPO:0000358 ! Nubian Northern
-relationship: AfPO:0000441 AfPO:0000043 ! Country_of_Origin Egypt
 property_value: AfPO:0000089 "Kenuzi\n24°05'N, 32°54'E\n24.09, 32.90" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=xnz
 property_value: AfPO:0000223 "http://glottolog.org/resource/languoid/id/kenu1243.bigmap.html" xsd:string
@@ -2905,8 +2802,6 @@ creation_date: 2020-05-26T11:27:52.848591Z
 id: AfPO:0000194
 name: Banda
 is_a: AfPO:0000264 ! Ubangi Central
-relationship: AfPO:0000441 AfPO:0000037 ! Country_of_Origin Central African Republic
-relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 property_value: AfPO:0000089 "Banda-Bambari\n6°13'N, 20°59'E\n6.22, 20.98" xsd:string
 property_value: AfPO:0000089 "Banda-Banda\n6°38'N, 22°45'E\n6.64, 22.76" xsd:string
 property_value: AfPO:0000089 "Banda-Mbrès\n7°20'N, 23°01'E\n7.33, 23.01" xsd:string
@@ -2941,7 +2836,6 @@ creation_date: 2020-05-26T15:20:19.108269Z
 id: AfPO:0000195
 name: Mahas
 is_a: AfPO:0000190 ! Nubian Eastern
-relationship: AfPO:0000441 AfPO:0000044 ! Country_of_Origin Sudan
 property_value: AfPO:0000152 https://www.ncbi.nlm.nih.gov/pubmed/28837655
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=apd
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/suda1236.bigmap.html
@@ -3081,10 +2975,7 @@ creation_date: 2020-05-28T05:01:56.405941Z
 id: AfPO:0000204
 name: Daza
 is_a: AfPO:0000307 ! Toubou
-relationship: AfPO:0000441 AfPO:0000035 ! Country_of_Origin Chad
 relationship: AfPO:0000441 AfPO:0000044 ! Country_of_Origin Sudan
-relationship: AfPO:0000441 AfPO:0000046 ! Country_of_Origin Libya
-relationship: AfPO:0000441 AfPO:0000319 ! Country_of_Origin Niger
 property_value: AfPO:0000089 "Dazaga\n15°44'N, 15°51'E\n15.74, 15.85" xsd:string
 property_value: AfPO:0000152 https://www.ncbi.nlm.nih.gov/pubmed/26614524
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=dzg
@@ -3141,7 +3032,6 @@ creation_date: 2020-05-28T07:37:24.322962Z
 id: AfPO:0000206
 name: Songhai
 is_a: AfPO:0000270 ! Nilotic Western
-relationship: AfPO:0000441 AfPO:0000318 ! Country_of_Origin Mali
 property_value: AfPO:0000089 "Dendi (Benin)\n11°40'N, 3°29'E\n11.67, 3.49" xsd:string
 property_value: AfPO:0000089 "Humburi Senni Songhay\n15°18'N, 1°42'W\n15.29, -1.69" xsd:string
 property_value: AfPO:0000089 "Korandje\n29°30'N, 2°29'W\n29.50, -2.48" xsd:string
@@ -3175,8 +3065,6 @@ creation_date: 2020-05-29T02:47:13.838764Z
 id: AfPO:0000207
 name: Banyarwanda
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000015 ! Country_of_Origin Rwanda
-relationship: AfPO:0000441 AfPO:0000029 ! Country_of_Origin Uganda
 relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 property_value: AfPO:0000089 "Kinyarwanda\n1°34'S, 29°39'E\n-1.57, 29.64" xsd:string
 property_value: AfPO:0000152 https://www.nature.com/articles/nature13997
@@ -3238,7 +3126,6 @@ creation_date: 2020-05-31T17:26:33.451053Z
 id: AfPO:0000212
 name: Shaigiya
 is_a: AfPO:0000395 ! Sudanese Arab
-relationship: AfPO:0000441 AfPO:0000044 ! Country_of_Origin Sudan
 property_value: AfPO:0000152 https://www.ncbi.nlm.nih.gov/pubmed/28837655
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Shaigiya+people'+OR+'Shaigiya+tribe'+%29+AND+'Africa'" xsd:anyURI
 property_value: AfPO:0000235 Shaigiya:tribe
@@ -3251,7 +3138,6 @@ creation_date: 2020-05-31T17:33:30.7911Z
 id: AfPO:0000213
 name: Messiria
 is_a: AfPO:0000305 ! Baggara
-relationship: AfPO:0000441 AfPO:0000044 ! Country_of_Origin Sudan
 property_value: AfPO:0000152 https://www.ncbi.nlm.nih.gov/pubmed/28837655
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Messiria+people'+OR+'Messiria+tribe'+%29+AND+'Africa'" xsd:anyURI
 property_value: AfPO:0000235 Messiria:tribe
@@ -3264,9 +3150,7 @@ creation_date: 2020-05-31T17:42:48.180393Z
 id: AfPO:0000214
 name: Hadendoa
 is_a: AfPO:0000385 ! Beja
-relationship: AfPO:0000441 AfPO:0000012 ! Country_of_Origin Eritrea
 relationship: AfPO:0000441 AfPO:0000043 ! Country_of_Origin Egypt
-relationship: AfPO:0000441 AfPO:0000044 ! Country_of_Origin Sudan
 property_value: AfPO:0000152 https://www.ncbi.nlm.nih.gov/pubmed/28837655
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Hadendoa+people'+OR+'Hadendoa+tribe'+%29+AND+'Africa'" xsd:anyURI
 property_value: AfPO:0000235 https://en.wikipedia.org/wiki/Hadendoa
@@ -3278,7 +3162,6 @@ creation_date: 2020-05-31T17:47:15.312628Z
 id: AfPO:0000215
 name: Halfawieen
 is_a: AfPO:0000190 ! Nubian Eastern
-relationship: AfPO:0000441 AfPO:0000044 ! Country_of_Origin Sudan
 property_value: AfPO:0000152 https://doi.org/10.1186/2041-2223-2-12
 property_value: AfPO:0000152 https://doi.org/10.1371/journal.pgen.1006976
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q='Halfawieen'+AND+%28'Tribe'+OR+'People'%29+AND+'Sudan'" xsd:anyURI
@@ -3311,8 +3194,6 @@ creation_date: 2020-05-31T21:09:10.899867Z
 id: AfPO:0000220
 name: Sahrawi
 is_a: AfPO:0000356 ! Berber Northern
-relationship: AfPO:0000441 AfPO:0000042 ! Country_of_Origin Morocco
-relationship: AfPO:0000441 AfPO:0000308 ! Country_of_Origin Mauritania
 property_value: AfPO:0000089 "Hassaniyya\n18°17'N, 14°07'W\n18.29, -14.11" xsd:string
 property_value: AfPO:0000152 https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1002397
 property_value: AfPO:0000152 https://www.ncbi.nlm.nih.gov/pubmed/27654912/
@@ -3467,7 +3348,6 @@ creation_date: 2020-06-04T05:19:21.644555Z
 id: AfPO:0000231
 name: Mozabite
 is_a: AfPO:0000356 ! Berber Northern
-relationship: AfPO:0000441 AfPO:0000045 ! Country_of_Origin Algeria
 property_value: AfPO:0000089 "Tumzabt\n32°30'N, 3°51'E\n32.50, 3.85" xsd:string
 property_value: AfPO:0000152 https://doi.org/10.1098/rspb.2012.0318
 property_value: AfPO:0000152 https://www.ncbi.nlm.nih.gov/pubmed/11954565
@@ -3494,10 +3374,6 @@ name: Ngoni
 is_a: AfPO:0000326 ! Bantu Southern
 is_a: AfPO:0000369 ! Bantu Eastern
 relationship: AfPO:0000441 AfPO:0000019 ! Country_of_Origin Zambia
-relationship: AfPO:0000441 AfPO:0000024 ! Country_of_Origin Mozambique
-relationship: AfPO:0000441 AfPO:0000025 ! Country_of_Origin Malawi
-relationship: AfPO:0000441 AfPO:0000026 ! Country_of_Origin United Republic of Tanzania
-relationship: AfPO:0000441 AfPO:0000030 ! Country_of_Origin Zimbabwe
 property_value: AfPO:0000089 "Ngoni\n11°47'S, 37°25'E\n-11.78, 37.41" xsd:string
 property_value: AfPO:0000152 https://doi.org/10.1038/jhg.2010.41
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=ngo
@@ -3543,9 +3419,6 @@ creation_date: 2020-06-10T06:58:43.975622Z
 id: AfPO:0000238
 name: Yao
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000024 ! Country_of_Origin Mozambique
-relationship: AfPO:0000441 AfPO:0000025 ! Country_of_Origin Malawi
-relationship: AfPO:0000441 AfPO:0000026 ! Country_of_Origin United Republic of Tanzania
 property_value: AfPO:0000089 "Yao\n13°37'S, 35°14'E\n-13.61, 35.24" xsd:string
 property_value: AfPO:0000152 https://doi.org/0.1038/jhg.2010.41
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=yao
@@ -3569,7 +3442,6 @@ id: AfPO:0000239
 name: Mang'anja
 def: "the people of the lake" []
 is_a: AfPO:0000140 ! Chewa
-relationship: AfPO:0000441 AfPO:0000025 ! Country_of_Origin Malawi
 property_value: AfPO:0000152 https://doi.org/10.1038/jhg.2010.41
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Mang'anja+people'+OR+'Mang'anja+tribe'+%29+AND+'Africa'" xsd:anyURI
 property_value: AfPO:0000235 https://en.wikipedia.org/wiki/Mang%27anja
@@ -3583,9 +3455,6 @@ creation_date: 2020-06-10T15:03:41.125728Z
 id: AfPO:0000240
 name: Sena
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000024 ! Country_of_Origin Mozambique
-relationship: AfPO:0000441 AfPO:0000025 ! Country_of_Origin Malawi
-relationship: AfPO:0000441 AfPO:0000030 ! Country_of_Origin Zimbabwe
 property_value: AfPO:0000089 "Barwe\n17°41'S, 33°27'E\n-17.68, 33.45" xsd:string
 property_value: AfPO:0000089 "Malawi Sena\n16°37'S, 34°59'E\n-16.62, 34.99" xsd:string
 property_value: AfPO:0000089 "Nyungwe\n16°29'S, 33°01'E\n-16.48, 33.02" xsd:string
@@ -3636,7 +3505,6 @@ id: AfPO:0000242
 name: Chipeta
 is_a: AfPO:0000369 ! Bantu Eastern
 relationship: AfPO:0000441 AfPO:0000019 ! Country_of_Origin Zambia
-relationship: AfPO:0000441 AfPO:0000025 ! Country_of_Origin Malawi
 property_value: AfPO:0000152 https://doi.org/10.1038/jhg.2010.41
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=nya
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Chipeta+people'+OR+'Chipeta+tribe'+%29+AND+'Africa'" xsd:anyURI
@@ -3650,8 +3518,6 @@ creation_date: 2020-06-11T07:36:47.276551Z
 id: AfPO:0000243
 name: Nyakyusa
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000025 ! Country_of_Origin Malawi
-relationship: AfPO:0000441 AfPO:0000026 ! Country_of_Origin United Republic of Tanzania
 property_value: AfPO:0000089 "Nyakyusa-Ngonde\n9°43'S, 33°47'E\n-9.71, 33.78" xsd:string
 property_value: AfPO:0000152 "10.1038/jhg.2010.41" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=nyy
@@ -3699,7 +3565,6 @@ creation_date: 2020-06-15T10:59:04.589993Z
 id: AfPO:0000245
 name: Antankarana
 is_a: AfPO:0000370 ! Malagasy
-relationship: AfPO:0000441 AfPO:0000018 ! Country_of_Origin Madagascar
 property_value: AfPO:0000089 "Antankarana Malagasy\n13°13'S, 49°14'E\n-13.22, 49.24" xsd:string
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Antankarana+people'+OR+'Antankarana+tribe'+%29+AND+'Africa'" xsd:anyURI
 property_value: AfPO:0000235 https://en.wikipedia.org/wiki/Antankarana
@@ -3715,7 +3580,6 @@ creation_date: 2020-06-15T14:00:13.907374Z
 id: AfPO:0000247
 name: Tsimihety
 is_a: AfPO:0000370 ! Malagasy
-relationship: AfPO:0000441 AfPO:0000018 ! Country_of_Origin Madagascar
 property_value: AfPO:0000089 "Tsimihety Malagasy\n15°26'S, 48°49'E\n-15.43, 48.81" xsd:string
 property_value: AfPO:0000226 https://doi.org/10.1093/ije/dyx071
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Tsimihety+people'+OR+'Tsimihety+tribe'+%29+AND+'Africa'" xsd:anyURI
@@ -3731,7 +3595,6 @@ creation_date: 2020-06-15T14:14:34.467229Z
 id: AfPO:0000248
 name: Sakalava
 is_a: AfPO:0000370 ! Malagasy
-relationship: AfPO:0000441 AfPO:0000018 ! Country_of_Origin Madagascar
 property_value: AfPO:0000089 "West Malagasy Sakalava\n20°17'S, 44°19'E\n-20.28, 44.32" xsd:string
 property_value: AfPO:0000235 Sakalava:people
 property_value: AfPO:0000267 https://www.peoplegroups.org/explore/GroupDetails.aspx?peid=15278
@@ -3747,7 +3610,6 @@ creation_date: 2020-06-15T14:21:08.265074Z
 id: AfPO:0000249
 name: Betsimisaraka
 is_a: AfPO:0000370 ! Malagasy
-relationship: AfPO:0000441 AfPO:0000018 ! Country_of_Origin Madagascar
 property_value: AfPO:0000089 "Northern Betsimisaraka Malagasy\n19°55'S, 48°49'E\n-19.92, 48.81" xsd:string
 property_value: AfPO:0000089 "Southern Betsimisaraka Malagasy\n22°48'S, 47°49'E\n-22.80, 47.82" xsd:string
 property_value: AfPO:0000226 https://doi.org/10.1093/ije/dyx071
@@ -3764,7 +3626,6 @@ creation_date: 2020-06-15T14:25:09.416422Z
 id: AfPO:0000250
 name: Antemoro
 is_a: AfPO:0000370 ! Malagasy
-relationship: AfPO:0000441 AfPO:0000018 ! Country_of_Origin Madagascar
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Antemoro+people'+OR+'Antemoro+tribe'+%29+AND+'Africa'" xsd:anyURI
 property_value: AfPO:0000235 Antemoro:people
 property_value: AfPO:0000267 topmenu
@@ -3779,7 +3640,6 @@ creation_date: 2020-06-15T14:28:23.485126Z
 id: AfPO:0000251
 name: Betsileo
 is_a: AfPO:0000370 ! Malagasy
-relationship: AfPO:0000441 AfPO:0000018 ! Country_of_Origin Madagascar
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Betsileo+people'+OR+'Betsileo+tribe'+%29+AND+'Africa'" xsd:anyURI
 property_value: AfPO:0000235 Betsileo:people
 property_value: AfPO:0000267 topmenu
@@ -3793,7 +3653,6 @@ creation_date: 2020-06-15T15:01:11.907949Z
 id: AfPO:0000252
 name: Zafimaniry
 is_a: AfPO:0000251 ! Betsileo
-relationship: AfPO:0000441 AfPO:0000018 ! Country_of_Origin Madagascar
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Zafimaniry+people'+OR+'Zafimaniry+tribe'+%29+AND+'Africa'" xsd:anyURI
 property_value: AfPO:0000235 https://en.wikipedia.org/wiki/Zafimaniry
 property_value: AfPO:0000458 "Malagasy" xsd:string
@@ -3805,7 +3664,6 @@ creation_date: 2020-06-15T15:08:36.224695Z
 id: AfPO:0000253
 name: Merina
 is_a: AfPO:0000370 ! Malagasy
-relationship: AfPO:0000441 AfPO:0000018 ! Country_of_Origin Madagascar
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Merina+people'+OR+'Merina+tribe'+%29+AND+'Africa'" xsd:anyURI
 property_value: AfPO:0000235 Merina:people
 property_value: AfPO:0000267 https://www.peoplegroups.org/explore/GroupDetails.aspx?peid=15308
@@ -3820,7 +3678,6 @@ creation_date: 2020-06-15T15:11:27.762009Z
 id: AfPO:0000254
 name: Bara
 is_a: AfPO:0000370 ! Malagasy
-relationship: AfPO:0000441 AfPO:0000018 ! Country_of_Origin Madagascar
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Bara+people'+OR+'Bara+tribe'+%29+AND+'Africa'" xsd:anyURI
 property_value: AfPO:0000235 Bara:people
 property_value: AfPO:0000267 https://www.peoplegroups.org/explore/GroupDetails.aspx?peid=15293
@@ -3834,7 +3691,6 @@ creation_date: 2020-06-15T15:15:34.94548Z
 id: AfPO:0000255
 name: Vezo
 is_a: AfPO:0000370 ! Malagasy
-relationship: AfPO:0000441 AfPO:0000018 ! Country_of_Origin Madagascar
 property_value: AfPO:0000089 "Vezo\n23°20'S, 43°40'E\n-23.34, 43.67" xsd:string
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Vezo+people'+OR+'Vezo+tribe'+%29+AND+'Africa'" xsd:anyURI
 property_value: AfPO:0000235 Vezo:people
@@ -3849,7 +3705,6 @@ creation_date: 2020-06-15T15:20:12.85554Z
 id: AfPO:0000256
 name: Antandroy
 is_a: AfPO:0000370 ! Malagasy
-relationship: AfPO:0000441 AfPO:0000018 ! Country_of_Origin Madagascar
 property_value: AfPO:0000089 "Tandroy Malagasy\n24°48'S, 45°54'E\n-24.80, 45.90" xsd:string
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Antandroy+people'+OR+'Antandroy+tribe'+%29+AND+'Africa'" xsd:anyURI
 property_value: AfPO:0000235 https://en.wikipedia.org/wiki/Antandroy
@@ -3864,7 +3719,6 @@ creation_date: 2020-06-15T15:24:17.430928Z
 id: AfPO:0000257
 name: Mahafaly
 is_a: AfPO:0000370 ! Malagasy
-relationship: AfPO:0000441 AfPO:0000018 ! Country_of_Origin Madagascar
 property_value: AfPO:0000089 "Mahafaly Malagasy\n24°12'S, 44°30'E\n-24.20, 44.50" xsd:string
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Mahafaly+people'+OR+'Mahafaly+tribe'+%29+AND+'Africa'" xsd:anyURI
 property_value: AfPO:0000235 https://en.wikipedia.org/wiki/Mahafaly
@@ -3945,7 +3799,6 @@ id: AfPO:0000263
 name: !Kung
 is_a: AfPO:0000332 ! San
 relationship: AfPO:0000441 AfPO:0000034 ! Country_of_Origin Angola
-relationship: AfPO:0000441 AfPO:0000049 ! Country_of_Origin Namibia
 property_value: AfPO:0000089 "Central Ju\n19°34'S, 18°07'E\n-19.57, 18.12" xsd:string
 property_value: AfPO:0000089 "Groot Laagte =/Kx'au//'ein\n21°03'S, 21°11'E\n-21.06, 21.18" xsd:string
 property_value: AfPO:0000089 "North-Central Ju\n21°55'S, 18°E\n-21.92, 18.00" xsd:string
@@ -3999,7 +3852,6 @@ creation_date: 2020-07-13T13:26:01.229346Z
 id: AfPO:0000266
 name: Bangba
 is_a: AfPO:0000264 ! Ubangi Central
-relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 property_value: AfPO:0000089 "Bangba\n3°24'N, 28°19'E\n3.40, 28.31" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=bbe
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/bang1345.bigmap.html
@@ -4019,7 +3871,6 @@ creation_date: 2020-07-23T13:34:48.672601Z
 id: AfPO:0000268
 name: Mayogo
 is_a: AfPO:0000264 ! Ubangi Central
-relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 property_value: AfPO:0000089 "Mayogo\n2°48'N, 27°50'E\n2.80, 27.83" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=mdm
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/mayo1261.bigmap.html
@@ -4126,9 +3977,6 @@ name: Kanuri
 is_a: AfPO:0000265 ! Nilotic Central
 is_a: AfPO:0000270 ! Nilotic Western
 relationship: AfPO:0000441 AfPO:0000033 ! Country_of_Origin Cameroon
-relationship: AfPO:0000441 AfPO:0000035 ! Country_of_Origin Chad
-relationship: AfPO:0000441 AfPO:0000319 ! Country_of_Origin Niger
-relationship: AfPO:0000441 AfPO:0000320 ! Country_of_Origin Nigeria
 property_value: AfPO:0000089 "Central Kanuri\n11°48'N, 13°08'E\n11.80, 13.13" xsd:string
 property_value: AfPO:0000089 "Kanembu\n13°52'N, 14°51'E\n13.87, 14.84" xsd:string
 property_value: AfPO:0000089 "Manga Kanuri\n13°33'N, 10°42'E\n13.56, 10.70" xsd:string
@@ -4265,7 +4113,6 @@ property_value: AfPO:0000567 "Variously:\nbkc – Baka\ngdi – Gundi (Ngundi)\n
 id: AfPO:0000284
 name: Mbuti
 is_a: AfPO:0000281 ! Pygmy Central
-relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 property_value: AfPO:0000152 https://www.nature.com/articles/5201408
 property_value: AfPO:0000152 https://www.ncbi.nlm.nih.gov/pubmed/15803201/
 property_value: AfPO:0000152 https://www.ncbi.nlm.nih.gov/pubmed/27654912/
@@ -4285,7 +4132,6 @@ property_value: AfPO:0000567 "kon – inclusive code\nIndividual codes:\nkng –
 id: AfPO:0000285
 name: Efé
 is_a: AfPO:0000281 ! Pygmy Central
-relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 relationship: AfPO:0000441 AfPO:0000040 ! Country_of_Origin Congo
 property_value: AfPO:0000089 "Efe\n1°53'N, 29°18'E\n1.88, 29.29" xsd:string
 property_value: AfPO:0000089 "Lese\n1°18'N, 29°18'E\n1.30, 29.30" xsd:string
@@ -4307,7 +4153,6 @@ id: AfPO:0000286
 name: Sua
 is_a: AfPO:0000277 ! Western African
 is_a: AfPO:0000281 ! Pygmy Central
-relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 property_value: AfPO:0000089 "Mansoanka\n12°49'N, 15°55'W\n12.82, -15.92" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=msw
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/mans1259.bigmap.html
@@ -4328,12 +4173,6 @@ is_a: AfPO:0000187 ! Pygmy Eastern
 is_a: AfPO:0000200 ! Pygmy Southern
 is_a: AfPO:0000207 ! Banyarwanda
 is_a: AfPO:0000281 ! Pygmy Central
-relationship: AfPO:0000441 AfPO:0000015 ! Country_of_Origin Rwanda
-relationship: AfPO:0000441 AfPO:0000019 ! Country_of_Origin Zambia
-relationship: AfPO:0000441 AfPO:0000022 ! Country_of_Origin Burundi
-relationship: AfPO:0000441 AfPO:0000029 ! Country_of_Origin Uganda
-relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
-relationship: AfPO:0000441 AfPO:0000049 ! Country_of_Origin Namibia
 property_value: AfPO:0000089 "Rundi\n2°56'S, 29°58'E\n-2.94, 29.97" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?run
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/rund1242.bigmap.html
@@ -4373,7 +4212,6 @@ property_value: AfPO:0000567 "cwt" xsd:string
 id: AfPO:0000289
 name: Kanembu
 is_a: AfPO:0000278 ! Kanuri
-relationship: AfPO:0000441 AfPO:0000035 ! Country_of_Origin Chad
 property_value: AfPO:0000089 "Kanembu\n13°52'N, 14°51'E\n13.87, 14.84" xsd:string
 property_value: AfPO:0000152 https://www.ncbi.nlm.nih.gov/pubmed/26614524
 property_value: AfPO:0000221 "hhttp://www-01.sil.org/iso639-3/documentation.asp?id=kbl" xsd:string
@@ -4399,10 +4237,7 @@ name: Beti-Pahuin
 def: "group of 20 sub-ethnicities" []
 is_a: AfPO:0000273 ! Bantu Central
 is_a: AfPO:0000412 ! Bantu Western
-relationship: AfPO:0000441 AfPO:0000032 ! Country_of_Origin Gabon
-relationship: AfPO:0000441 AfPO:0000033 ! Country_of_Origin Cameroon
 relationship: AfPO:0000441 AfPO:0000036 ! Country_of_Origin Sao Tome and Principe
-relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 relationship: AfPO:0000441 AfPO:0000039 ! Country_of_Origin Equatorial Guinea
 property_value: AfPO:0000089 "Ewondo\n4°13'N, 11°56'E\n4.21, 11.94" xsd:string
 property_value: AfPO:0000089 "Fang (Cameroon)\n6°33'N, 10°19'E\n6.54, 10.32" xsd:string
@@ -4429,8 +4264,6 @@ property_value: AfPO:0000567 "fak" xsd:string
 id: AfPO:0000291
 name: Chokwe
 is_a: AfPO:0000273 ! Bantu Central
-relationship: AfPO:0000441 AfPO:0000019 ! Country_of_Origin Zambia
-relationship: AfPO:0000441 AfPO:0000034 ! Country_of_Origin Angola
 relationship: AfPO:0000441 AfPO:0000040 ! Country_of_Origin Congo
 property_value: AfPO:0000089 "Chokwe\n9°40'S, 21°24'E\n-9.66, 21.40" xsd:string
 property_value: AfPO:0000152 "10.1038/jhg.2010.41" xsd:string
@@ -4451,9 +4284,6 @@ property_value: AfPO:0000567 "cjk" xsd:string
 id: AfPO:0000292
 name: Kongo
 is_a: AfPO:0000273 ! Bantu Central
-relationship: AfPO:0000441 AfPO:0000032 ! Country_of_Origin Gabon
-relationship: AfPO:0000441 AfPO:0000034 ! Country_of_Origin Angola
-relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 relationship: AfPO:0000441 AfPO:0000040 ! Country_of_Origin Congo
 property_value: AfPO:0000089 "Barama\n2°30'S, 10°41'E\n-2.50, 10.68" xsd:string
 property_value: AfPO:0000089 "Bwisi\n3°14'S, 11°58'E\n-3.24, 11.96" xsd:string
@@ -4491,7 +4321,6 @@ property_value: AfPO:0000568 http://www.101lasttribes.com/tribes/kongo.html
 id: AfPO:0000293
 name: Luba
 is_a: AfPO:0000273 ! Bantu Central
-relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 relationship: AfPO:0000441 AfPO:0000040 ! Country_of_Origin Congo
 property_value: AfPO:0000089 "Bangubangu\n4°19'S, 27°15'E\n-4.31, 27.24" xsd:string
 property_value: AfPO:0000089 "Binji\n6°42'S, 21°42'E\n-6.70, 21.70" xsd:string
@@ -4524,7 +4353,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/luba.html
 id: AfPO:0000294
 name: Mbundu
 is_a: AfPO:0000273 ! Bantu Central
-relationship: AfPO:0000441 AfPO:0000034 ! Country_of_Origin Angola
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=kmb
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/kimb1241.bigmap.html
 property_value: AfPO:0000230 http://glottolog.org/resource/languoid/id/kimb1241
@@ -4542,7 +4370,6 @@ property_value: AfPO:0000565 "Niger–Congo, Bantu" xsd:string
 id: AfPO:0000295
 name: Moghamo
 is_a: AfPO:0000273 ! Bantu Central
-relationship: AfPO:0000441 AfPO:0000033 ! Country_of_Origin Cameroon
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=mgo
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q='Moghamo+people'+OR+'Moghamo+tribe'+AND+'Africa'" xsd:anyURI
 property_value: AfPO:0000235 https://fr.wikipedia.org/wiki/Moghamo
@@ -4556,7 +4383,6 @@ property_value: AfPO:0000567 "mgo" xsd:string
 id: AfPO:0000296
 name: Mongo
 is_a: AfPO:0000273 ! Bantu Central
-relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 relationship: AfPO:0000441 AfPO:0000040 ! Country_of_Origin Congo
 property_value: AfPO:0000089 "Mongo\n1°33'S, 20°26'E\n-1.54, 20.43" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=lol
@@ -4581,9 +4407,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/mongo.html
 id: AfPO:0000297
 name: Ngala
 is_a: AfPO:0000273 ! Bantu Central
-relationship: AfPO:0000441 AfPO:0000034 ! Country_of_Origin Angola
-relationship: AfPO:0000441 AfPO:0000037 ! Country_of_Origin Central African Republic
-relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 relationship: AfPO:0000441 AfPO:0000040 ! Country_of_Origin Congo
 property_value: AfPO:0000089 "Kinshasa Lingala\n4°25'S, 15°17'E\n-4.41, 15.29" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=lin
@@ -4602,7 +4425,6 @@ property_value: AfPO:0000567 "lin" xsd:string
 id: AfPO:0000298
 name: Ngamambo
 is_a: AfPO:0000273 ! Bantu Central
-relationship: AfPO:0000441 AfPO:0000033 ! Country_of_Origin Cameroon
 property_value: AfPO:0000089 "Ngamambo\n5°53'N, 10°05'E\n5.88, 10.08" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=mgo
 property_value: AfPO:0000223 https://glottolog.org/resource/languoid/id/ngam1267.bigmap.html
@@ -4627,7 +4449,6 @@ property_value: AfPO:0000567 "mgo" xsd:string
 id: AfPO:0000299
 name: Tikar
 is_a: AfPO:0000273 ! Bantu Central
-relationship: AfPO:0000441 AfPO:0000033 ! Country_of_Origin Cameroon
 property_value: AfPO:0000089 "Tikar\n5°52'N, 11°37'E\n5.87, 11.61" xsd:string
 property_value: AfPO:0000152 https://doi.org/10.1098/rspb.2012.0318
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=tik
@@ -4647,7 +4468,6 @@ property_value: AfPO:0000567 "tik" xsd:string
 id: AfPO:0000300
 name: Ovimbundu
 is_a: AfPO:0000273 ! Bantu Central
-relationship: AfPO:0000441 AfPO:0000034 ! Country_of_Origin Angola
 property_value: AfPO:0000089 "Umbundu\n12°29'S, 14°25'E\n-12.48, 14.41" xsd:string
 property_value: AfPO:0000223 https://glottolog.org/resource/languoid/id/umbu1257.bigmap.html
 property_value: AfPO:0000230 https://glottolog.org/resource/languoid/id/umbu1257
@@ -4663,8 +4483,6 @@ property_value: AfPO:0000565 "Niger-Congo|Atlantic-Congo|Volta-Congo|Benue-Congo
 id: AfPO:0000301
 name: Mbunda
 is_a: AfPO:0000292 ! Kongo
-relationship: AfPO:0000441 AfPO:0000019 ! Country_of_Origin Zambia
-relationship: AfPO:0000441 AfPO:0000034 ! Country_of_Origin Angola
 property_value: AfPO:0000089 "Mbunda\n14°36'S, 21°59'E\n-14.60, 21.98" xsd:string
 property_value: AfPO:0000152 "10.1098/rspb.2012.0318" xsd:string
 property_value: AfPO:0000221 "mck – inclusive code\nIndividual codes:\nyax – Yauma dialect\nnkn – Nkangala dialect" xsd:string
@@ -4684,7 +4502,6 @@ property_value: AfPO:0000565 "Niger–Congo, Bantu" xsd:string
 id: AfPO:0000302
 name: Gbaya
 is_a: AfPO:0000264 ! Ubangi Central
-relationship: AfPO:0000441 AfPO:0000037 ! Country_of_Origin Central African Republic
 property_value: AfPO:0000089 "Ali\n4°36'N, 18°02'E\n4.60, 18.04" xsd:string
 property_value: AfPO:0000089 "Bofi\n4°01'N, 17°18'E\n4.02, 17.30" xsd:string
 property_value: AfPO:0000089 "Bokoto\n4°45'N, 16°40'E\n4.75, 16.67" xsd:string
@@ -4722,8 +4539,6 @@ property_value: AfPO:0000567 "gba" xsd:string
 id: AfPO:0000303
 name: Ngbandi
 is_a: AfPO:0000264 ! Ubangi Central
-relationship: AfPO:0000441 AfPO:0000037 ! Country_of_Origin Central African Republic
-relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 property_value: AfPO:0000089 "Dendi (Central African Republic)\n4°29'N, 22°34'E\n4.48, 22.57" xsd:string
 property_value: AfPO:0000089 "Gbayi\n5°34'N, 21°58'E\n5.57, 21.97" xsd:string
 property_value: AfPO:0000089 "Mbangi\n4°42'N, 22°04'E\n4.70, 22.06" xsd:string
@@ -4752,8 +4567,6 @@ name: Zande
 is_a: AfPO:0000188 ! Eastern African
 is_a: AfPO:0000264 ! Ubangi Central
 relationship: AfPO:0000441 AfPO:0000014 ! Country_of_Origin South Sudan
-relationship: AfPO:0000441 AfPO:0000037 ! Country_of_Origin Central African Republic
-relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 property_value: AfPO:0000089 "Zande\n4°37'N, 26°43'E\n4.62, 26.72" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=zne
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/zand1248.bigmap.html
@@ -4778,7 +4591,6 @@ id: AfPO:0000305
 name: Baggara
 is_a: AfPO:0000184 ! Semitic Eastern
 is_a: AfPO:0000186 ! Semite Central
-relationship: AfPO:0000441 AfPO:0000035 ! Country_of_Origin Chad
 relationship: AfPO:0000441 AfPO:0000044 ! Country_of_Origin Sudan
 property_value: AfPO:0000089 "Batha\n12°11'N, 12°22'E\n12.19, 12.36" xsd:string
 property_value: AfPO:0000089 "Chadian Arabic\n14°40'N, 13°30'E\n14.67, 13.50" xsd:string
@@ -4805,8 +4617,6 @@ name: Sara
 is_a: AfPO:0000265 ! Nilotic Central
 is_a: AfPO:0000277 ! Western African
 relationship: AfPO:0000441 AfPO:0000033 ! Country_of_Origin Cameroon
-relationship: AfPO:0000441 AfPO:0000035 ! Country_of_Origin Chad
-relationship: AfPO:0000441 AfPO:0000037 ! Country_of_Origin Central African Republic
 property_value: AfPO:0000089 "Dagba\n8°51'N, 18°29'E\n8.84, 18.48" xsd:string
 property_value: AfPO:0000089 "Gor\n8°05'N, 17°04'E\n8.08, 17.07" xsd:string
 property_value: AfPO:0000089 "Gulay\n9°04'N, 17°19'E\n9.07, 17.32" xsd:string
@@ -4840,9 +4650,7 @@ is_a: AfPO:0000265 ! Nilotic Central
 is_a: AfPO:0000270 ! Nilotic Western
 is_a: AfPO:0000275 ! Northern African
 is_a: AfPO:0000371 ! Nilotic Eastern
-relationship: AfPO:0000441 AfPO:0000035 ! Country_of_Origin Chad
 relationship: AfPO:0000441 AfPO:0000046 ! Country_of_Origin Libya
-relationship: AfPO:0000441 AfPO:0000319 ! Country_of_Origin Niger
 relationship: AfPO:0000447 AfPO:0000044 ! Population_group Sudan
 property_value: AfPO:0000089 "Dazaga\n15°44'N, 15°51'E\n15.74, 15.85" xsd:string
 property_value: AfPO:0000089 "Tedaga\n18°03'N, 14°46'E\n18.04, 14.77" xsd:string
@@ -4868,7 +4676,6 @@ relationship: AfPO:0000447 AfPO:0000104 ! Population_group Fulani
 relationship: AfPO:0000447 AfPO:0000141 ! Population_group Soninke
 relationship: AfPO:0000447 AfPO:0000220 ! Population_group Sahrawi
 relationship: AfPO:0000447 AfPO:0000227 ! Population_group Serer
-relationship: AfPO:0000447 AfPO:0000356 ! Population_group Berber Northern
 relationship: AfPO:0000447 AfPO:0000366 ! Population_group Haratin
 relationship: AfPO:0000447 AfPO:0000367 ! Population_group Maghrebi
 relationship: AfPO:0000447 AfPO:0000368 ! Population_group Moor
@@ -4921,12 +4728,9 @@ relationship: AfPO:0000447 AfPO:0000131 ! Population_group Mossi
 relationship: AfPO:0000447 AfPO:0000141 ! Population_group Soninke
 relationship: AfPO:0000447 AfPO:0000145 ! Population_group Tuareg
 relationship: AfPO:0000447 AfPO:0000148 ! Population_group Kusasi
-relationship: AfPO:0000447 AfPO:0000150 ! Population_group Gurunsi
-relationship: AfPO:0000447 AfPO:0000151 ! Population_group Gurma
 relationship: AfPO:0000447 AfPO:0000153 ! Population_group Dagaaba
 relationship: AfPO:0000447 AfPO:0000161 ! Population_group Dyula
 relationship: AfPO:0000447 AfPO:0000179 ! Population_group Nankani
-relationship: AfPO:0000447 AfPO:0000189 ! Population_group Berber Western
 relationship: AfPO:0000447 AfPO:0000201 ! Population_group Senufo
 relationship: AfPO:0000447 AfPO:0000416 ! Population_group Dogon
 relationship: AfPO:0000447 AfPO:0000426 ! Population_group Mole-Dagbani
@@ -4983,10 +4787,7 @@ relationship: AfPO:0000447 AfPO:0000131 ! Population_group Mossi
 relationship: AfPO:0000447 AfPO:0000141 ! Population_group Soninke
 relationship: AfPO:0000447 AfPO:0000161 ! Population_group Dyula
 relationship: AfPO:0000447 AfPO:0000201 ! Population_group Senufo
-relationship: AfPO:0000447 AfPO:0000203 ! Population_group Akan
-relationship: AfPO:0000447 AfPO:0000425 ! Population_group Mande Western
 relationship: AfPO:0000447 AfPO:0000430 ! Population_group Mandinka
-relationship: AfPO:0000447 AfPO:0000443 ! Population_group Kru
 relationship: AfPO:0000447 AfPO:0000522 ! Population_group Fante
 relationship: AfPO:0000447 AfPO:0000524 ! Population_group Baule
 relationship: AfPO:0000447 AfPO:0000538 ! Population_group Lobi
@@ -5049,13 +4850,9 @@ relationship: AfPO:0000447 AfPO:0000139 ! Population_group Bulsa
 relationship: AfPO:0000447 AfPO:0000141 ! Population_group Soninke
 relationship: AfPO:0000447 AfPO:0000147 ! Population_group Dagomba
 relationship: AfPO:0000447 AfPO:0000148 ! Population_group Kusasi
-relationship: AfPO:0000447 AfPO:0000149 ! Population_group Frafra
-relationship: AfPO:0000447 AfPO:0000150 ! Population_group Gurunsi
-relationship: AfPO:0000447 AfPO:0000151 ! Population_group Gurma
 relationship: AfPO:0000447 AfPO:0000153 ! Population_group Dagaaba
 relationship: AfPO:0000447 AfPO:0000161 ! Population_group Dyula
 relationship: AfPO:0000447 AfPO:0000179 ! Population_group Nankani
-relationship: AfPO:0000447 AfPO:0000203 ! Population_group Akan
 relationship: AfPO:0000447 AfPO:0000410 ! Population_group Adele
 relationship: AfPO:0000447 AfPO:0000421 ! Population_group Ewe
 relationship: AfPO:0000447 AfPO:0000423 ! Population_group Ibibio
@@ -5091,7 +4888,6 @@ is_a: AfPO:0000008 ! Western Africa
 relationship: AfPO:0000447 AfPO:0000064 ! Population_group Susu
 relationship: AfPO:0000447 AfPO:0000104 ! Population_group Fulani
 relationship: AfPO:0000447 AfPO:0000141 ! Population_group Soninke
-relationship: AfPO:0000447 AfPO:0000425 ! Population_group Mande Western
 relationship: AfPO:0000447 AfPO:0000430 ! Population_group Mandinka
 relationship: AfPO:0000447 AfPO:0000432 ! Population_group Mende
 relationship: AfPO:0000447 AfPO:0000528 ! Population_group Bedik
@@ -5141,9 +4937,7 @@ id: AfPO:0000317
 name: Liberia
 is_a: AfPO:0000008 ! Western Africa
 relationship: AfPO:0000447 AfPO:0000067 ! Population_group Bassa
-relationship: AfPO:0000447 AfPO:0000425 ! Population_group Mande Western
 relationship: AfPO:0000447 AfPO:0000430 ! Population_group Mandinka
-relationship: AfPO:0000447 AfPO:0000443 ! Population_group Kru
 relationship: AfPO:0000447 AfPO:0000522 ! Population_group Fante
 relationship: AfPO:0000447 AfPO:0000533 ! Population_group Gola
 relationship: AfPO:0000447 AfPO:0000543 ! Population_group Dan
@@ -5171,7 +4965,6 @@ relationship: AfPO:0000447 AfPO:0000121 ! Population_group Minianka
 relationship: AfPO:0000447 AfPO:0000141 ! Population_group Soninke
 relationship: AfPO:0000447 AfPO:0000145 ! Population_group Tuareg
 relationship: AfPO:0000447 AfPO:0000161 ! Population_group Dyula
-relationship: AfPO:0000447 AfPO:0000201 ! Population_group Senufo
 relationship: AfPO:0000447 AfPO:0000206 ! Population_group Songhai
 relationship: AfPO:0000447 AfPO:0000368 ! Population_group Moor
 relationship: AfPO:0000447 AfPO:0000416 ! Population_group Dogon
@@ -5200,9 +4993,7 @@ relationship: AfPO:0000447 AfPO:0000125 ! Population_group Hausa
 relationship: AfPO:0000447 AfPO:0000145 ! Population_group Tuareg
 relationship: AfPO:0000447 AfPO:0000151 ! Population_group Gurma
 relationship: AfPO:0000447 AfPO:0000204 ! Population_group Daza
-relationship: AfPO:0000447 AfPO:0000270 ! Population_group Nilotic Western
 relationship: AfPO:0000447 AfPO:0000278 ! Population_group Kanuri
-relationship: AfPO:0000447 AfPO:0000307 ! Population_group Toubou
 relationship: AfPO:0000447 AfPO:0000368 ! Population_group Moor
 relationship: AfPO:0000447 AfPO:0000416 ! Population_group Dogon
 relationship: AfPO:0000447 AfPO:0000430 ! Population_group Mandinka
@@ -5239,7 +5030,6 @@ relationship: AfPO:0000447 AfPO:0000104 ! Population_group Fulani
 relationship: AfPO:0000447 AfPO:0000105 ! Population_group Yoruba
 relationship: AfPO:0000447 AfPO:0000125 ! Population_group Hausa
 relationship: AfPO:0000447 AfPO:0000224 ! Population_group Jarawa
-relationship: AfPO:0000447 AfPO:0000270 ! Population_group Nilotic Western
 relationship: AfPO:0000447 AfPO:0000278 ! Population_group Kanuri
 relationship: AfPO:0000447 AfPO:0000415 ! Population_group Buduma
 relationship: AfPO:0000447 AfPO:0000417 ! Population_group Edo
@@ -5294,13 +5084,11 @@ relationship: AfPO:0000447 AfPO:0000074 ! Population_group Bambara
 relationship: AfPO:0000447 AfPO:0000104 ! Population_group Fulani
 relationship: AfPO:0000447 AfPO:0000141 ! Population_group Soninke
 relationship: AfPO:0000447 AfPO:0000161 ! Population_group Dyula
-relationship: AfPO:0000447 AfPO:0000205 ! Population_group Jola
 relationship: AfPO:0000447 AfPO:0000227 ! Population_group Serer
 relationship: AfPO:0000447 AfPO:0000229 ! Population_group Balanta
 relationship: AfPO:0000447 AfPO:0000288 ! Population_group Kwatay
 relationship: AfPO:0000447 AfPO:0000413 ! Population_group Biafada
 relationship: AfPO:0000447 AfPO:0000426 ! Population_group Mole-Dagbani
-relationship: AfPO:0000447 AfPO:0000428 ! Population_group Wolof
 relationship: AfPO:0000447 AfPO:0000430 ! Population_group Mandinka
 relationship: AfPO:0000447 AfPO:0000528 ! Population_group Bedik
 relationship: AfPO:0000447 AfPO:0000529 ! Population_group Bassari
@@ -5559,9 +5347,6 @@ id: AfPO:0000333
 name: Khoisan South
 is_a: AfPO:0000331 ! Khoekhoe
 is_a: AfPO:0000332 ! San
-relationship: AfPO:0000441 AfPO:0000048 ! Country_of_Origin Botswana
-relationship: AfPO:0000441 AfPO:0000049 ! Country_of_Origin Namibia
-relationship: AfPO:0000441 AfPO:0000051 ! Country_of_Origin South Africa
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q='Khoisan+people'+AND+'Africa'" xsd:anyURI
 property_value: AfPO:0000234 Khoisan:languages
 property_value: AfPO:0000235 https://en.wikipedia.org/wiki/Khoisan
@@ -5576,8 +5361,6 @@ property_value: AfPO:0000459 "0.4 millions" xsd:string
 id: AfPO:0000334
 name: Taa
 is_a: AfPO:0000332 ! San
-relationship: AfPO:0000441 AfPO:0000048 ! Country_of_Origin Botswana
-relationship: AfPO:0000441 AfPO:0000049 ! Country_of_Origin Namibia
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=nmn
 property_value: AfPO:0000230 http://glottolog.org/resource/languoid/id/taaa1242
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Taa+tribe'+OR+'Taa+people'+%29+AND+'Africa'" xsd:anyURI
@@ -5594,8 +5377,6 @@ id: AfPO:0000335
 name: Banareng
 def: "People of the place of the buffalo" []
 is_a: AfPO:0000326 ! Bantu Southern
-relationship: AfPO:0000441 AfPO:0000048 ! Country_of_Origin Botswana
-relationship: AfPO:0000441 AfPO:0000051 ! Country_of_Origin South Africa
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q='Banareng+tribe'+OR+'Banareng+people'+AND+'Africa'" xsd:anyURI
 property_value: AfPO:0000235 https://en.wikipedia.org/wiki/List_of_Sotho-Tswana_clans
 property_value: AfPO:0000458 "Sotho" xsd:string
@@ -5607,7 +5388,6 @@ id: AfPO:0000336
 name: Himba
 is_a: AfPO:0000326 ! Bantu Southern
 relationship: AfPO:0000441 AfPO:0000034 ! Country_of_Origin Angola
-relationship: AfPO:0000441 AfPO:0000049 ! Country_of_Origin Namibia
 relationship: AfPO:0000447 AfPO:0000026 ! Population_group United Republic of Tanzania
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Himba+people'+OR+'Himba+tribe'+%29+AND+'Africa'" xsd:anyURI
 property_value: AfPO:0000235 Himba:people
@@ -5622,7 +5402,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/himba.html
 id: AfPO:0000337
 name: Kwangali
 is_a: AfPO:0000326 ! Bantu Southern
-relationship: AfPO:0000441 AfPO:0000049 ! Country_of_Origin Namibia
 property_value: AfPO:0000089 "Kwangali\n17°54'S, 19°15'E\n-17.90, 19.26" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=kwn
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/kwan1273.bigmap.html
@@ -5641,7 +5420,6 @@ property_value: AfPO:0000567 "kwn" xsd:string
 id: AfPO:0000338
 name: Lemba
 is_a: AfPO:0000326 ! Bantu Southern
-relationship: AfPO:0000441 AfPO:0000011 ! Country_of_Origin Southern Africa
 relationship: AfPO:0000441 AfPO:0000024 ! Country_of_Origin Mozambique
 relationship: AfPO:0000441 AfPO:0000025 ! Country_of_Origin Malawi
 relationship: AfPO:0000441 AfPO:0000030 ! Country_of_Origin Zimbabwe
@@ -5703,7 +5481,6 @@ id: AfPO:0000341
 name: Ovambo
 is_a: AfPO:0000326 ! Bantu Southern
 relationship: AfPO:0000441 AfPO:0000034 ! Country_of_Origin Angola
-relationship: AfPO:0000441 AfPO:0000049 ! Country_of_Origin Namibia
 property_value: AfPO:0000089 http://glottolog.org/resource/languoid/id/ndon1253.bigmap.html
 property_value: AfPO:0000089 "Kuanyama\n17°43'S, 16°35'E\n-17.72, 16.58" xsd:string
 property_value: AfPO:0000089 "Kwambi\n18°02'S, 15°44'E\n-18.03, 15.73" xsd:string
@@ -5730,8 +5507,6 @@ name: Shona
 is_a: AfPO:0000326 ! Bantu Southern
 is_a: AfPO:0000369 ! Bantu Eastern
 relationship: AfPO:0000441 AfPO:0000019 ! Country_of_Origin Zambia
-relationship: AfPO:0000441 AfPO:0000030 ! Country_of_Origin Zimbabwe
-relationship: AfPO:0000441 AfPO:0000048 ! Country_of_Origin Botswana
 property_value: AfPO:0000089 "Kalanga\n21°17'S, 27°24'E\n-21.29, 27.40" xsd:string
 property_value: AfPO:0000089 "Shona\n17°13'S, 29°45'E\n-17.21, 29.76" xsd:string
 property_value: AfPO:0000152 https://www.nature.com/articles/5201408
@@ -5754,8 +5529,6 @@ id: AfPO:0000343
 name: Sotho
 is_a: AfPO:0000326 ! Bantu Southern
 relationship: AfPO:0000441 AfPO:0000030 ! Country_of_Origin Zimbabwe
-relationship: AfPO:0000441 AfPO:0000051 ! Country_of_Origin South Africa
-relationship: AfPO:0000441 AfPO:0000052 ! Country_of_Origin Lesotho
 property_value: AfPO:0000089 "Birwa\n22°10'S, 28°20'E\n-22.17, 28.33" xsd:string
 property_value: AfPO:0000089 "Lozi\n17°42'S, 24°44'E\n-17.71, 24.74" xsd:string
 property_value: AfPO:0000089 "Pedi\n24°48'S, 29°28'E\n-24.80, 29.47" xsd:string
@@ -5790,8 +5563,6 @@ name: Tonga
 is_a: AfPO:0000326 ! Bantu Southern
 is_a: AfPO:0000369 ! Bantu Eastern
 relationship: AfPO:0000441 AfPO:0000019 ! Country_of_Origin Zambia
-relationship: AfPO:0000441 AfPO:0000025 ! Country_of_Origin Malawi
-relationship: AfPO:0000441 AfPO:0000030 ! Country_of_Origin Zimbabwe
 property_value: AfPO:0000089 "Tonga (Zambia)\n17°25'S, 27°06'E\n-17.42, 27.10" xsd:string
 property_value: AfPO:0000152 https://doi.org/10.1038/jhg.2010.41
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=toi
@@ -5817,7 +5588,6 @@ id: AfPO:0000345
 name: Venda
 is_a: AfPO:0000326 ! Bantu Southern
 relationship: AfPO:0000441 AfPO:0000030 ! Country_of_Origin Zimbabwe
-relationship: AfPO:0000441 AfPO:0000051 ! Country_of_Origin South Africa
 property_value: AfPO:0000089 "Venda\n22°11'S, 29°57'E\n-22.19, 29.95" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=ven
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/vend1245.bigmap.html
@@ -5838,8 +5608,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/venda.html
 id: AfPO:0000346
 name: Yeyi
 is_a: AfPO:0000326 ! Bantu Southern
-relationship: AfPO:0000441 AfPO:0000048 ! Country_of_Origin Botswana
-relationship: AfPO:0000441 AfPO:0000049 ! Country_of_Origin Namibia
 property_value: AfPO:0000089 "Yeyi\n18°55'S, 23°37'E\n-18.92, 23.61" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=yey
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/yeyi1239.bigmap.html
@@ -5857,9 +5625,6 @@ property_value: AfPO:0000567 "yey" xsd:string
 id: AfPO:0000347
 name: Pedi
 is_a: AfPO:0000343 ! Sotho
-relationship: AfPO:0000441 AfPO:0000030 ! Country_of_Origin Zimbabwe
-relationship: AfPO:0000441 AfPO:0000048 ! Country_of_Origin Botswana
-relationship: AfPO:0000441 AfPO:0000051 ! Country_of_Origin South Africa
 property_value: AfPO:0000089 "Pedi\n24°48'S, 29°28'E\n-24.80, 29.47" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=nso
 property_value: AfPO:0000223 https://glottolog.org/resource/languoid/id/pedi1238.bigmap.html
@@ -5880,8 +5645,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/pedi.html
 id: AfPO:0000348
 name: Kalanga
 is_a: AfPO:0000342 ! Shona
-relationship: AfPO:0000441 AfPO:0000030 ! Country_of_Origin Zimbabwe
-relationship: AfPO:0000441 AfPO:0000048 ! Country_of_Origin Botswana
 property_value: AfPO:0000089 "Kalanga\n21°17'S, 27°24'E\n-21.29, 27.40" xsd:string
 property_value: AfPO:0000152 https://doi.org/10.1098/rspb.2012.0318
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=kck
@@ -5903,7 +5666,6 @@ property_value: AfPO:0000567 "kck" xsd:string
 id: AfPO:0000349
 name: Nambya
 is_a: AfPO:0000342 ! Shona
-relationship: AfPO:0000441 AfPO:0000030 ! Country_of_Origin Zimbabwe
 property_value: AfPO:0000089 "Nambya\n19°05'S, 26°02'E\n-19.09, 26.04" xsd:string
 property_value: AfPO:0000223 https://glottolog.org/resource/languoid/id/namb1291.bigmap.html
 property_value: AfPO:0000230 https://glottolog.org/resource/languoid/id/namb1291
@@ -5920,7 +5682,6 @@ id: AfPO:0000350
 name: Ndebele
 is_a: AfPO:0000340 ! Nguni
 relationship: AfPO:0000441 AfPO:0000030 ! Country_of_Origin Zimbabwe
-relationship: AfPO:0000441 AfPO:0000051 ! Country_of_Origin South Africa
 property_value: AfPO:0000089 "Sumayela Ndebele\n25°38'S, 29°03'E\n-25.63, 29.05" xsd:string
 property_value: AfPO:0000089 "Zimbabwean Ndebele\n20°15'S, 27°25'E\n-20.25, 27.41" xsd:string
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Ndebele+people'+OR+'Ndebele+tribe'+%29+AND+'Africa'" xsd:anyURI
@@ -5939,7 +5700,6 @@ name: Swazi
 is_a: AfPO:0000340 ! Nguni
 relationship: AfPO:0000441 AfPO:0000024 ! Country_of_Origin Mozambique
 relationship: AfPO:0000441 AfPO:0000050 ! Country_of_Origin Eswatini
-relationship: AfPO:0000441 AfPO:0000051 ! Country_of_Origin South Africa
 property_value: AfPO:0000089 "26°S, 31°30'E\n-26.00, 31.50" xsd:string
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/swat1243.bigmap.html
 property_value: AfPO:0000230 http://glottolog.org/resource/languoid/id/swat1243
@@ -5964,7 +5724,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/swazi.html
 id: AfPO:0000352
 name: North Ndebele
 is_a: AfPO:0000350 ! Ndebele
-relationship: AfPO:0000441 AfPO:0000030 ! Country_of_Origin Zimbabwe
 property_value: AfPO:0000089 "Zimbabwean Ndebele\n20°15'S, 27°25'E\n-20.25, 27.41" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=nde
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/nort2795.bigmap.html
@@ -5986,7 +5745,6 @@ property_value: AfPO:0000567 "nde" xsd:string
 id: AfPO:0000353
 name: South Ndebele
 is_a: AfPO:0000350 ! Ndebele
-relationship: AfPO:0000441 AfPO:0000051 ! Country_of_Origin South Africa
 property_value: AfPO:0000089 "Sumayela Ndebele\n25°38'S, 29°03'E\n-25.63, 29.05" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=nbl
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/sout2808.bigmap.html
@@ -6005,7 +5763,6 @@ property_value: AfPO:0000567 "nbl" xsd:string
 id: AfPO:0000354
 name: Kgatla
 is_a: AfPO:0000142 ! Tswana
-relationship: AfPO:0000441 AfPO:0000048 ! Country_of_Origin Botswana
 property_value: AfPO:0000230 https://glottolog.org/resource/languoid/id/kgat1238
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Kgatla+tribe'+OR+'Kgatla+people'+%29+AND+'Africa'" xsd:anyURI
 property_value: AfPO:0000235 Kgatla:(peuple)
@@ -6108,7 +5865,6 @@ property_value: AfPO:0000567 "nub" xsd:string
 id: AfPO:0000359
 name: Algerian Berber
 is_a: AfPO:0000356 ! Berber Northern
-relationship: AfPO:0000441 AfPO:0000045 ! Country_of_Origin Algeria
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q='Berber+people'+OR+'Berber+tribe'+AND+'North+Africa'+AND+'Algeria'" xsd:anyURI
 property_value: AfPO:0000454 https://doi.org/10.1080/03014460.2019.1602166
 property_value: AfPO:0000455 https://doi.org/10.1371/journal.pone.0138453
@@ -6118,14 +5874,12 @@ property_value: AfPO:0000456 "E1b1a\nE1b1b\nJ1\nJ2b\nR1b\nR1a\nF\nK\nL1b*\nQ\nT2
 id: AfPO:0000360
 name: Lybian Berber
 is_a: AfPO:0000356 ! Berber Northern
-relationship: AfPO:0000441 AfPO:0000046 ! Country_of_Origin Libya
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q='Berber+people'+OR+'Berber+tribe'+AND+'North+Africa'+AND+'Lybia'" xsd:anyURI
 
 [Term]
 id: AfPO:0000361
 name: Moroccan Berber
 is_a: AfPO:0000356 ! Berber Northern
-relationship: AfPO:0000441 AfPO:0000042 ! Country_of_Origin Morocco
 property_value: AfPO:0000152 https://doi.org/10.1098/rspb.2012.0318
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q='Berber+people'+OR+'Berber+tribe'+AND+'North+Africa'+AND+'Morocco'" xsd:anyURI
 property_value: AfPO:0000454 https://doi.org/10.1002/ajhb.20888
@@ -6139,7 +5893,6 @@ property_value: AfPO:0000457 "H\nHV\nJT\nJ\nK\nL1\nL2\nL3\nN\nR0\nT\nU\nU2\nU4\n
 id: AfPO:0000362
 name: Shilha
 is_a: AfPO:0000356 ! Berber Northern
-relationship: AfPO:0000441 AfPO:0000042 ! Country_of_Origin Morocco
 property_value: AfPO:0000089 "Tachelhit\n29°47'N, 7°47'W\n29.79, -7.78" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=shi
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/tach1250.bigmap.html
@@ -6169,7 +5922,6 @@ property_value: AfPO:0000458 "Semitic-Central-South" xsd:string
 id: AfPO:0000364
 name: Tunisian Berber
 is_a: AfPO:0000356 ! Berber Northern
-relationship: AfPO:0000441 AfPO:0000047 ! Country_of_Origin Tunisia
 property_value: AfPO:0000152 https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1002397
 property_value: AfPO:0000455 "10.1002/ajpa.20979" xsd:string
 property_value: AfPO:0000455 https://doi.org/10.3109/19401736.2013.879649
@@ -6418,7 +6170,6 @@ id: AfPO:0000374
 name: Acholi
 is_a: AfPO:0000198 ! Luo
 relationship: AfPO:0000441 AfPO:0000014 ! Country_of_Origin South Sudan
-relationship: AfPO:0000441 AfPO:0000029 ! Country_of_Origin Uganda
 property_value: AfPO:0000089 "Acoli\n3°35'N, 32°31'E\n3.58, 32.51" xsd:string
 property_value: AfPO:0000089 "Labwor\n2°42'N, 33°39'E\n2.70, 33.66" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=ach
@@ -6483,7 +6234,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/turkana.html
 id: AfPO:0000377
 name: Alur
 is_a: AfPO:0000198 ! Luo
-relationship: AfPO:0000441 AfPO:0000029 ! Country_of_Origin Uganda
 relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 property_value: AfPO:0000089 "Alur\n2°22'N, 31°E\n2.36, 31.00" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=alz
@@ -6508,7 +6258,6 @@ id: AfPO:0000378
 name: Lango
 is_a: AfPO:0000198 ! Luo
 relationship: AfPO:0000441 AfPO:0000014 ! Country_of_Origin South Sudan
-relationship: AfPO:0000441 AfPO:0000029 ! Country_of_Origin Uganda
 property_value: AfPO:0000089 "Lango (Uganda)\n2°08'N, 33°03'E\n2.14, 33.06" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=laj
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=lno
@@ -6560,7 +6309,6 @@ id: AfPO:0000380
 name: Birged
 def: "'The Birked live north and east of Dago and Bayko, between Gebel Harayz and Rizaykat and are much larger tribe then either.' from a: A History of the Arabs in the Sudan. Written by De H. A. MacMichael." []
 is_a: AfPO:0000190 ! Nubian Eastern
-relationship: AfPO:0000441 AfPO:0000044 ! Country_of_Origin Sudan
 property_value: AfPO:0000089 "Birked\n12°30'N, 24°50'E\n12.50, 24.83" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=brk
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/birk1242.bigmap.html
@@ -6576,7 +6324,6 @@ property_value: AfPO:0000567 "brk" xsd:string
 id: AfPO:0000381
 name: Dongolese
 is_a: AfPO:0000190 ! Nubian Eastern
-relationship: AfPO:0000441 AfPO:0000044 ! Country_of_Origin Sudan
 property_value: AfPO:0000089 "Dongola\n18°15'N, 30°45'E\n18.25, 30.75" xsd:string
 property_value: AfPO:0000152 https://www.ncbi.nlm.nih.gov/pubmed/28837655
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/dong1288.bigmap.html
@@ -6594,7 +6341,6 @@ property_value: AfPO:0000458 "Dongola" xsd:string
 id: AfPO:0000382
 name: Hill Nubian
 is_a: AfPO:0000190 ! Nubian Eastern
-relationship: AfPO:0000441 AfPO:0000044 ! Country_of_Origin Sudan
 property_value: AfPO:0000089 "Dair\n12°28'N, 30°41'E\n12.47, 30.68" xsd:string
 property_value: AfPO:0000089 "Dilling\n12°02'N, 29°36'E\n12.03, 29.61" xsd:string
 property_value: AfPO:0000089 "El Hugeirat\n11°57'N, 28°35'E\n11.95, 28.59" xsd:string
@@ -6936,7 +6682,6 @@ property_value: AfPO:0000567 "tig" xsd:string
 id: AfPO:0000398
 name: Baka_South_Sudan
 is_a: AfPO:0000187 ! Pygmy Eastern
-relationship: AfPO:0000441 AfPO:0000044 ! Country_of_Origin Sudan
 property_value: AfPO:0000089 "Baka (Sudan)\n4°40'N, 29°35'E\n4.66, 29.59" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=bdh
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/baka1274.bigmap.html
@@ -6959,7 +6704,6 @@ property_value: AfPO:0000567 "bdh" xsd:string
 id: AfPO:0000399
 name: Sandawe
 is_a: AfPO:0000183 ! Khoisan Eastern
-relationship: AfPO:0000441 AfPO:0000026 ! Country_of_Origin United Republic of Tanzania
 property_value: AfPO:0000089 "Sandawe\n5°16'S, 35°29'E\n-5.27, 35.48" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=sad
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/sand1273.bigmap.html
@@ -6982,7 +6726,6 @@ property_value: AfPO:0000567 "sad" xsd:string
 id: AfPO:0000400
 name: Basoga
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000029 ! Country_of_Origin Uganda
 property_value: AfPO:0000089 "Kenyi\n1°09'N, 33°29'E\n1.15, 33.48" xsd:string
 property_value: AfPO:0000089 "Soga\n0°24'N, 33°24'E\n0.40, 33.39" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=xog
@@ -7004,7 +6747,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/busoga.html
 id: AfPO:0000401
 name: Chaga
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000026 ! Country_of_Origin United Republic of Tanzania
 property_value: AfPO:0000089 "Gweno\n3°41'S, 37°41'E\n-3.68, 37.68" xsd:string
 property_value: AfPO:0000089 "Kahe\n3°31'S, 37°35'E\n-3.51, 37.58" xsd:string
 property_value: AfPO:0000089 "Machame\n3°18'S, 37°04'E\n-3.29, 37.07" xsd:string
@@ -7030,7 +6772,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/chagga.html
 id: AfPO:0000402
 name: Embu
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000020 ! Country_of_Origin Kenya
 property_value: AfPO:0000089 "Embu\n0°38'S, 37°36'E\n-0.63, 37.59" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=ebu
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/embu1241.bigmap.html
@@ -7051,7 +6792,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/embu.html
 id: AfPO:0000403
 name: Ganda
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000029 ! Country_of_Origin Uganda
 property_value: AfPO:0000089 "Ganda\n0°40'N, 32°09'E\n0.67, 32.15" xsd:string
 property_value: AfPO:0000152 https://www.nature.com/articles/5201408
 property_value: AfPO:0000152 https://www.nature.com/articles/nature13997
@@ -7073,7 +6813,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/baganda.html
 id: AfPO:0000404
 name: Kisii
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000020 ! Country_of_Origin Kenya
 property_value: AfPO:0000089 "Gusii\n0°47'S, 34°46'E\n-0.79, 34.77" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?guz
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/gusi1247.bigmap.html
@@ -7096,8 +6835,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/gusii.html
 id: AfPO:0000405
 name: Luhya
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000020 ! Country_of_Origin Kenya
-relationship: AfPO:0000441 AfPO:0000029 ! Country_of_Origin Uganda
 property_value: AfPO:0000152 https://www.nature.com/articles/nature13997
 property_value: AfPO:0000152 https://www.ncbi.nlm.nih.gov/pubmed/26703842/
 property_value: AfPO:0000152 https://www.ncbi.nlm.nih.gov/pubmed/27654912/
@@ -7119,8 +6856,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/luhya.html
 id: AfPO:0000406
 name: Makonde
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000024 ! Country_of_Origin Mozambique
-relationship: AfPO:0000441 AfPO:0000026 ! Country_of_Origin United Republic of Tanzania
 property_value: AfPO:0000089 "Makonde\n10°59'S, 39°31'E\n-10.99, 39.51" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=kde
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/mako1251.bigmap.html
@@ -7143,7 +6878,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/makonde.html
 id: AfPO:0000407
 name: Nyoro
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000029 ! Country_of_Origin Uganda
 property_value: AfPO:0000089 "Nyoro\n0°57'N, 31°21'E\n0.95, 31.35" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=nyo
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/nyor1246.bigmap.html
@@ -7163,9 +6897,6 @@ property_value: AfPO:0000567 "nyo" xsd:string
 id: AfPO:0000408
 name: Swahili
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000020 ! Country_of_Origin Kenya
-relationship: AfPO:0000441 AfPO:0000024 ! Country_of_Origin Mozambique
-relationship: AfPO:0000441 AfPO:0000026 ! Country_of_Origin United Republic of Tanzania
 relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 property_value: AfPO:0000089 "Chimwiini\n1°07'N, 44°02'E\n1.11, 44.03" xsd:string
 property_value: AfPO:0000089 "Congo Swahili\n7°16'S, 27°25'E\n-7.27, 27.42" xsd:string
@@ -7189,7 +6920,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/swahili.html
 id: AfPO:0000409
 name: Tumbuka
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000025 ! Country_of_Origin Malawi
 property_value: AfPO:0000089 "Tumbuka\n11°20'S, 33°22'E\n-11.33, 33.37" xsd:string
 property_value: AfPO:0000152 https://doi.org/10.1038/jhg.2010.41
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=tum
@@ -7554,9 +7284,7 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/mande.html
 id: AfPO:0000426
 name: Mole-Dagbani
 is_a: AfPO:0000151 ! Gurma
-relationship: AfPO:0000441 AfPO:0000310 ! Country_of_Origin Burkina Faso
 relationship: AfPO:0000441 AfPO:0000313 ! Country_of_Origin Gambia
-relationship: AfPO:0000441 AfPO:0000314 ! Country_of_Origin Ghana
 relationship: AfPO:0000441 AfPO:0000316 ! Country_of_Origin Guinea-Bissau
 relationship: AfPO:0000441 AfPO:0000322 ! Country_of_Origin Senegal
 property_value: AfPO:0000089 "Dagbani\n9°39'N, 0°26'W\n9.65, -0.43" xsd:string
@@ -7657,12 +7385,9 @@ relationship: AfPO:0000441 AfPO:0000035 ! Country_of_Origin Chad
 relationship: AfPO:0000441 AfPO:0000308 ! Country_of_Origin Mauritania
 relationship: AfPO:0000441 AfPO:0000309 ! Country_of_Origin Benin
 relationship: AfPO:0000441 AfPO:0000310 ! Country_of_Origin Burkina Faso
-relationship: AfPO:0000441 AfPO:0000312 ! Country_of_Origin Cote d'Ivoire
 relationship: AfPO:0000441 AfPO:0000313 ! Country_of_Origin Gambia
 relationship: AfPO:0000441 AfPO:0000314 ! Country_of_Origin Ghana
-relationship: AfPO:0000441 AfPO:0000315 ! Country_of_Origin Guinea
 relationship: AfPO:0000441 AfPO:0000316 ! Country_of_Origin Guinea-Bissau
-relationship: AfPO:0000441 AfPO:0000317 ! Country_of_Origin Liberia
 relationship: AfPO:0000441 AfPO:0000318 ! Country_of_Origin Mali
 relationship: AfPO:0000441 AfPO:0000319 ! Country_of_Origin Niger
 relationship: AfPO:0000441 AfPO:0000320 ! Country_of_Origin Nigeria
@@ -7736,7 +7461,6 @@ property_value: AfPO:0000567 "rkm" xsd:string
 id: AfPO:0000432
 name: Mende
 is_a: AfPO:0000425 ! Mande Western
-relationship: AfPO:0000441 AfPO:0000315 ! Country_of_Origin Guinea
 relationship: AfPO:0000441 AfPO:0000323 ! Country_of_Origin Sierra Leone
 property_value: AfPO:0000089 "Mende (Sierra Leone)\n7°55'N, 11°W\n7.91, -10.99" xsd:string
 property_value: AfPO:0000152 https://www.ncbi.nlm.nih.gov/pubmed/26614524
@@ -7760,8 +7484,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/mende.html
 id: AfPO:0000433
 name: Kassena
 is_a: AfPO:0000150 ! Gurunsi
-relationship: AfPO:0000441 AfPO:0000310 ! Country_of_Origin Burkina Faso
-relationship: AfPO:0000441 AfPO:0000314 ! Country_of_Origin Ghana
 property_value: AfPO:0000089 "Kasem\n11°05'N, 1°23'W\n11.08, -1.39" xsd:string
 property_value: AfPO:0000221 https://iso639-3.sil.org/code/xsm
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/kase1253.bigmap.html
@@ -7796,8 +7518,6 @@ is_a: AfPO:0000206 ! Songhai
 relationship: AfPO:0000441 AfPO:0000309 ! Country_of_Origin Benin
 relationship: AfPO:0000441 AfPO:0000310 ! Country_of_Origin Burkina Faso
 relationship: AfPO:0000441 AfPO:0000314 ! Country_of_Origin Ghana
-relationship: AfPO:0000441 AfPO:0000319 ! Country_of_Origin Niger
-relationship: AfPO:0000441 AfPO:0000320 ! Country_of_Origin Nigeria
 property_value: AfPO:0000089 "Zarma-Kaado\n12°51'N, 2°25'E\n12.86, 2.41" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=dje
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/zarm1239.bigmap.html
@@ -7816,8 +7536,6 @@ id: AfPO:0000435
 name: Dendi
 is_a: AfPO:0000206 ! Songhai
 relationship: AfPO:0000441 AfPO:0000309 ! Country_of_Origin Benin
-relationship: AfPO:0000441 AfPO:0000319 ! Country_of_Origin Niger
-relationship: AfPO:0000441 AfPO:0000320 ! Country_of_Origin Nigeria
 relationship: AfPO:0000441 AfPO:0000324 ! Country_of_Origin Togo
 property_value: AfPO:0000089 "Dendi (Benin)\n11°40'N, 3°29'E\n11.67, 3.49" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=ddn
@@ -7850,10 +7568,6 @@ property_value: AfPO:0000567 "oki" xsd:string
 id: AfPO:0000437
 name: Hutu
 is_a: AfPO:0000207 ! Banyarwanda
-relationship: AfPO:0000441 AfPO:0000015 ! Country_of_Origin Rwanda
-relationship: AfPO:0000441 AfPO:0000022 ! Country_of_Origin Burundi
-relationship: AfPO:0000441 AfPO:0000029 ! Country_of_Origin Uganda
-relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 property_value: AfPO:0000089 "Ha\n3°47'S, 30°29'E\n-3.78, 30.49" xsd:string
 property_value: AfPO:0000089 "Hangaza\n2°31'S, 30°42'E\n-2.52, 30.71" xsd:string
 property_value: AfPO:0000089 "Kinyarwanda\n1°34'S, 29°39'E\n-1.57, 29.64" xsd:string
@@ -7877,10 +7591,6 @@ id: AfPO:0000438
 name: Tutsi
 is_a: AfPO:0000207 ! Banyarwanda
 is_a: AfPO:0000276 ! Southern African
-relationship: AfPO:0000441 AfPO:0000015 ! Country_of_Origin Rwanda
-relationship: AfPO:0000441 AfPO:0000022 ! Country_of_Origin Burundi
-relationship: AfPO:0000441 AfPO:0000029 ! Country_of_Origin Uganda
-relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 relationship: AfPO:0000441 AfPO:0000048 ! Country_of_Origin Botswana
 relationship: AfPO:0000441 AfPO:0000051 ! Country_of_Origin South Africa
 property_value: AfPO:0000089 "Ha\n3°47'S, 30°29'E\n-3.78, 30.49" xsd:string
@@ -8006,7 +7716,6 @@ property_value: AfPO:0000567 "kro" xsd:string
 id: AfPO:0000461
 name: Duala
 is_a: AfPO:0000273 ! Bantu Central
-relationship: AfPO:0000441 AfPO:0000033 ! Country_of_Origin Cameroon
 property_value: AfPO:0000089 "Duala\n4°06'N, 9°37'E\n4.10, 9.62" xsd:string
 property_value: AfPO:0000223 https://glottolog.org/resource/languoid/id/dual1243.bigmap.html
 property_value: AfPO:0000230 https://glottolog.org/resource/languoid/id/dual1243
@@ -8026,7 +7735,6 @@ property_value: AfPO:0000567 http://www-01.sil.org/iso639-3/documentation.asp?id
 id: AfPO:0000462
 name: Eshira
 is_a: AfPO:0000273 ! Bantu Central
-relationship: AfPO:0000441 AfPO:0000032 ! Country_of_Origin Gabon
 property_value: AfPO:0000089 "Sira\n1°47'S, 10°28'E\n-1.78, 10.46" xsd:string
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/sira1266.bigmap.html
 property_value: AfPO:0000230 http://glottolog.org/resource/languoid/id/sira1266
@@ -8044,7 +7752,6 @@ property_value: AfPO:0000566 "sira1266" xsd:string
 id: AfPO:0000463
 name: Hema
 is_a: AfPO:0000273 ! Bantu Central
-relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 property_value: AfPO:0000089 "Hema\n1°03'N, 30°05'E\n1.05, 30.09" xsd:string
 property_value: AfPO:0000152 https://www.nature.com/articles/5201408
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=nix
@@ -8064,7 +7771,6 @@ property_value: AfPO:0000567 "nix" xsd:string
 id: AfPO:0000464
 name: Kota
 is_a: AfPO:0000273 ! Bantu Central
-relationship: AfPO:0000441 AfPO:0000032 ! Country_of_Origin Gabon
 relationship: AfPO:0000441 AfPO:0000040 ! Country_of_Origin Congo
 property_value: AfPO:0000089 "Kota (Gabon)\n1°01'N, 13°58'E\n1.02, 13.97" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=koq
@@ -8088,7 +7794,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/kota.html
 id: AfPO:0000465
 name: Makaa
 is_a: AfPO:0000273 ! Bantu Central
-relationship: AfPO:0000441 AfPO:0000033 ! Country_of_Origin Cameroon
 property_value: AfPO:0000089 "Makaa\n4°09'N, 13°05'E\n4.15, 13.08" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=mcp
 property_value: AfPO:0000223 https://glottolog.org/resource/languoid/id/maka1304.bigmap.html
@@ -8108,7 +7813,6 @@ property_value: AfPO:0000567 "mcp" xsd:string
 id: AfPO:0000466
 name: Myene
 is_a: AfPO:0000273 ! Bantu Central
-relationship: AfPO:0000441 AfPO:0000032 ! Country_of_Origin Gabon
 property_value: AfPO:0000089 "Myene\n1°29'S, 9°30'E\n-1.49, 9.50" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=mye
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/myen1241.bigmap.html
@@ -8127,7 +7831,6 @@ id: AfPO:0000467
 name: Nande
 is_a: AfPO:0000273 ! Bantu Central
 relationship: AfPO:0000441 AfPO:0000029 ! Country_of_Origin Uganda
-relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 property_value: AfPO:0000089 "Nande\n0°15'S, 29°01'E\n-0.25, 29.02" xsd:string
 property_value: AfPO:0000152 https://www.nature.com/articles/5201408
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=nnb
@@ -8147,7 +7850,6 @@ property_value: AfPO:0000567 "nnb" xsd:string
 id: AfPO:0000468
 name: Ngumba
 is_a: AfPO:0000273 ! Bantu Central
-relationship: AfPO:0000441 AfPO:0000033 ! Country_of_Origin Cameroon
 property_value: AfPO:0000089 "Kwasio\n2°24'N, 10°05'E\n2.39, 10.08" xsd:string
 property_value: AfPO:0000152 https://www.nature.com/articles/5201408
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=nmg
@@ -8167,8 +7869,6 @@ property_value: AfPO:0000567 "nmg" xsd:string
 id: AfPO:0000469
 name: Obamba
 is_a: AfPO:0000273 ! Bantu Central
-relationship: AfPO:0000441 AfPO:0000032 ! Country_of_Origin Gabon
-relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 property_value: AfPO:0000089 "Ombamba-Congo\n2°45'S, 13°37'E\n-2.75, 13.62" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=mbm
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/omba1241.bigmap.html
@@ -8187,7 +7887,6 @@ property_value: AfPO:0000567 "mbm" xsd:string
 id: AfPO:0000470
 name: Pende
 is_a: AfPO:0000273 ! Bantu Central
-relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 property_value: AfPO:0000089 "Phende\n5°39'S, 19°50'E\n-5.65, 19.83" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=pem
 property_value: AfPO:0000223 https://glottolog.org/resource/languoid/id/phen1239.bigmap.html
@@ -8206,7 +7905,6 @@ property_value: AfPO:0000568 http://www.101lasttribes.com/tribes/pende.html
 id: AfPO:0000471
 name: Punu
 is_a: AfPO:0000273 ! Bantu Central
-relationship: AfPO:0000441 AfPO:0000032 ! Country_of_Origin Gabon
 property_value: AfPO:0000089 "Punu\n2°40'S, 11°40'E\n-2.67, 11.67" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=puu
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/punu1239.bigmap.html
@@ -8229,7 +7927,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/punu.html
 id: AfPO:0000472
 name: Teke
 is_a: AfPO:0000273 ! Bantu Central
-relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 property_value: AfPO:0000234 Teke:languages
 property_value: AfPO:0000235 Teke:people
 property_value: AfPO:0000450 "Bateke, Tyo or Tio" xsd:string
@@ -8242,9 +7939,6 @@ property_value: AfPO:0000568 http://www.101lasttribes.com/tribes/teke.html
 id: AfPO:0000473
 name: Vili
 is_a: AfPO:0000273 ! Bantu Central
-relationship: AfPO:0000441 AfPO:0000032 ! Country_of_Origin Gabon
-relationship: AfPO:0000441 AfPO:0000034 ! Country_of_Origin Angola
-relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 relationship: AfPO:0000441 AfPO:0000040 ! Country_of_Origin Congo
 property_value: AfPO:0000089 "Vili\n4°04'S, 11°23'E\n-4.07, 11.38" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=vif
@@ -8424,7 +8118,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/gyele.html
 id: AfPO:0000482
 name: Yaka
 is_a: AfPO:0000281 ! Pygmy Central
-relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 property_value: AfPO:0000089 "Lonzo\n4°37'S, 16°44'E\n-4.61, 16.73" xsd:string
 property_value: AfPO:0000089 "Pelende\n4°55'S, 17°19'E\n-4.91, 17.31" xsd:string
 property_value: AfPO:0000089 "Yaka-Pelende-Lonzo\n5°59'S, 16°46'E\n-5.98, 16.77" xsd:string
@@ -8504,7 +8197,6 @@ property_value: AfPO:0000568 http://www.101lasttribes.com/tribes/yakoma.html
 id: AfPO:0000486
 name: Chopi
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000024 ! Country_of_Origin Mozambique
 property_value: AfPO:0000089 "Chopi\n24°50'S, 34°07'E\n-24.83, 34.11" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=cce
 property_value: AfPO:0000223 https://glottolog.org/resource/languoid/id/chop1243.bigmap.html
@@ -8525,7 +8217,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/chopi.html
 id: AfPO:0000487
 name: Mbeere
 is_a: AfPO:0000402 ! Embu
-relationship: AfPO:0000441 AfPO:0000020 ! Country_of_Origin Kenya
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Mbeere+people'+OR+'Mbeere+tribe'+%29+AND+'Africa'" xsd:anyURI
 property_value: AfPO:0000235 Mbeere:people
 property_value: AfPO:0000267 topmenu
@@ -8539,8 +8230,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/mbeere.html
 id: AfPO:0000488
 name: Kiga
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000020 ! Country_of_Origin Kenya
-relationship: AfPO:0000441 AfPO:0000029 ! Country_of_Origin Uganda
 property_value: AfPO:0000089 "Chiga\n1°03'S, 29°55'E\n-1.04, 29.91" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=cgg
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/chig1238.bigmap.html
@@ -8563,8 +8252,6 @@ id: AfPO:0000489
 name: Lambya
 is_a: AfPO:0000369 ! Bantu Eastern
 relationship: AfPO:0000441 AfPO:0000019 ! Country_of_Origin Zambia
-relationship: AfPO:0000441 AfPO:0000025 ! Country_of_Origin Malawi
-relationship: AfPO:0000441 AfPO:0000026 ! Country_of_Origin United Republic of Tanzania
 property_value: AfPO:0000089 "Lambya\n9°30'S, 33°10'E\n-9.49, 33.16" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=lai
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/lamb1272.bigmap.html
@@ -8586,8 +8273,6 @@ property_value: AfPO:0000567 "lai" xsd:string
 id: AfPO:0000490
 name: Masaba
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000020 ! Country_of_Origin Kenya
-relationship: AfPO:0000441 AfPO:0000029 ! Country_of_Origin Uganda
 property_value: AfPO:0000089 "Bukusu\n0°41'N, 34°46'E\n0.68, 34.77" xsd:string
 property_value: AfPO:0000089 "Masaaba\n1°04'N, 34°17'E\n1.06, 34.28" xsd:string
 property_value: AfPO:0000089 "Tachoni\n0°36'N, 34°50'E\n0.61, 34.83" xsd:string
@@ -8613,8 +8298,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/bagisu.html
 id: AfPO:0000491
 name: Segeju
 is_a: AfPO:0000127 ! Mijikenda
-relationship: AfPO:0000441 AfPO:0000020 ! Country_of_Origin Kenya
-relationship: AfPO:0000441 AfPO:0000026 ! Country_of_Origin United Republic of Tanzania
 property_value: AfPO:0000089 "Segeju\n5°S, 39°07'E\n-5.01, 39.12" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=seg
 property_value: AfPO:0000223 https://glottolog.org/resource/languoid/id/sege1246.bigmap.html
@@ -8634,7 +8317,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/segeju.html
 id: AfPO:0000492
 name: Nkole
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000029 ! Country_of_Origin Uganda
 property_value: AfPO:0000089 "Nyankole\n0°28'S, 30°33'E\n-0.46, 30.55" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=nyn
 property_value: AfPO:0000223 https://glottolog.org/resource/languoid/id/nyan1307.bigmap.html
@@ -8660,9 +8342,7 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/banyankole.htm
 [Term]
 id: AfPO:0000493
 name: Nyamwezi
-is_a: AfPO:0000188 ! Eastern African
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000026 ! Country_of_Origin United Republic of Tanzania
 property_value: AfPO:0000089 "Nyamwezi\n5°05'S, 32°57'E\n-5.09, 32.94" xsd:string
 property_value: AfPO:0000223 https://glottolog.org/resource/languoid/id/nyam1276.bigmap.html
 property_value: AfPO:0000230 https://glottolog.org/resource/languoid/id/nyam1276
@@ -8681,7 +8361,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/nyamwezi.html
 id: AfPO:0000494
 name: Pokomo
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000020 ! Country_of_Origin Kenya
 property_value: AfPO:0000089 "Pokomo\n2°19'S, 40°17'E\n-2.32, 40.29" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=pkb
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/poko1261.bigmap.html
@@ -8702,8 +8381,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/pokomo.html
 id: AfPO:0000495
 name: Ndau
 is_a: AfPO:0000342 ! Shona
-relationship: AfPO:0000441 AfPO:0000024 ! Country_of_Origin Mozambique
-relationship: AfPO:0000441 AfPO:0000030 ! Country_of_Origin Zimbabwe
 property_value: AfPO:0000089 "Ndau\n20°07'S, 33°10'E\n-20.12, 33.17" xsd:string
 property_value: AfPO:0000223 https://glottolog.org/resource/languoid/id/ndau1241.bigmap.html
 property_value: AfPO:0000230 https://glottolog.org/resource/languoid/id/ndau1241
@@ -8719,7 +8396,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/ndau.html
 id: AfPO:0000496
 name: Sukuma
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000026 ! Country_of_Origin United Republic of Tanzania
 property_value: AfPO:0000089 "Sukuma\n3°10'S, 32°53'E\n-3.16, 32.88" xsd:string
 property_value: AfPO:0000223 https://glottolog.org/resource/languoid/id/suku1261.bigmap.html
 property_value: AfPO:0000230 https://glottolog.org/resource/languoid/id/suku1261
@@ -8737,7 +8413,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/sukuma.html
 id: AfPO:0000497
 name: Tharaka
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000020 ! Country_of_Origin Kenya
 property_value: AfPO:0000089 "Tharaka\n0°08'S, 38°04'E\n-0.13, 38.07" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=thk
 property_value: AfPO:0000221 "thk" xsd:string
@@ -8824,8 +8499,6 @@ property_value: AfPO:0000567 "hdy" xsd:string
 id: AfPO:0000501
 name: Borana
 is_a: AfPO:0000113 ! Oromo
-relationship: AfPO:0000441 AfPO:0000020 ! Country_of_Origin Kenya
-relationship: AfPO:0000441 AfPO:0000031 ! Country_of_Origin Ethiopia
 property_value: AfPO:0000089 "Borana-Arsi-Guji Oromo\n1°03'N, 37°53'E\n1.06, 37.88" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=gax
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/bora1271.bigmap.html
@@ -8845,8 +8518,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/borana.html
 id: AfPO:0000502
 name: Gabra
 is_a: AfPO:0000113 ! Oromo
-relationship: AfPO:0000441 AfPO:0000020 ! Country_of_Origin Kenya
-relationship: AfPO:0000441 AfPO:0000031 ! Country_of_Origin Ethiopia
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Gabra+people'+OR+'Gabra+tribe'+%29+AND+'Africa'" xsd:anyURI
 property_value: AfPO:0000267 topmenu
 property_value: AfPO:0000450 "Gabraa or Gabbra" xsd:string
@@ -8860,7 +8531,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/gabra.html
 id: AfPO:0000503
 name: Antambahoaka
 is_a: AfPO:0000370 ! Malagasy
-relationship: AfPO:0000441 AfPO:0000018 ! Country_of_Origin Madagascar
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Antambahoaka+people'+OR+'Antambahoaka+tribe'+%29+AND+'Africa'" xsd:anyURI
 property_value: AfPO:0000235 https://en.wikipedia.org/wiki/Antambahoaka
 property_value: AfPO:0000267 topmenu
@@ -8872,7 +8542,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/antambahoaka.h
 id: AfPO:0000504
 name: Antanosy
 is_a: AfPO:0000370 ! Malagasy
-relationship: AfPO:0000441 AfPO:0000018 ! Country_of_Origin Madagascar
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Antanosy+people'+OR+'Antanosy+tribe'+%29+AND+'Africa'" xsd:anyURI
 property_value: AfPO:0000235 Antanosy:people
 property_value: AfPO:0000267 topmenu
@@ -8884,7 +8553,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/antanosy.html
 id: AfPO:0000505
 name: Bezanozano
 is_a: AfPO:0000370 ! Malagasy
-relationship: AfPO:0000441 AfPO:0000018 ! Country_of_Origin Madagascar
 property_value: AfPO:0000230 https://glottolog.org/resource/languoid/id/beza1235
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Bezanozano+people'+OR+'Bezanozano+tribe'+%29+AND+'Africa'" xsd:anyURI
 property_value: AfPO:0000235 https://en.wikipedia.org/wiki/Bezanozano
@@ -8898,7 +8566,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/bezanozano.htm
 id: AfPO:0000506
 name: Mikea
 is_a: AfPO:0000370 ! Malagasy
-relationship: AfPO:0000441 AfPO:0000018 ! Country_of_Origin Madagascar
 property_value: AfPO:0000230 https://glottolog.org/resource/languoid/id/mike1243
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Mikea+people'+OR+'Mikea+tribe'+%29+AND+'Africa'" xsd:anyURI
 property_value: AfPO:0000235 Mikea:people
@@ -8912,7 +8579,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/mikea.html
 id: AfPO:0000507
 name: Sihanaka
 is_a: AfPO:0000370 ! Malagasy
-relationship: AfPO:0000441 AfPO:0000018 ! Country_of_Origin Madagascar
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Sihanaka+people'+OR+'Sihanaka+tribe'+%29+AND+'Madagascar'" xsd:anyURI
 property_value: AfPO:0000235 https://en.wikipedia.org/wiki/Sihanaka
 property_value: AfPO:0000267 topmenu
@@ -8924,7 +8590,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/sihanaka.html
 id: AfPO:0000508
 name: Tanala
 is_a: AfPO:0000370 ! Malagasy
-relationship: AfPO:0000441 AfPO:0000018 ! Country_of_Origin Madagascar
 property_value: AfPO:0000230 https://glottolog.org/resource/languoid/id/tana1285
 property_value: AfPO:0000233 "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Tanala+people'+OR+'Tanala+tribe'+%29+AND+'Africa'" xsd:anyURI
 property_value: AfPO:0000235 https://en.wikipedia.org/wiki/Tanala
@@ -8938,7 +8603,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/tanala.html
 id: AfPO:0000509
 name: Marakwet
 is_a: AfPO:0000199 ! Kalenjin
-relationship: AfPO:0000441 AfPO:0000020 ! Country_of_Origin Kenya
 property_value: AfPO:0000089 "Markweeta\n1°09'N, 35°35'E\n1.15, 35.59" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=enb
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/mark1255.bigmap.html
@@ -8958,7 +8622,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/marakwet.html
 id: AfPO:0000510
 name: Pokot
 is_a: AfPO:0000199 ! Kalenjin
-relationship: AfPO:0000441 AfPO:0000020 ! Country_of_Origin Kenya
 property_value: AfPO:0000089 "Pökoot\n1°34'N, 35°14'E\n1.57, 35.23" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=pko
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/poko1263.bigmap.html
@@ -9074,8 +8737,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/aushi.html
 id: AfPO:0000517
 name: Okavango
 is_a: AfPO:0000326 ! Bantu Southern
-relationship: AfPO:0000441 AfPO:0000048 ! Country_of_Origin Botswana
-relationship: AfPO:0000441 AfPO:0000049 ! Country_of_Origin Namibia
 property_value: AfPO:0000234 https://en.wikipedia.org/wiki/Kavango_–_Southwest_Bantu_languages
 property_value: AfPO:0000235 Kavango:people
 property_value: AfPO:0000450 "vaKavango or haKavango" xsd:string
@@ -9089,10 +8750,7 @@ name: Lozi
 is_a: AfPO:0000343 ! Sotho
 relationship: AfPO:0000441 AfPO:0000019 ! Country_of_Origin Zambia
 relationship: AfPO:0000441 AfPO:0000024 ! Country_of_Origin Mozambique
-relationship: AfPO:0000441 AfPO:0000030 ! Country_of_Origin Zimbabwe
 relationship: AfPO:0000441 AfPO:0000034 ! Country_of_Origin Angola
-relationship: AfPO:0000441 AfPO:0000048 ! Country_of_Origin Botswana
-relationship: AfPO:0000441 AfPO:0000049 ! Country_of_Origin Namibia
 property_value: AfPO:0000089 "Lozi\n17°42'S, 24°44'E\n-17.71, 24.74" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=loz
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/lozi1239.bigmap.html
@@ -9117,7 +8775,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/lozi.html
 id: AfPO:0000519
 name: Damara
 is_a: AfPO:0000333 ! Khoisan South
-relationship: AfPO:0000441 AfPO:0000049 ! Country_of_Origin Namibia
 property_value: AfPO:0000152 "Dama, Daman or Damaqua" xsd:string
 property_value: AfPO:0000152 https://www.nature.com/articles/5201408
 property_value: AfPO:0000235 Damara:people
@@ -9169,8 +8826,6 @@ property_value: AfPO:0000566 "ajab1235" xsd:string
 id: AfPO:0000522
 name: Fante
 is_a: AfPO:0000203 ! Akan
-relationship: AfPO:0000441 AfPO:0000312 ! Country_of_Origin Cote d'Ivoire
-relationship: AfPO:0000441 AfPO:0000314 ! Country_of_Origin Ghana
 relationship: AfPO:0000441 AfPO:0000317 ! Country_of_Origin Liberia
 property_value: AfPO:0000152 https://www.nature.com/articles/5201408
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=fat
@@ -9216,7 +8871,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/annang.html
 id: AfPO:0000524
 name: Baule
 is_a: AfPO:0000203 ! Akan
-relationship: AfPO:0000441 AfPO:0000312 ! Country_of_Origin Cote d'Ivoire
 property_value: AfPO:0000089 "Baoulé\n5°26'N, 4°46'W\n5.43, -4.77" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=bci
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/baou1238.bigmap.html
@@ -9282,8 +8936,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/kombe.html
 id: AfPO:0000527
 name: Luvale
 is_a: AfPO:0000273 ! Bantu Central
-relationship: AfPO:0000441 AfPO:0000019 ! Country_of_Origin Zambia
-relationship: AfPO:0000441 AfPO:0000034 ! Country_of_Origin Angola
 property_value: AfPO:0000235 Luvale:people
 property_value: AfPO:0000450 "Lovale, Balovale, Lubale, as well as Lwena or Luena" xsd:string
 property_value: AfPO:0000565 "Niger-Congo|Bantoid" xsd:string
@@ -9476,7 +9128,6 @@ property_value: AfPO:0000567 "bba" xsd:string
 id: AfPO:0000536
 name: Konkomba
 is_a: AfPO:0000151 ! Gurma
-relationship: AfPO:0000441 AfPO:0000314 ! Country_of_Origin Ghana
 relationship: AfPO:0000441 AfPO:0000324 ! Country_of_Origin Togo
 property_value: AfPO:0000089 "Konkomba\n9°49'N, 0°17'E\n9.82, 0.28" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=xon
@@ -9499,7 +9150,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/konkomba.html
 id: AfPO:0000537
 name: Lilse
 is_a: AfPO:0000151 ! Gurma
-relationship: AfPO:0000441 AfPO:0000310 ! Country_of_Origin Burkina Faso
 property_value: AfPO:0000450 "Lyela" xsd:string
 property_value: AfPO:0000455 https://doi.org/10.1093/molbev/msr291
 property_value: AfPO:0000456 "E_M191*" xsd:string
@@ -9524,9 +9174,7 @@ property_value: AfPO:0000458 "Lyele" xsd:string
 id: AfPO:0000538
 name: Lobi
 is_a: AfPO:0000151 ! Gurma
-relationship: AfPO:0000441 AfPO:0000310 ! Country_of_Origin Burkina Faso
 relationship: AfPO:0000441 AfPO:0000312 ! Country_of_Origin Cote d'Ivoire
-relationship: AfPO:0000441 AfPO:0000314 ! Country_of_Origin Ghana
 property_value: AfPO:0000089 "Lobi\n9°58'N, 3°20'W\n9.96, -3.34" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=lob
 property_value: AfPO:0000223 https://glottolog.org/resource/languoid/id/lobi1245.bigmap.html
@@ -9546,7 +9194,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/lobi.html
 id: AfPO:0000539
 name: Pana
 is_a: AfPO:0000151 ! Gurma
-relationship: AfPO:0000441 AfPO:0000310 ! Country_of_Origin Burkina Faso
 relationship: AfPO:0000441 AfPO:0000318 ! Country_of_Origin Mali
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=pnq
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/pana1295.bigmap.html
@@ -9579,7 +9226,6 @@ property_value: AfPO:0000567 "pnq" xsd:string
 id: AfPO:0000540
 name: Samoya
 is_a: AfPO:0000151 ! Gurma
-relationship: AfPO:0000441 AfPO:0000310 ! Country_of_Origin Burkina Faso
 relationship: AfPO:0000441 AfPO:0000318 ! Country_of_Origin Mali
 property_value: AfPO:0000089 "Kalamsé\n13°37'N, 3°06'W\n13.61, -3.10" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=knz
@@ -9633,7 +9279,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/itsekiri.html
 id: AfPO:0000542
 name: Bandial
 is_a: AfPO:0000205 ! Jola
-relationship: AfPO:0000441 AfPO:0000322 ! Country_of_Origin Senegal
 property_value: AfPO:0000089 "Bandial\n12°32'N, 16°25'W\n12.53, -16.42" xsd:string
 property_value: AfPO:0000221 "bqj" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=bqj
@@ -9654,7 +9299,6 @@ id: AfPO:0000543
 name: Dan
 is_a: AfPO:0000425 ! Mande Western
 relationship: AfPO:0000441 AfPO:0000313 ! Country_of_Origin Gambia
-relationship: AfPO:0000441 AfPO:0000317 ! Country_of_Origin Liberia
 property_value: AfPO:0000089 "Dan\n7°14'N, 8°15'W\n7.23, -8.25" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=dnj
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/dann1241.bigmap.html
@@ -9719,8 +9363,6 @@ property_value: AfPO:0000567 "kri" xsd:string
 id: AfPO:0000546
 name: Krahn
 is_a: AfPO:0000443 ! Kru
-relationship: AfPO:0000441 AfPO:0000312 ! Country_of_Origin Cote d'Ivoire
-relationship: AfPO:0000441 AfPO:0000317 ! Country_of_Origin Liberia
 property_value: AfPO:0000089 "Konobo-Eastern Krahn\nCoordinates  WGS84	5°50'N, 7°51'W\n5.84, -7.85" xsd:string
 property_value: AfPO:0000089 "Western Krahn\n6°09'N, 8°25'W\n6.14, -8.41" xsd:string
 property_value: AfPO:0000221 https://glottolog.org/resource/languoid/id/east2414
@@ -9745,8 +9387,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/krahn.html
 id: AfPO:0000547
 name: Grebo
 is_a: AfPO:0000443 ! Kru
-relationship: AfPO:0000441 AfPO:0000312 ! Country_of_Origin Cote d'Ivoire
-relationship: AfPO:0000441 AfPO:0000317 ! Country_of_Origin Liberia
 property_value: AfPO:0000089 "Barclayville Grebo\n4°41'N, 8°06'W\n4.68, -8.09" xsd:string
 property_value: AfPO:0000089 "Central Grebo\n4°53'N, 7°53'W\n4.88, -7.89" xsd:string
 property_value: AfPO:0000089 "Gboloo Grebo\n4°45'N, 7°40'W\n4.75, -7.67" xsd:string
@@ -9829,7 +9469,6 @@ id: AfPO:0000550
 name: Jakhanke
 is_a: AfPO:0000425 ! Mande Western
 relationship: AfPO:0000441 AfPO:0000313 ! Country_of_Origin Gambia
-relationship: AfPO:0000441 AfPO:0000315 ! Country_of_Origin Guinea
 relationship: AfPO:0000441 AfPO:0000316 ! Country_of_Origin Guinea-Bissau
 relationship: AfPO:0000441 AfPO:0000318 ! Country_of_Origin Mali
 relationship: AfPO:0000441 AfPO:0000322 ! Country_of_Origin Senegal
@@ -9855,7 +9494,6 @@ property_value: AfPO:0000567 "jad" xsd:string
 id: AfPO:0000551
 name: Kono
 is_a: AfPO:0000425 ! Mande Western
-relationship: AfPO:0000441 AfPO:0000312 ! Country_of_Origin Cote d'Ivoire
 relationship: AfPO:0000441 AfPO:0000320 ! Country_of_Origin Nigeria
 relationship: AfPO:0000441 AfPO:0000323 ! Country_of_Origin Sierra Leone
 property_value: AfPO:0000089 "Kono (Sierra Leone)\n8°40'N, 10°55'W\n8.67, -10.92" xsd:string
@@ -9878,9 +9516,6 @@ property_value: AfPO:0000567 "kno" xsd:string
 id: AfPO:0000552
 name: Kpelle
 is_a: AfPO:0000425 ! Mande Western
-relationship: AfPO:0000441 AfPO:0000312 ! Country_of_Origin Cote d'Ivoire
-relationship: AfPO:0000441 AfPO:0000315 ! Country_of_Origin Guinea
-relationship: AfPO:0000441 AfPO:0000317 ! Country_of_Origin Liberia
 property_value: AfPO:0000089 "Guinea Kpelle\n7°56'N, 8°59'W\n7.93, -8.99" xsd:string
 property_value: AfPO:0000089 "Kono (Guinea)\n7°51'N, 8°15'W\n7.85, -8.26" xsd:string
 property_value: AfPO:0000089 "Liberia Kpelle\n6°55'N, 9°58'W\n6.92, -9.96" xsd:string
@@ -9903,7 +9538,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/kpelle.html
 id: AfPO:0000553
 name: Kuranko
 is_a: AfPO:0000425 ! Mande Western
-relationship: AfPO:0000441 AfPO:0000315 ! Country_of_Origin Guinea
 relationship: AfPO:0000441 AfPO:0000323 ! Country_of_Origin Sierra Leone
 property_value: AfPO:0000089 "Kuranko\n9°30'N, 10°37'W\n9.49, -10.61" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=knk
@@ -9925,7 +9559,6 @@ property_value: AfPO:0000567 "knk" xsd:string
 id: AfPO:0000554
 name: Loko
 is_a: AfPO:0000425 ! Mande Western
-relationship: AfPO:0000441 AfPO:0000315 ! Country_of_Origin Guinea
 relationship: AfPO:0000441 AfPO:0000323 ! Country_of_Origin Sierra Leone
 property_value: AfPO:0000089 "Loko\n9°07'N, 12°09'W\n9.12, -12.16" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=lok
@@ -9946,8 +9579,6 @@ property_value: AfPO:0000567 "lok" xsd:string
 id: AfPO:0000555
 name: Mano
 is_a: AfPO:0000425 ! Mande Western
-relationship: AfPO:0000441 AfPO:0000315 ! Country_of_Origin Guinea
-relationship: AfPO:0000441 AfPO:0000317 ! Country_of_Origin Liberia
 property_value: AfPO:0000089 "Mann\n7°03'N, 8°52'W\n7.05, -8.86" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=mev
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/mann1248.bigmap.html
@@ -9969,7 +9600,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/mano.html
 id: AfPO:0000556
 name: Vai
 is_a: AfPO:0000425 ! Mande Western
-relationship: AfPO:0000441 AfPO:0000317 ! Country_of_Origin Liberia
 relationship: AfPO:0000441 AfPO:0000323 ! Country_of_Origin Sierra Leone
 property_value: AfPO:0000089 "Vai\n7°03'N, 11°20'W\n7.05, -11.33" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=vai
@@ -9991,7 +9621,6 @@ property_value: AfPO:0000567 "vai" xsd:string
 id: AfPO:0000557
 name: Yalunka
 is_a: AfPO:0000425 ! Mande Western
-relationship: AfPO:0000441 AfPO:0000315 ! Country_of_Origin Guinea
 relationship: AfPO:0000441 AfPO:0000318 ! Country_of_Origin Mali
 relationship: AfPO:0000441 AfPO:0000322 ! Country_of_Origin Senegal
 relationship: AfPO:0000441 AfPO:0000323 ! Country_of_Origin Sierra Leone
@@ -10127,7 +9756,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/temne.html
 id: AfPO:0000563
 name: Lebu
 is_a: AfPO:0000428 ! Wolof
-relationship: AfPO:0000441 AfPO:0000322 ! Country_of_Origin Senegal
 property_value: AfPO:0000089 "Lebu Wolof\n14°45'N, 17°29'W\n14.75, -17.49" xsd:string
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/lebu1234.bigmap.html
 property_value: AfPO:0000230 http://glottolog.org/resource/languoid/id/lebu1234
@@ -10145,7 +9773,6 @@ property_value: AfPO:0000566 "lebu1234" xsd:string
 id: AfPO:0000564
 name: Nuna
 is_a: AfPO:0000150 ! Gurunsi
-relationship: AfPO:0000441 AfPO:0000310 ! Country_of_Origin Burkina Faso
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/nuni1253.bigmap.html
 property_value: AfPO:0000230 http://glottolog.org/resource/languoid/id/nuni1253
 property_value: AfPO:0000234 Nuni:language
@@ -10175,7 +9802,6 @@ property_value: AfPO:0000567 "Either:\nnuv – Northern Nuni\nnnw – Southern N
 id: AfPO:0000571
 name: Kango
 is_a: AfPO:0000281 ! Pygmy Central
-relationship: AfPO:0000441 AfPO:0000038 ! Country_of_Origin Democratic Republic of the Congo
 property_value: AfPO:0000089 "Kango (Tshopo District)\n1°36'N, 27°01'E\n1.60, 27.02" xsd:string
 property_value: AfPO:0000221 "http://www-01.sil.org/iso639-3/documentation.asp?id=kzy" xsd:string
 property_value: AfPO:0000223 "http://glottolog.org/resource/languoid/id/kang1285.bigmap.html" xsd:string
@@ -10197,7 +9823,6 @@ property_value: AfPO:0000568 "https://www.101lasttribes.com/tribes/kango.html" x
 id: AfPO:0000572
 name: Ewondo
 is_a: AfPO:0000290 ! Beti-Pahuin
-relationship: AfPO:0000441 AfPO:0000033 ! Country_of_Origin Cameroon
 property_value: AfPO:0000089 "Ewondo\n4°13'N, 11°56'E\n4.21, 11.94" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=ewo
 property_value: AfPO:0000223 "https://glottolog.org/resource/languoid/id/ewon1239.bigmap.html" xsd:string
@@ -10269,7 +9894,6 @@ property_value: AfPO:0000568 "https://www.101lasttribes.com/tribes/kissi.html" x
 id: AfPO:0000575
 name: Ngazidja
 is_a: AfPO:0000408 ! Swahili
-relationship: AfPO:0000441 AfPO:0000027 ! Country_of_Origin Comoros
 property_value: AfPO:0000089 "Ngazidja Comorian\n11°37'S, 43°22'E\n-11.61, 43.36" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=zdj
 property_value: AfPO:0000223 "https://glottolog.org/resource/languoid/id/ngaz1238.bigmap.html" xsd:string
@@ -10286,7 +9910,6 @@ property_value: AfPO:0000567 zdj
 id: AfPO:0000576
 name: Maore
 is_a: AfPO:0000408 ! Swahili
-relationship: AfPO:0000441 AfPO:0000027 ! Country_of_Origin Comoros
 property_value: AfPO:0000089 "Maore Comorian\n12°50'S, 45°09'E\n-12.83, 45.15" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=swb
 property_value: AfPO:0000223 "https://glottolog.org/resource/languoid/id/maor1244.bigmap.html" xsd:string
@@ -10303,7 +9926,6 @@ property_value: AfPO:0000567 swb
 id: AfPO:0000577
 name: Mwali
 is_a: AfPO:0000408 ! Swahili
-relationship: AfPO:0000441 AfPO:0000027 ! Country_of_Origin Comoros
 property_value: AfPO:0000089 "Mwali Comorian\n12°19'S, 43°44'E\n-12.32, 43.74" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=wlc
 property_value: AfPO:0000223 "https://glottolog.org/resource/languoid/id/mwal1237.bigmap.html" xsd:string
@@ -10320,7 +9942,6 @@ property_value: AfPO:0000567 wlc
 id: AfPO:0000578
 name: Ndzwani
 is_a: AfPO:0000408 ! Swahili
-relationship: AfPO:0000441 AfPO:0000027 ! Country_of_Origin Comoros
 property_value: AfPO:0000089 "Ndzwani Comorian\n12°13'S, 44°22'E\n-12.21, 44.37" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=zdj
 property_value: AfPO:0000223 "https://glottolog.org/resource/languoid/id/ndzw1235.bigmap.html" xsd:string
@@ -10338,8 +9959,6 @@ property_value: AfPO:0000567 "zdj" xsd:string
 id: AfPO:0000579
 name: Kuria
 is_a: AfPO:0000369 ! Bantu Eastern
-relationship: AfPO:0000441 AfPO:0000020 ! Country_of_Origin Kenya
-relationship: AfPO:0000441 AfPO:0000026 ! Country_of_Origin United Republic of Tanzania
 property_value: AfPO:0000089 "Kuria\n1°30'S, 34°30'E\n-1.51, 34.50" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=kuj
 property_value: AfPO:0000223 http://glottolog.org/resource/languoid/id/kuri1259.bigmap.html
@@ -10360,8 +9979,6 @@ property_value: AfPO:0000568 https://www.101lasttribes.com/tribes/kuria.html
 id: AfPO:0000580
 name: Karonica
 is_a: AfPO:0000205 ! Jola
-relationship: AfPO:0000441 AfPO:0000313 ! Country_of_Origin Gambia
-relationship: AfPO:0000441 AfPO:0000322 ! Country_of_Origin Senegal
 property_value: AfPO:0000089 "Karon\n13°N, 16°44'W\n12.99, -16.74" xsd:string
 property_value: AfPO:0000221 http://www-01.sil.org/iso639-3/documentation.asp?id=krx
 property_value: AfPO:0000223 https://glottolog.org/resource/languoid/id/karo1294.bigmap.html

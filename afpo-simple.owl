@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/afpo.owl#"
-     xml:base="http://purl.obolibrary.org/obo/afpo.owl"
-     xmlns:dce="http://purl.org/dc/elements/1.1/"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/afpo/afpo-simple.owl#"
+     xml:base="http://purl.obolibrary.org/obo/afpo/afpo-simple.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -9,29 +8,29 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:language="http://webprotege.stanford.edu/project/AfPO#language:"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:population="http://webprotege.stanford.edu/project/AfPO#population:">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/afpo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/afpo/releases/2023-10-30/afpo.owl"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-5868-4204"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8351-264X"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8801-5781"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8862-1706"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0002-0957-5877"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0002-3387-6493"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0002-4848-3334"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0002-5468-8678"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0002-6221-2661"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0002-6523-4866"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0002-7073-9172"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-1058-2668"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4905-0941"/>
-        <dcterms:description>None</dcterms:description>
-        <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <dcterms:title>African Population Ontology</dcterms:title>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/afpo/afpo-simple.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/afpo/releases/2023-10-30/afpo-simple.owl"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-5868-4204"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-8351-264X"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-8801-5781"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-8862-1706"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0957-5877"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-3387-6493"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-4848-3334"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5468-8678"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-6221-2661"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-6523-4866"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7073-9172"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-1058-2668"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4905-0941"/>
+        <terms:description>None</terms:description>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <terms:title>African Population Ontology</terms:title>
         <rdfs:comment>Aymen Ben Chaalia and Hamza Dallali are also contributors. However they don&apos;t have ORCIDs yet. H3Africa Phenotype Harmonisation working group members are also contributors.</rdfs:comment>
         <owl:versionInfo>2023-10-30</owl:versionInfo>
     </owl:Ontology>
@@ -52,7 +51,7 @@
     <!-- http://purl.obolibrary.org/obo/AfPO_0000089 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/AfPO_0000089">
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-01T13:49:58.120891Z</oboInOwl:creation_date>
         <rdfs:label>language:glottolog:wgs84</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/project/AfPO#language:crossref"/>
@@ -71,7 +70,7 @@
     <!-- http://purl.obolibrary.org/obo/AfPO_0000152 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/AfPO_0000152">
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-31T21:33:12.445061Z</oboInOwl:creation_date>
         <rdfs:label>population:genetic:study</rdfs:label>
     </owl:AnnotationProperty>
@@ -81,7 +80,7 @@
     <!-- http://purl.obolibrary.org/obo/AfPO_0000221 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/AfPO_0000221">
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-05T14:59:11.879423Z</oboInOwl:creation_date>
         <rdfs:label>language:ISO639-3:description</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/project/AfPO#language:crossref"/>
@@ -92,7 +91,7 @@
     <!-- http://purl.obolibrary.org/obo/AfPO_0000222 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/AfPO_0000222">
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-02T07:50:36.252395Z</oboInOwl:creation_date>
         <rdfs:label>sub:groups</rdfs:label>
     </owl:AnnotationProperty>
@@ -102,7 +101,7 @@
     <!-- http://purl.obolibrary.org/obo/AfPO_0000223 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/AfPO_0000223">
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-05T12:10:38.722308Z</oboInOwl:creation_date>
         <rdfs:label>language:glottolog:bigmap</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/project/AfPO#language:crossref"/>
@@ -113,7 +112,7 @@
     <!-- http://purl.obolibrary.org/obo/AfPO_0000226 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/AfPO_0000226">
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-03T17:56:59.458188Z</oboInOwl:creation_date>
         <rdfs:label>population:microbiome:study</rdfs:label>
     </owl:AnnotationProperty>
@@ -123,7 +122,7 @@
     <!-- http://purl.obolibrary.org/obo/AfPO_0000230 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/AfPO_0000230">
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-05T15:00:08.140413Z</oboInOwl:creation_date>
         <rdfs:label>language:glottolog:description</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/project/AfPO#language:crossref"/>
@@ -134,7 +133,7 @@
     <!-- http://purl.obolibrary.org/obo/AfPO_0000232 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/AfPO_0000232">
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-09T06:26:03.877868Z</oboInOwl:creation_date>
         <rdfs:label>population:joshuaproject:description</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/project/AfPO#population:crossref"/>
@@ -145,7 +144,7 @@
     <!-- http://purl.obolibrary.org/obo/AfPO_0000233 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/AfPO_0000233">
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-05T21:34:42.916144Z</oboInOwl:creation_date>
         <rdfs:label>population:googlebook</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/project/AfPO#population:crossref"/>
@@ -156,7 +155,7 @@
     <!-- http://purl.obolibrary.org/obo/AfPO_0000234 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/AfPO_0000234">
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-08T12:47:14.905754Z</oboInOwl:creation_date>
         <rdfs:label>language:wikipedia:description</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/project/AfPO#language:crossref"/>
@@ -167,7 +166,7 @@
     <!-- http://purl.obolibrary.org/obo/AfPO_0000235 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/AfPO_0000235">
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-08T12:47:46.800894Z</oboInOwl:creation_date>
         <rdfs:label>population:wikipedia:description</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/project/AfPO#population:crossref"/>
@@ -178,7 +177,7 @@
     <!-- http://purl.obolibrary.org/obo/AfPO_0000246 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/AfPO_0000246">
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-15T14:04:34.969224Z</oboInOwl:creation_date>
         <rdfs:label>population:distribution</rdfs:label>
     </owl:AnnotationProperty>
@@ -188,7 +187,7 @@
     <!-- http://purl.obolibrary.org/obo/AfPO_0000267 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/AfPO_0000267">
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-07-23T13:41:52.473244Z</oboInOwl:creation_date>
         <rdfs:label>population:peoplegroups:description</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/project/AfPO#population:crossref"/>
@@ -199,7 +198,7 @@
     <!-- http://purl.obolibrary.org/obo/AfPO_0000272 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/AfPO_0000272">
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-07-29T19:44:53.365415Z</oboInOwl:creation_date>
         <rdfs:label>number:populations</rdfs:label>
     </owl:AnnotationProperty>
@@ -849,10 +848,10 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:AfPO_0000439>United Kingdom</obo:AfPO_0000439>
+        <obo:AfPO_0000452 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93920</obo:AfPO_0000452>
         <obo:AfPO_0000452>English</obo:AfPO_0000452>
         <obo:AfPO_0000452>French</obo:AfPO_0000452>
         <obo:AfPO_0000452>Seychellois Creole</obo:AfPO_0000452>
-        <obo:AfPO_0000452 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93920</obo:AfPO_0000452>
         <obo:AfPO_0000459>0.93 millions</obo:AfPO_0000459>
         <rdfs:label>Seychelles</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://unstats.un.org/unsd/methods/m49/m49alpha.htm"/>
@@ -4226,7 +4225,6 @@ R1b</obo:AfPO_0000456>
     <!-- http://purl.obolibrary.org/obo/AfPO_0000053 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AfPO_0000053">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:label>Continent</rdfs:label>
     </owl:Class>
     
@@ -5944,7 +5942,7 @@ E1b1b</obo:AfPO_0000456>
         <obo:AfPO_0000234 rdf:resource="https://en.wikipedia.org/wiki/Buli_language_(Ghana)"/>
         <obo:AfPO_0000450>Builsa, Kajaga, Bulisa</obo:AfPO_0000450>
         <obo:AfPO_0000458>Buli</obo:AfPO_0000458>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-01T12:51:52.493403Z</oboInOwl:creation_date>
         <rdfs:label>Bulsa</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://buluk.de/new/?page_id=2376"/>
@@ -6157,7 +6155,6 @@ R1b</obo:AfPO_0000456>
     <!-- http://purl.obolibrary.org/obo/AfPO_0000146 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AfPO_0000146">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:label>Population</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://en.wikipedia.org/wiki/List_of_ethnic_groups_of_Africa#Ethnic_groups_by_region"/>
     </owl:Class>
@@ -6186,7 +6183,7 @@ R1b</obo:AfPO_0000456>
         <obo:AfPO_0000458>Dagbani</obo:AfPO_0000458>
         <obo:AfPO_0000458>Hausa</obo:AfPO_0000458>
         <obo:AfPO_0000459>0.93 millions</obo:AfPO_0000459>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-01T13:50:22.535335Z</oboInOwl:creation_date>
         <rdfs:label>Dagomba</rdfs:label>
     </owl:Class>
@@ -6211,7 +6208,7 @@ R1b</obo:AfPO_0000456>
         <obo:AfPO_0000458>Kusasi</obo:AfPO_0000458>
         <obo:AfPO_0000565>Niger-Congo|Atlantic-Congo|Volta-Congo|North|Gur|Central|Northern|Oti-Volta|Western|Southeast</obo:AfPO_0000565>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/kusasi.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-01T13:54:06.644543Z</oboInOwl:creation_date>
         <rdfs:label>Kusasi</rdfs:label>
     </owl:Class>
@@ -6235,7 +6232,7 @@ R1b</obo:AfPO_0000456>
         <obo:AfPO_0000458>Frafra</obo:AfPO_0000458>
         <obo:AfPO_0000459>0.3 millions</obo:AfPO_0000459>
         <obo:AfPO_0000459>Niger-Congo|Atlantic-Congo|Volta-Congo|North|Gur|Central|Northern|Oti-Volta|Western|Northwest</obo:AfPO_0000459>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-01T14:08:04.310248Z</oboInOwl:creation_date>
         <rdfs:label>Frafra</rdfs:label>
     </owl:Class>
@@ -6330,7 +6327,7 @@ R1b</obo:AfPO_0000456>
         <obo:AfPO_0000459>0.8 millions</obo:AfPO_0000459>
         <obo:AfPO_0000566>grus1239</obo:AfPO_0000566>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/gurunsi.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-03T04:48:48.578263Z</oboInOwl:creation_date>
         <rdfs:label>Gurunsi</rdfs:label>
     </owl:Class>
@@ -6374,7 +6371,7 @@ R1b</obo:AfPO_0000456>
         <obo:AfPO_0000458>Gourmanchéma</obo:AfPO_0000458>
         <obo:AfPO_0000459>3.3 millions</obo:AfPO_0000459>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/gurma.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-03T05:33:33.758221Z</oboInOwl:creation_date>
         <rdfs:label>Gurma</rdfs:label>
     </owl:Class>
@@ -6411,7 +6408,7 @@ R1b</obo:AfPO_0000456>
         <obo:AfPO_0000458>Dagaare</obo:AfPO_0000458>
         <obo:AfPO_0000459>1 million</obo:AfPO_0000459>
         <obo:AfPO_0000459>Niger-Congo|Atlantic-Congo|Volta-Congo|North|Gur|Central|Northern|Oti-Volta|Western|Northwest|Dagaari-Birifor|Dagaari</obo:AfPO_0000459>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-03T05:46:31.037467Z</oboInOwl:creation_date>
         <rdfs:label>Dagaaba</rdfs:label>
     </owl:Class>
@@ -6453,7 +6450,7 @@ R1b</obo:AfPO_0000456>
         <obo:AfPO_0000459>6.8 millions</obo:AfPO_0000459>
         <obo:AfPO_0000565>Niger-Congo|Mande|Western|Central-Southwestern|Central|Manding-Jogo|Manding-Vai|Manding-Mokole|Manding|Manding-East|Northeastern Manding</obo:AfPO_0000565>
         <obo:AfPO_0000567>dyu</obo:AfPO_0000567>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-03T06:20:50.626145Z</oboInOwl:creation_date>
         <rdfs:label>Dyula</rdfs:label>
     </owl:Class>
@@ -6475,7 +6472,7 @@ R1b</obo:AfPO_0000456>
         <obo:AfPO_0000267 rdf:resource="https://www.peoplegroups.org/explore/ClusterDetails.aspx?rop2=C0053"/>
         <obo:AfPO_0000458>Creole</obo:AfPO_0000458>
         <obo:AfPO_0000459>1.2 millions</obo:AfPO_0000459>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-04T10:18:49.65749Z</oboInOwl:creation_date>
         <rdfs:label>Bihari Mauritian</rdfs:label>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.google.com/search?tbm=bks&amp;hl=fr&amp;q=%28+&apos;Bihari+people&apos;+AND+&apos;Mauritius&apos;+%29</rdfs:seeAlso>
@@ -6506,7 +6503,7 @@ R1b</obo:AfPO_0000456>
         <obo:AfPO_0000453>Mauritian Creole or Morisien</obo:AfPO_0000453>
         <obo:AfPO_0000458>Morisyen</obo:AfPO_0000458>
         <obo:AfPO_0000567>mfe</obo:AfPO_0000567>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-04T10:49:26.621045Z</oboInOwl:creation_date>
         <rdfs:label>Mauritian Creole</rdfs:label>
     </owl:Class>
@@ -6535,7 +6532,7 @@ R1b</obo:AfPO_0000456>
         <obo:AfPO_0000458>Morisyen</obo:AfPO_0000458>
         <obo:AfPO_0000458>Tamil</obo:AfPO_0000458>
         <obo:AfPO_0000459>0.055 millions</obo:AfPO_0000459>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-04T10:56:12.352811Z</oboInOwl:creation_date>
         <rdfs:label>Tamil</rdfs:label>
     </owl:Class>
@@ -6549,7 +6546,7 @@ R1b</obo:AfPO_0000456>
         <obo:AfPO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.google.com/search?tbm=bks&amp;hl=fr&amp;q=%28+&apos;Nankani+tribe&apos;+OR+&apos;Nankani+people&apos;%29+AND+%28+&apos;Africa&apos;%29</obo:AfPO_0000233>
         <obo:AfPO_0000450>Nankana</obo:AfPO_0000450>
         <obo:AfPO_0000458>Frafra</obo:AfPO_0000458>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-16T16:16:23.46195Z</oboInOwl:creation_date>
         <rdfs:label>Nankani</rdfs:label>
     </owl:Class>
@@ -6572,7 +6569,7 @@ R1b</obo:AfPO_0000456>
         <obo:AfPO_0000453>Creole, Ilois, Kreol, Kreol Seselwa, Seselwa</obo:AfPO_0000453>
         <obo:AfPO_0000566>sese1246</obo:AfPO_0000566>
         <obo:AfPO_0000567>crs</obo:AfPO_0000567>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-25T07:02:54.916089Z</oboInOwl:creation_date>
         <rdfs:label>Seychellois</rdfs:label>
     </owl:Class>
@@ -6597,7 +6594,7 @@ R1b</obo:AfPO_0000456>
         <obo:AfPO_0000458>Afrikaans</obo:AfPO_0000458>
         <obo:AfPO_0000458>Khoisan</obo:AfPO_0000458>
         <obo:AfPO_0000459>0.4 million</obo:AfPO_0000459>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-25T11:52:32.561065Z</oboInOwl:creation_date>
         <rdfs:label>Khoisan Eastern</rdfs:label>
     </owl:Class>
@@ -6611,7 +6608,7 @@ R1b</obo:AfPO_0000456>
         <obo:AfPO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.google.com/search?tbm=bks&amp;hl=fr&amp;q=%28+&apos;Semites&apos;+OR+&apos;Semitic+people&apos;+OR+&apos;Semitic+tribe&apos;+%29+AND+&apos;Africa&apos;</obo:AfPO_0000233>
         <obo:AfPO_0000235 rdf:resource="https://en.wikipedia.org/wiki/Semitic_people"/>
         <obo:AfPO_0000267 rdf:resource="https://www.peoplegroups.org/explore/ClusterDetails.aspx?rop2=C0068"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-25T12:03:27.527948Z</oboInOwl:creation_date>
         <rdfs:label>Semitic Eastern</rdfs:label>
     </owl:Class>
@@ -6626,7 +6623,7 @@ R1b</obo:AfPO_0000456>
         <obo:AfPO_0000235 rdf:resource="https://en.wikipedia.org/wiki/Semitic_people"/>
         <obo:AfPO_0000267 rdf:resource="https://www.peoplegroups.org/explore/ClusterDetails.aspx?rop2=C0068"/>
         <obo:AfPO_0000458>Arabic based</obo:AfPO_0000458>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-25T12:04:27.169602Z</oboInOwl:creation_date>
         <rdfs:label>Semite Northern</rdfs:label>
     </owl:Class>
@@ -6645,7 +6642,7 @@ R1b</obo:AfPO_0000456>
         </rdfs:subClassOf>
         <obo:AfPO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.google.com/search?tbm=bks&amp;hl=fr&amp;q=%28+&apos;Semites&apos;+OR+&apos;Semitic+people&apos;+OR+&apos;Semitic+tribe&apos;+%29+AND+&apos;Africa&apos;</obo:AfPO_0000233>
         <obo:AfPO_0000235 rdf:resource="https://en.wikipedia.org/wiki/Semitic_people"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-25T12:10:22.843511Z</oboInOwl:creation_date>
         <rdfs:label>Semite Central</rdfs:label>
     </owl:Class>
@@ -6693,7 +6690,7 @@ R1b</obo:AfPO_0000456>
         <obo:AfPO_0000267 rdf:resource="https://www.peoplegroups.org/explore/ClusterDetails.aspx?rop2=C0184"/>
         <obo:AfPO_0000455 rdf:resource="https://doi.org/10.1038/srep12526"/>
         <obo:AfPO_0000456>L2</obo:AfPO_0000456>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-25T12:59:23.488594Z</oboInOwl:creation_date>
         <rdfs:label>Pygmy Eastern</rdfs:label>
     </owl:Class>
@@ -6706,7 +6703,7 @@ R1b</obo:AfPO_0000456>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AfPO_0000146"/>
         <obo:AfPO_0000272>94 populations</obo:AfPO_0000272>
         <obo:IAO_0000115>People living in: Burundi OR Comoros OR Djibouti OR Eritrea OR Ethiopia OR Kenya OR Madagascar OR Malawi OR Mauritius OR Mayotte OR Mozambique OR Rwanda OR Réunion OR Seychelles OR Somalia OR South Sudan OR Sudan OR Uganda OR United Republic of Tanzania OR Zimbabwe</obo:IAO_0000115>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-25T14:14:55.213279Z</oboInOwl:creation_date>
         <rdfs:label>Eastern African</rdfs:label>
     </owl:Class>
@@ -6726,7 +6723,7 @@ R1b</obo:AfPO_0000456>
         <obo:AfPO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.google.com/search?tbm=bks&amp;hl=fr&amp;q=&apos;Berber+people&apos;+OR+&apos;Berber+tribe&apos;+AND+&apos;North+Africa&apos;</obo:AfPO_0000233>
         <obo:AfPO_0000235 rdf:resource="https://en.wikipedia.org/wiki/Berbers"/>
         <obo:AfPO_0000458>Berber</obo:AfPO_0000458>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-25T15:51:44.708742Z</oboInOwl:creation_date>
         <rdfs:label>Berber Western</rdfs:label>
     </owl:Class>
@@ -6812,7 +6809,7 @@ R1b</obo:AfPO_0000456>
         <obo:AfPO_0000567>nub</obo:AfPO_0000567>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/nubi.html"/>
         <obo:IAO_0000115>&apos;The Nubians are known as people of the Nile and are located between Egypt and northern Sudan.&apos; taken from: Culture and Customs of Sudan. Written by De Kwame Essien, Toyin Falola Ph.D.</obo:IAO_0000115>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-26T10:54:46.784167Z</oboInOwl:creation_date>
         <rdfs:label>Nubian Eastern</rdfs:label>
     </owl:Class>
@@ -6838,7 +6835,7 @@ R1b</obo:AfPO_0000456>
         <obo:AfPO_0000459>0.050 million</obo:AfPO_0000459>
         <obo:AfPO_0000459>Nilo-Saharan|Satellite-Core|Core|Eastern Sudanic|Northern|Nubian|Central</obo:AfPO_0000459>
         <obo:AfPO_0000567>xnz</obo:AfPO_0000567>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-26T11:27:52.848591Z</oboInOwl:creation_date>
         <rdfs:label>Mattokki</rdfs:label>
     </owl:Class>
@@ -6908,7 +6905,7 @@ R1b</obo:AfPO_0000456>
         <obo:AfPO_0000459>1.5 millions</obo:AfPO_0000459>
         <obo:AfPO_0000565>Niger-Congo|Atlantic-Congo|Volta-Congo|North|Adamawa-Ubangi|Ubangi</obo:AfPO_0000565>
         <obo:AfPO_0000567>bad</obo:AfPO_0000567>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-26T15:20:19.108269Z</oboInOwl:creation_date>
         <rdfs:label>Banda</rdfs:label>
     </owl:Class>
@@ -6928,7 +6925,7 @@ R1b</obo:AfPO_0000456>
         <obo:AfPO_0000235 rdf:resource="https://en.wikipedia.org/wiki/Mahas"/>
         <obo:AfPO_0000458>Mahas</obo:AfPO_0000458>
         <obo:AfPO_0000458>Sudanese Arabic</obo:AfPO_0000458>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-31T21:37:27.277315Z</oboInOwl:creation_date>
         <rdfs:label>Mahas</rdfs:label>
     </owl:Class>
@@ -6968,7 +6965,7 @@ B</obo:AfPO_0000456>
         <obo:AfPO_0000459>Nilo-Saharan, Luo, River-Lake</obo:AfPO_0000459>
         <obo:AfPO_0000567>luo</obo:AfPO_0000567>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/luo.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-27T09:12:10.089241Z</oboInOwl:creation_date>
         <rdfs:label>Luo</rdfs:label>
     </owl:Class>
@@ -7005,7 +7002,7 @@ B</obo:AfPO_0000456>
         <obo:AfPO_0000565>Nilo-Saharan|Satellite-Core|Core|Eastern|Sudanic	Southern|Nilotic|Southern</obo:AfPO_0000565>
         <obo:AfPO_0000567>kln</obo:AfPO_0000567>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/kalenjin.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-27T13:05:32.408569Z</oboInOwl:creation_date>
         <rdfs:label>Kalenjin</rdfs:label>
     </owl:Class>
@@ -7027,7 +7024,7 @@ B</obo:AfPO_0000456>
         <obo:AfPO_0000234 rdf:resource="https://en.wikipedia.org/wiki/Classification_of_Pygmy_languages"/>
         <obo:AfPO_0000235 rdf:resource="https://en.wikipedia.org/wiki/Pygmy_peoples"/>
         <obo:AfPO_0000267 rdf:resource="https://www.peoplegroups.org/explore/ClusterDetails.aspx?rop2=C0184"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-27T13:31:44.870658Z</oboInOwl:creation_date>
         <rdfs:label>Pygmy Southern</rdfs:label>
     </owl:Class>
@@ -7105,7 +7102,7 @@ B</obo:AfPO_0000456>
         <obo:AfPO_0000458>Senufo</obo:AfPO_0000458>
         <obo:AfPO_0000459>2 millions</obo:AfPO_0000459>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/senufo.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-29T02:28:20.723261Z</oboInOwl:creation_date>
         <rdfs:label>Senufo</rdfs:label>
     </owl:Class>
@@ -7159,7 +7156,7 @@ fat – Fante
 twi – Twi
 wss – Wasa</obo:AfPO_0000567>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/akan.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-28T05:01:56.405941Z</oboInOwl:creation_date>
         <rdfs:label>Akan</rdfs:label>
     </owl:Class>
@@ -7192,7 +7189,7 @@ wss – Wasa</obo:AfPO_0000567>
         <obo:AfPO_0000458>Tebu</obo:AfPO_0000458>
         <obo:AfPO_0000459>Nilo-Saharan</obo:AfPO_0000459>
         <obo:AfPO_0000567>dzg</obo:AfPO_0000567>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-01T06:53:51.468116Z</oboInOwl:creation_date>
         <rdfs:label>Daza</rdfs:label>
     </owl:Class>
@@ -7268,7 +7265,7 @@ wss – Wasa</obo:AfPO_0000567>
         <obo:AfPO_0000459>0.5 millions</obo:AfPO_0000459>
         <obo:AfPO_0000566>jola1264</obo:AfPO_0000566>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/jola.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-28T07:37:24.322962Z</oboInOwl:creation_date>
         <rdfs:label>Jola</rdfs:label>
     </owl:Class>
@@ -7325,7 +7322,7 @@ wss – Wasa</obo:AfPO_0000567>
         <obo:AfPO_0000566>song1307</obo:AfPO_0000566>
         <obo:AfPO_0000567>son</obo:AfPO_0000567>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/songhai.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-29T02:47:13.838764Z</oboInOwl:creation_date>
         <rdfs:label>Songhai</rdfs:label>
     </owl:Class>
@@ -7361,7 +7358,7 @@ wss – Wasa</obo:AfPO_0000567>
         <obo:AfPO_0000566>kiny1244</obo:AfPO_0000566>
         <obo:AfPO_0000567>kin</obo:AfPO_0000567>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/banyarwanda.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-30T16:04:27.686862Z</oboInOwl:creation_date>
         <rdfs:label>Banyarwanda</rdfs:label>
     </owl:Class>
@@ -7393,7 +7390,7 @@ wss – Wasa</obo:AfPO_0000567>
         <obo:AfPO_0000459>0.462 million</obo:AfPO_0000459>
         <obo:AfPO_0000565>Afro-Asiatic|Omotic|South|Mao|Gonga|South|Ometo|West</obo:AfPO_0000565>
         <obo:AfPO_0000567>aiw</obo:AfPO_0000567>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-31T16:41:40.772779Z</oboInOwl:creation_date>
         <rdfs:label>Ari</rdfs:label>
     </owl:Class>
@@ -7417,7 +7414,7 @@ wss – Wasa</obo:AfPO_0000567>
         <obo:AfPO_0000450>Gaalien, Jalayiin, Jaaliyin, Ja&apos;aliin, Ja&apos;aliya, Ja&apos;aliyin, Ja&apos;al, or Ja&apos;ali</obo:AfPO_0000450>
         <obo:AfPO_0000458>Arabic based</obo:AfPO_0000458>
         <obo:AfPO_0000459>4 millions</obo:AfPO_0000459>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-31T17:26:33.451053Z</oboInOwl:creation_date>
         <rdfs:label>Gaaliin</rdfs:label>
     </owl:Class>
@@ -7433,7 +7430,7 @@ wss – Wasa</obo:AfPO_0000567>
         <obo:AfPO_0000235 rdf:resource="https://en.wikipedia.org/wiki/Shaigiya_tribe"/>
         <obo:AfPO_0000450>Shaiqiya, Shaigia</obo:AfPO_0000450>
         <obo:AfPO_0000458>Arabic based</obo:AfPO_0000458>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-31T17:33:30.7911Z</oboInOwl:creation_date>
         <rdfs:label>Shaigiya</rdfs:label>
     </owl:Class>
@@ -7449,7 +7446,7 @@ wss – Wasa</obo:AfPO_0000567>
         <obo:AfPO_0000235 rdf:resource="https://en.wikipedia.org/wiki/Messiria_tribe"/>
         <obo:AfPO_0000450>Misseriya</obo:AfPO_0000450>
         <obo:AfPO_0000458>Chadian Arabic</obo:AfPO_0000458>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-31T17:42:48.180393Z</oboInOwl:creation_date>
         <rdfs:label>Messiria</rdfs:label>
     </owl:Class>
@@ -7470,7 +7467,7 @@ wss – Wasa</obo:AfPO_0000567>
         <obo:AfPO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.google.com/search?tbm=bks&amp;hl=fr&amp;q=%28+&apos;Hadendoa+people&apos;+OR+&apos;Hadendoa+tribe&apos;+%29+AND+&apos;Africa&apos;</obo:AfPO_0000233>
         <obo:AfPO_0000235 rdf:resource="https://en.wikipedia.org/wiki/Hadendoa"/>
         <obo:AfPO_0000458>Beja</obo:AfPO_0000458>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-31T17:47:15.312628Z</oboInOwl:creation_date>
         <rdfs:label>Hadendoa</rdfs:label>
     </owl:Class>
@@ -7484,7 +7481,7 @@ wss – Wasa</obo:AfPO_0000567>
         <obo:AfPO_0000152 rdf:resource="https://doi.org/10.1186/2041-2223-2-12"/>
         <obo:AfPO_0000152 rdf:resource="https://doi.org/10.1371/journal.pgen.1006976"/>
         <obo:AfPO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.google.com/search?tbm=bks&amp;hl=fr&amp;q=&apos;Halfawieen&apos;+AND+%28&apos;Tribe&apos;+OR+&apos;People&apos;%29+AND+&apos;Sudan&apos;</obo:AfPO_0000233>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-31T21:00:45.972772Z</oboInOwl:creation_date>
         <rdfs:label>Halfawieen</rdfs:label>
     </owl:Class>
@@ -7515,7 +7512,7 @@ wss – Wasa</obo:AfPO_0000567>
         <obo:AfPO_0000567>apd</obo:AfPO_0000567>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/nuba.html"/>
         <obo:IAO_0000115>&apos;The Nuba trace their geographical roots to the area around the Nuba mountains, the uppermost regions around the Ingessana hills and communities close to the Red Sea.&apos; taken from: Culture and Customs of Sudan. Written by De Kwame Essien, Toyin Falola Ph.D.</obo:IAO_0000115>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-05-31T21:09:10.899867Z</oboInOwl:creation_date>
         <rdfs:label>Nuba</rdfs:label>
     </owl:Class>
@@ -7546,7 +7543,7 @@ wss – Wasa</obo:AfPO_0000567>
         <obo:AfPO_0000459>0.57 million</obo:AfPO_0000459>
         <obo:AfPO_0000459>Afro-Asiatic|Semitic|Central|South|Arabic|Mandaic|Northwestern|West</obo:AfPO_0000459>
         <obo:AfPO_0000567>mey</obo:AfPO_0000567>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-01T10:21:54.128576Z</oboInOwl:creation_date>
         <rdfs:label>Sahrawi</rdfs:label>
     </owl:Class>
@@ -7577,7 +7574,7 @@ wss – Wasa</obo:AfPO_0000567>
         <obo:AfPO_0000459>0.250 million</obo:AfPO_0000459>
         <obo:AfPO_0000459>Niger-Congo|Atlantic-Congo|Volta-Congo|Benue-Congo|Bantoid|Southern|Jarawan|Nigerian</obo:AfPO_0000459>
         <obo:AfPO_0000567>jar</obo:AfPO_0000567>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-03T17:26:34.951643Z</oboInOwl:creation_date>
         <rdfs:label>Jarawa</rdfs:label>
     </owl:Class>
@@ -7614,7 +7611,7 @@ wss – Wasa</obo:AfPO_0000567>
         <obo:AfPO_0000459>1300 persons</obo:AfPO_0000459>
         <obo:AfPO_0000459>Language Isolate</obo:AfPO_0000459>
         <obo:AfPO_0000567>hts</obo:AfPO_0000567>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-03T17:49:44.168715Z</oboInOwl:creation_date>
         <rdfs:label>Hadza</rdfs:label>
     </owl:Class>
@@ -7664,7 +7661,7 @@ wss – Wasa</obo:AfPO_0000567>
         <obo:AfPO_0000565>Niger-Congo|Atlantic-Congo|Atlantic|Northern|Senegambian|Serer|Wolof|Western|Jola-Kasa</obo:AfPO_0000565>
         <obo:AfPO_0000567>srr</obo:AfPO_0000567>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/serer.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-03T18:24:48.049222Z</oboInOwl:creation_date>
         <rdfs:label>Serer</rdfs:label>
     </owl:Class>
@@ -7699,7 +7696,7 @@ wss – Wasa</obo:AfPO_0000567>
         <obo:AfPO_0000566>mand1419</obo:AfPO_0000566>
         <obo:AfPO_0000567>mfv</obo:AfPO_0000567>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/manjak.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-03T18:51:10.709432Z</oboInOwl:creation_date>
         <rdfs:label>Manjak</rdfs:label>
     </owl:Class>
@@ -7752,7 +7749,7 @@ wss – Wasa</obo:AfPO_0000567>
         <obo:AfPO_0000567>ble – Balanta-Kentohe
 bjt – Balanta-Ganja</obo:AfPO_0000567>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/balanta.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-04T05:19:21.644555Z</oboInOwl:creation_date>
         <rdfs:label>Balanta</rdfs:label>
     </owl:Class>
@@ -7789,7 +7786,7 @@ V</obo:AfPO_0000457>
         <obo:AfPO_0000458>Mozabite</obo:AfPO_0000458>
         <obo:AfPO_0000459>0.150 million</obo:AfPO_0000459>
         <obo:AfPO_0000567>mzb</obo:AfPO_0000567>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-08T14:35:10.632831Z</oboInOwl:creation_date>
         <rdfs:label>Mozabite</rdfs:label>
     </owl:Class>
@@ -7828,7 +7825,7 @@ V</obo:AfPO_0000457>
         <obo:AfPO_0000566>ngon1269</obo:AfPO_0000566>
         <obo:AfPO_0000567>ngo</obo:AfPO_0000567>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/ngoni.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-10T06:52:48.876474Z</oboInOwl:creation_date>
         <rdfs:label>Ngoni</rdfs:label>
     </owl:Class>
@@ -7858,7 +7855,7 @@ V</obo:AfPO_0000457>
         <obo:AfPO_0000267 rdf:resource="https://www.peoplegroups.org/explore/GroupDetails.aspx?peid=15387"/>
         <obo:AfPO_0000458>Lomwe</obo:AfPO_0000458>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/lomwe.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-10T06:58:43.975622Z</oboInOwl:creation_date>
         <rdfs:label>Lomwe</rdfs:label>
     </owl:Class>
@@ -7886,7 +7883,7 @@ V</obo:AfPO_0000457>
         <obo:AfPO_0000566>yaoo1241</obo:AfPO_0000566>
         <obo:AfPO_0000567>yao</obo:AfPO_0000567>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/yao.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-10T14:42:06.702436Z</oboInOwl:creation_date>
         <rdfs:label>Yao</rdfs:label>
     </owl:Class>
@@ -7904,7 +7901,7 @@ V</obo:AfPO_0000457>
         <obo:AfPO_0000459>2.486 millions</obo:AfPO_0000459>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/maravi.html"/>
         <obo:IAO_0000115>the people of the lake</obo:IAO_0000115>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-10T15:03:41.125728Z</oboInOwl:creation_date>
         <rdfs:label>Mang&apos;anja</rdfs:label>
     </owl:Class>
@@ -7950,7 +7947,7 @@ seh – Mozambiquean Sena
 swk – Malawian Sena
 bwg – Barwe</obo:AfPO_0000567>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/sena.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-11T07:17:12.674263Z</oboInOwl:creation_date>
         <rdfs:label>Sena</rdfs:label>
     </owl:Class>
@@ -7981,7 +7978,7 @@ bwg – Barwe</obo:AfPO_0000567>
         <obo:AfPO_0000458>Bongo</obo:AfPO_0000458>
         <obo:AfPO_0000459>Nilo-Saharan|Satellite-Core|Satellites|Central Sudanic|West|Bongo-Bagirmi|Bongo-Baka|Bongo|Kacipo-Balesi|Tennet|Luo|Lango-Acholi</obo:AfPO_0000459>
         <obo:AfPO_0000567>bot</obo:AfPO_0000567>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-12T14:07:28.678709Z</oboInOwl:creation_date>
         <rdfs:label>Bongo</rdfs:label>
     </owl:Class>
@@ -8004,7 +8001,7 @@ bwg – Barwe</obo:AfPO_0000567>
         <obo:AfPO_0000450>&apos;&apos;Chipeta&apos;, the people of grassland&apos; from &apos;A History of Malawi, 1859-1966&apos; BY De John McCracken;</obo:AfPO_0000450>
         <obo:AfPO_0000459>Niger-Congo|Atlantic-Congo|Volta-Congo|Benue-Congo|Bantoid|Southern|Narrow Bantu|Central|N|Chewa-Nyanja</obo:AfPO_0000459>
         <obo:AfPO_0000567>nya</obo:AfPO_0000567>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-11T07:36:47.276551Z</oboInOwl:creation_date>
         <rdfs:label>Chipeta</rdfs:label>
     </owl:Class>
@@ -8035,7 +8032,7 @@ bwg – Barwe</obo:AfPO_0000567>
         <obo:AfPO_0000565>Niger-Congo|Atlantic-Congo|Volta-Congo|Benue-Congo|Bantoid|Southern|Narrow Bantu|Central|M|Nyakyusa-Ngonde</obo:AfPO_0000565>
         <obo:AfPO_0000566>nyak1260</obo:AfPO_0000566>
         <obo:AfPO_0000567>nyy</obo:AfPO_0000567>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-11T08:03:32.478715Z</oboInOwl:creation_date>
         <rdfs:label>Nyakyusa</rdfs:label>
     </owl:Class>
@@ -8068,7 +8065,7 @@ Coordinates  WGS84	5°13&apos;S, 35°58&apos;E
         <obo:AfPO_0000459>0.030 million</obo:AfPO_0000459>
         <obo:AfPO_0000459>Afro-Asiatic|Cushitic|South|Yaaku|B.3|Zaar Proper</obo:AfPO_0000459>
         <obo:AfPO_0000567>bds</obo:AfPO_0000567>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-15T10:59:04.589993Z</oboInOwl:creation_date>
         <rdfs:label>Burunge</rdfs:label>
     </owl:Class>
@@ -8089,7 +8086,7 @@ Coordinates  WGS84	5°13&apos;S, 35°58&apos;E
         <obo:AfPO_0000458>Malagasy</obo:AfPO_0000458>
         <obo:AfPO_0000459>0.05 million</obo:AfPO_0000459>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/antankarana.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-15T14:00:13.907374Z</oboInOwl:creation_date>
         <rdfs:label>Antankarana</rdfs:label>
     </owl:Class>
@@ -8110,7 +8107,7 @@ Coordinates  WGS84	5°13&apos;S, 35°58&apos;E
         <obo:AfPO_0000458>Malagasy</obo:AfPO_0000458>
         <obo:AfPO_0000459>1.2 millions</obo:AfPO_0000459>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/tsimihety.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-15T14:14:34.467229Z</oboInOwl:creation_date>
         <rdfs:label>Tsimihety</rdfs:label>
     </owl:Class>
@@ -8131,7 +8128,7 @@ Coordinates  WGS84	5°13&apos;S, 35°58&apos;E
         <obo:AfPO_0000458>Malagasy</obo:AfPO_0000458>
         <obo:AfPO_0000459>1.2 millions</obo:AfPO_0000459>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/sakalava.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-15T14:21:08.265074Z</oboInOwl:creation_date>
         <rdfs:label>Sakalava</rdfs:label>
     </owl:Class>
@@ -8155,7 +8152,7 @@ Coordinates  WGS84	5°13&apos;S, 35°58&apos;E
         <obo:AfPO_0000458>Malagasy</obo:AfPO_0000458>
         <obo:AfPO_0000459>1.5 millions</obo:AfPO_0000459>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/betsimisaraka.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-15T14:25:09.416422Z</oboInOwl:creation_date>
         <rdfs:label>Betsimisaraka</rdfs:label>
     </owl:Class>
@@ -8173,7 +8170,7 @@ Coordinates  WGS84	5°13&apos;S, 35°58&apos;E
         <obo:AfPO_0000458>Malagasy</obo:AfPO_0000458>
         <obo:AfPO_0000459>0.5 million</obo:AfPO_0000459>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/antemoro.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-15T14:28:23.485126Z</oboInOwl:creation_date>
         <rdfs:label>Antemoro</rdfs:label>
     </owl:Class>
@@ -8190,7 +8187,7 @@ Coordinates  WGS84	5°13&apos;S, 35°58&apos;E
         <obo:AfPO_0000458>Malagasy</obo:AfPO_0000458>
         <obo:AfPO_0000459>4.359 millions</obo:AfPO_0000459>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/betsileo.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-15T15:01:11.907949Z</oboInOwl:creation_date>
         <rdfs:label>Betsileo</rdfs:label>
     </owl:Class>
@@ -8205,7 +8202,7 @@ Coordinates  WGS84	5°13&apos;S, 35°58&apos;E
         <obo:AfPO_0000235 rdf:resource="https://en.wikipedia.org/wiki/Zafimaniry"/>
         <obo:AfPO_0000458>Malagasy</obo:AfPO_0000458>
         <obo:AfPO_0000459>0.015 million</obo:AfPO_0000459>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-15T15:08:36.224695Z</oboInOwl:creation_date>
         <rdfs:label>Zafimaniry</rdfs:label>
     </owl:Class>
@@ -8223,7 +8220,7 @@ Coordinates  WGS84	5°13&apos;S, 35°58&apos;E
         <obo:AfPO_0000458>Malagasy</obo:AfPO_0000458>
         <obo:AfPO_0000459>&gt; 5 millions</obo:AfPO_0000459>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/merina.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-15T15:11:27.762009Z</oboInOwl:creation_date>
         <rdfs:label>Merina</rdfs:label>
     </owl:Class>
@@ -8240,7 +8237,7 @@ Coordinates  WGS84	5°13&apos;S, 35°58&apos;E
         <obo:AfPO_0000458>Malagasy</obo:AfPO_0000458>
         <obo:AfPO_0000459>0.52 million</obo:AfPO_0000459>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/bara.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-15T15:15:34.94548Z</oboInOwl:creation_date>
         <rdfs:label>Bara</rdfs:label>
     </owl:Class>
@@ -8260,7 +8257,7 @@ Coordinates  WGS84	5°13&apos;S, 35°58&apos;E
         <obo:AfPO_0000458>Malagasy</obo:AfPO_0000458>
         <obo:AfPO_0000459>0.0012 million</obo:AfPO_0000459>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/vezo.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-15T15:20:12.85554Z</oboInOwl:creation_date>
         <rdfs:label>Vezo</rdfs:label>
     </owl:Class>
@@ -8280,7 +8277,7 @@ Coordinates  WGS84	5°13&apos;S, 35°58&apos;E
         <obo:AfPO_0000450>Tandroy</obo:AfPO_0000450>
         <obo:AfPO_0000458>Malagasy</obo:AfPO_0000458>
         <obo:AfPO_0000459>0.6 million</obo:AfPO_0000459>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-15T15:24:17.430928Z</oboInOwl:creation_date>
         <rdfs:label>Antandroy</rdfs:label>
     </owl:Class>
@@ -8300,7 +8297,7 @@ Coordinates  WGS84	5°13&apos;S, 35°58&apos;E
         <obo:AfPO_0000458>Malagasy</obo:AfPO_0000458>
         <obo:AfPO_0000459>0.15 million</obo:AfPO_0000459>
         <obo:AfPO_0000568 rdf:resource="https://www.101lasttribes.com/tribes/mahafaly.html"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-15T15:28:09.932564Z</oboInOwl:creation_date>
         <rdfs:label>Mahafaly</rdfs:label>
     </owl:Class>
@@ -8321,7 +8318,7 @@ Coordinates  WGS84	5°13&apos;S, 35°58&apos;E
         <obo:AfPO_0000450>Kafs</obo:AfPO_0000450>
         <obo:AfPO_0000458>Creole</obo:AfPO_0000458>
         <obo:AfPO_0000458>French</obo:AfPO_0000458>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-16T08:32:46.813638Z</oboInOwl:creation_date>
         <rdfs:label>Cafre</rdfs:label>
     </owl:Class>
@@ -8348,7 +8345,7 @@ Coordinates  WGS84	5°13&apos;S, 35°58&apos;E
         <obo:AfPO_0000458>French</obo:AfPO_0000458>
         <obo:AfPO_0000458>Tamil</obo:AfPO_0000458>
         <obo:AfPO_0000459>0.18 million</obo:AfPO_0000459>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-16T08:35:05.410899Z</oboInOwl:creation_date>
         <rdfs:label>Malbar</rdfs:label>
     </owl:Class>
@@ -8368,7 +8365,7 @@ Coordinates  WGS84	5°13&apos;S, 35°58&apos;E
         <obo:AfPO_0000235 rdf:resource="https://en.wikipedia.org/wiki/Zarabes"/>
         <obo:AfPO_0000450>Zarab or Z&apos;arabe</obo:AfPO_0000450>
         <obo:AfPO_0000458>French</obo:AfPO_0000458>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-16T08:39:07.078345Z</oboInOwl:creation_date>
         <rdfs:label>Zarabe</rdfs:label>
     </owl:Class>
@@ -8388,7 +8385,7 @@ Coordinates  WGS84	5°13&apos;S, 35°58&apos;E
         <obo:AfPO_0000235 rdf:resource="https://en.wikipedia.org/wiki/Zoreilles"/>
         <obo:AfPO_0000458>French</obo:AfPO_0000458>
         <obo:IAO_0000115>French people who were born in Metropolitan France.</obo:IAO_0000115>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-16T08:42:06.267055Z</oboInOwl:creation_date>
         <rdfs:label>Zoreille</rdfs:label>
     </owl:Class>
@@ -8410,7 +8407,7 @@ Coordinates  WGS84	5°13&apos;S, 35°58&apos;E
         <obo:AfPO_0000453>Chinese</obo:AfPO_0000453>
         <obo:AfPO_0000458>French</obo:AfPO_0000458>
         <obo:AfPO_0000459>0.025 million</obo:AfPO_0000459>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-16T08:47:24.158213Z</oboInOwl:creation_date>
         <rdfs:label>Sinwa</rdfs:label>
     </owl:Class>
@@ -8457,7 +8454,7 @@ Coordinates  WGS84	5°13&apos;S, 35°58&apos;E
 vaj – Northern ǃKung
 knw – Ekoka ǃKung
 ktz – Southern ǃKung</obo:AfPO_0000567>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-06-28T08:42:48.642199Z</oboInOwl:creation_date>
         <rdfs:label>!Kung</rdfs:label>
     </owl:Class>
@@ -8487,7 +8484,7 @@ ktz – Southern ǃKung</obo:AfPO_0000567>
         <obo:AfPO_0000267 rdf:resource="https://www.peoplegroups.org/explore/ClusterDetails.aspx?rop2=C0003"/>
         <obo:AfPO_0000452>uban1244</obo:AfPO_0000452>
         <obo:AfPO_0000458>Ubangian</obo:AfPO_0000458>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-07-13T13:22:17.068311Z</oboInOwl:creation_date>
         <rdfs:label>Ubangi Central</rdfs:label>
     </owl:Class>
@@ -8519,7 +8516,7 @@ ktz – Southern ǃKung</obo:AfPO_0000567>
         <obo:AfPO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.google.com/search?tbm=bks&amp;hl=fr&amp;q=%28+&apos;Nilotic+people&apos;+OR+&apos;Nilotic+tribe&apos;+%29+AND+&apos;Africa&apos;</obo:AfPO_0000233>
         <obo:AfPO_0000234 rdf:resource="https://en.wikipedia.org/wiki/Nilotic_languages"/>
         <obo:AfPO_0000458>Nilotic languages</obo:AfPO_0000458>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-07-13T13:26:01.229346Z</oboInOwl:creation_date>
         <rdfs:label>Nilotic Central</rdfs:label>
     </owl:Class>
@@ -8544,7 +8541,7 @@ ktz – Southern ǃKung</obo:AfPO_0000567>
         <obo:AfPO_0000459>0.011 million</obo:AfPO_0000459>
         <obo:AfPO_0000565>Niger-Congo, Ubangian</obo:AfPO_0000565>
         <obo:AfPO_0000567>bbe</obo:AfPO_0000567>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-07-23T13:34:48.672601Z</oboInOwl:creation_date>
         <rdfs:label>Bangba</rdfs:label>
     </owl:Class>
@@ -8571,7 +8568,7 @@ ktz – Southern ǃKung</obo:AfPO_0000567>
         <obo:AfPO_0000458>Mayogo</obo:AfPO_0000458>
         <obo:AfPO_0000565>Niger-Congo|Atlantic-Congo|Volta-Congo|North|Adamawa-Ubangi|Ubangi</obo:AfPO_0000565>
         <obo:AfPO_0000567>mdm</obo:AfPO_0000567>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-07-23T13:54:08.243112Z</oboInOwl:creation_date>
         <rdfs:label>Mayogo</rdfs:label>
     </owl:Class>
@@ -8591,7 +8588,7 @@ ktz – Southern ǃKung</obo:AfPO_0000567>
         <obo:AfPO_0000450>Cushites</obo:AfPO_0000450>
         <obo:AfPO_0000452>cush1243</obo:AfPO_0000452>
         <obo:AfPO_0000567>cus</obo:AfPO_0000567>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-07-23T16:17:13.935392Z</oboInOwl:creation_date>
         <rdfs:label>Cushitic Eastern</rdfs:label>
     </owl:Class>
@@ -8621,7 +8618,7 @@ ktz – Southern ǃKung</obo:AfPO_0000567>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:AfPO_0000267 rdf:resource="https://www.peoplegroups.org/explore/ClusterDetails.aspx?rop2=C0153#topmenu"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-07-23T16:31:43.234328Z</oboInOwl:creation_date>
         <rdfs:label>Nilotic Western</rdfs:label>
     </owl:Class>
@@ -8636,7 +8633,7 @@ ktz – Southern ǃKung</obo:AfPO_0000567>
         <obo:AfPO_0000234 rdf:resource="https://en.wikipedia.org/wiki/Sudanic_languages"/>
         <obo:AfPO_0000267 rdf:resource="https://www.peoplegroups.org/explore/ClusterDetails.aspx?rop2=C0203"/>
         <obo:AfPO_0000458>Sudanic languages</obo:AfPO_0000458>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-9988-3250"/>
         <oboInOwl:creation_date>2020-08-05T07:31:46.90664Z</oboInOwl:creation_date>
         <rdfs:label>Sudanic</rdfs:label>
     </owl:Class>
@@ -14999,8 +14996,8 @@ L1e</obo:AfPO_0000456>
         <obo:AfPO_0000235 rdf:resource="https://en.wikipedia.org/wiki/Biafada_people"/>
         <obo:AfPO_0000452>biaf1240</obo:AfPO_0000452>
         <obo:AfPO_0000458>Biafada</obo:AfPO_0000458>
-        <obo:AfPO_0000459>Niger–Congo</obo:AfPO_0000459>
         <obo:AfPO_0000459 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.04</obo:AfPO_0000459>
+        <obo:AfPO_0000459>Niger–Congo</obo:AfPO_0000459>
         <obo:AfPO_0000567>bif</obo:AfPO_0000567>
         <rdfs:label>Biafada</rdfs:label>
     </owl:Class>
