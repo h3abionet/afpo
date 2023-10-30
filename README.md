@@ -1,5 +1,5 @@
 
-![Build Status](https://github.com/h3abionet/afpo/workflows/CI/badge.svg)
+![Build Status](https://github.com/h3abionet/afpo/actions/workflows/qc.yml/badge.svg)
 # African Population Ontology (AfPO)
 
 Description: None
