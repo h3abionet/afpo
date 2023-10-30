@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/afpo.owl#"
-     xml:base="http://purl.obolibrary.org/obo/afpo.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/afpo/afpo-full.owl#"
+     xml:base="http://purl.obolibrary.org/obo/afpo/afpo-full.owl"
      xmlns:dce="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -13,8 +13,8 @@
      xmlns:language="http://webprotege.stanford.edu/project/AfPO#language:"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:population="http://webprotege.stanford.edu/project/AfPO#population:">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/afpo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/afpo/releases/2023-10-30/afpo.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/afpo/afpo-full.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/afpo/releases/2023-10-30/afpo-full.owl"/>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-5868-4204"/>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8351-264X"/>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-8801-5781"/>
