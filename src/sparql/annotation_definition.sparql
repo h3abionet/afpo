@@ -1,0 +1,6 @@
+SELECT ?defined_class ?defined_class_label ?parent_class ?population_size
+WHERE {
+    ?defined_class a owl:Class .
+    ?defined_class rdfs:label ?defined_class_label .
+    ?defined_class <http://purl.obolibrary.org/obo/AfPO_0000459> ?population_size .
+}

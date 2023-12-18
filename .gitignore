@@ -2,3 +2,5 @@ src/ontology/tmp/
 src/ontology/afpo.json
 src/ontology/afpo.obo
 src/ontology/afpo.owl
+
+src/ontology/target/

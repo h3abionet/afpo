@@ -4,3 +4,5 @@
 ## changes here rather than in the main Makefile
 
 
+$(PATTERNDIR)/data/default/create_definition.tsv: $(SRC)
+    $(ROBOT) query --input $< --query $(SPARQLDIR)/annotation_definition.sparql $@
