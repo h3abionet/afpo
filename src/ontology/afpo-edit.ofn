@@ -9,6 +9,7 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/afpo.owl>
+Import(<http://purl.obolibrary.org/obo/afpo/imports/omo_import.owl>)
 Annotation(dcterms:contributor <https://orcid.org/0000-0001-5868-4204>)
 Annotation(dcterms:contributor <https://orcid.org/0000-0001-8351-264X>)
 Annotation(dcterms:contributor <https://orcid.org/0000-0001-8801-5781>)
@@ -492,7 +493,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000580>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AfPO_0000441>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AfPO_0000447>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000089>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000143>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000152>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000221>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000222>))
@@ -534,6 +534,7 @@ Declaration(AnnotationProperty(dcterms:title))
 Declaration(AnnotationProperty(<http://webprotege.stanford.edu/project/AfPO#language:crossref>))
 Declaration(AnnotationProperty(<http://webprotege.stanford.edu/project/AfPO#population:crossref>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#creation_date>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
 Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#altLabel>))
 ############################
 #   Annotation Properties
@@ -545,10 +546,6 @@ AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/AfPO_000
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000089> "2020-06-01T13:49:58.120891Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000089> "language:glottolog:wgs84")
 SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000089> <http://webprotege.stanford.edu/project/AfPO#language:crossref>)
-
-# Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000143> (synonym)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000143> "synonym")
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000152> (population:genetic:study)
 
@@ -3183,7 +3180,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000128> ObjectSomeValuesFrom(<h
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000089> <http://purl.obolibrary.org/obo/AfPO_0000131> "Mossi
 11°57'N, 1°19'W
 11.95, -1.32")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000143> <http://purl.obolibrary.org/obo/AfPO_0000131> "Mooré, Mòoré, Mõõré, Moré, Moshi, Moore, More")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000152> <http://purl.obolibrary.org/obo/AfPO_0000131> <https://www.ncbi.nlm.nih.gov/pubmed/26614524>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000221> <http://purl.obolibrary.org/obo/AfPO_0000131> <http://www-01.sil.org/iso639-3/documentation.asp?id=mos>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000223> <http://purl.obolibrary.org/obo/AfPO_0000131> <http://glottolog.org/resource/languoid/id/moss1236.bigmap.html>)
@@ -3217,6 +3213,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000565> <http://purl.obolibrary.org/obo/AfPO_0000131> "Niger-Congo|Atlantic-Congo|Volta-Congo|North|Gur|Central|Northern|Oti-Volta|Western")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000566> <http://purl.obolibrary.org/obo/AfPO_0000131> "moss1236")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000567> <http://purl.obolibrary.org/obo/AfPO_0000131> "mos")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AfPO_0000131> "Moore")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AfPO_0000131> "Mooré")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AfPO_0000131> "More")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AfPO_0000131> "Moré")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AfPO_0000131> "Moshi")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AfPO_0000131> "Mòoré")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AfPO_0000131> "Mõõré")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000131> "Mossi")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000131> <http://purl.obolibrary.org/obo/AfPO_0000151>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000131> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000441> <http://purl.obolibrary.org/obo/AfPO_0000310>))
@@ -6372,7 +6375,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000089> <http://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000089> <http://purl.obolibrary.org/obo/AfPO_0000307> "Tedaga
 18°03'N, 14°46'E
 18.04, 14.77")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000143> <http://purl.obolibrary.org/obo/AfPO_0000307> "Tabu, Tebu, Tebou, Tibu, Tibbu, Toda, Todga, Todaga, Tubu, Tuda, Tudaga, and Umbararo")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000152> <http://purl.obolibrary.org/obo/AfPO_0000307> <https://www.ncbi.nlm.nih.gov/pubmed/27889059>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000223> <http://purl.obolibrary.org/obo/AfPO_0000307> <http://glottolog.org/resource/languoid/id/tebu1238.bigmap.html>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000230> <http://purl.obolibrary.org/obo/AfPO_0000307> <http://glottolog.org/resource/languoid/id/tebu1238>)
@@ -6385,6 +6387,18 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000458> <http://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.obolibrary.org/obo/AfPO_0000307> "2.25 millions")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000565> <http://purl.obolibrary.org/obo/AfPO_0000307> "Nilo-Saharan|Saharan")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.obolibrary.org/obo/AfPO_0000307> <https://www.101lasttribes.com/tribes/toubou.html>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AfPO_0000307> "Tabu")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AfPO_0000307> "Tebou")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AfPO_0000307> "Tebu")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AfPO_0000307> "Tibbu")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AfPO_0000307> "Tibu")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AfPO_0000307> "Toda")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AfPO_0000307> "Todaga")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AfPO_0000307> "Todga")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AfPO_0000307> "Tubu")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AfPO_0000307> "Tuda")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AfPO_0000307> "Tudaga")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AfPO_0000307> "Umbararo")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000307> "Toubou")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000307> <http://purl.obolibrary.org/obo/AfPO_0000265>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000307> <http://purl.obolibrary.org/obo/AfPO_0000270>)
@@ -9431,7 +9445,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000089> <http://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000089> <http://purl.obolibrary.org/obo/AfPO_0000419> "Etebi
 4°47'N, 7°58'E
 4.79, 7.97")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000143> <http://purl.obolibrary.org/obo/AfPO_0000419> "Ekid")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000221> <http://purl.obolibrary.org/obo/AfPO_0000419> <http://www-01.sil.org/iso639-3/documentation.asp?id=eke>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000223> <http://purl.obolibrary.org/obo/AfPO_0000419> <http://glottolog.org/resource/languoid/id/ekit1245.bigmap.html>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000230> <http://purl.obolibrary.org/obo/AfPO_0000419> <http://glottolog.org/resource/languoid/id/ekit1245>)
@@ -9443,6 +9456,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000458> <http://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.obolibrary.org/obo/AfPO_0000419> "0.3 millions")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.obolibrary.org/obo/AfPO_0000419> "Niger–Congo, Cross River")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000567> <http://purl.obolibrary.org/obo/AfPO_0000419> "eke")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AfPO_0000419> "Ekid")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000419> "Eket")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000419> <http://purl.obolibrary.org/obo/AfPO_0000277>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000419> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000441> <http://purl.obolibrary.org/obo/AfPO_0000033>))
