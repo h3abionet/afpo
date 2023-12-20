@@ -1,6 +1,17 @@
-SELECT ?defined_class ?defined_class_label ?parent_class ?population_size
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX population_size: <http://purl.obolibrary.org/obo/AfPO_0000459>
+PREFIX wiki_ref: <http://purl.obolibrary.org/obo/AfPO_0000235>
+
+SELECT ?defined_class ?defined_class_label ?parent_class_label ?population_size ?xref
 WHERE {
-    ?defined_class a owl:Class .
-    ?defined_class rdfs:label ?defined_class_label .
-    ?defined_class <http://purl.obolibrary.org/obo/AfPO_0000459> ?population_size .
+    ?dc a owl:Class .
+    ?dc rdfs:label ?defined_class_label .
+    ?dc rdfs:subClassOf ?pc .
+    ?dc population_size: ?population_size .
+    OPTIONAL { ?dc wiki_ref: ?x . }
+    ?pc a owl:Class .
+    ?pc rdfs:label ?parent_class_label .
+    BIND(STR(?dc) AS ?defined_class)
+    BIND(STR(?x) AS ?xref)
 }

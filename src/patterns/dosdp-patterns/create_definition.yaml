@@ -3,11 +3,14 @@ pattern_iri:  http://purl.obolibrary.org/obo/afpo/patterns/create_definition.yam
 
 description: "This pattern creates class definition using annotations from the classes."
 
-annotationProperties:
-  hasDbXref: "oboInOwl:hasDbXref"
+data_vars:
+  parent_class_label: "xsd:string"
+  population_size: "xsd:string"
+  xref: "xsd:string"
 
 def:
-  text: "A country in %s with a population of %s"
+  text: "A country in %s with a population size of %s"
   vars:
-    - parent_class
+    - parent_class_label
     - population_size
+  xrefs: xref
