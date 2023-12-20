@@ -16,6 +16,9 @@ export_formats:
   - obo
   - json
 use_dosdps: TRUE
+import_group:
+  products:
+    - id: omo
 robot_java_args: "-Xmx8G"
 robot_report:
   use_labels: TRUE
