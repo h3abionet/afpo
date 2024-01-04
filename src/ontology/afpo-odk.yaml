@@ -18,6 +18,7 @@ export_formats:
 import_group:
   products:
     - id: omo
+    - id: foodon
 robot_java_args: "-Xmx8G"
 robot_report:
   use_labels: TRUE
