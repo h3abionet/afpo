@@ -10,8 +10,9 @@ Ontology(<urn:unnamed:ontology#ont1>
 
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
 
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/afpo/patterns/create_definition.yaml> "A country in xsd:string with a population size of xsd:string"^^xsd:string)
-AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/afpo/patterns/create_definition.yaml> "create_definition"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "'xref'"^^xsd:string) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/afpo/patterns/create_population_definition.yaml> "A xsd:string population with a population size of xsd:string"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/afpo/patterns/create_population_definition.yaml> "create_population_definition"^^xsd:string)
 )

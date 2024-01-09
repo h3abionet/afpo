@@ -4,8 +4,8 @@
 ## changes here rather than in the main Makefile
 
 .PHONY: update_def_table
-update_def_table: $(PATTERNDIR)/data/default/create_definition.tsv
+update_def_table: $(PATTERNDIR)/data/default/create_population_definition.tsv
 
-$(PATTERNDIR)/data/default/create_definition.tsv: $(SPARQLDIR)/annotation_definition.sparql $(SRC)
+$(PATTERNDIR)/data/default/create_population_definition.tsv: $(SPARQLDIR)/population_annotation_definition.sparql $(SRC)
 	$(ROBOT) query --input $(SRC) --query $< $@.tmp.tsv
 	sed -e 's/?//g' -e 's/"//g' -e 's/http:\/\/purl.obolibrary.org\/obo\/AfPO_/AfPO:/g' < $@.tmp.tsv >$@ && rm $@.tmp.tsv
