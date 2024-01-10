@@ -9,8 +9,8 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/afpo.owl>
-Import(<http://purl.obolibrary.org/obo/afpo/imports/omo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/afpo/imports/foodon_import.owl>)
+Import(<http://purl.obolibrary.org/obo/afpo/imports/omo_import.owl>)
 Annotation(dcterms:contributor <https://orcid.org/0000-0001-5868-4204>)
 Annotation(dcterms:contributor <https://orcid.org/0000-0001-8351-264X>)
 Annotation(dcterms:contributor <https://orcid.org/0000-0001-8801-5781>)
@@ -491,6 +491,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000577>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000578>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000579>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000580>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0002>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AfPO_0000441>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/AfPO_0000447>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000089>))
@@ -751,57 +752,57 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000447> "Po
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000002> (Americas)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000002> "Americas")
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000002> <http://purl.obolibrary.org/obo/AfPO_0000053>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000002> <http://purl.obolibrary.org/obo/GAZ_00000013>)
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000003> (Africa)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000003> "Africa")
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000003> <http://purl.obolibrary.org/obo/AfPO_0000053>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000003> <http://purl.obolibrary.org/obo/GAZ_00000013>)
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000004> (Asia)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000004> "Asia")
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000004> <http://purl.obolibrary.org/obo/AfPO_0000053>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000004> <http://purl.obolibrary.org/obo/GAZ_00000013>)
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000005> (Europe)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000005> "Europe")
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000005> <http://purl.obolibrary.org/obo/AfPO_0000053>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000005> <http://purl.obolibrary.org/obo/GAZ_00000013>)
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000006> (Oceania)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000006> "Oceania")
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000006> <http://purl.obolibrary.org/obo/AfPO_0000053>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000006> <http://purl.obolibrary.org/obo/GAZ_00000013>)
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000007> (Northern Africa)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000007> "Northern Africa")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000007> <http://unstats.un.org/unsd/methods/m49/m49regin.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000007> <http://purl.obolibrary.org/obo/AfPO_0000003>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000007> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000008> (Western Africa)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000008> "Western Africa")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000008> <http://unstats.un.org/unsd/methods/m49/m49regin.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000008> <http://purl.obolibrary.org/obo/AfPO_0000003>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000008> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000009> (Eastern Africa)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000009> "Eastern Africa")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000009> <http://unstats.un.org/unsd/methods/m49/m49regin.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000009> <http://purl.obolibrary.org/obo/AfPO_0000003>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000009> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000010> (Central Africa)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000010> "Central Africa")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000010> <http://unstats.un.org/unsd/methods/m49/m49regin.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000010> <http://purl.obolibrary.org/obo/AfPO_0000003>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000010> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000011> (Southern Africa)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000011> "Southern Africa")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000011> <http://unstats.un.org/unsd/methods/m49/m49regin.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000011> <http://purl.obolibrary.org/obo/AfPO_0000003>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000011> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000012> (Eritrea)
 
@@ -812,7 +813,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000012> "Eritrea")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000012> <http://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000012> <https://en.wikipedia.org/wiki/ISO_3166-2:ER>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000012> <http://purl.obolibrary.org/obo/AfPO_0000009>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000012> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000214>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_00003674>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000383>))
@@ -827,6 +828,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000012> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000511>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000513>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000515>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000009>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000013> (Réunion)
 
@@ -836,13 +838,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000013> "Réunion")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000013> <http://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000013> <https://en.wikipedia.org/wiki/ISO_3166-2:RE>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000013> <http://purl.obolibrary.org/obo/AfPO_0000009>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000013> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000258>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000259>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000260>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000261>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000262>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000330>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000009>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000014> (South Sudan)
 
@@ -857,7 +860,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000014> "South Sudan")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000014> <http://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000014> <https://en.wikipedia.org/wiki/ISO_3166-2:SS>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000014> <http://purl.obolibrary.org/obo/AfPO_0000009>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000014> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000071>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000095>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000126>))
@@ -869,6 +872,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000014> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000378>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000379>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000390>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000014> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000009>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000015> (Rwanda)
 
@@ -889,12 +893,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000015> "Rwanda")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000015> <http://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000015> <https://en.wikipedia.org/wiki/ISO_3166-2:RW>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000015> <http://purl.obolibrary.org/obo/AfPO_0000009>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000015> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000187>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000207>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000287>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000437>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000438>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000009>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000016> (Seychelles)
 
@@ -907,8 +912,9 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000016> "Seychelles")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000016> <http://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000016> <https://en.wikipedia.org/wiki/ISO_3166-2:SC>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000016> <http://purl.obolibrary.org/obo/AfPO_0000009>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000016> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000180>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000009>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000017> (Somalia)
 
@@ -938,11 +944,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000017> "Somalia")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000017> <http://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000017> <https://en.wikipedia.org/wiki/ISO_3166-2:SO>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000017> <http://purl.obolibrary.org/obo/AfPO_0000009>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000017> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000383>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000389>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000498>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000515>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000009>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000018> (Madagascar)
 
@@ -954,7 +961,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000018> "Madagascar")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000018> <http://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000018> <https://en.wikipedia.org/wiki/ISO_3166-2:MG>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000018> <http://purl.obolibrary.org/obo/AfPO_0000009>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000018> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000245>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000247>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000248>))
@@ -974,6 +981,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000018> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000506>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000507>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000508>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000009>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000019> (Zambia)
 
@@ -990,7 +998,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000019> "Zambia")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000019> <http://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000019> <https://en.wikipedia.org/wiki/ISO_3166-2:ZM>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000019> <http://purl.obolibrary.org/obo/AfPO_0000010>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000019> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000102>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000132>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000140>))
@@ -1005,6 +1013,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000019> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000489>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000518>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000527>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000010>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000020> (Kenya)
 
@@ -1023,7 +1032,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000020> "Kenya")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000020> <http://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000020> <https://en.wikipedia.org/wiki/ISO_3166-2:KE>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000020> <http://purl.obolibrary.org/obo/AfPO_0000009>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000020> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000056>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000057>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000066>))
@@ -1058,6 +1067,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000020> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000509>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000510>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000514>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000009>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000021> (Mauritius)
 
@@ -1070,11 +1080,12 @@ AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000021> <
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000021> <https://en.wikipedia.org/wiki/Demographics_of_Mauritius>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000021> <https://en.wikipedia.org/wiki/Languages_of_Mauritius>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000021> <https://en.wikipedia.org/wiki/ISO_3166-2:MU>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000021> <http://purl.obolibrary.org/obo/AfPO_0000009>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000021> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000168>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000170>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000171>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000330>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000009>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000022> (Burundi)
 
@@ -1088,10 +1099,11 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000022> "Burundi")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000022> <http://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000022> <https://en.wikipedia.org/wiki/ISO_3166-2:BI>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000022> <http://purl.obolibrary.org/obo/AfPO_0000009>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000022> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000287>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000437>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000438>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000009>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000023> (Djibouti)
 
@@ -1103,9 +1115,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000023> "Djibouti")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000023> <http://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000023> <https://en.wikipedia.org/wiki/ISO_3166-2:DJ>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000023> <http://purl.obolibrary.org/obo/AfPO_0000009>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000023> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000383>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000389>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000009>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000024> (Mozambique)
 
@@ -1121,7 +1134,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000024> "Mozambique")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000024> <http://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000024> <https://en.wikipedia.org/wiki/ISO_3166-2:MZ>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000024> <http://purl.obolibrary.org/obo/AfPO_0000009>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000024> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000103>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000140>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000236>))
@@ -1137,6 +1150,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000024> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000486>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000495>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000518>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000009>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000025> (Malawi)
 
@@ -1147,7 +1161,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000025> "Malawi")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000025> <http://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000025> <https://en.wikipedia.org/wiki/ISO_3166-2:MW>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000025> <http://purl.obolibrary.org/obo/AfPO_0000009>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000025> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000140>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000236>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000237>))
@@ -1161,6 +1175,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000025> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000344>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000409>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000489>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000009>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000026> (United Republic of Tanzania)
 
@@ -1180,7 +1195,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000026> "United Republic of Tanzania")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000026> <http://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000026> <https://en.wikipedia.org/wiki/ISO_3166-2:TZ>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000026> <http://purl.obolibrary.org/obo/AfPO_0000009>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000026> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000056>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000127>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000140>))
@@ -1201,6 +1216,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000026> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000491>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000493>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000496>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000009>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000027> (Comoros)
 
@@ -1212,11 +1228,12 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000027> "Comoros")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000027> <http://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000027> <https://en.wikipedia.org/wiki/ISO_3166-2:KM>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000027> <http://purl.obolibrary.org/obo/AfPO_0000009>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000027> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000575>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000576>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000577>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000578>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000009>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000028> (Mayotte)
 
@@ -1226,7 +1243,8 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000028> "Mayotte")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000028> <http://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000028> <https://en.wikipedia.org/wiki/ISO_3166-2:YT>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000028> <http://purl.obolibrary.org/obo/AfPO_0000009>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000028> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000009>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000029> (Uganda)
 
@@ -1238,7 +1256,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000029> "Uganda")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000029> <http://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000029> <https://en.wikipedia.org/wiki/ISO_3166-2:UG>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000029> <http://purl.obolibrary.org/obo/AfPO_0000009>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000029> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000075>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000187>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000198>))
@@ -1262,6 +1280,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000029> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000490>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000492>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000514>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000009>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000030> (Zimbabwe)
 
@@ -1291,7 +1310,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000030> "Zimbabwe")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000030> <http://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000030> <https://en.wikipedia.org/wiki/ISO_3166-2:ZW>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000030> <http://purl.obolibrary.org/obo/AfPO_0000009>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000030> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000103>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000116>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000140>))
@@ -1313,6 +1332,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000030> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000352>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000495>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000518>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000009>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000031> (Ethiopia)
 
@@ -1338,7 +1358,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000031> "Ethiopia")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000031> <http://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000031> <https://en.wikipedia.org/wiki/ISO_3166-2:ET>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000031> <http://purl.obolibrary.org/obo/AfPO_0000009>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000031> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000095>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000113>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000209>))
@@ -1359,6 +1379,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000031> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000502>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000511>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000515>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000009>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000032> (Gabon)
 
@@ -1374,7 +1395,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000032> "Gabon")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000032> <https://en.wikipedia.org/wiki/ISO_3166-2:GA>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000032> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000032> <http://purl.obolibrary.org/obo/AfPO_0000010>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000032> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000128>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000283>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000290>))
@@ -1387,6 +1408,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000032> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000471>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000473>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000479>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000010>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000033> (Cameroon)
 
@@ -1404,7 +1426,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000033> "Cameroon")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000033> <https://en.wikipedia.org/wiki/ISO_3166-2:CM>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000033> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000033> <http://purl.obolibrary.org/obo/AfPO_0000010>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000033> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000067>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000080>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000104>))
@@ -1439,6 +1461,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000033> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000526>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000559>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000572>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000010>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000034> (Angola)
 
@@ -1454,7 +1477,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000034> "Angola")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000034> <https://en.wikipedia.org/wiki/ISO_3166-2:AO>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000034> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000034> <http://purl.obolibrary.org/obo/AfPO_0000010>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000034> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000102>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000123>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000263>))
@@ -1469,6 +1492,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000034> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000473>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000518>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000527>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000010>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000035> (Chad)
 
@@ -1486,7 +1510,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000035> "Chad")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000035> <https://en.wikipedia.org/wiki/ISO_3166-2:TD>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000035> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000035> <http://purl.obolibrary.org/obo/AfPO_0000010>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000035> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000080>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000104>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000107>))
@@ -1503,6 +1527,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000035> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000477>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000478>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000483>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000010>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000036> (Sao Tome and Principe)
 
@@ -1516,10 +1541,11 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000036> "Sao Tome and Principe")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000036> <https://en.wikipedia.org/wiki/ISO_3166-2:ST>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000036> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000036> <http://purl.obolibrary.org/obo/AfPO_0000008>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000036> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000084>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000290>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000572>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000008>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000037> (Central African Republic)
 
@@ -1531,7 +1557,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000037> "Central African Republic")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000037> <https://en.wikipedia.org/wiki/ISO_3166-2:CF>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000037> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000037> <http://purl.obolibrary.org/obo/AfPO_0000010>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000037> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000104>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000194>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000282>))
@@ -1544,6 +1570,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000037> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000476>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000478>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000485>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000010>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000038> (Democratic Republic of the Congo)
 
@@ -1561,7 +1588,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000038> "Democratic Republic of the Congo")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000038> <https://en.wikipedia.org/wiki/ISO_3166-2:CD>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000038> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000038> <http://purl.obolibrary.org/obo/AfPO_0000010>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000038> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000194>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000207>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000266>))
@@ -1593,6 +1620,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000038> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000479>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000482>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000485>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000010>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000039> (Equatorial Guinea)
 
@@ -1608,12 +1636,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000039> "Equatorial Guinea")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000039> <https://en.wikipedia.org/wiki/ISO_3166-2:GQ>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000039> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000039> <http://purl.obolibrary.org/obo/AfPO_0000008>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000039> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000087>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000128>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000290>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000414>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000526>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000008>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000040> (Congo)
 
@@ -1633,7 +1662,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000040> "Congo")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000040> <https://en.wikipedia.org/wiki/ISO_3166-2:CG>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000040> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000040> <http://purl.obolibrary.org/obo/AfPO_0000010>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000040> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000102>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000282>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000283>))
@@ -1646,6 +1675,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000040> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000443>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000464>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000473>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000010>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000041> (Western Sahara)
 
@@ -1657,8 +1687,9 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000041> "Western Sahara")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000041> <https://en.wikipedia.org/wiki/ISO_3166-2:EH>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000041> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000041> <http://purl.obolibrary.org/obo/AfPO_0000007>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000041> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000041> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000366>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000041> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000007>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000042> (Morocco)
 
@@ -1689,7 +1720,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000042> "Morocco")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000042> <https://en.wikipedia.org/wiki/ISO_3166-2:MA>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000042> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000042> <http://purl.obolibrary.org/obo/AfPO_0000007>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000042> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000145>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000220>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000361>))
@@ -1697,6 +1728,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000042> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000366>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000367>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000368>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000007>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000043> (Egypt)
 
@@ -1743,12 +1775,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000043> "Egypt")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000043> <https://en.wikipedia.org/wiki/ISO_3166-2:EG>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000043> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000043> <http://purl.obolibrary.org/obo/AfPO_0000007>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000043> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000043> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000191>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000043> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000214>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000043> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000357>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000043> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000358>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000043> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000365>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000043> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000007>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000044> (Sudan)
 
@@ -1771,7 +1804,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000044> "Sudan")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000044> <https://en.wikipedia.org/wiki/ISO_3166-2:SD>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000044> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000044> <http://purl.obolibrary.org/obo/AfPO_0000009>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000044> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000080>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000104>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000107>))
@@ -1801,6 +1834,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000044> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000397>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000398>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000511>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000009>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000045> (Algeria)
 
@@ -1828,13 +1862,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000045> "Algeria")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000045> <https://en.wikipedia.org/wiki/ISO_3166-2:DZ>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000045> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000045> <http://purl.obolibrary.org/obo/AfPO_0000007>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000045> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000045> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000145>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000045> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000231>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000045> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000359>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000045> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000366>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000045> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000367>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000045> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000368>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000045> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000007>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000046> (Libya)
 
@@ -1887,13 +1922,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000046> "Libya")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000046> <https://en.wikipedia.org/wiki/ISO_3166-2:LY>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000046> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000046> <http://purl.obolibrary.org/obo/AfPO_0000007>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000046> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000046> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000107>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000046> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000145>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000046> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000204>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000046> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000357>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000046> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000360>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000046> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000367>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000046> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000007>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000047> (Tunisia)
 
@@ -1937,12 +1973,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000047> "Tunisia")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000047> <https://en.wikipedia.org/wiki/ISO_3166-2:TN>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000047> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000047> <http://purl.obolibrary.org/obo/AfPO_0000007>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000047> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000047> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000145>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000047> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000363>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000047> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000364>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000047> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000367>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000047> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000368>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000047> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000007>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000048> (Botswana)
 
@@ -1958,7 +1995,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000048> "Botswana")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000048> <https://en.wikipedia.org/wiki/ISO_3166-2:BW>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000048> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000048> <http://purl.obolibrary.org/obo/AfPO_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000048> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000048> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000060>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000048> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000123>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000048> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000140>))
@@ -1976,6 +2013,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000048> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000048> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000517>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000048> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000518>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000048> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000573>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000048> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000011>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000049> (Namibia)
 
@@ -1991,7 +2029,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000049> "Namibia")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000049> <https://en.wikipedia.org/wiki/ISO_3166-2:NA>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000049> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000049> <http://purl.obolibrary.org/obo/AfPO_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000049> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000049> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000060>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000049> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000123>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000049> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000140>))
@@ -2013,6 +2051,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000049> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000049> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000517>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000049> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000518>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000049> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000519>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000049> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000011>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000050> (Eswatini)
 
@@ -2023,9 +2062,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000050> "Eswatini")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000050> <https://en.wikipedia.org/wiki/ISO_3166-2:SZ>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000050> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000050> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000050> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000103>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000050> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000351>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000050> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000011>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000051> (South Africa)
 
@@ -2058,7 +2098,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000051> "South Africa")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000051> <https://en.wikipedia.org/wiki/ISO_3166-2:ZA>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000051> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000051> <http://purl.obolibrary.org/obo/AfPO_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000051> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000060>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000069>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000103>))
@@ -2080,6 +2120,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000051> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000351>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000353>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000438>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000051> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000011>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000052> (Lesotho)
 
@@ -2091,15 +2132,17 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000052> "Lesotho")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000052> <https://en.wikipedia.org/wiki/ISO_3166-2:LS>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000052> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000052> <http://purl.obolibrary.org/obo/AfPO_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000052> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000142>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000326>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000343>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000347>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000052> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000011>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000053> (Continent)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000053> "Continent")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000053> "true"^^xsd:boolean)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000053> owl:Thing)
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000056> (Maasai)
@@ -6425,7 +6468,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000308> "Mauritania")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000308> <https://en.wikipedia.org/wiki/ISO_3166-2:MR>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000308> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000308> <http://purl.obolibrary.org/obo/AfPO_0000007>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000308> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000308> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000104>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000308> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000141>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000308> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000220>))
@@ -6436,6 +6479,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000308> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000308> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000368>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000308> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000428>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000308> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000430>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000308> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000007>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000309> (Benin)
 
@@ -6449,7 +6493,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000309> "Benin")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000309> <https://en.wikipedia.org/wiki/ISO_3166-2:BJ>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000309> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000309> <http://purl.obolibrary.org/obo/AfPO_0000008>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000309> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000309> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000104>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000309> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000105>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000309> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000125>))
@@ -6463,6 +6507,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000309> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000309> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000531>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000309> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000535>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000309> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000544>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000309> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000008>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000310> (Burkina Faso)
 
@@ -6484,7 +6529,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000310> "Burkina Faso")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000310> <https://en.wikipedia.org/wiki/ISO_3166-2:BF>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000310> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000310> <http://purl.obolibrary.org/obo/AfPO_0000008>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000310> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000310> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000104>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000310> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000131>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000310> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000141>))
@@ -6508,6 +6553,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000310> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000310> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000539>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000310> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000540>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000310> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000564>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000310> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000008>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000311> (Cabo Verde)
 
@@ -6521,7 +6567,8 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000311> "Cabo Verde")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000311> <https://en.wikipedia.org/wiki/ISO_3166-2:CV>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000311> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000311> <http://purl.obolibrary.org/obo/AfPO_0000008>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000311> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000311> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000008>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000312> (Cote d'Ivoire)
 
@@ -6532,7 +6579,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000312> "Cote d'Ivoire")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000312> <https://en.wikipedia.org/wiki/ISO_3166-2:CI>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000312> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000312> <http://purl.obolibrary.org/obo/AfPO_0000008>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000312> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000312> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000067>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000312> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000074>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000312> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000104>))
@@ -6554,6 +6601,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000312> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000312> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000548>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000312> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000551>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000312> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000552>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000312> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000008>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000313> (Gambia)
 
@@ -6570,7 +6618,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000313> "Gambia")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000313> <https://en.wikipedia.org/wiki/ISO_3166-2:GM>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000313> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000313> <http://purl.obolibrary.org/obo/AfPO_0000008>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000313> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000313> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000074>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000313> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000104>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000313> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000141>))
@@ -6587,6 +6635,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000313> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000313> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000545>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000313> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000550>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000313> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000558>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000313> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000008>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000314> (Ghana)
 
@@ -6605,7 +6654,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000314> "Ghana")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000314> <https://en.wikipedia.org/wiki/ISO_3166-2:GH>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000314> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000314> <http://purl.obolibrary.org/obo/AfPO_0000008>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000314> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000314> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000104>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000314> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000105>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000314> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000125>))
@@ -6635,6 +6684,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000314> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000314> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000534>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000314> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000536>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000314> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000538>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000314> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000008>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000315> (Guinea)
 
@@ -6645,7 +6695,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000315> "Guinea")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000315> <https://en.wikipedia.org/wiki/ISO_3166-2:GN>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000315> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000315> <http://purl.obolibrary.org/obo/AfPO_0000008>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000315> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000315> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000064>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000315> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000104>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000315> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000141>))
@@ -6664,6 +6714,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000315> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000315> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000557>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000315> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000562>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000315> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000574>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000315> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000008>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000316> (Guinea-Bissau)
 
@@ -6674,7 +6725,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000316> "Guinea-Bissau")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000316> <https://en.wikipedia.org/wiki/ISO_3166-2:GW>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000316> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000316> <http://purl.obolibrary.org/obo/AfPO_0000008>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000316> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000316> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000104>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000316> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000141>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000316> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000205>))
@@ -6687,6 +6738,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000316> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000316> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000550>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000316> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000558>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000316> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000560>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000316> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000008>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000317> (Liberia)
 
@@ -6697,7 +6749,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000317> "Liberia")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000317> <https://en.wikipedia.org/wiki/ISO_3166-2:LR>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000317> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000317> <http://purl.obolibrary.org/obo/AfPO_0000008>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000317> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000317> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000067>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000317> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000425>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000317> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000430>))
@@ -6712,6 +6764,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000317> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000317> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000555>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000317> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000556>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000317> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000574>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000317> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000008>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000318> (Mali)
 
@@ -6725,7 +6778,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000318> "Mali")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000318> <https://en.wikipedia.org/wiki/ISO_3166-2:ML>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000318> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000318> <http://purl.obolibrary.org/obo/AfPO_0000008>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000318> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000318> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000074>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000318> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000104>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000318> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000121>))
@@ -6742,6 +6795,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000318> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000318> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000540>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000318> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000550>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000318> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000557>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000318> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000008>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000319> (Niger)
 
@@ -6765,7 +6819,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000319> "Niger")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000319> <https://en.wikipedia.org/wiki/ISO_3166-2:NE>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000319> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000319> <http://purl.obolibrary.org/obo/AfPO_0000008>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000319> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000319> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000104>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000319> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000125>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000319> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000145>))
@@ -6780,6 +6834,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000319> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000319> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000434>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000319> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000435>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000319> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000530>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000319> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000008>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000320> (Nigeria)
 
@@ -6796,7 +6851,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000320> "Nigeria")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000320> <https://en.wikipedia.org/wiki/ISO_3166-2:NG>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000320> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000320> <http://purl.obolibrary.org/obo/AfPO_0000008>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000320> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000320> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000058>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000320> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000087>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000320> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000104>))
@@ -6827,6 +6882,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000320> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000320> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000541>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000320> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000551>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000320> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000559>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000320> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000008>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000321> (Saint Helena)
 
@@ -6836,7 +6892,8 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000321> "Saint Helena")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000321> <https://en.wikipedia.org/wiki/ISO_3166-2:SH>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000321> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000321> <http://purl.obolibrary.org/obo/AfPO_0000008>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000321> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000321> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000008>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000322> (Senegal)
 
@@ -6851,7 +6908,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000322> "Senegal")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000322> <https://en.wikipedia.org/wiki/ISO_3166-2:SN>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000322> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000322> <http://purl.obolibrary.org/obo/AfPO_0000008>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000322> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000322> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000074>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000322> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000104>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000322> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000141>))
@@ -6873,6 +6930,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000322> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000322> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000558>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000322> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000560>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000322> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000563>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000322> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000008>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000323> (Sierra Leone)
 
@@ -6887,7 +6945,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000323> "Sierra Leone")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000323> <https://en.wikipedia.org/wiki/ISO_3166-2:SL>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000323> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000323> <http://purl.obolibrary.org/obo/AfPO_0000008>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000323> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000323> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000064>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000323> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000067>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000323> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000104>))
@@ -6907,6 +6965,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000323> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000323> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000561>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000323> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000562>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000323> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000574>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000323> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000008>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000324> (Togo)
 
@@ -6918,7 +6977,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000324> "Togo")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000324> <https://en.wikipedia.org/wiki/ISO_3166-2:TG>)
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000324> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000324> <http://purl.obolibrary.org/obo/AfPO_0000008>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000324> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000324> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000104>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000324> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000105>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000324> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000136>))
@@ -6930,6 +6989,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000324> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000324> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000521>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000324> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000536>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000324> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000544>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000324> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AfPO_0000008>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000325> (Afrikaner)
 
@@ -12863,6 +12923,13 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000580> :Ka
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000580> <http://purl.obolibrary.org/obo/AfPO_0000205>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000580> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000441> <http://purl.obolibrary.org/obo/AfPO_0000313>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000580> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000441> <http://purl.obolibrary.org/obo/AfPO_0000322>))
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0002> (region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0002> "Any geographic area greater than an individual country but smaller than a continent, used as a convenience reference. Please note that most  geographic areas may not be formally defined and exact boundaries can be debatable.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/HANCESTRO_0002> "geographical area")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0002> "region")
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0002> <http://purl.obolibrary.org/obo/COB_0000032>)
 
 
 )
