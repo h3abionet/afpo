@@ -525,7 +525,6 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000565>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000566>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000567>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000568>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000569>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000570>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(dcterms:contributor))
@@ -710,10 +709,6 @@ SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000567> <http://we
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000568> "population:101lasttribes"@en)
 SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://webprotege.stanford.edu/project/AfPO#population:crossref>)
 
-# Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000569> (user-preferred name)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000569> "user-preferred name")
-
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000570> (was)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000570> "was"@en)
@@ -786,7 +781,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000007> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000008> (Western Africa)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000569> <http://purl.obolibrary.org/obo/AfPO_0000008> "West Africa")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000008> "Western Africa")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000008> <http://unstats.un.org/unsd/methods/m49/m49regin.htm>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000008> <http://purl.obolibrary.org/obo/AfPO_0000003>)
@@ -799,7 +793,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000009> <http://purl.obolibrary
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000010> (Central Africa)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000569> <http://purl.obolibrary.org/obo/AfPO_0000010> "Central Africa")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000010> "Central Africa")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000010> <http://unstats.un.org/unsd/methods/m49/m49regin.htm>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000010> <http://purl.obolibrary.org/obo/AfPO_0000003>)
