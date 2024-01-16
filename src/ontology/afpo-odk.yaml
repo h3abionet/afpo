@@ -25,3 +25,9 @@ robot_report:
   custom_profile: TRUE
   report_on:
     - edit
+  custom_sparql_checks:
+    - owldef-self-reference
+    - iri-range
+    - label-with-iri
+    - multiple-replaced_by
+    - redundant-subClassOf
