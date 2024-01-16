@@ -10953,7 +10953,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000565> <http://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000566> <http://purl.obolibrary.org/obo/AfPO_0000493> "nyam1276")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.obolibrary.org/obo/AfPO_0000493> <https://www.101lasttribes.com/tribes/nyamwezi.html>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000493> "Nyamwezi"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000493> <http://purl.obolibrary.org/obo/AfPO_0000188>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000493> <http://purl.obolibrary.org/obo/AfPO_0000369>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000493> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000441> <http://purl.obolibrary.org/obo/AfPO_0000026>))
 
