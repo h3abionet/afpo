@@ -5,7 +5,7 @@ PREFIX Population: <http://purl.obolibrary.org/obo/AfPO_0000146>
 PREFIX wiki_ref: <http://purl.obolibrary.org/obo/AfPO_0000235>
 PREFIX wiki: <https://en.wikipedia.org/wiki/>
 
-SELECT ?defined_class ?defined_class_label ?parent_class_label ?population_size ?wiki
+SELECT ?defined_class ?defined_class_label ?population_size ?wiki (group_concat(?pc_label;separator=", ") AS ?parent_class_label)
 WHERE {
     ?dc a owl:Class .
     ?dc rdfs:label ?defined_class_label .
@@ -14,7 +14,8 @@ WHERE {
     OPTIONAL { ?dc wiki_ref: ?x . }
     ?pc a owl:Class .
     ?pc rdfs:subClassOf* Population: .
-    ?pc rdfs:label ?parent_class_label .
+    ?pc rdfs:label ?pc_label .
     BIND(STR(?dc) AS ?defined_class)
     BIND(STR(?x) AS ?wiki)
 }
+GROUP BY ?defined_class ?defined_class_label ?population_size ?wiki
