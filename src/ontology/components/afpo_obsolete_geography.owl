@@ -1,0 +1,504 @@
+Prefix(:=<http://purl.obolibrary.org/obo/afpo/components/afpo_obsolete_geography.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/afpo/components/afpo_obsolete_geography.owl>
+<http://purl.obolibrary.org/obo/afpo/releases/2024-02-07/components/afpo_obsolete_geography.owl>
+Annotation(owl:versionInfo "2024-02-07")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000012>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000014>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000025>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000035>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000037>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000039>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000041>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000042>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000043>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000044>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000045>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000046>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000048>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000049>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000050>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000051>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000052>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000053>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000308>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000309>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000310>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000311>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000312>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000313>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000314>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000315>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000316>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000317>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000318>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000319>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000320>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000321>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000322>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000323>))
+Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000324>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0100001>))
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000002> (obsolete Americas)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000002> <http://dbpedia.org/resource/Northern_America>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000002> "obsolete Americas")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000002> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000003> (obsolete Africa)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000003> <http://dbpedia.org/resource/Africa>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000003> "obsolete Africa")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000003> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000004> (obsolete Asia)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000004> <http://dbpedia.org/resource/Asia>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000004> "obsolete Asia")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000004> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000005> (obsolete Europe)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000005> <http://dbpedia.org/resource/Europe>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000005> "obsolete Europe")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000005> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000006> (obsolete Oceania)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000006> <http://dbpedia.org/resource/Oceania>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000006> "obsolete Oceania")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000006> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000007> (obsolete Northern Africa)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000007> <http://dbpedia.org/resource/Northern_Africa>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000007> "obsolete Northern Africa")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000007> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000008> (obsolete Western Africa)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000008> <http://dbpedia.org/resource/Western_Africa>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000008> "obsolete Western Africa")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000008> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000009> (obsolete Eastern Africa)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000009> <http://dbpedia.org/resource/Eastern_Africa>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000009> "obsolete Eastern Africa")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000009> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000010> (obsolete Central Africa)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000010> <http://dbpedia.org/resource/Central_Africa>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000010> "obsolete Central Africa")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000010> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000011> (obsolete Southern Africa)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000011> <http://dbpedia.org/resource/Southern_Africa>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000011> "obsolete Southern Africa")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000011> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000012> (obsolete Eritrea)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000012> <http://dbpedia.org/resource/Eritrea>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000012> "obsolete Eritrea")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000012> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000013> (obsolete Réunion)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000013> <http://dbpedia.org/resource/Réunion>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000013> "obsolete Réunion")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000013> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000014> (obsolete South Sudan)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000014> <http://dbpedia.org/resource/South_Sudan>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000014> "obsolete South Sudan")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000014> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000015> (obsolete Rwanda)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000015> <http://dbpedia.org/resource/Rwanda>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000015> "obsolete Rwanda")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000015> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000016> (obsolete Seychelles)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000016> <http://dbpedia.org/resource/Seychelles>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000016> "obsolete Seychelles")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000016> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000017> (obsolete Somalia)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000017> <http://dbpedia.org/resource/Somalia>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000017> "obsolete Somalia")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000017> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000018> (obsolete Madagascar)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000018> <http://dbpedia.org/resource/Madagascar>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000018> "obsolete Madagascar")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000018> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000019> (obsolete Zambia)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000019> <http://dbpedia.org/resource/Zambia>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000019> "obsolete Zambia")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000019> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000020> (obsolete Kenya)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000020> <http://dbpedia.org/resource/Kenya>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000020> "obsolete Kenya")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000020> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000021> (obsolete Mauritius)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000021> <http://dbpedia.org/resource/Mauritius>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000021> "obsolete Mauritius")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000021> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000022> (obsolete Burundi)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000022> <http://dbpedia.org/resource/Burundi>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000022> "obsolete Burundi")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000022> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000023> (obsolete Djibouti)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000023> <http://dbpedia.org/resource/Djibouti>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000023> "obsolete Djibouti")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000023> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000024> (obsolete Mozambique)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000024> <http://dbpedia.org/resource/Mozambique>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000024> "obsolete Mozambique")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000024> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000025> (obsolete Malawi)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000025> <http://dbpedia.org/resource/Malawi>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000025> "obsolete Malawi")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000025> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000026> (obsolete United Republic of Tanzania)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000026> <http://dbpedia.org/resource/Tanzania>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000026> "obsolete United Republic of Tanzania")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000026> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000027> (obsolete Comoros)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000027> <http://dbpedia.org/resource/Comoros>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000027> "obsolete Comoros")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000027> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000028> (obsolete Mayotte)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000028> <http://dbpedia.org/resource/Mayotte>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000028> "obsolete Mayotte")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000028> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000029> (obsolete Uganda)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000029> <http://dbpedia.org/resource/Uganda>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000029> "obsolete Uganda")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000029> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000030> (obsolete Zimbabwe)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000030> <http://dbpedia.org/resource/Zimbabwe>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000030> "obsolete Zimbabwe")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000030> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000031> (obsolete Ethiopia)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000031> <http://dbpedia.org/resource/Ethiopia>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000031> "obsolete Ethiopia")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000031> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000032> (obsolete Gabon)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000032> <http://dbpedia.org/resource/Gabon>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000032> "obsolete Gabon")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000032> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000033> (obsolete Cameroon)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000033> <http://dbpedia.org/resource/Cameroon>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000033> "obsolete Cameroon")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000033> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000034> (obsolete Angola)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000034> <http://dbpedia.org/resource/Angola>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000034> "obsolete Angola")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000034> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000035> (obsolete Chad)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000035> <http://dbpedia.org/resource/Chad>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000035> "obsolete Chad")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000035> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000036> (obsolete Sao Tome and Principe)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000036> <http://dbpedia.org/resource/São_Tomé_and_Príncipe>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000036> "obsolete Sao Tome and Principe")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000036> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000037> (obsolete Central African Republic)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000037> <http://dbpedia.org/resource/Central_African_Republic>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000037> "obsolete Central African Republic")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000037> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000038> (obsolete Democratic Republic of the Congo)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000038> <http://dbpedia.org/resource/Democratic_Republic_of_the_Congo>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000038> "obsolete Democratic Republic of the Congo")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000038> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000039> (obsolete Equatorial Guinea)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000039> <http://dbpedia.org/resource/Equatorial_Guinea>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000039> "obsolete Equatorial Guinea")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000039> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000040> (obsolete Congo)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000040> <http://dbpedia.org/resource/Republic_of_the_Congo>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000040> "obsolete Congo")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000040> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000041> (obsolete Western Sahara)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000041> <http://dbpedia.org/resource/Western_Sahara>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000041> "obsolete Western Sahara")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000041> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000042> (obsolete Morocco)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000042> <http://dbpedia.org/resource/Morocco>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000042> "obsolete Morocco")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000042> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000043> (obsolete Egypt)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000043> <http://dbpedia.org/resource/Egypt>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000043> "obsolete Egypt")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000043> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000044> (obsolete Sudan)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000044> <http://dbpedia.org/resource/Sudan>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000044> "obsolete Sudan")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000044> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000045> (obsolete Algeria)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000045> <http://dbpedia.org/resource/Algeria>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000045> "obsolete Algeria")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000045> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000046> (obsolete Libya)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000046> <http://dbpedia.org/resource/Libya>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000046> "obsolete Libya")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000046> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000047> (obsolete Tunisia)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000047> <http://dbpedia.org/resource/Tunisia>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000047> "obsolete Tunisia")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000047> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000048> (obsolete Botswana)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000048> <http://dbpedia.org/resource/Botswana>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000048> "obsolete Botswana")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000048> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000049> (obsolete Namibia)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000049> <http://dbpedia.org/resource/Namibia>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000049> "obsolete Namibia")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000049> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000050> (obsolete Eswatini)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000050> <http://dbpedia.org/resource/Eswatini>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000050> "obsolete Eswatini")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000050> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000051> (obsolete South Africa)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000051> <http://dbpedia.org/resource/South_Africa>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000051> "obsolete South Africa")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000051> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000052> (obsolete Lesotho)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000052> <http://dbpedia.org/resource/Lesotho>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000052> "obsolete Lesotho")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000052> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000053> (obsolete Continent)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000053> <http://purl.obolibrary.org/obo/GAZ_00000013>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000053> "obsolete Continent")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000053> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000308> (obsolete Mauritania)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000308> <http://dbpedia.org/resource/Mauretania>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000308> "obsolete Mauritania")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000308> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000309> (obsolete Benin)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000309> <http://dbpedia.org/resource/Benin>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000309> "obsolete Benin")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000309> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000310> (obsolete Burkina Faso)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000310> <http://dbpedia.org/resource/Burkina_Faso>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000310> "obsolete Burkina Faso")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000310> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000311> (obsolete Cabo Verde)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000311> <http://dbpedia.org/resource/Cape_Verde>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000311> "obsolete Cabo Verde")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000311> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000312> (obsolete Cote d'Ivoire)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000312> <http://dbpedia.org/resource/Ivory_Coast>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000312> "obsolete Cote d'Ivoire")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000312> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000313> (obsolete Gambia)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000313> <http://dbpedia.org/resource/The_Gambia>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000313> "obsolete Gambia")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000313> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000314> (obsolete Ghana)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000314> <http://dbpedia.org/resource/Ghana>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000314> "obsolete Ghana")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000314> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000315> (obsolete Guinea)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000315> <http://dbpedia.org/resource/Guinea>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000315> "obsolete Guinea")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000315> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000316> (obsolete Guinea-Bissau)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000316> <http://dbpedia.org/resource/Guinea_Bissau>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000316> "obsolete Guinea-Bissau")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000316> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000317> (obsolete Liberia)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000317> <http://dbpedia.org/resource/Liberia>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000317> "obsolete Liberia")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000317> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000318> (obsolete Mali)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000318> <http://dbpedia.org/resource/Mali>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000318> "obsolete Mali")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000318> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000319> (obsolete Niger)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000319> <http://dbpedia.org/resource/Niger>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000319> "obsolete Niger")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000319> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000320> (obsolete Nigeria)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000320> <http://dbpedia.org/resource/Nigeria>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000320> "obsolete Nigeria")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000320> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000321> (obsolete Saint Helena)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000321> <http://dbpedia.org/resource/Saint_Helena>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000321> "obsolete Saint Helena")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000321> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000322> (obsolete Senegal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000322> <http://dbpedia.org/resource/Senegal>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000322> "obsolete Senegal")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000322> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000323> (obsolete Sierra Leone)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000323> <http://dbpedia.org/resource/Sierra_Leone>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000323> "obsolete Sierra Leone")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000323> "true"^^xsd:boolean)
+
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000324> (obsolete Togo)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/AfPO_0000324> <http://dbpedia.org/resource/Togo>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000324> "obsolete Togo")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/AfPO_0000324> "true"^^xsd:boolean)
+
+
+)

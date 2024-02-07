@@ -51,7 +51,7 @@ OBODATE ?=                  $(shell date +'%d:%m:%Y %H:%M')
 VERSION=                    $(TODAY)
 ANNOTATE_ONTOLOGY_VERSION = annotate -V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION)
 ANNOTATE_CONVERT_FILE =     annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) convert -f ofn --output $@.tmp.owl && mv $@.tmp.owl $@
-OTHER_SRC =                 
+OTHER_SRC =                 $(COMPONENTSDIR)/afpo_obsolete_geography.owl 
 ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 EDIT_PREPROCESSED =         $(TMPDIR)/$(ONT)-preprocess.owl
 
@@ -109,7 +109,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  omo
+IMPORTS =  omo hancestro
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -317,6 +317,10 @@ $(IMPORTDIR)/%_import.owl: $(MIRRORDIR)/%.owl $(IMPORTDIR)/%_terms_combined.txt
 
 .PRECIOUS: $(IMPORTDIR)/%_import.owl
 
+## Module for ontology: hancestro
+
+$(IMPORTDIR)/hancestro_import.owl: $(MIRRORDIR)/hancestro.owl
+	echo "ERROR: You have configured your default module type to be custom; this behavior needs to be overwritten in afpo.Makefile!" && false
 
 .PHONY: refresh-imports
 refresh-imports:
@@ -338,6 +342,45 @@ refresh-%:
 no-mirror-refresh-%:
 	$(MAKE) IMP=true IMP_LARGE=true MIR=false PAT=false $(IMPORTDIR)/$*_import.owl -B
 
+
+# ----------------------------------------
+# Components
+# ----------------------------------------
+# Some ontologies contain external and internal components. A component is included in the ontology in its entirety.
+
+COMP=true # Global parameter to bypass component generation
+
+.PHONY: all_components
+all_components: $(OTHER_SRC)
+
+.PHONY: recreate-components
+recreate-components:
+	$(MAKE) COMP=true IMP=false MIR=true PAT=true IMP_LARGE=false all_components -B
+
+.PHONY: no-mirror-recreate-components
+no-mirror-recreate-components:
+	$(MAKE) COMP=true IMP=false MIR=false PAT=true IMP_LARGE=false all_components -B
+
+.PHONY: recreate-%
+recreate-%:
+	$(MAKE) COMP=true IMP=false IMP_LARGE=false MIR=true PAT=true $(COMPONENTSDIR)/$*.owl -B
+
+.PHONY: no-mirror-recreate-%
+no-mirror-recreate-%:
+	$(MAKE) COMP=true IMP=false IMP_LARGE=false MIR=false PAT=true $(COMPONENTSDIR)/$*.owl -B
+
+$(COMPONENTSDIR)/%: | $(COMPONENTSDIR)
+	touch $@
+.PRECIOUS: $(COMPONENTSDIR)/%
+
+
+
+$(COMPONENTSDIR)/afpo_obsolete_geography.owl: $(TEMPLATEDIR)/afpo_obsolete_geography.csv
+	if [ $(COMP) = true ] ; then $(ROBOT) template --input afpo-edit.ofn --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "AfPO: http://purl.obolibrary.org/obo/AfPO_" \
+		$(patsubst %, --template %, $^) \
+		$(ANNOTATE_CONVERT_FILE); fi
+
+.PRECIOUS: $(COMPONENTSDIR)/afpo_obsolete_geography.owl
 # ----------------------------------------
 # Mirroring upstream ontologies
 # ----------------------------------------
@@ -354,6 +397,15 @@ IMP_LARGE=true # Global parameter to bypass handling of large imports
 mirror-omo: | $(TMPDIR)
 	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(OBOBASE)/omo.owl --create-dirs -o $(MIRRORDIR)/omo.owl --retry 4 --max-time 200 &&\
 		$(ROBOT) convert -i $(MIRRORDIR)/omo.owl -o $@.tmp.owl &&\
+		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
+
+
+## ONTOLOGY: hancestro
+.PHONY: mirror-hancestro
+.PRECIOUS: $(MIRRORDIR)/hancestro.owl
+mirror-hancestro: | $(TMPDIR)
+	if [ $(MIR) = true ] && [ $(IMP) = true ]; then curl -L $(OBOBASE)/hancestro.owl --create-dirs -o $(MIRRORDIR)/hancestro.owl --retry 4 --max-time 200 &&\
+		$(ROBOT) convert -i $(MIRRORDIR)/hancestro.owl -o $@.tmp.owl &&\
 		mv $@.tmp.owl $(TMPDIR)/$@.owl; fi
 
 
