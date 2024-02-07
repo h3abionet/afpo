@@ -10,6 +10,7 @@ AfPO:0000007,obsolete Northern Africa,owl:Thing,TRUE,dbpedia:Northern_Africa
 AfPO:0000006,obsolete Oceania,owl:Thing,TRUE,dbpedia:Oceania
 AfPO:0000011,obsolete Southern Africa,owl:Thing,TRUE,dbpedia:Southern_Africa
 AfPO:0000008,obsolete Western Africa,owl:Thing,TRUE,dbpedia:Western_Africa
+AfPO:0000010,obsolete Central Africa,owl:Thing,TRUE,dbpedia:Central_Africa
 AfPO:0000045,obsolete Algeria,owl:Thing,TRUE,dbpedia:Algeria
 AfPO:0000034,obsolete Angola,owl:Thing,TRUE,dbpedia:Angola
 AfPO:0000309,obsolete Benin,owl:Thing,TRUE,dbpedia:Benin
@@ -28,7 +29,7 @@ AfPO:0000023,obsolete Djibouti,owl:Thing,TRUE,dbpedia:Djibouti
 AfPO:0000043,obsolete Egypt,owl:Thing,TRUE,dbpedia:Egypt
 AfPO:0000039,obsolete Equatorial Guinea,owl:Thing,TRUE,dbpedia:Equatorial_Guinea
 AfPO:0000012,obsolete Eritrea,owl:Thing,TRUE,dbpedia:Eritrea
-AfPO:0000050,obsolete Eswatini,owl:Thing,TRUE,dbpedia:Swaziland
+AfPO:0000050,obsolete Eswatini,owl:Thing,TRUE,dbpedia:Eswatini
 AfPO:0000031,obsolete Ethiopia,owl:Thing,TRUE,dbpedia:Ethiopia
 AfPO:0000032,obsolete Gabon,owl:Thing,TRUE,dbpedia:Gabon
 AfPO:0000313,obsolete Gambia,owl:Thing,TRUE,dbpedia:The_Gambia
