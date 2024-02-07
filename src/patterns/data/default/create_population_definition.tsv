@@ -1,10 +1,8 @@
 defined_class	defined_class_label	population_size	wiki	parent_class_label
 AfPO:0000466	Myene@en	117030	https://fr.wikipedia.org/wiki/Myènè_(peuple)	Bantu Central
 AfPO:0000333	Khoisan South	0.4 millions	https://en.wikipedia.org/wiki/Khoisan	San, Khoekhoe
-AfPO:0000242	Chipeta	Niger-Congo|Atlantic-Congo|Volta-Congo|Benue-Congo|Bantoid|Southern|Narrow Bantu|Central|N|Chewa-Nyanja		Bantu Eastern
 AfPO:0000378	Lango	2.2 millions	https://en.wikipedia.org/wiki/Lango_people_(South_Sudan)	Luo
 AfPO:0000168	Bihari Mauritian	1.2 millions	https://en.wikipedia.org/wiki/Bihari_Mauritian	Eastern African
-AfPO:0000095	Anuak	Nilo-Saharan|Satellite-Core|Core|Eastern Sudanic|Southern|Nilotic|Western|Luo|Northern	https://en.wikipedia.org/wiki/Anuak_people	Luo
 AfPO:0000369	Bantu Eastern		https://en.wikipedia.org/wiki/Bantu_peoples	Eastern African
 AfPO:0000265	Nilotic Central			Central African
 AfPO:0000252	Zafimaniry	0.015 million	https://en.wikipedia.org/wiki/Zafimaniry	Betsileo
@@ -91,6 +89,7 @@ AfPO:0000282	Aka		https://en.wikipedia.org/wiki/Aka_people	Pygmy Central
 AfPO:0000442	Isoko		https://en.wikipedia.org/wiki/Isoko_people	Western African
 AfPO:0000104	Fulani	25 millions	https://en.wikipedia.org/wiki/Fula_people	Northern African, Central African, Western African, Eastern African
 AfPO:0000071	Dinka	5 millions	https://en.wikipedia.org/wiki/Dinka	Nilotic Eastern
+AfPO:0000337	Kwangali		https://en.wikipedia.org/wiki/Kwangali	Bantu Southern
 AfPO:0000431	Marka	0.4 millions	https://en.wikipedia.org/wiki/Marka_people	Mande Western
 AfPO:0000465	Makaa@en	89500	https://en.wikipedia.org/wiki/Makaa_people	Bantu Central
 AfPO:0000483	Tupuri@en		https://en.wikipedia.org/wiki/Tupuri_people	Central African
@@ -152,6 +151,7 @@ AfPO:0000378	Lango	2.2 millions	https://en.wikipedia.org/wiki/Lango_people	Luo
 AfPO:0000571	Kango	12500	https://en.wikipedia.org/wiki/Kango_people	Pygmy Central
 AfPO:0000127	Mijikenda	2.488 Millions	https://en.wikipedia.org/wiki/Mijikenda_peoples	Bantu Eastern
 AfPO:0000293	Luba	>15 millions	https://en.wikipedia.org/wiki/Luba_people	Bantu Central
+AfPO:0000375	Kwama		https://en.wikipedia.org/wiki/Kwama_people	Nilotic Eastern
 AfPO:0000495	Ndau@en		https://en.wikipedia.org/wiki/Ndau_people	Shona
 AfPO:0000279	Kotoko	< 1 million	https://en.wikipedia.org/wiki/Kotoko_people	Central African
 AfPO:0000425	Mande Western	>30 millions	https://en.wikipedia.org/wiki/List_of_Mand%C3%A9_peoples_of_Africa	Western African
@@ -162,6 +162,7 @@ AfPO:0000297	Ngala	25 millions		Bantu Central
 AfPO:0000204	Daza	Nilo-Saharan		Toubou
 AfPO:0000560	Papel@en	140000	https://en.wikipedia.org/wiki/Papel_people	Western African
 AfPO:0000422	Fon	4 millions	https://en.wikipedia.org/wiki/Fon_people	Western African
+AfPO:0000263	!Kung		https://en.wikipedia.org/wiki/%C7%83Kung_people	San
 AfPO:0000393	Habesha		https://en.wikipedia.org/wiki/Habesha_peoples	Semitic Eastern
 AfPO:0000411	Aku	0.01 million	https://en.wikipedia.org/wiki/Aku_people	Western African
 AfPO:0000161	Dyula	6.8 millions	https://en.wikipedia.org/wiki/Dyula_people	Mande Western
@@ -204,6 +205,7 @@ AfPO:0000084	Bulu		https://fr.wikipedia.org/wiki/Boulou_(peuple)	Beti-Pahuin
 AfPO:0000088	Kikuyu	5.3 millions	https://en.wikipedia.org/wiki/Kikuyu_people	Bantu Eastern
 AfPO:0000299	Tikar	0.025 million	https://en.wikipedia.org/wiki/Tikar_people	Bantu Central
 AfPO:0000524	Baule@en	5 millions	https://en.wikipedia.org/wiki/Baoulé_people	Akan
+AfPO:0000335	Banareng		https://en.wikipedia.org/wiki/List_of_Sotho-Tswana_clans	Bantu Southern
 AfPO:0000391	Amhara	24 millions	https://en.wikipedia.org/wiki/Amhara_people	Semitic Eastern
 AfPO:0000056	Maasai	0.9 millions	https://en.wikipedia.org/wiki/Maasai_language	Nilotic Eastern
 AfPO:0000186	Semite Central		https://en.wikipedia.org/wiki/Semitic_people	Central African
@@ -273,12 +275,11 @@ AfPO:0000237	Lomwe		https://en.wikipedia.org/wiki/Lomwe_people	Bantu Southern
 AfPO:0000547	Grebo@en	387000	https://en.wikipedia.org/wiki/Grebo_people	Kru
 AfPO:0000266	Bangba	0.011 million		Ubangi Central
 AfPO:0000443	Kru	6.8 millions	https://en.wikipedia.org/wiki/Kru_people	Pygmy Central, Western African
-AfPO:0000335	Banareng	Niger–Congo, Bantu	https://en.wikipedia.org/wiki/List_of_Sotho-Tswana_clans	Bantu Southern
 AfPO:0000577	Mwali	45,000		Swahili
 AfPO:0000227	Serer	1.9 millions	https://en.wikipedia.org/wiki/Serer_people	Western African
 AfPO:0000253	Merina	> 5 millions	https://en.wikipedia.org/wiki/Merina_people	Malagasy
 AfPO:0000343	Sotho	7.130 millions	https://en.wikipedia.org/wiki/Sotho_people	Bantu Southern
-AfPO:0000107	Zaghawa	0.4 million	https://en.wikipedia.org/wiki/Zaghawa_people	Nilotic Central, Nilotic Eastern, Northern African
+AfPO:0000107	Zaghawa	0.4 million	https://en.wikipedia.org/wiki/Zaghawa_people	Nilotic Eastern, Nilotic Central, Northern African
 AfPO:0000348	Kalanga	0.75 million	https://en.wikipedia.org/wiki/Kalanga_people	Shona
 AfPO:0000330	French diaspora		https://en.wikipedia.org/wiki/French_diaspora	Eastern African, Southern African
 AfPO:0000516	Aushi@en	433000		Bemba
@@ -308,7 +309,6 @@ AfPO:0000254	Bara	0.52 million	https://en.wikipedia.org/wiki/Bara_people	Malagas
 AfPO:0000469	Obamba@en		https://en.wikipedia.org/wiki/Mbama_people	Bantu Central
 AfPO:0000434	Zarma	>5 millions	https://en.wikipedia.org/wiki/Zarma_people	Songhai
 AfPO:0000410	Adele	0.05 million	https://en.wikipedia.org/wiki/Adele_people	Western African
-AfPO:0000375	Kwama	Nilo-Saharan	https://en.wikipedia.org/wiki/Kwama_people	Nilotic Eastern
 AfPO:0000185	Semite Northern		https://en.wikipedia.org/wiki/Semitic_people	Northern African
 AfPO:0000550	Jakhanke@en	115200	https://en.wikipedia.org/wiki/Jakhanke	Mande Western
 AfPO:0000149	Frafra	0.3 millions	https://en.wikipedia.org/wiki/Frafra_people	Gurunsi
@@ -325,6 +325,7 @@ AfPO:0000342	Shona	10.6 millions	https://en.wikipedia.org/wiki/Shona_people	Bant
 AfPO:0000518	Lozi@en	3,575 Millions	https://en.wikipedia.org/wiki/Lozi_people	Sotho
 AfPO:0000534	Guan@en	1 million	https://en.wikipedia.org/wiki/Guang_people	Western African
 AfPO:0000394	Rashaida	0.2 millions	https://en.wikipedia.org/wiki/Rashaida_people	Semitic Eastern
+AfPO:0000095	Anuak		https://en.wikipedia.org/wiki/Anuak_people	Luo
 AfPO:0000539	Pana@en	19700		Gurma
 AfPO:0000437	Hutu	16 millions	https://en.wikipedia.org/wiki/Hutu	Banyarwanda
 AfPO:0000420	Esan	1.5 millions	https://en.wikipedia.org/wiki/Esan_people	Western African
@@ -333,6 +334,7 @@ AfPO:0000404	Kisii	2.2 millions	https://en.wikipedia.org/wiki/Kisii_people	Bantu
 AfPO:0000409	Tumbuka	1.546 millions	https://en.wikipedia.org/wiki/Tumbuka_people	Bantu Eastern
 AfPO:0000255	Vezo	0.0012 million	https://en.wikipedia.org/wiki/Vezo_people	Malagasy
 AfPO:0000211	Gaaliin	4 millions	https://en.wikipedia.org/wiki/Ja%27alin_tribe	Eastern African
+AfPO:0000135	Rendille		https://en.wikipedia.org/wiki/Rendille_people	Cushitic Eastern
 AfPO:0000273	Bantu Central		https://en.wikipedia.org/wiki/Bantu_peoples	Central African
 AfPO:0000481	Gyele@en	5500	https://en.wikipedia.org/wiki/Gyele_people	Pygmy Central
 AfPO:0000148	Kusasi		https://en.wikipedia.org/wiki/Kusasi_people	Gurunsi
@@ -351,7 +353,6 @@ AfPO:0000285	Efé	0.07 million	https://en.wikipedia.org/wiki/Efé_people	Pygmy C
 AfPO:0000574	Kissi	1,224,545	https://en.wikipedia.org/wiki/Kissi_people	Western African
 AfPO:0000370	Malagasy	25 millions	https://en.wikipedia.org/wiki/Malagasy_people	Eastern African
 AfPO:0000545	Krio@en	104311	https://en.wikipedia.org/wiki/Sierra_Leone_Creole_people	Western African
-AfPO:0000135	Rendille	Afro-Asiatic|Cushitic|Lowland East|Rendille–Boni|Rendille	https://en.wikipedia.org/wiki/Rendille_people	Cushitic Eastern
 AfPO:0000224	Jarawa	0.250 million		Bantu Western
 AfPO:0000386	Bilen	0.2 million	https://en.wikipedia.org/wiki/Bilen_people	Cushitic Eastern
 AfPO:0000526	Kombe@en		https://en.wikipedia.org/wiki/Kombe_people	Bantu Western
@@ -376,20 +377,19 @@ AfPO:0000228	Manjak	0.285 million	https://en.wikipedia.org/wiki/Manjak_people	We
 AfPO:0000236	Ngoni	0.758 million	https://en.wikipedia.org/wiki/Ngoni_people	Bantu Eastern, Bantu Southern
 AfPO:0000511	Kunama@en	260000	https://en.wikipedia.org/wiki/Kunama_people	Nilotic Eastern
 AfPO:0000490	Masaba@en	2.233 millions	https://en.wikipedia.org/wiki/Masaba_people	Bantu Eastern
-AfPO:0000337	Kwangali	Niger-Congo|Atlantic-Congo|Volta-Congo|Benue-Congo|Bantoid|Southern|Narrow Bantu|Central|K|Luyana	https://en.wikipedia.org/wiki/Kwangali	Bantu Southern
 AfPO:0000475	Mangbetu@en	1.8 millions	https://en.wikipedia.org/wiki/Mangbetu_people	Central African
 AfPO:0000281	Pygmy Central		https://en.wikipedia.org/wiki/African_Pygmies	Central African
 AfPO:0000508	Tanala@en	400000	https://en.wikipedia.org/wiki/Tanala	Malagasy
 AfPO:0000418	Efik	0.9 millions	https://en.wikipedia.org/wiki/Efik_people	Western African
 AfPO:0000057	Samburu	0.1 millions	https://en.wikipedia.org/wiki/Samburu_people	Nilotic Eastern
 AfPO:00003674	Gumuz	0.2 million	https://en.wikipedia.org/wiki/Gumuz_people	Nilotic Eastern
+AfPO:0000242	Chipeta			Bantu Eastern
 AfPO:0000325	Afrikaner	2.8–3.5 million	https://en.wikipedia.org/wiki/Afrikaners	Southern African
 AfPO:0000360	Lybian Berber			Berber Northern
 AfPO:0000271	Sudanic			Eastern African
 AfPO:0000510	Pokot@en	969000	https://en.wikipedia.org/wiki/Pokot_people	Kalenjin
 AfPO:0000189	Berber Western		https://en.wikipedia.org/wiki/Berbers	Western African
 AfPO:0000132	Bemba	5 millions	https://en.wikipedia.org/wiki/Bemba_people	Bantu Southern
-AfPO:0000263	!Kung	Unclassified|Kxʼa	https://en.wikipedia.org/wiki/%C7%83Kung_people	San
 AfPO:0000139	Bulsa			Western African
 AfPO:0000249	Betsimisaraka	1.5 millions	https://en.wikipedia.org/wiki/Betsimisaraka_people	Malagasy
 AfPO:0000521	Aja@en	810000	https://en.wikipedia.org/wiki/Aja_people	Western African
