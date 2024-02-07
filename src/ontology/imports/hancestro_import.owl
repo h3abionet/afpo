@@ -1,0 +1,534 @@
+Prefix(:=<http://purl.obolibrary.org/obo/afpo/imports/hancestro_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/afpo/imports/hancestro_import.owl>
+<http://purl.obolibrary.org/obo/afpo/releases/2024-02-07/imports/hancestro_import.owl>
+Annotation(owl:versionInfo "2024-02-07")
+
+Declaration(Class(<http://dbpedia.org/resource/Africa>))
+Declaration(Class(<http://dbpedia.org/resource/Algeria>))
+Declaration(Class(<http://dbpedia.org/resource/Angola>))
+Declaration(Class(<http://dbpedia.org/resource/Asia>))
+Declaration(Class(<http://dbpedia.org/resource/Benin>))
+Declaration(Class(<http://dbpedia.org/resource/Botswana>))
+Declaration(Class(<http://dbpedia.org/resource/Burkina_Faso>))
+Declaration(Class(<http://dbpedia.org/resource/Burundi>))
+Declaration(Class(<http://dbpedia.org/resource/Cameroon>))
+Declaration(Class(<http://dbpedia.org/resource/Cape_Verde>))
+Declaration(Class(<http://dbpedia.org/resource/Central_African_Republic>))
+Declaration(Class(<http://dbpedia.org/resource/Chad>))
+Declaration(Class(<http://dbpedia.org/resource/Comoros>))
+Declaration(Class(<http://dbpedia.org/resource/Democratic_Republic_of_the_Congo>))
+Declaration(Class(<http://dbpedia.org/resource/Djibouti>))
+Declaration(Class(<http://dbpedia.org/resource/Eastern_Africa>))
+Declaration(Class(<http://dbpedia.org/resource/Egypt>))
+Declaration(Class(<http://dbpedia.org/resource/Equatorial_Guinea>))
+Declaration(Class(<http://dbpedia.org/resource/Eritrea>))
+Declaration(Class(<http://dbpedia.org/resource/Ethiopia>))
+Declaration(Class(<http://dbpedia.org/resource/Europe>))
+Declaration(Class(<http://dbpedia.org/resource/Gabon>))
+Declaration(Class(<http://dbpedia.org/resource/Ghana>))
+Declaration(Class(<http://dbpedia.org/resource/Guinea>))
+Declaration(Class(<http://dbpedia.org/resource/Guinea_Bissau>))
+Declaration(Class(<http://dbpedia.org/resource/Ivory_Coast>))
+Declaration(Class(<http://dbpedia.org/resource/Kenya>))
+Declaration(Class(<http://dbpedia.org/resource/Latin_America_and_the_Caribbean>))
+Declaration(Class(<http://dbpedia.org/resource/Lesotho>))
+Declaration(Class(<http://dbpedia.org/resource/Liberia>))
+Declaration(Class(<http://dbpedia.org/resource/Libya>))
+Declaration(Class(<http://dbpedia.org/resource/Madagascar>))
+Declaration(Class(<http://dbpedia.org/resource/Malawi>))
+Declaration(Class(<http://dbpedia.org/resource/Mali>))
+Declaration(Class(<http://dbpedia.org/resource/Mauretania>))
+Declaration(Class(<http://dbpedia.org/resource/Mauritius>))
+Declaration(Class(<http://dbpedia.org/resource/Mayotte>))
+Declaration(Class(<http://dbpedia.org/resource/Morocco>))
+Declaration(Class(<http://dbpedia.org/resource/Mozambique>))
+Declaration(Class(<http://dbpedia.org/resource/Namibia>))
+Declaration(Class(<http://dbpedia.org/resource/Niger>))
+Declaration(Class(<http://dbpedia.org/resource/Nigeria>))
+Declaration(Class(<http://dbpedia.org/resource/Northern_Africa>))
+Declaration(Class(<http://dbpedia.org/resource/Northern_America>))
+Declaration(Class(<http://dbpedia.org/resource/Oceania>))
+Declaration(Class(<http://dbpedia.org/resource/Republic_of_the_Congo>))
+Declaration(Class(<http://dbpedia.org/resource/Rwanda>))
+Declaration(Class(<http://dbpedia.org/resource/Réunion>))
+Declaration(Class(<http://dbpedia.org/resource/Saint_Helena>))
+Declaration(Class(<http://dbpedia.org/resource/Senegal>))
+Declaration(Class(<http://dbpedia.org/resource/Seychelles>))
+Declaration(Class(<http://dbpedia.org/resource/Sierra_Leone>))
+Declaration(Class(<http://dbpedia.org/resource/Somalia>))
+Declaration(Class(<http://dbpedia.org/resource/South_Africa>))
+Declaration(Class(<http://dbpedia.org/resource/South_Sudan>))
+Declaration(Class(<http://dbpedia.org/resource/Southern_Africa>))
+Declaration(Class(<http://dbpedia.org/resource/Sudan>))
+Declaration(Class(<http://dbpedia.org/resource/Swaziland>))
+Declaration(Class(<http://dbpedia.org/resource/São_Tomé_and_Príncipe>))
+Declaration(Class(<http://dbpedia.org/resource/Tanzania>))
+Declaration(Class(<http://dbpedia.org/resource/The_Gambia>))
+Declaration(Class(<http://dbpedia.org/resource/Togo>))
+Declaration(Class(<http://dbpedia.org/resource/Tunisia>))
+Declaration(Class(<http://dbpedia.org/resource/Uganda>))
+Declaration(Class(<http://dbpedia.org/resource/Western_Africa>))
+Declaration(Class(<http://dbpedia.org/resource/Western_Sahara>))
+Declaration(Class(<http://dbpedia.org/resource/Zambia>))
+Declaration(Class(<http://dbpedia.org/resource/Zimbabwe>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000141>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COB_0000032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GAZ_00000013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25464>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001025>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(rdfs:label))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: rdfs:label (label)
+
+AnnotationAssertion(rdfs:label rdfs:label "label")
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0001025> (located in)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0001025> "a relation between two independent continuants, the target and the location, in which the target is entirely within the location"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0001025> "located in"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0001025> "located_in")
+TransitiveObjectProperty(<http://purl.obolibrary.org/obo/RO_0001025>)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://dbpedia.org/resource/Africa> (Africa)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Africa> "Africa")
+SubClassOf(<http://dbpedia.org/resource/Africa> <http://purl.obolibrary.org/obo/GAZ_00000013>)
+
+# Class: <http://dbpedia.org/resource/Algeria> (Algeria)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Algeria> "Algeria"@en)
+SubClassOf(<http://dbpedia.org/resource/Algeria> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Algeria> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Northern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Angola> (Angola)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Angola> "Angola"@en)
+SubClassOf(<http://dbpedia.org/resource/Angola> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+
+# Class: <http://dbpedia.org/resource/Asia> (Asia)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Asia> "Asia")
+SubClassOf(<http://dbpedia.org/resource/Asia> <http://purl.obolibrary.org/obo/GAZ_00000013>)
+
+# Class: <http://dbpedia.org/resource/Benin> (Benin)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Benin> "Benin"@en)
+SubClassOf(<http://dbpedia.org/resource/Benin> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Benin> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Western_Africa>))
+
+# Class: <http://dbpedia.org/resource/Botswana> (Botswana)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Botswana> "Botswana"@en)
+SubClassOf(<http://dbpedia.org/resource/Botswana> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Botswana> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Southern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Burkina_Faso> (Burkina Faso)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Burkina_Faso> "Burkina Faso"@en)
+SubClassOf(<http://dbpedia.org/resource/Burkina_Faso> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Burkina_Faso> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Western_Africa>))
+
+# Class: <http://dbpedia.org/resource/Burundi> (Burundi)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Burundi> "Burundi"@en)
+SubClassOf(<http://dbpedia.org/resource/Burundi> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Burundi> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Eastern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Cameroon> (Cameroon)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Cameroon> "Cameroon"@en)
+SubClassOf(<http://dbpedia.org/resource/Cameroon> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+
+# Class: <http://dbpedia.org/resource/Cape_Verde> (Cape Verde)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Cape_Verde> "Cape Verde"@en)
+SubClassOf(<http://dbpedia.org/resource/Cape_Verde> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Cape_Verde> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Western_Africa>))
+
+# Class: <http://dbpedia.org/resource/Central_African_Republic> (Central African Republic)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Central_African_Republic> "Central African Republic"@en)
+SubClassOf(<http://dbpedia.org/resource/Central_African_Republic> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+
+# Class: <http://dbpedia.org/resource/Chad> (Chad)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Chad> "Chad"@en)
+SubClassOf(<http://dbpedia.org/resource/Chad> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+
+# Class: <http://dbpedia.org/resource/Comoros> (Comoros)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Comoros> "Comoros"@en)
+SubClassOf(<http://dbpedia.org/resource/Comoros> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Comoros> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Eastern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Democratic_Republic_of_the_Congo> (Democratic Republic of the Congo)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Democratic_Republic_of_the_Congo> "Democratic Republic of the Congo"@en)
+SubClassOf(<http://dbpedia.org/resource/Democratic_Republic_of_the_Congo> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+
+# Class: <http://dbpedia.org/resource/Djibouti> (Djibouti)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Djibouti> "Djibouti"@en)
+SubClassOf(<http://dbpedia.org/resource/Djibouti> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Djibouti> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Eastern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Eastern_Africa> (Eastern Africa)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Eastern_Africa> "Eastern Africa")
+SubClassOf(<http://dbpedia.org/resource/Eastern_Africa> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+
+# Class: <http://dbpedia.org/resource/Egypt> (Egypt)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Egypt> "Egypt"@en)
+SubClassOf(<http://dbpedia.org/resource/Egypt> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Egypt> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Northern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Equatorial_Guinea> (Equatorial Guinea)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Equatorial_Guinea> "Equatorial Guinea"@en)
+SubClassOf(<http://dbpedia.org/resource/Equatorial_Guinea> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+
+# Class: <http://dbpedia.org/resource/Eritrea> (Eritrea)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Eritrea> "Eritrea"@en)
+SubClassOf(<http://dbpedia.org/resource/Eritrea> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Eritrea> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Eastern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Ethiopia> (Ethiopia)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Ethiopia> "Ethiopia"@en)
+SubClassOf(<http://dbpedia.org/resource/Ethiopia> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Ethiopia> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Eastern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Europe> (Europe)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Europe> "Europe")
+SubClassOf(<http://dbpedia.org/resource/Europe> <http://purl.obolibrary.org/obo/GAZ_00000013>)
+
+# Class: <http://dbpedia.org/resource/Gabon> (Gabon)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Gabon> "Gabon"@en)
+SubClassOf(<http://dbpedia.org/resource/Gabon> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+
+# Class: <http://dbpedia.org/resource/Ghana> (Ghana)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Ghana> "Ghana"@en)
+SubClassOf(<http://dbpedia.org/resource/Ghana> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Ghana> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Western_Africa>))
+
+# Class: <http://dbpedia.org/resource/Guinea> (Guinea)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Guinea> "Guinea"@en)
+SubClassOf(<http://dbpedia.org/resource/Guinea> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Guinea> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Western_Africa>))
+
+# Class: <http://dbpedia.org/resource/Guinea_Bissau> (Guinea-Bissau)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Guinea_Bissau> "Guinea-Bissau"@en)
+SubClassOf(<http://dbpedia.org/resource/Guinea_Bissau> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Guinea_Bissau> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Western_Africa>))
+
+# Class: <http://dbpedia.org/resource/Ivory_Coast> (Côte d'Ivoire)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Ivory_Coast> "Côte d'Ivoire"@en)
+SubClassOf(<http://dbpedia.org/resource/Ivory_Coast> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Ivory_Coast> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Western_Africa>))
+
+# Class: <http://dbpedia.org/resource/Kenya> (Kenya)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Kenya> "Kenya"@en)
+SubClassOf(<http://dbpedia.org/resource/Kenya> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Kenya> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Eastern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Latin_America_and_the_Caribbean> (Latin America and the Caribbean)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Latin_America_and_the_Caribbean> "Latin America and the Caribbean")
+SubClassOf(<http://dbpedia.org/resource/Latin_America_and_the_Caribbean> <http://purl.obolibrary.org/obo/GAZ_00000013>)
+
+# Class: <http://dbpedia.org/resource/Lesotho> (Lesotho)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Lesotho> "Lesotho"@en)
+SubClassOf(<http://dbpedia.org/resource/Lesotho> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Lesotho> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Southern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Liberia> (Liberia)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Liberia> "Liberia"@en)
+SubClassOf(<http://dbpedia.org/resource/Liberia> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Liberia> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Western_Africa>))
+
+# Class: <http://dbpedia.org/resource/Libya> (Libya)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Libya> "Libya")
+SubClassOf(<http://dbpedia.org/resource/Libya> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Libya> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Northern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Madagascar> (Madagascar)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Madagascar> "Madagascar"@en)
+SubClassOf(<http://dbpedia.org/resource/Madagascar> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Madagascar> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Eastern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Malawi> (Malawi)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Malawi> "Malawi"@en)
+SubClassOf(<http://dbpedia.org/resource/Malawi> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Malawi> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Eastern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Mali> (Mali)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Mali> "Mali"@en)
+SubClassOf(<http://dbpedia.org/resource/Mali> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Mali> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Western_Africa>))
+
+# Class: <http://dbpedia.org/resource/Mauretania> (Mauritania)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Mauretania> "Mauritania")
+SubClassOf(<http://dbpedia.org/resource/Mauretania> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Mauretania> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Western_Africa>))
+
+# Class: <http://dbpedia.org/resource/Mauritius> (Mauritius)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Mauritius> "Mauritius"@en)
+SubClassOf(<http://dbpedia.org/resource/Mauritius> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Mauritius> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Eastern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Mayotte> (Mayotte)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Mayotte> "Mayotte"@en)
+SubClassOf(<http://dbpedia.org/resource/Mayotte> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Mayotte> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Eastern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Morocco> (Morocco)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Morocco> "Morocco"@en)
+SubClassOf(<http://dbpedia.org/resource/Morocco> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Morocco> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Northern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Mozambique> (Mozambique)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Mozambique> "Mozambique"@en)
+SubClassOf(<http://dbpedia.org/resource/Mozambique> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Mozambique> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Eastern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Namibia> (Namibia)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Namibia> "Namibia"@en)
+SubClassOf(<http://dbpedia.org/resource/Namibia> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Namibia> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Southern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Niger> (Niger)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Niger> "Niger"@en)
+SubClassOf(<http://dbpedia.org/resource/Niger> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Niger> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Western_Africa>))
+
+# Class: <http://dbpedia.org/resource/Nigeria> (Nigeria)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Nigeria> "Nigeria"@en)
+SubClassOf(<http://dbpedia.org/resource/Nigeria> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Nigeria> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Western_Africa>))
+
+# Class: <http://dbpedia.org/resource/Northern_Africa> (Northern Africa)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Northern_Africa> "Northern Africa")
+SubClassOf(<http://dbpedia.org/resource/Northern_Africa> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+
+# Class: <http://dbpedia.org/resource/Northern_America> (Northern America)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Northern_America> "Northern America")
+SubClassOf(<http://dbpedia.org/resource/Northern_America> <http://purl.obolibrary.org/obo/GAZ_00000013>)
+
+# Class: <http://dbpedia.org/resource/Oceania> (Oceania)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Oceania> "Oceania")
+SubClassOf(<http://dbpedia.org/resource/Oceania> <http://purl.obolibrary.org/obo/GAZ_00000013>)
+
+# Class: <http://dbpedia.org/resource/Republic_of_the_Congo> (Republic of the Congo)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Republic_of_the_Congo> "Republic of the Congo")
+SubClassOf(<http://dbpedia.org/resource/Republic_of_the_Congo> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+
+# Class: <http://dbpedia.org/resource/Rwanda> (Rwanda)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Rwanda> "Rwanda"@en)
+SubClassOf(<http://dbpedia.org/resource/Rwanda> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Rwanda> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Eastern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Réunion> (Réunion)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Réunion> "Réunion"@en)
+SubClassOf(<http://dbpedia.org/resource/Réunion> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Réunion> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Eastern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Saint_Helena> (Saint Helena)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Saint_Helena> "Saint Helena")
+SubClassOf(<http://dbpedia.org/resource/Saint_Helena> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Saint_Helena> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Western_Africa>))
+
+# Class: <http://dbpedia.org/resource/Senegal> (Senegal)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Senegal> "Senegal"@en)
+SubClassOf(<http://dbpedia.org/resource/Senegal> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Senegal> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Western_Africa>))
+
+# Class: <http://dbpedia.org/resource/Seychelles> (Seychelles)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Seychelles> "Seychelles"@en)
+SubClassOf(<http://dbpedia.org/resource/Seychelles> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Seychelles> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Eastern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Sierra_Leone> (Sierra Leone)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Sierra_Leone> "Sierra Leone"@en)
+SubClassOf(<http://dbpedia.org/resource/Sierra_Leone> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Sierra_Leone> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Western_Africa>))
+
+# Class: <http://dbpedia.org/resource/Somalia> (Somalia)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Somalia> "Somalia"@en)
+SubClassOf(<http://dbpedia.org/resource/Somalia> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Somalia> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Eastern_Africa>))
+
+# Class: <http://dbpedia.org/resource/South_Africa> (South Africa)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/South_Africa> "South Africa"@en)
+SubClassOf(<http://dbpedia.org/resource/South_Africa> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/South_Africa> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Southern_Africa>))
+
+# Class: <http://dbpedia.org/resource/South_Sudan> (South Sudan)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/South_Sudan> "South Sudan"@en)
+SubClassOf(<http://dbpedia.org/resource/South_Sudan> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/South_Sudan> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Northern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Southern_Africa> (Southern Africa)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Southern_Africa> "Southern Africa")
+SubClassOf(<http://dbpedia.org/resource/Southern_Africa> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+
+# Class: <http://dbpedia.org/resource/Sudan> (Sudan)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Sudan> "Sudan"@en)
+SubClassOf(<http://dbpedia.org/resource/Sudan> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Sudan> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Northern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Swaziland> (Swaziland)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Swaziland> "Swaziland"@en)
+SubClassOf(<http://dbpedia.org/resource/Swaziland> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Swaziland> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Southern_Africa>))
+
+# Class: <http://dbpedia.org/resource/São_Tomé_and_Príncipe> (São Tomé and Príncipe)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/São_Tomé_and_Príncipe> "São Tomé and Príncipe"@en)
+SubClassOf(<http://dbpedia.org/resource/São_Tomé_and_Príncipe> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+
+# Class: <http://dbpedia.org/resource/Tanzania> (Tanzania)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Tanzania> "Tanzania")
+SubClassOf(<http://dbpedia.org/resource/Tanzania> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Tanzania> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Eastern_Africa>))
+
+# Class: <http://dbpedia.org/resource/The_Gambia> (The Gambia)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/The_Gambia> "The Gambia")
+SubClassOf(<http://dbpedia.org/resource/The_Gambia> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/The_Gambia> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Western_Africa>))
+
+# Class: <http://dbpedia.org/resource/Togo> (Togo)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Togo> "Togo"@en)
+SubClassOf(<http://dbpedia.org/resource/Togo> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Togo> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Western_Africa>))
+
+# Class: <http://dbpedia.org/resource/Tunisia> (Tunisia)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Tunisia> "Tunisia"@en)
+SubClassOf(<http://dbpedia.org/resource/Tunisia> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Tunisia> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Northern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Uganda> (Uganda)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Uganda> "Uganda"@en)
+SubClassOf(<http://dbpedia.org/resource/Uganda> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Uganda> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Eastern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Western_Africa> (Western Africa)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Western_Africa> "Western Africa")
+SubClassOf(<http://dbpedia.org/resource/Western_Africa> <http://purl.obolibrary.org/obo/HANCESTRO_0002>)
+
+# Class: <http://dbpedia.org/resource/Western_Sahara> (Western Sahara)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Western_Sahara> "Western Sahara"@en)
+SubClassOf(<http://dbpedia.org/resource/Western_Sahara> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Western_Sahara> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Northern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Zambia> (Zambia)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Zambia> "Zambia"@en)
+SubClassOf(<http://dbpedia.org/resource/Zambia> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Zambia> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Eastern_Africa>))
+
+# Class: <http://dbpedia.org/resource/Zimbabwe> (Zimbabwe)
+
+AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Zimbabwe> "Zimbabwe"@en)
+SubClassOf(<http://dbpedia.org/resource/Zimbabwe> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Zimbabwe> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Eastern_Africa>))
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000141> (immaterial entity)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000141> "immaterial entity"@en)
+
+# Class: <http://purl.obolibrary.org/obo/COB_0000032> (geographical location)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COB_0000032> "geographical location"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/COB_0000032> <http://purl.obolibrary.org/obo/BFO_0000141>)
+
+# Class: <http://purl.obolibrary.org/obo/GAZ_00000013> (continent)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GAZ_00000013> "One of the large, unbroken masses of land into which the Earth's surface is divided.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GAZ_00000013> "continent")
+SubClassOf(<http://purl.obolibrary.org/obo/GAZ_00000013> <http://purl.obolibrary.org/obo/COB_0000032>)
+
+# Class: <http://purl.obolibrary.org/obo/HANCESTRO_0002> (region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HANCESTRO_0002> "Any geographic area greater than an individual country but smaller than a continent, used as a convenience reference. Please note that most  geographic areas may not be formally defined and exact boundaries can be debatable.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0002> "region")
+SubClassOf(<http://purl.obolibrary.org/obo/HANCESTRO_0002> <http://purl.obolibrary.org/obo/COB_0000032>)
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C25464> (Country)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NCIT_C25464> "A collective generic term that refers here to a wide variety of dependencies, areas of special sovereignty, uninhabited islands, and other entities in addition to the traditional countries or independent states.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C25464> "Country")
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://purl.obolibrary.org/obo/COB_0000032>)
+SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C25464> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/HANCESTRO_0002>))
+
+
+DisjointClasses(<http://dbpedia.org/resource/Africa> <http://dbpedia.org/resource/Asia> <http://dbpedia.org/resource/Europe> <http://dbpedia.org/resource/Latin_America_and_the_Caribbean> <http://dbpedia.org/resource/Northern_America> <http://dbpedia.org/resource/Oceania>)
+)
