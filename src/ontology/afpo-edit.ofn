@@ -13072,9 +13072,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000580> <http://purl.obolibrary
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000580> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000441> <http://dbpedia.org/resource/Senegal>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000580> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000441> <http://dbpedia.org/resource/The_Gambia>))
 
-# Class: <http://purl.obolibrary.org/obo/GAZ_00000013> (continent)
-
-SubClassOf(<http://purl.obolibrary.org/obo/GAZ_00000013> owl:Thing)
 
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000439> <http://dbpedia.org/resource/Cape_Verde> "Portugal")
