@@ -21,6 +21,7 @@ dbpedia:Burkina_Faso
 dbpedia:Burundi
 dbpedia:Cape_Verde
 dbpedia:Cameroon
+dbpedia:Central_Africa
 dbpedia:Central_African_Republic
 dbpedia:Chad
 dbpedia:Comoros
@@ -31,7 +32,7 @@ dbpedia:Djibouti
 dbpedia:Egypt
 dbpedia:Equatorial_Guinea
 dbpedia:Eritrea
-dbpedia:Swaziland
+dbpedia:Eswatini
 dbpedia:Ethiopia
 dbpedia:Gabon
 dbpedia:The_Gambia

@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/afpo/components/afpo_obsolete_geography.owl>
-<http://purl.obolibrary.org/obo/afpo/releases/2024-02-07/components/afpo_obsolete_geography.owl>
-Annotation(owl:versionInfo "2024-02-07")
+<http://purl.obolibrary.org/obo/afpo/releases/2024-02-08/components/afpo_obsolete_geography.owl>
+Annotation(owl:versionInfo "2024-02-08")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000003>))
