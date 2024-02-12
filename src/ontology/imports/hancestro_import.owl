@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/afpo/imports/hancestro_import.owl>
-<http://purl.obolibrary.org/obo/afpo/releases/2024-02-08/imports/hancestro_import.owl>
-Annotation(owl:versionInfo "2024-02-08")
+<http://purl.obolibrary.org/obo/afpo/releases/2024-02-12/imports/hancestro_import.owl>
+Annotation(owl:versionInfo "2024-02-12")
 
 Declaration(Class(<http://dbpedia.org/resource/Africa>))
 Declaration(Class(<http://dbpedia.org/resource/Algeria>))
@@ -84,6 +84,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/COB_0000032>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GAZ_00000013>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HANCESTRO_0002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C25464>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/HANCESTRO_0308>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001025>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(rdfs:label))
@@ -99,6 +100,10 @@ AnnotationAssertion(rdfs:label rdfs:label "label")
 ############################
 #   Object Properties
 ############################
+
+# Object Property: <http://purl.obolibrary.org/obo/HANCESTRO_0308> (hasCountryOfOrigin)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HANCESTRO_0308> "hasCountryOfOrigin"@en)
 
 # Object Property: <http://purl.obolibrary.org/obo/RO_0001025> (located in)
 
@@ -128,6 +133,7 @@ SubClassOf(<http://dbpedia.org/resource/Algeria> ObjectAllValuesFrom(<http://pur
 
 AnnotationAssertion(rdfs:label <http://dbpedia.org/resource/Angola> "Angola"@en)
 SubClassOf(<http://dbpedia.org/resource/Angola> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+SubClassOf(<http://dbpedia.org/resource/Angola> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://dbpedia.org/resource/Central_Africa>))
 
 # Class: <http://dbpedia.org/resource/Asia> (Asia)
 

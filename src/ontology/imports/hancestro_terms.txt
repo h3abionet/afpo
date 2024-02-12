@@ -73,3 +73,4 @@ dbpedia:Western_Sahara
 dbpedia:Zambia
 dbpedia:Zimbabwe
 RO:0001025
+HANCESTRO:0308
