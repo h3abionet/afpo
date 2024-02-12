@@ -710,9 +710,6 @@ SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://we
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000570> "was"@en)
 
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
 
 # Annotation Property: <http://purl.org/dc/terms/description> (description)
 
