@@ -149,7 +149,7 @@ all_mappings: $(MAPPING_FILES)
 # QC Reports & Utilities
 # ----------------------------------------
 
-OBO_REPORT =  $(SRC)-obo-report
+OBO_REPORT =  afpo-full.owl-obo-report
 REPORTS = $(OBO_REPORT)
 REPORT_FILES = $(patsubst %, $(REPORTDIR)/%.tsv, $(REPORTS))
 

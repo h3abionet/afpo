@@ -26,7 +26,7 @@ robot_report:
   fail_on: ERROR
   custom_profile: TRUE
   report_on:
-    - edit
+    - afpo-full.owl
   custom_sparql_checks:
     - owldef-self-reference
     - iri-range
