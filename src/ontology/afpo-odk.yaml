@@ -33,6 +33,9 @@ robot_report:
     - label-with-iri
     - multiple-replaced_by
     - redundant-subClassOf
+    - population_group-inconsistency
+  sparql_test_on: 
+    - afpo-full.owl
 components:
   products:
     - filename: afpo_obsolete_geography.owl
