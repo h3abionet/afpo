@@ -2,6 +2,7 @@
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
 <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
     <uri name="http://purl.obolibrary.org/obo/afpo/imports/omo_import.owl" uri="imports/omo_import.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/afpo/imports/hancestro_import.owl" uri="imports/hancestro_import.owl"/>
     <uri name="http://purl.obolibrary.org/obo/afpo/patterns/definitions.owl" uri="../patterns/definitions.owl"/>
 </group>
 </catalog>
