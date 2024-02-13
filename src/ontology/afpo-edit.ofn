@@ -3738,7 +3738,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000145> ObjectSomeValuesFrom(<h
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000146> "Population")
 AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000146> <https://en.wikipedia.org/wiki/List_of_ethnic_groups_of_Africa#Ethnic_groups_by_region>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000146> owl:Thing)
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000147> (Dagomba)
 
