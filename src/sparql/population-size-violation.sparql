@@ -1,0 +1,9 @@
+PREFIX population_size: <http://purl.obolibrary.org/obo/AfPO_0000459>
+
+SELECT ?country (COUNT(?population_size) AS ?nb_population)
+WHERE {
+    ?country population_size: ?population_size .
+}
+GROUP BY ?country
+HAVING (COUNT(?population_size) > 1)
+ORDER BY ?country

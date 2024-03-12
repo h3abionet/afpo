@@ -33,3 +33,4 @@ robot_report:
     - label-with-iri
     - multiple-replaced_by
     - redundant-subClassOf
+    - population-size
