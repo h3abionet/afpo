@@ -1,6 +1,6 @@
 defined_class	defined_class_label	population_size	wiki	parent_class_label
 AfPO:0000466	Myene@en	117030	https://fr.wikipedia.org/wiki/Myènè_(peuple)	Bantu Central
-AfPO:0000333	Khoisan South	0.4 millions	https://en.wikipedia.org/wiki/Khoisan	San, Khoekhoe
+AfPO:0000333	Khoisan South	0.4 millions	https://en.wikipedia.org/wiki/Khoisan	Khoekhoe, San
 AfPO:0000378	Lango	2.2 millions	https://en.wikipedia.org/wiki/Lango_people_(South_Sudan)	Luo
 AfPO:0000168	Bihari Mauritian	1.2 millions	https://en.wikipedia.org/wiki/Bihari_Mauritian	Eastern African
 AfPO:0000369	Bantu Eastern		https://en.wikipedia.org/wiki/Bantu_peoples	Eastern African
@@ -67,6 +67,7 @@ AfPO:0000502	Gabra@en	700000		Oromo
 AfPO:0000436	Okiek		https://en.wikipedia.org/wiki/Okiek_people	Kalenjin
 AfPO:0000195	Mahas		https://en.wikipedia.org/wiki/Mahas	Nubian Eastern
 AfPO:0000067	Bassa	0.8 million	https://en.wikipedia.org/wiki/Bassa_people_(Liberia)	Bantu Western
+AfPO:0000579	Kuria	1 million	https://en.wikipedia.org/wiki/Kuria_people	Bantu Eastern
 AfPO:0000244	Burunge	0.030 million	https://en.wikipedia.org/wiki/Burunge_people	Cushitic Eastern
 AfPO:0000328	Coloured	4.7 millions	https://en.wikipedia.org/wiki/Cape_Coloured	Southern African
 AfPO:0000367	Maghrebi	>72 millions	https://en.wikipedia.org/wiki/Maghrebis	Semite Northern
@@ -84,6 +85,7 @@ AfPO:0000203	Akan	20 millions	https://en.wikipedia.org/wiki/Akan_people	Western 
 AfPO:0000350	Ndebele		https://en.wikipedia.org/wiki/Southern_Ndebele_people	Nguni
 AfPO:0000125	Hausa	90 millions	https://en.wikipedia.org/wiki/Hausa_people	Western African, Eastern African
 AfPO:0000087	Igbo	>34 millions	https://en.wikipedia.org/wiki/Igbo_people	Western African
+AfPO:0000580	Karonica	117000	https://en.wikipedia.org/wiki/Karoninka_people	Jola
 AfPO:0000397	Tigré	1.5 millions	https://en.wikipedia.org/wiki/Tigre_people	Semitic Eastern
 AfPO:0000282	Aka		https://en.wikipedia.org/wiki/Aka_people	Pygmy Central
 AfPO:0000442	Isoko		https://en.wikipedia.org/wiki/Isoko_people	Western African
@@ -109,7 +111,6 @@ AfPO:0000243	Nyakyusa	1.050 millions	https://en.wikipedia.org/wiki/Nyakyusa_peop
 AfPO:0000301	Mbunda	0.5 million	https://en.wikipedia.org/wiki/Mbunda_people	Kongo
 AfPO:0000145	Tuareg	2.5 millions	https://en.wikipedia.org/wiki/Tuareg_people	Berber Northern, Berber Western
 AfPO:0000281	Pygmy Central		https://en.wikipedia.org/wiki/Pygmy_peoples	Central African
-AfPO:0000580	<http://purl.obolibrary.org/obo/afpo.owl#Karonica>	117000	https://en.wikipedia.org/wiki/Karoninka_people	Jola
 AfPO:0000561	Sherbro@en	134606	https://en.wikipedia.org/wiki/Sherbro_people	Western African
 AfPO:0000468	Ngumba@en		https://fr.wikipedia.org/wiki/Ngoumba_(peuple)	Bantu Central
 AfPO:0000402	Embu	>0.4 million	https://en.wikipedia.org/wiki/Embu_people	Bantu Eastern
@@ -260,7 +261,6 @@ AfPO:0000520	Aghem@en	61500		Western African
 AfPO:0000270	Nilotic Western			Western African
 AfPO:0000200	Pygmy Southern		https://en.wikipedia.org/wiki/Pygmy_peoples	Southern African
 AfPO:0000549	Limba@en	792190	https://en.wikipedia.org/wiki/Limba_people_(Sierra_Leone)	Western African
-AfPO:0000579	<http://purl.obolibrary.org/obo/afpo.owl#Kuria>	1 million	https://en.wikipedia.org/wiki/Kuria_people	Bantu Eastern
 AfPO:0000141	Soninke	2 millions	https://en.wikipedia.org/wiki/Soninke_people	Mande Western
 AfPO:0000517	Okavango@en		https://en.wikipedia.org/wiki/Kavango_people	Bantu Southern
 AfPO:0000354	Kgatla		https://fr.wikipedia.org/wiki/Kgatla_(peuple)	Tswana
@@ -279,7 +279,7 @@ AfPO:0000577	Mwali	45,000		Swahili
 AfPO:0000227	Serer	1.9 millions	https://en.wikipedia.org/wiki/Serer_people	Western African
 AfPO:0000253	Merina	> 5 millions	https://en.wikipedia.org/wiki/Merina_people	Malagasy
 AfPO:0000343	Sotho	7.130 millions	https://en.wikipedia.org/wiki/Sotho_people	Bantu Southern
-AfPO:0000107	Zaghawa	0.4 million	https://en.wikipedia.org/wiki/Zaghawa_people	Nilotic Eastern, Nilotic Central, Northern African
+AfPO:0000107	Zaghawa	0.4 million	https://en.wikipedia.org/wiki/Zaghawa_people	Nilotic Central, Nilotic Eastern, Northern African
 AfPO:0000348	Kalanga	0.75 million	https://en.wikipedia.org/wiki/Kalanga_people	Shona
 AfPO:0000330	French diaspora		https://en.wikipedia.org/wiki/French_diaspora	Eastern African, Southern African
 AfPO:0000516	Aushi@en	433000		Bemba
