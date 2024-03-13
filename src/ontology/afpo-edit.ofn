@@ -436,10 +436,7 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000246>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000267>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000272>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000439>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000444>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000448>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000450>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000451>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000452>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000453>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000454>))
@@ -448,19 +445,17 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000456>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000457>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000458>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000459>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000460>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000565>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000566>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000567>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000568>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000570>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000600>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/AfPO_0000601>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/contributor>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/description>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
-Declaration(AnnotationProperty(<http://webprotege.stanford.edu/project/AfPO#language:crossref>))
-Declaration(AnnotationProperty(<http://webprotege.stanford.edu/project/AfPO#population:crossref>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#creation_date>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
 Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#altLabel>))
@@ -473,7 +468,7 @@ Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#altLabel>))
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/AfPO_0000089> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000089> "2020-06-01T13:49:58.120891Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000089> "language:glottolog:wgs84")
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000089> <http://webprotege.stanford.edu/project/AfPO#language:crossref>)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000089> <http://purl.obolibrary.org/obo/AfPO_0000601>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000152> (population:genetic:study)
 
@@ -486,7 +481,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000152> "po
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/AfPO_0000221> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000221> "2020-06-05T14:59:11.879423Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000221> "language:ISO639-3:description")
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000221> <http://webprotege.stanford.edu/project/AfPO#language:crossref>)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000221> <http://purl.obolibrary.org/obo/AfPO_0000601>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000222> (sub:groups)
 
@@ -499,7 +494,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000222> "su
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/AfPO_0000223> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000223> "2020-06-05T12:10:38.722308Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000223> "language:glottolog:bigmap")
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000223> <http://webprotege.stanford.edu/project/AfPO#language:crossref>)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000223> <http://purl.obolibrary.org/obo/AfPO_0000601>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000226> (population:microbiome:study)
 
@@ -512,35 +507,35 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000226> "po
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/AfPO_0000230> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000230> "2020-06-05T15:00:08.140413Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000230> "language:glottolog:description")
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000230> <http://webprotege.stanford.edu/project/AfPO#language:crossref>)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000230> <http://purl.obolibrary.org/obo/AfPO_0000601>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000232> (population:joshuaproject:description)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/AfPO_0000232> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000232> "2020-06-09T06:26:03.877868Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000232> "population:joshuaproject:description")
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000232> <http://webprotege.stanford.edu/project/AfPO#population:crossref>)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000232> <http://purl.obolibrary.org/obo/AfPO_0000600>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000233> (population:googlebook)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/AfPO_0000233> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000233> "2020-06-05T21:34:42.916144Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000233> "population:googlebook")
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000233> <http://webprotege.stanford.edu/project/AfPO#population:crossref>)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000233> <http://purl.obolibrary.org/obo/AfPO_0000600>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000234> (language:wikipedia:description)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/AfPO_0000234> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000234> "2020-06-08T12:47:14.905754Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000234> "language:wikipedia:description")
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000234> <http://webprotege.stanford.edu/project/AfPO#language:crossref>)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000234> <http://purl.obolibrary.org/obo/AfPO_0000601>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000235> (population:wikipedia:description)
 
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/AfPO_0000235> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000235> "2020-06-08T12:47:46.800894Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000235> "population:wikipedia:description")
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000235> <http://webprotege.stanford.edu/project/AfPO#population:crossref>)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000235> <http://purl.obolibrary.org/obo/AfPO_0000600>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000246> (population:distribution)
 
@@ -553,7 +548,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000246> "po
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/AfPO_0000267> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000267> "2020-07-23T13:41:52.473244Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000267> "population:peoplegroups:description")
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000267> <http://webprotege.stanford.edu/project/AfPO#population:crossref>)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000267> <http://purl.obolibrary.org/obo/AfPO_0000600>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000272> (number:populations)
 
@@ -565,21 +560,9 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000272> "nu
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000439> "Colonial History")
 
-# Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000444> (MajorLangGroups)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000444> "MajorLangGroups")
-
-# Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000448> (Region)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000448> "Region")
-
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000450> (population:synonym)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000450> "population:synonym")
-
-# Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000451> (has_Relation)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000451> "has_Relation")
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000452> (language:official)
 
@@ -614,10 +597,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000458> "po
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000459> "population:size")
 
-# Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000460> (reference)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000460> "reference")
-
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000565> (family)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000565> "family"@en)
@@ -625,21 +604,25 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000565> "fa
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000566> (language:glottolog:id)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000566> "language:glottolog:id"@en)
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000566> <http://webprotege.stanford.edu/project/AfPO#language:crossref>)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000566> <http://purl.obolibrary.org/obo/AfPO_0000601>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000567> (language:ISO639-3:id)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000567> "language:ISO639-3:id")
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000567> <http://webprotege.stanford.edu/project/AfPO#language:crossref>)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000567> <http://purl.obolibrary.org/obo/AfPO_0000601>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000568> (population:101lasttribes)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000568> "population:101lasttribes"@en)
-SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://webprotege.stanford.edu/project/AfPO#population:crossref>)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.obolibrary.org/obo/AfPO_0000600>)
 
-# Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000570> (was)
+# Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000600> (population:crossref)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000570> "was"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000600> "population:crossref"@en)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000601> (language:crossref)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000601> "language:crossref")
 
 # Annotation Property: <http://purl.org/dc/terms/description> (description)
 
@@ -5455,7 +5438,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000262> "Si
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000262> <http://purl.obolibrary.org/obo/AfPO_0000188>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000262> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Réunion>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000263> (!Kung)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000263> (Kung)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000089> <http://purl.obolibrary.org/obo/AfPO_0000263> "Central Ju
 19°34'S, 18°07'E
@@ -12548,7 +12531,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000565> <http://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000566> <http://purl.obolibrary.org/obo/AfPO_0000579> "kuri1259")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000567> <http://purl.obolibrary.org/obo/AfPO_0000579> "kuj")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.obolibrary.org/obo/AfPO_0000579> <https://www.101lasttribes.com/tribes/kuria.html>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000579> :Kuria)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000579> "Kuria")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000579> <http://purl.obolibrary.org/obo/AfPO_0000369>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000579> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Kenya>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000579> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Tanzania>))
@@ -12573,7 +12556,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000565> <http://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000566> <http://purl.obolibrary.org/obo/AfPO_0000580> :karo1294)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000567> <http://purl.obolibrary.org/obo/AfPO_0000580> :krx)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.obolibrary.org/obo/AfPO_0000580> "https://www.101lasttribes.com/tribes/karoninka.html")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000580> :Karonica)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000580> "Karonica")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000580> <http://purl.obolibrary.org/obo/AfPO_0000205>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000580> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Senegal>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000580> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/The_Gambia>))
