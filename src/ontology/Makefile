@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                d9fdaed4065fc554b8d716e74b9b8423af3f614deaf07deb48abf6a78644adb2
+CONFIG_HASH=                5888a91bbf4afb97e96c6cb378df89bc27039ae59af85b5ca1890f6c10a8de3f
 
 
 # ----------------------------------------
@@ -54,7 +54,7 @@ OBODATE ?=                  $(shell date +'%d:%m:%Y %H:%M')
 VERSION=                    $(TODAY)
 ANNOTATE_ONTOLOGY_VERSION = annotate -V $(ONTBASE)/releases/$(VERSION)/$@ --annotation owl:versionInfo $(VERSION)
 ANNOTATE_CONVERT_FILE =     annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) convert -f ofn --output $@.tmp.owl && mv $@.tmp.owl $@
-OTHER_SRC =                 $(COMPONENTSDIR)/afpo_obsolete_geography.owl 
+OTHER_SRC =                 
 ONTOLOGYTERMS =             $(TMPDIR)/ontologyterms.txt
 EDIT_PREPROCESSED =         $(TMPDIR)/$(ONT)-preprocess.owl
 
@@ -232,11 +232,11 @@ validate_profile_%: $(REPORTDIR)/validate_profile_owl2dl_%.txt
 
 SPARQL_VALIDATION_QUERIES = $(foreach V,$(SPARQL_VALIDATION_CHECKS),$(SPARQLDIR)/$(V)-violation.sparql)
 
-sparql_test:  afpo-full.owl catalog-v001.xml | $(REPORTDIR)
+sparql_test:  afpo-full.owl | $(REPORTDIR)
 ifneq ($(SPARQL_VALIDATION_QUERIES),)
   
   
-	$(ROBOT) verify  --catalog catalog-v001.xml -i afpo-full.owl --queries $(SPARQL_VALIDATION_QUERIES) -O $(REPORTDIR)
+	$(ROBOT) verify -i afpo-full.owl --queries $(SPARQL_VALIDATION_QUERIES) -O $(REPORTDIR)
 endif
 
 # ----------------------------------------
@@ -402,45 +402,6 @@ refresh-%:
 no-mirror-refresh-%:
 	$(MAKE) IMP=true IMP_LARGE=true MIR=false PAT=false $(IMPORTDIR)/$*_import.owl -B
 
-
-# ----------------------------------------
-# Components
-# ----------------------------------------
-# Some ontologies contain external and internal components. A component is included in the ontology in its entirety.
-
-COMP=true # Global parameter to bypass component generation
-
-.PHONY: all_components
-all_components: $(OTHER_SRC)
-
-.PHONY: recreate-components
-recreate-components:
-	$(MAKE) COMP=true IMP=false MIR=true PAT=true IMP_LARGE=false all_components -B
-
-.PHONY: no-mirror-recreate-components
-no-mirror-recreate-components:
-	$(MAKE) COMP=true IMP=false MIR=false PAT=true IMP_LARGE=false all_components -B
-
-.PHONY: recreate-%
-recreate-%:
-	$(MAKE) COMP=true IMP=false IMP_LARGE=false MIR=true PAT=true $(COMPONENTSDIR)/$*.owl -B
-
-.PHONY: no-mirror-recreate-%
-no-mirror-recreate-%:
-	$(MAKE) COMP=true IMP=false IMP_LARGE=false MIR=false PAT=true $(COMPONENTSDIR)/$*.owl -B
-
-$(COMPONENTSDIR)/%: | $(COMPONENTSDIR)
-	touch $@
-.PRECIOUS: $(COMPONENTSDIR)/%
-
-
-
-$(COMPONENTSDIR)/afpo_obsolete_geography.owl: $(TEMPLATEDIR)/afpo_obsolete_geography.csv
-	if [ $(COMP) = true ] ; then $(ROBOT) template --input afpo-edit.ofn --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "AfPO: http://purl.obolibrary.org/obo/AfPO_" \
-		$(patsubst %, --template %, $^) \
-		$(ANNOTATE_CONVERT_FILE); fi
-
-.PRECIOUS: $(COMPONENTSDIR)/afpo_obsolete_geography.owl
 # ----------------------------------------
 # Mirroring upstream ontologies
 # ----------------------------------------
