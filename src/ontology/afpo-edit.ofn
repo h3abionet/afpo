@@ -5891,7 +5891,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000262> "Si
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000262> <http://purl.obolibrary.org/obo/AfPO_0000188>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000262> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Réunion>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000263> (!Kung)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000263> (Kung)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000089> <http://purl.obolibrary.org/obo/AfPO_0000263> "Central Ju
 19°34'S, 18°07'E
