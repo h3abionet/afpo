@@ -26,20 +26,14 @@ robot_report:
   fail_on: ERROR
   custom_profile: TRUE
   report_on:
-    - edit
+    - afpo-full.owl
   custom_sparql_checks:
     - owldef-self-reference
     - iri-range
     - label-with-iri
     - multiple-replaced_by
     - redundant-subClassOf
+    - population-size
     - population_group-inconsistency
   sparql_test_on: 
     - afpo-full.owl
-components:
-  products:
-    - filename: afpo_obsolete_geography.owl
-      use_template: TRUE
-      template_options: '--input afpo-edit.ofn --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "AfPO: http://purl.obolibrary.org/obo/AfPO_"'
-      templates:
-        - afpo_obsolete_geography.csv
