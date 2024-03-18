@@ -35,5 +35,6 @@ robot_report:
     - redundant-subClassOf
     - population-size
     - population_group-inconsistency
+    - country_origin-inconsistency
   sparql_test_on: 
-    - afpo-full.owl
+    - afpo-sparqltest-full.owl
