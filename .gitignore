@@ -20,6 +20,7 @@ src/ontology/afpo-basic.*
 src/ontology/afpo-full.*
 src/ontology/afpo-simple.*
 src/ontology/afpo-simple-non-classified.*
+src/ontology/afpo-sparqltest-full.owl
 
 src/ontology/seed.txt
 src/ontology/dosdp-tools.log

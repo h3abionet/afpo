@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                5888a91bbf4afb97e96c6cb378df89bc27039ae59af85b5ca1890f6c10a8de3f
+CONFIG_HASH=                af1f82a5606c99c50f8ffd1512e3231535e469c5608b105cd7e6d0812459fe01
 
 
 # ----------------------------------------
@@ -45,7 +45,7 @@ REPORT_FAIL_ON =            ERROR
 REPORT_LABEL =              -l true
 REPORT_PROFILE_OPTS =       --profile $(ROBOT_PROFILE)
 OBO_FORMAT_OPTIONS =        
-SPARQL_VALIDATION_CHECKS =  owldef-self-reference iri-range label-with-iri multiple-replaced_by redundant-subClassOf population-size population_group-inconsistency 
+SPARQL_VALIDATION_CHECKS =  owldef-self-reference iri-range label-with-iri multiple-replaced_by redundant-subClassOf population-size population_group-inconsistency country_origin-inconsistency 
 SPARQL_EXPORTS =            basic-report class-count-by-prefix edges xrefs obsoletes synonyms 
 ODK_VERSION_MAKEFILE =      v1.5
 
@@ -232,11 +232,11 @@ validate_profile_%: $(REPORTDIR)/validate_profile_owl2dl_%.txt
 
 SPARQL_VALIDATION_QUERIES = $(foreach V,$(SPARQL_VALIDATION_CHECKS),$(SPARQLDIR)/$(V)-violation.sparql)
 
-sparql_test:  afpo-full.owl | $(REPORTDIR)
+sparql_test:  afpo-sparqltest-full.owl | $(REPORTDIR)
 ifneq ($(SPARQL_VALIDATION_QUERIES),)
   
   
-	$(ROBOT) verify -i afpo-full.owl --queries $(SPARQL_VALIDATION_QUERIES) -O $(REPORTDIR)
+	$(ROBOT) verify -i afpo-sparqltest-full.owl --queries $(SPARQL_VALIDATION_QUERIES) -O $(REPORTDIR)
 endif
 
 # ----------------------------------------
