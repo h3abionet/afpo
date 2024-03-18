@@ -8,6 +8,7 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<http://purl.obolibrary.org/obo/afpo.owl>
 Import(<http://purl.obolibrary.org/obo/afpo/imports/hancestro_import.owl>)
+Import(<http://purl.obolibrary.org/obo/afpo/imports/obi_import.owl>)
 Import(<http://purl.obolibrary.org/obo/afpo/imports/omo_import.owl>)
 Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0001-5868-4204>)
 Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0001-8351-264X>)
