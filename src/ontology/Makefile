@@ -160,7 +160,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  omo hancestro
+IMPORTS =  omo hancestro obi
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -381,6 +381,16 @@ $(IMPORTDIR)/%_import.owl: $(MIRRORDIR)/%.owl $(IMPORTDIR)/%_terms_combined.txt
 
 $(IMPORTDIR)/hancestro_import.owl: $(MIRRORDIR)/hancestro.owl
 	echo "ERROR: You have configured your default module type to be custom; this behavior needs to be overwritten in afpo.Makefile!" && false
+## Module for ontology: obi
+
+$(IMPORTDIR)/obi_import.owl: $(MIRRORDIR)/obi.owl $(IMPORTDIR)/obi_terms_combined.txt
+	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \
+    extract -T $(IMPORTDIR)/obi_terms_combined.txt --copy-ontology-annotations true --force true --method BOT \
+    remove --base-iri $(OBOBASE)/OBI --axioms external --preserve-structure false --trim false \
+		remove $(patsubst %, --term %, $(ANNOTATION_PROPERTIES)) --term rdfs:label --term IAO:0000115  -T $(IMPORTDIR)/obi_terms_combined.txt --select complement \
+		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
+		$(ANNOTATE_CONVERT_FILE); fi
+
 
 .PHONY: refresh-imports
 refresh-imports:
@@ -427,6 +437,14 @@ mirror-omo: | $(TMPDIR)
 mirror-hancestro: | $(TMPDIR)
 	curl -L $(OBOBASE)/hancestro.owl --create-dirs -o $(TMPDIR)/hancestro-download.owl --retry 4 --max-time 200 && \
 	$(ROBOT) convert -i $(TMPDIR)/hancestro-download.owl -o $(TMPDIR)/$@.owl
+
+
+## ONTOLOGY: obi
+.PHONY: mirror-obi
+.PRECIOUS: $(MIRRORDIR)/obi.owl
+mirror-obi: | $(TMPDIR)
+	curl -L $(OBOBASE)/obi/obi-base.owl --create-dirs -o $(TMPDIR)/obi-download.owl --retry 4 --max-time 200 && \
+	$(ROBOT) convert -i $(TMPDIR)/obi-download.owl -o $(TMPDIR)/$@.owl
 
 
 $(MIRRORDIR)/%.owl: mirror-% | $(MIRRORDIR)

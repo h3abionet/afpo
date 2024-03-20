@@ -8,6 +8,7 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<http://purl.obolibrary.org/obo/afpo.owl>
 Import(<http://purl.obolibrary.org/obo/afpo/imports/hancestro_import.owl>)
+Import(<http://purl.obolibrary.org/obo/afpo/imports/obi_import.owl>)
 Import(<http://purl.obolibrary.org/obo/afpo/imports/omo_import.owl>)
 Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0001-5868-4204>)
 Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0001-8351-264X>)
@@ -23,7 +24,7 @@ Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0002-6
 Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0002-7073-9172>)
 Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0003-1058-2668>)
 Annotation(<http://purl.org/dc/terms/contributor> <https://orcid.org/0000-0003-4905-0941>)
-Annotation(<http://purl.org/dc/terms/description> "None")
+Annotation(<http://purl.org/dc/terms/description> "AfPO is an ontology that enables annotating African individuals and combines knowledge accumulated about existing populations with their genetic fingerprints in a standardized format. The AfPO can be employed to classify African study participants comprehensively in prospective research studies. It can also be used to classify past study participants by mapping them using a language or ethnicity identifier or synonyms.")
 Annotation(<http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/>)
 Annotation(<http://purl.org/dc/terms/title> "African Population Ontology")
 Annotation(rdfs:comment "Aymen Ben Chaalia and Hamza Dallali are also contributors. However they don't have ORCIDs yet. H3Africa Phenotype Harmonisation working group members are also contributors.")
@@ -73,7 +74,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000140>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000141>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000142>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000145>))
-Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000146>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000147>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000148>))
 Declaration(Class(<http://purl.obolibrary.org/obo/AfPO_0000149>))
@@ -4025,11 +4025,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000145> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000145> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Niger>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000145> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Tunisia>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000146> (Population)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000146> "Population")
-AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/AfPO_0000146> <https://en.wikipedia.org/wiki/List_of_ethnic_groups_of_Africa#Ethnic_groups_by_region>)
-
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000147> (Dagomba)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000089> <http://purl.obolibrary.org/obo/AfPO_0000147> "Dagbani
@@ -4458,7 +4453,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/AfPO_0000188> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000188> "2020-05-25T14:14:55.213279Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000188> "Eastern African")
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000188> <http://purl.obolibrary.org/obo/AfPO_0000146>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000188> <http://purl.obolibrary.org/obo/OBI_0000181>)
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000189> (Berber Western)
 
@@ -6122,28 +6117,28 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000273> ObjectSomeValuesFrom(<h
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000272> <http://purl.obolibrary.org/obo/AfPO_0000274> "38 populations")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000274> "People living in: Angola OR Cameroon OR Central African Republic OR Chad OR Congo OR Democratic Republic of the Congo OR Gabon OR Zambia")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000274> "Central African")
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000274> <http://purl.obolibrary.org/obo/AfPO_0000146>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000274> <http://purl.obolibrary.org/obo/OBI_0000181>)
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000275> (Northern African)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000272> <http://purl.obolibrary.org/obo/AfPO_0000275> "18 populations")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000275> "People living in: Algeria OR Egypt OR Libya OR Mauritania OR Morocco OR Tunisia OR Western Sahara")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000275> "Northern African")
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000275> <http://purl.obolibrary.org/obo/AfPO_0000146>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000275> <http://purl.obolibrary.org/obo/OBI_0000181>)
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000276> (Southern African)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000272> <http://purl.obolibrary.org/obo/AfPO_0000276> "40 populations")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000276> "People living in: Botswana OR Eswatini OR Lesotho OR Namibia OR South Africa")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000276> "Southern African")
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000276> <http://purl.obolibrary.org/obo/AfPO_0000146>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000276> <http://purl.obolibrary.org/obo/OBI_0000181>)
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000277> (Western African)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000272> <http://purl.obolibrary.org/obo/AfPO_0000277> "61 populations")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000277> "People living in: Benin OR Burkina Faso OR Cabo Verde OR Cote d'Ivoire OR Equatorial Guinea OR Gambia OR Ghana OR Guinea OR Guinea-Bissau OR Liberia OR Mali OR Niger OR Nigeria OR Saint Helena OR Sao Tome and Principe OR Senegal OR Sierra Leone OR Togo")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000277> "Western African")
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000277> <http://purl.obolibrary.org/obo/AfPO_0000146>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000277> <http://purl.obolibrary.org/obo/OBI_0000181>)
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000278> (Kanuri)
 
@@ -14098,6 +14093,10 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000580> "Ka
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000580> <http://purl.obolibrary.org/obo/AfPO_0000205>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000580> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Senegal>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000580> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/The_Gambia>))
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000181> (population)
+
+AnnotationAssertion(rdfs:seeAlso <http://purl.obolibrary.org/obo/OBI_0000181> <https://en.wikipedia.org/wiki/List_of_ethnic_groups_of_Africa#Ethnic_groups_by_region>)
 
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000439> <http://dbpedia.org/resource/Cape_Verde> "Portugal")
