@@ -1,0 +1,21 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX population_size: <http://purl.obolibrary.org/obo/AfPO_0000459>
+PREFIX Population: <http://purl.obolibrary.org/obo/AfPO_0000146>
+PREFIX wiki_ref: <http://purl.obolibrary.org/obo/AfPO_0000235>
+PREFIX wiki: <https://en.wikipedia.org/wiki/>
+
+SELECT ?defined_class ?defined_class_label ?population_size ?wiki (group_concat(?pc_label;separator=", ") AS ?parent_class_label)
+WHERE {
+    ?dc a owl:Class .
+    ?dc rdfs:label ?defined_class_label .
+    ?dc rdfs:subClassOf ?pc .
+    OPTIONAL { ?dc population_size: ?population_size . }
+    OPTIONAL { ?dc wiki_ref: ?x . }
+    ?pc a owl:Class .
+    ?pc rdfs:subClassOf* Population: .
+    ?pc rdfs:label ?pc_label .
+    BIND(STR(?dc) AS ?defined_class)
+    BIND(STR(?x) AS ?wiki)
+}
+GROUP BY ?defined_class ?defined_class_label ?population_size ?wiki

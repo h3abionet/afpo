@@ -3,6 +3,13 @@
 ## If you need to customize your Makefile, make
 ## changes here rather than in the main Makefile
 
+# Rules used to generate automated definition for populations
+#.PHONY: update_def_table
+#update_def_table: $(PATTERNDIR)/data/default/create_population_definition.tsv
+
+#$(PATTERNDIR)/data/default/create_population_definition.tsv: $(SPARQLDIR)/population_annotation_definition.sparql $(SRC)
+#	$(ROBOT) query --input $(SRC) --query $< $@.tmp.tsv
+#	sed -e 's/?//g' -e 's/"//g' -e 's/http:\/\/purl.obolibrary.org\/obo\/AfPO_/AfPO:/g' < $@.tmp.tsv >$@ && rm $@.tmp.tsv
 
 # imports/hancestro_import.owl: $(MIRRORDIR)/hancestro.owl $(IMPORTDIR)/hancestro_terms_combined.txt
 # 	if [ $(IMP) = true ]; then $(ROBOT) query -i $< --update ../sparql/preprocess-module.ru \
@@ -26,4 +33,4 @@ $(IMPORTDIR)/hancestro_import.owl: $(MIRRORDIR)/hancestro.owl $(IMPORTDIR)/hance
 		filter $(patsubst %, --term %, $(ANNOTATION_PROPERTIES)) -T $(IMPORTDIR)/hancestro_terms.txt --axioms all  --signature false \
 		query --update ../sparql/inject-subset-declaration.ru --update ../sparql/inject-synonymtype-declaration.ru --update ../sparql/postprocess-module.ru \
 		$(ANNOTATE_CONVERT_FILE); fi
-		
+

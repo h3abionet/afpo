@@ -1,0 +1,23 @@
+pattern_name: create_population_definition
+pattern_iri:  http://purl.obolibrary.org/obo/afpo/patterns/create_population_definition.yaml
+
+description: "This pattern creates population class definition using annotations from the classes."
+
+annotationProperties:
+  xref: oio:hasDbXref
+
+data_vars:
+  parent_class_label: "xsd:string"
+  population_size: "xsd:string"
+
+data_list_vars:
+  wiki: "'xref'"
+
+def:
+  text: "A %s population with a population size of %s"
+  vars:
+    - parent_class_label
+    - population_size
+  annotations:
+    - annotationProperty: xref
+      value: wiki
