@@ -20,6 +20,9 @@ import_group:
     - id: omo
     - id: hancestro
       module_type: custom
+    - id: obi
+      use_base: TRUE
+      module_type: filter
 robot_java_args: "-Xmx8G"
 robot_report:
   use_labels: TRUE
@@ -33,3 +36,4 @@ robot_report:
     - label-with-iri
     - multiple-replaced_by
     - redundant-subClassOf
+    - population-size
