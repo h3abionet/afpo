@@ -645,6 +645,14 @@ AnnotationAssertion(rdfs:label <http://purl.org/dc/terms/title> "title")
 # Object Property: <http://purl.obolibrary.org/obo/AfPO_0000447> (Population_group)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000447> "Population_group")
+InverseObjectProperties(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/HANCESTRO_0308>)
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/NCIT_C25464>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/OBI_0000181>)
+
+# Object Property: <http://purl.obolibrary.org/obo/HANCESTRO_0308> (hasCountryOfOrigin)
+
+ObjectPropertyDomain(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://purl.obolibrary.org/obo/OBI_0000181>)
+ObjectPropertyRange(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://purl.obolibrary.org/obo/NCIT_C25464>)
 
 
 
@@ -7340,7 +7348,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000307> <http://purl.obolibrary
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000307> <http://purl.obolibrary.org/obo/AfPO_0000270>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000307> <http://purl.obolibrary.org/obo/AfPO_0000275>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000307> <http://purl.obolibrary.org/obo/AfPO_0000371>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000307> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://dbpedia.org/resource/Sudan>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000307> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Sudan>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000307> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Chad>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000307> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Libya>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000307> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Niger>))
@@ -7629,7 +7637,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Himba_people") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000336> "The Himba are a Bantu Southern population with a population size of 0.05 million.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000336> "Himba")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000336> <http://purl.obolibrary.org/obo/AfPO_0000326>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000336> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://dbpedia.org/resource/Tanzania>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000336> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Tanzania>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000336> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Angola>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000336> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Namibia>))
 
@@ -14352,6 +14360,10 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000580> "Ka
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000580> <http://purl.obolibrary.org/obo/AfPO_0000205>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000580> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Senegal>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000580> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/The_Gambia>))
+
+# Class: <http://purl.obolibrary.org/obo/NCIT_C25464> (Country)
+
+DisjointClasses(<http://purl.obolibrary.org/obo/NCIT_C25464> <http://purl.obolibrary.org/obo/OBI_0000181>)
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0000181> (population)
 
