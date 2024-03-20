@@ -620,10 +620,12 @@ SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://pu
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000600> (population:crossref)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000600> "population:crossref"@en)
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000600> <http://www.geneontology.org/formats/oboInOwl#hasDbXref>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000601> (language:crossref)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000601> "language:crossref")
+SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000601> <http://www.geneontology.org/formats/oboInOwl#hasDbXref>)
 
 # Annotation Property: <http://purl.org/dc/terms/description> (description)
 
@@ -636,6 +638,10 @@ AnnotationAssertion(rdfs:label <http://purl.org/dc/terms/license> "license")
 # Annotation Property: <http://purl.org/dc/terms/title> (title)
 
 AnnotationAssertion(rdfs:label <http://purl.org/dc/terms/title> "title")
+
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> (has database cross reference)
+
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "has database cross reference")
 
 
 ############################
