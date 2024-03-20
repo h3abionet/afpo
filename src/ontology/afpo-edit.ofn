@@ -848,7 +848,6 @@ AnnotationAssertion(rdfs:seeAlso <http://dbpedia.org/resource/Cameroon> <https:/
 AnnotationAssertion(rdfs:seeAlso <http://dbpedia.org/resource/Cameroon> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
 SubClassOf(<http://dbpedia.org/resource/Cameroon> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000058>))
 SubClassOf(<http://dbpedia.org/resource/Cameroon> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000067>))
-SubClassOf(<http://dbpedia.org/resource/Cameroon> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000080>))
 SubClassOf(<http://dbpedia.org/resource/Cameroon> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000084>))
 SubClassOf(<http://dbpedia.org/resource/Cameroon> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000104>))
 SubClassOf(<http://dbpedia.org/resource/Cameroon> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000125>))
@@ -858,8 +857,6 @@ SubClassOf(<http://dbpedia.org/resource/Cameroon> ObjectSomeValuesFrom(<http://p
 SubClassOf(<http://dbpedia.org/resource/Cameroon> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000279>))
 SubClassOf(<http://dbpedia.org/resource/Cameroon> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000280>))
 SubClassOf(<http://dbpedia.org/resource/Cameroon> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000283>))
-SubClassOf(<http://dbpedia.org/resource/Cameroon> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000288>))
-SubClassOf(<http://dbpedia.org/resource/Cameroon> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000289>))
 SubClassOf(<http://dbpedia.org/resource/Cameroon> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000290>))
 SubClassOf(<http://dbpedia.org/resource/Cameroon> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000295>))
 SubClassOf(<http://dbpedia.org/resource/Cameroon> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000298>))
@@ -1263,7 +1260,6 @@ SubClassOf(<http://dbpedia.org/resource/Guinea> ObjectSomeValuesFrom(<http://pur
 SubClassOf(<http://dbpedia.org/resource/Guinea> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000432>))
 SubClassOf(<http://dbpedia.org/resource/Guinea> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000528>))
 SubClassOf(<http://dbpedia.org/resource/Guinea> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000529>))
-SubClassOf(<http://dbpedia.org/resource/Guinea> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000544>))
 SubClassOf(<http://dbpedia.org/resource/Guinea> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000549>))
 SubClassOf(<http://dbpedia.org/resource/Guinea> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000550>))
 SubClassOf(<http://dbpedia.org/resource/Guinea> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000552>))
@@ -1391,7 +1387,6 @@ AnnotationAssertion(rdfs:seeAlso <http://dbpedia.org/resource/Lesotho> <https://
 SubClassOf(<http://dbpedia.org/resource/Lesotho> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000142>))
 SubClassOf(<http://dbpedia.org/resource/Lesotho> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000326>))
 SubClassOf(<http://dbpedia.org/resource/Lesotho> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000343>))
-SubClassOf(<http://dbpedia.org/resource/Lesotho> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000347>))
 
 # Class: <http://dbpedia.org/resource/Liberia> (Liberia)
 
@@ -1408,7 +1403,6 @@ SubClassOf(<http://dbpedia.org/resource/Liberia> ObjectSomeValuesFrom(<http://pu
 SubClassOf(<http://dbpedia.org/resource/Liberia> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000522>))
 SubClassOf(<http://dbpedia.org/resource/Liberia> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000533>))
 SubClassOf(<http://dbpedia.org/resource/Liberia> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000543>))
-SubClassOf(<http://dbpedia.org/resource/Liberia> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000544>))
 SubClassOf(<http://dbpedia.org/resource/Liberia> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000546>))
 SubClassOf(<http://dbpedia.org/resource/Liberia> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000547>))
 SubClassOf(<http://dbpedia.org/resource/Liberia> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000552>))
@@ -1660,7 +1654,6 @@ SubClassOf(<http://dbpedia.org/resource/Mozambique> ObjectSomeValuesFrom(<http:/
 SubClassOf(<http://dbpedia.org/resource/Mozambique> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000240>))
 SubClassOf(<http://dbpedia.org/resource/Mozambique> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000338>))
 SubClassOf(<http://dbpedia.org/resource/Mozambique> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000339>))
-SubClassOf(<http://dbpedia.org/resource/Mozambique> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000342>))
 SubClassOf(<http://dbpedia.org/resource/Mozambique> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000351>))
 SubClassOf(<http://dbpedia.org/resource/Mozambique> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000369>))
 SubClassOf(<http://dbpedia.org/resource/Mozambique> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000406>))
@@ -1869,7 +1862,6 @@ AnnotationAssertion(rdfs:seeAlso <http://dbpedia.org/resource/Senegal> <https://
 SubClassOf(<http://dbpedia.org/resource/Senegal> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000074>))
 SubClassOf(<http://dbpedia.org/resource/Senegal> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000104>))
 SubClassOf(<http://dbpedia.org/resource/Senegal> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000141>))
-SubClassOf(<http://dbpedia.org/resource/Senegal> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000161>))
 SubClassOf(<http://dbpedia.org/resource/Senegal> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000205>))
 SubClassOf(<http://dbpedia.org/resource/Senegal> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000227>))
 SubClassOf(<http://dbpedia.org/resource/Senegal> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000229>))
@@ -1892,10 +1884,10 @@ SubClassOf(<http://dbpedia.org/resource/Senegal> ObjectSomeValuesFrom(<http://pu
 # Class: <http://dbpedia.org/resource/Seychelles> (Seychelles)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000439> <http://dbpedia.org/resource/Seychelles> "United Kingdom")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000452> <http://dbpedia.org/resource/Seychelles> "93920"^^xsd:integer)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000452> <http://dbpedia.org/resource/Seychelles> "English")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000452> <http://dbpedia.org/resource/Seychelles> "French")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000452> <http://dbpedia.org/resource/Seychelles> "Seychellois Creole")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000452> <http://dbpedia.org/resource/Seychelles> "93920"^^xsd:integer)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://dbpedia.org/resource/Seychelles> "0.93 millions")
 AnnotationAssertion(rdfs:seeAlso <http://dbpedia.org/resource/Seychelles> <http://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
 AnnotationAssertion(rdfs:seeAlso <http://dbpedia.org/resource/Seychelles> <https://en.wikipedia.org/wiki/ISO_3166-2:SC>)
@@ -1921,7 +1913,6 @@ SubClassOf(<http://dbpedia.org/resource/Sierra_Leone> ObjectSomeValuesFrom(<http
 SubClassOf(<http://dbpedia.org/resource/Sierra_Leone> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000432>))
 SubClassOf(<http://dbpedia.org/resource/Sierra_Leone> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000443>))
 SubClassOf(<http://dbpedia.org/resource/Sierra_Leone> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000533>))
-SubClassOf(<http://dbpedia.org/resource/Sierra_Leone> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000544>))
 SubClassOf(<http://dbpedia.org/resource/Sierra_Leone> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000545>))
 SubClassOf(<http://dbpedia.org/resource/Sierra_Leone> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000549>))
 SubClassOf(<http://dbpedia.org/resource/Sierra_Leone> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000551>))
@@ -2044,10 +2035,6 @@ SubClassOf(<http://dbpedia.org/resource/South_Sudan> ObjectSomeValuesFrom(<http:
 SubClassOf(<http://dbpedia.org/resource/South_Sudan> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000379>))
 SubClassOf(<http://dbpedia.org/resource/South_Sudan> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000390>))
 
-# Class: <http://dbpedia.org/resource/Southern_Africa> (Southern Africa)
-
-AnnotationAssertion(rdfs:seeAlso <http://dbpedia.org/resource/Southern_Africa> <http://unstats.un.org/unsd/methods/m49/m49regin.htm>)
-
 # Class: <http://dbpedia.org/resource/Sudan> (Sudan)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000439> <http://dbpedia.org/resource/Sudan> "United Kingdom")
@@ -2110,9 +2097,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000457> <http://dbpedi
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://dbpedia.org/resource/São_Tomé_and_Príncipe> "0.2 million")
 AnnotationAssertion(rdfs:seeAlso <http://dbpedia.org/resource/São_Tomé_and_Príncipe> <https://en.wikipedia.org/wiki/ISO_3166-2:ST>)
 AnnotationAssertion(rdfs:seeAlso <http://dbpedia.org/resource/São_Tomé_and_Príncipe> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
-SubClassOf(<http://dbpedia.org/resource/São_Tomé_and_Príncipe> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000084>))
 SubClassOf(<http://dbpedia.org/resource/São_Tomé_and_Príncipe> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000290>))
-SubClassOf(<http://dbpedia.org/resource/São_Tomé_and_Príncipe> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000572>))
 
 # Class: <http://dbpedia.org/resource/Tanzania> (Tanzania)
 
@@ -2751,6 +2736,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000074> "Ba
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000074> <http://purl.obolibrary.org/obo/AfPO_0000425>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000074> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Ivory_Coast>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000074> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Mali>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000074> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Senegal>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000074> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/The_Gambia>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000075> (Sebei)
@@ -7480,6 +7466,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000332> <http://purl.obolibrary
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000332> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Botswana>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000332> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Namibia>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000332> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/South_Africa>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000332> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Zimbabwe>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000333> (Khoisan South)
 
@@ -7558,9 +7545,9 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000565> <http://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.obolibrary.org/obo/AfPO_0000336> <https://www.101lasttribes.com/tribes/himba.html>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000336> "Himba")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000336> <http://purl.obolibrary.org/obo/AfPO_0000326>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000336> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://dbpedia.org/resource/Tanzania>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000336> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Angola>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000336> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Namibia>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000336> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Tanzania>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000337> (Kwangali)
 
@@ -7608,7 +7595,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000338> "Le
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000338> <http://purl.obolibrary.org/obo/AfPO_0000326>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000338> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Malawi>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000338> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Mozambique>))
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000338> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Southern_Africa>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000338> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/South_Africa>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000338> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Zimbabwe>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000339> (Makua)
@@ -10805,6 +10792,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000438> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000438> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Democratic_Republic_of_the_Congo>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000438> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Rwanda>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000438> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/South_Africa>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000438> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Tanzania>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000438> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Uganda>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000440> (Bamileke)
@@ -11728,6 +11716,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.o
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000488> "Kiga"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000488> <http://purl.obolibrary.org/obo/AfPO_0000369>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000488> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Kenya>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000488> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Tanzania>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000488> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Uganda>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000489> (Lambya)
@@ -13151,7 +13140,9 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000566> <http://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000567> <http://purl.obolibrary.org/obo/AfPO_0000543> "dnj")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000543> "Dan"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000543> <http://purl.obolibrary.org/obo/AfPO_0000425>)
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000543> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Ivory_Coast>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000543> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Liberia>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000543> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Senegal>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000543> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/The_Gambia>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000544> (Kabye)
@@ -14121,5 +14112,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000452> <http://dbpedi
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://dbpedia.org/resource/Saint_Helena> "0.05 million")
 AnnotationAssertion(rdfs:seeAlso <http://dbpedia.org/resource/Saint_Helena> <https://en.wikipedia.org/wiki/ISO_3166-2:SH>)
 AnnotationAssertion(rdfs:seeAlso <http://dbpedia.org/resource/Saint_Helena> <https://unstats.un.org/unsd/methods/m49/m49alpha.htm>)
+AnnotationAssertion(rdfs:seeAlso <http://dbpedia.org/resource/Southern_Africa> <http://unstats.un.org/unsd/methods/m49/m49regin.htm>)
 AnnotationAssertion(rdfs:seeAlso <http://dbpedia.org/resource/Western_Africa> <http://unstats.un.org/unsd/methods/m49/m49regin.htm>)
 )
