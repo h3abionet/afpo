@@ -2090,6 +2090,7 @@ SubClassOf(<http://dbpedia.org/resource/Sudan> ObjectSomeValuesFrom(<http://purl
 SubClassOf(<http://dbpedia.org/resource/Sudan> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000216>))
 SubClassOf(<http://dbpedia.org/resource/Sudan> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000241>))
 SubClassOf(<http://dbpedia.org/resource/Sudan> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000305>))
+SubClassOf(<http://dbpedia.org/resource/Sudan> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000307>))
 SubClassOf(<http://dbpedia.org/resource/Sudan> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000357>))
 SubClassOf(<http://dbpedia.org/resource/Sudan> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_00003674>))
 SubClassOf(<http://dbpedia.org/resource/Sudan> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AfPO_0000447> <http://purl.obolibrary.org/obo/AfPO_0000373>))
