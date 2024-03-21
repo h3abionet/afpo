@@ -37,3 +37,7 @@ robot_report:
     - multiple-replaced_by
     - redundant-subClassOf
     - population-size
+    - population_group-inconsistency
+    - country_origin-inconsistency
+  sparql_test_on: 
+    - afpo-sparqltest-full.owl
