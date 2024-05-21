@@ -2,7 +2,7 @@
 ![Build Status](https://github.com/h3abionet/afpo/actions/workflows/qc.yml/badge.svg)
 # African Population Ontology (AfPO)
 
-Description: None
+Description: AfPO is an ontology that can be used in the study of diverse populations across Africa. It brings together publicly available demographic, anthropological and genetic data relating to African people in a standardised and structured format.
 
 More information can be found at http://obofoundry.org/ontology/afpo
 
