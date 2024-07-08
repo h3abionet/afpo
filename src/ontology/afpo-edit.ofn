@@ -466,6 +466,7 @@ Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#altLabel>))
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000089> (language:glottolog:wgs84)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000089> "Language geographic coordinates as reported by the Glottolog source.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/AfPO_0000089> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000089> "2020-06-01T13:49:58.120891Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000089> "language:glottolog:wgs84")
@@ -493,6 +494,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000222> "su
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000223> (language:glottolog:bigmap)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000223> "Language geographic position on the African map as reported by the Glottolog source.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/AfPO_0000223> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000223> "2020-06-05T12:10:38.722308Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000223> "language:glottolog:bigmap")
@@ -507,6 +509,7 @@ SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000226> <http://pu
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000230> (language:glottolog:description)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000230> "Language description as reported by the Glottolog source.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/AfPO_0000230> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000230> "2020-06-05T15:00:08.140413Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000230> "language:glottolog:description")
@@ -528,6 +531,7 @@ SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000233> <http://pu
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000234> (language:wikipedia:description)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000234> "Language description as reported by the Wikipedia source.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/AfPO_0000234> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000234> "2020-06-08T12:47:14.905754Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000234> "language:wikipedia:description")
@@ -535,6 +539,7 @@ SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000234> <http://pu
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000235> (population:wikipedia:description)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000235> "Population description as reported by the Wikipedia source.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/AfPO_0000235> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000235> "2020-06-08T12:47:46.800894Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000235> "population:wikipedia:description")
@@ -561,35 +566,43 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000272> "nu
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000439> (Colonial History)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000439> "By which country the population was colonized.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000439> "Colonial History")
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000450> (population:synonym)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000450> "Comprehensive list of synonyms for general words for groups of people.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000450> "population:synonym")
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000452> (language:official)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000452> "An official language is a language given supreme status in a particular country, state, or other jurisdiction. Typically the term 'official language' does not refer to the language used by a people or country, but by its government.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000452> "language:official")
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000453> (language:synonym)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000453> "Comprehensive list of synonyms for general words for a specific language.")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/AfPO_0000453> "language:possibleSpoken")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000453> "language:synonym")
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000454> (population:genetic:RefChromY)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000454> "Population chromosome Y haplotype reference source.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000454> "population:genetic:RefChromY")
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000455> (population:genetic:RefMitochondrialHap)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000455> "Population mitochondrial haplotype reference source.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000455> "population:genetic:RefMitochondrialHap")
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000456> (population:genetic:chromosomeYHap)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000456> "Population chromosome Y haplotype.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000456> "population:genetic:chromosomeYHap")
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000457> (population:genetic:mitochondrialHap)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000457> "Population mitochondrial haplotype.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000457> "population:genetic:mitochondrialHap")
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000458> (population:language:spoken)
@@ -602,10 +615,12 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000459> "po
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000565> (family)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000565> "A language family is a group of languages related through descent from a common ancestral language or parental language.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000565> "family"@en)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000566> (language:glottolog:id)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000566> "Language identification as reported by the Glottolog source.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000566> "language:glottolog:id"@en)
 SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000566> <http://purl.obolibrary.org/obo/AfPO_0000601>)
 
@@ -616,6 +631,7 @@ SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000567> <http://pu
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000568> (population:101lasttribes)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000568> "Population description as reported by the 101lasttribes source.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000568> "population:101lasttribes"@en)
 SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://purl.obolibrary.org/obo/AfPO_0000600>)
 
@@ -7393,10 +7409,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000307> <http://purl.obolibrary
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000307> <http://purl.obolibrary.org/obo/AfPO_0000270>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000307> <http://purl.obolibrary.org/obo/AfPO_0000275>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000307> <http://purl.obolibrary.org/obo/AfPO_0000371>)
-SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000307> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Sudan>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000307> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Chad>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000307> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Libya>))
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000307> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Niger>))
+SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000307> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Sudan>))
 
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000325> (Afrikaner)
 
