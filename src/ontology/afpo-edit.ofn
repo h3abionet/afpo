@@ -647,11 +647,13 @@ SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000568> <http://pu
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000600> (population:crossref)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000600> "A grouping annotation for all cross-references related to population.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000600> "population:crossref"@en)
 SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000600> <http://www.geneontology.org/formats/oboInOwl#hasDbXref>)
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000601> (language:crossref)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000601> "A grouping annotation for all cross-references related to language.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000601> "language:crossref")
 SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000601> <http://www.geneontology.org/formats/oboInOwl#hasDbXref>)
 
