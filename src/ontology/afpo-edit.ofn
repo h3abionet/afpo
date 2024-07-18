@@ -474,6 +474,7 @@ SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000089> <http://pu
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000152> (population:genetic:study)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000152> "Genetic study bibliographic reference.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/AfPO_0000152> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000152> "2020-05-31T21:33:12.445061Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000152> "population:genetic:study")
@@ -481,6 +482,7 @@ SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000152> <http://pu
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000221> (language:ISO639-3:description)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000221> "The ISO 639 Identifier Documentation.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/AfPO_0000221> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000221> "2020-06-05T14:59:11.879423Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000221> "language:ISO639-3:description")
@@ -502,6 +504,7 @@ SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000223> <http://pu
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000226> (population:microbiome:study)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000226> "Microbiome study bibliographic reference.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/AfPO_0000226> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000226> "2020-06-03T17:56:59.458188Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000226> "population:microbiome:study")
@@ -517,6 +520,7 @@ SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000230> <http://pu
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000232> (population:joshuaproject:description)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000232> "'Joshua project's' population description.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/AfPO_0000232> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000232> "2020-06-09T06:26:03.877868Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000232> "population:joshuaproject:description")
@@ -524,6 +528,7 @@ SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000232> <http://pu
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000233> (population:googlebook)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000233> "'googlebook' population description.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/AfPO_0000233> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000233> "2020-06-05T21:34:42.916144Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000233> "population:googlebook")
@@ -553,6 +558,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000246> "po
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000267> (population:peoplegroups:description)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000267> "'peoplegroups' population description.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/AfPO_0000267> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000267> "2020-07-23T13:41:52.473244Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000267> "population:peoplegroups:description")
@@ -560,6 +566,7 @@ SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000267> <http://pu
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000272> (number:populations)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000272> "Number of populations in the group.")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/AfPO_0000272> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000272> "2020-07-29T19:44:53.365415Z")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000272> "number:populations")
@@ -607,10 +614,12 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000457> "po
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000458> (population:language:spoken)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000458> "The language spoken by the population.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000458> "population:language:spoken")
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000459> (population:size)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000459> "The total number of individuals within a population.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000459> "population:size")
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000565> (family)
@@ -626,6 +635,7 @@ SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000566> <http://pu
 
 # Annotation Property: <http://purl.obolibrary.org/obo/AfPO_0000567> (language:ISO639-3:id)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000567> "An international standard for language codes in the ISO 639 series.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000567> "language:ISO639-3:id")
 SubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/AfPO_0000567> <http://purl.obolibrary.org/obo/AfPO_0000601>)
 
