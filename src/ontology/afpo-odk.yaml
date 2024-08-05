@@ -41,3 +41,11 @@ robot_report:
     - country_origin-inconsistency
   sparql_test_on: 
     - afpo-sparqltest-full.owl
+  custom_sparql_exports:
+    - basic-report
+    - class-count-by-prefix
+    - edges
+    - xrefs
+    - obsoletes
+    - synonyms 
+    - population-report
