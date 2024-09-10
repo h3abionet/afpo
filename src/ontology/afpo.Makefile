@@ -52,6 +52,6 @@ split_annotation: $(SRC)
 	$(ROBOT) convert -i $(SRC) -o $(ONT)-edit.owl
 	python $(SCRIPTSDIR)/split_annotation.py
 	$(ROBOT) merge -i afpo-edit-annotation.owl -i annotations.owl --collapse-import-closure false convert -o $(SRC)
-	#rm afpo-edit-annotation.owl
-	#rm annotations.owl
+	rm afpo-edit-annotation.owl
+	rm annotations.owl
 	rm $(ONT)-edit.owl
