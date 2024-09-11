@@ -15,23 +15,23 @@ def split_annotation():
         # "http://purl.obolibrary.org/obo/AfPO_0000450",
         # "http://purl.obolibrary.org/obo/AfPO_0000565"
     ]
-    sep_cases = (
+    sep_cases = [
         ", and ",
         ", OR ",
         ", or ",
         " or ",
         " / ",
-        ", "
-    )
+        ", ",
+        ","
+    ]
     g_annotations = Graph()
     for an in annotations:
         qres = g.query(prep_query, initBindings={"annotation": URIRef(an)})
         for row in qres:
             t, v = row
-            for case in sep_cases:
-                values = v.split(case)
-                for value in values:
-                    g_annotations.add((URIRef(t), URIRef(an), Literal(value)))
+            values = v.split(",")
+            for value in values:
+                g_annotations.add((URIRef(t), URIRef(an), Literal(value)))
             g.remove((URIRef(t), URIRef(an), Literal(v)))
 
     g_annotations.serialize(destination="annotations.owl", format="xml")
