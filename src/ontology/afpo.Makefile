@@ -55,3 +55,10 @@ split_annotation: $(SRC)
 	#rm afpo-edit-annotation.owl
 	#rm annotations.owl
 	rm $(ONT)-edit.owl
+
+add_family: $(SRC)
+	$(ROBOT) convert -i $(SRC) -o $(ONT)-edit.owl
+	python $(SCRIPTSDIR)/add_family_tree.py
+	$(ROBOT) merge -i $(ONT)-edit-family.owl --collapse-import-closure false convert -o $(SRC)
+	rm $(ONT)-edit-family.owl
+	rm $(ONT)-edit.owl
