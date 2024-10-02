@@ -38,3 +38,27 @@ $(ONT)-sparqltest-full.owl: $(EDIT_PREPROCESSED) $(OTHER_SRC) $(IMPORT_FILES)
 	$(ROBOT_RELEASE_IMPORT_MODE) \
 	materialize --reasoner ELK --term http://purl.obolibrary.org/obo/AfPO_0000447 --term http://purl.obolibrary.org/obo/HANCESTRO_0308 \
 	$(SHARED_ROBOT_COMMANDS) annotate --ontology-iri $(ONTBASE)/$@ $(ANNOTATE_ONTOLOGY_VERSION) --output $@.tmp.owl && mv $@.tmp.owl $@
+
+# Command to split annotations using comma as a separator. If the annotation uses a different sep, please update the Python script.
+# The annotations that will be split are population synonym (AfPO:0000450) and family (AfPO:0000565).
+# 1. Need to convert to RDF/XML to be able to load the ontology using rdflib. rdflib can load OFN, but it requires the use of the plugin
+# rdflib-owl which needs to be installed, and it's not available in the ODK. 
+# 2. Run Python script which queries each annotation entry and splits it using the separator into N annotations.
+# The N new annotations are added to the annotation.owl graph and the combined annotation is deleted and saved in afpo-edit-annotation.owl
+# The two graphs could be merged into one, but this gives a chance to review the changes.
+# 3. Merge the two owl files and save the output as afpo-edit.ofn after converting as OFN.
+# 4. Remove intermediary files
+split_annotation: $(SRC)
+	$(ROBOT) convert -i $(SRC) -o $(ONT)-edit.owl
+	python $(SCRIPTSDIR)/split_annotation.py
+	$(ROBOT) merge -i afpo-edit-annotation.owl -i annotations.owl --collapse-import-closure false convert -o $(SRC)
+	rm afpo-edit-annotation.owl
+	rm annotations.owl
+	rm $(ONT)-edit.owl
+
+add_family: $(SRC)
+	$(ROBOT) convert -i $(SRC) -o $(ONT)-edit.owl
+	python $(SCRIPTSDIR)/add_family_tree.py
+	$(ROBOT) merge -i $(ONT)-edit-family.owl --collapse-import-closure false convert -o $(SRC)
+	rm $(ONT)-edit-family.owl
+	rm $(ONT)-edit.owl
