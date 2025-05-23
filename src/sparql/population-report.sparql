@@ -1,0 +1,35 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX population_size: <http://purl.obolibrary.org/obo/AfPO_0000459>
+PREFIX family: <http://purl.obolibrary.org/obo/AfPO_0000565>
+PREFIX population_concept: <http://purl.obolibrary.org/obo/OBI_0000181>
+PREFIX language_glottolog: <http://purl.obolibrary.org/obo/AfPO_0000089>
+PREFIX has_country_origin: <http://purl.obolibrary.org/obo/HANCESTRO_0308>
+PREFIX located_in: <http://purl.obolibrary.org/obo/RO_0001025>
+
+SELECT DISTINCT ?population_term (STR(?population_n) AS ?population_name) ?region_name ?population_size ?language_location (STR(?country_origin) AS ?contry_origin_name) ?family
+WHERE {
+    ?population_term rdfs:subClassOf* population_concept: .
+    ?population_term rdfs:label ?population_n .
+    ?population_term rdfs:subClassOf ?region .
+    OPTIONAL { ?population_region rdfs:subClassOf population_concept: .
+               ?population_region rdfs:subClassOf [
+                    a owl:Restriction ;
+                    owl:onProperty located_in: ;
+                    owl:someValuesFrom ?region_term
+               ] .
+               ?population_term rdfs:subClassOf* ?population_region .
+               ?region_term rdfs:label ?region_name .
+    }
+    OPTIONAL { ?population_term population_size: ?population_size . }
+    OPTIONAL { ?population_term language_glottolog: ?language_location . }
+    OPTIONAL { ?population_term rdfs:subClassOf [
+            a owl:Restriction ;
+            owl:onProperty has_country_origin: ;
+            owl:someValuesFrom ?country_origin_term
+        ] .
+        ?country_origin_term rdfs:label ?country_origin .
+    }
+    OPTIONAL { ?population_term family: ?family . }
+    FILTER (isIRI(?region) && ?region != population_concept:)
+}
