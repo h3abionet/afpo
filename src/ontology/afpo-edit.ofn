@@ -4384,11 +4384,9 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000170> "Ma
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000170> <http://purl.obolibrary.org/obo/AfPO_0000188>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000170> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Mauritius>))
 
-# Class: <http://purl.obolibrary.org/obo/AfPO_0000171> (Tamil)
+# Class: <http://purl.obolibrary.org/obo/AfPO_0000171> (Mauritian Tamil)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000221> <http://purl.obolibrary.org/obo/AfPO_0000171> <http://www-01.sil.org/iso639-3/documentation.asp?id=tam>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000223> <http://purl.obolibrary.org/obo/AfPO_0000171> <http://glottolog.org/resource/languoid/id/tami1289.bigmap.html>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000230> <http://purl.obolibrary.org/obo/AfPO_0000171> <http://glottolog.org/resource/languoid/id/tami1289>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000233> <http://purl.obolibrary.org/obo/AfPO_0000171> "https://www.google.com/search?tbm=bks&hl=fr&q=%28+'Tamil+Mauritian'+OR+'Tamil'+%29+AND+'Mauritius'"^^xsd:anyURI)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000234> <http://purl.obolibrary.org/obo/AfPO_0000171> <https://en.wikipedia.org/wiki/Tamil_language>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000235> <http://purl.obolibrary.org/obo/AfPO_0000171> <https://en.wikipedia.org/wiki/Tamil_Mauritian>)
@@ -4401,7 +4399,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.o
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://en.wikipedia.org/wiki/Tamil_Mauritian") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/AfPO_0000171> "A Eastern African population with a population size of 0.055 millions")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/AfPO_0000171> <https://orcid.org/0000-0001-9988-3250>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/AfPO_0000171> "2020-05-04T10:56:12.352811Z")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000171> "Tamil")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/AfPO_0000171> "Mauritian Tamil")
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000171> <http://purl.obolibrary.org/obo/AfPO_0000188>)
 SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000171> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HANCESTRO_0308> <http://dbpedia.org/resource/Mauritius>))
 
@@ -5974,8 +5972,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/AfPO_0000258> ObjectSomeValuesFrom(<h
 # Class: <http://purl.obolibrary.org/obo/AfPO_0000259> (Malbar)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000221> <http://purl.obolibrary.org/obo/AfPO_0000259> <http://www-01.sil.org/iso639-3/documentation.asp?id=tam>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000223> <http://purl.obolibrary.org/obo/AfPO_0000259> <http://glottolog.org/resource/languoid/id/tami1289>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000223> <http://purl.obolibrary.org/obo/AfPO_0000259> <http://glottolog.org/resource/languoid/id/tami1289.bigmap.html>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000234> <http://purl.obolibrary.org/obo/AfPO_0000259> <https://en.wikipedia.org/wiki/Tamil_language>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000235> <http://purl.obolibrary.org/obo/AfPO_0000259> <https://en.wikipedia.org/wiki/Malbars>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000450> <http://purl.obolibrary.org/obo/AfPO_0000259> "Malabars")
