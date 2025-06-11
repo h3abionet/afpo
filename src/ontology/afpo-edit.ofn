@@ -5975,7 +5975,8 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000221> <http://purl.o
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000234> <http://purl.obolibrary.org/obo/AfPO_0000259> <https://en.wikipedia.org/wiki/Tamil_language>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000235> <http://purl.obolibrary.org/obo/AfPO_0000259> <https://en.wikipedia.org/wiki/Malbars>)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000450> <http://purl.obolibrary.org/obo/AfPO_0000259> "Malabars")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000453> <http://purl.obolibrary.org/obo/AfPO_0000259> "Tamil")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000453> <http://purl.obolibrary.or
+g/obo/AfPO_0000259> "Tamil")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000458> <http://purl.obolibrary.org/obo/AfPO_0000259> "French")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000458> <http://purl.obolibrary.org/obo/AfPO_0000259> "Tamil")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/AfPO_0000459> <http://purl.obolibrary.org/obo/AfPO_0000259> "0.18 million")
