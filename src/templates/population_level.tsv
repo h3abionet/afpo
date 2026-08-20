@@ -1,0 +1,161 @@
+Country	subject	Population	population:genetic:chromosomeYHap [Data Value]	population:genetic:mitochondrialHap [Data Value]	population:genetic:other [Data Value]	population:language_spoken [Data Value]
+	ID	LABEL	A AfPO:0000456	A AfPO:0000457	A AfPO:0000152	A AfPO:0000458
+Algeria		Algerian Berber				Chaoui
+Algeria		Algerian Berber (Kabyle )		U6, H, J, T, L		Kabyle
+Algeria		Algerian Berber (Kabyle/Chaoui Imazighen)		U6, M1, H, J, T, L		
+Algeria		Algerian Berber (Mozabite)		U6, H, L		Mozabite
+Angola		Angola Bantu			Whole-genome sequencing reference dataset (n=350); ~2.9M novel SNPs; High-depth whole-genome sequencing dataset; ~2.9M SNPs identified	Umbundu; Kimbundu; Kikongo
+Angola		Khwe		L0d, L0a, L0k, L1c, L2a, L2b, L3e; L0d, L5, L0f		Khwe
+Angola		Kuvale		L3f		Olukuvale
+Angola		Vasekela		L0d, L5, L0f		Kung
+Angola		Xun		L0d, L0k, L2a, L2b, L3d		Kung
+Benin		Bariba	R1b-M415*, T1a-M70*	L0, L1, L3, L0a1a1a, L0a1a2, L1b1a, L1b1a3, L1c, L1c3, L1c3a, L2a, L2a1, L2a1a2, L2a1c, L2a1r, L2d2, L2e1a, L3b, L3b1a3, L3b2, L3d, L3d1, L3d1a1, L3e2, L3e2a1, L3e2a1b1, L3f1b4a2		Bariba
+Benin		Benin	A1b1b2b-M13, E1b1a1-M2, E-M96	I, L, L0, L1, L2, L3, L4, U6		Fon; Yoruba; Bariba
+Benin		Berba	E-M174*	L1, L3, L1b, L1b1a, L1b1a3, L2a, L2a1, L2a1a2, L2a1a3, L2a1i2, L2a2, L2c6, L3, L3b, L3b1b, L3d, L3d2, L3e2, L3e3, L3e5, L3e5a2a, L3e5a2b, L3i1		Berba
+Benin		Dendi (Benin)		L0, L1, L3, L0a1a, L0a1a2, L1b1a, L1b1a2, L1b1a3, L1c, L1c3a1b1, L1c3a2, L2a, L2a1, L2a1a1, L2a1b1b, L2a1c5, L2a1f1b, L2a1h, L2a1s, L2c, L2c2, L3b, L3b1a6a, L3d, L3e2a1, L3e2b, L3f1b1		Dendi
+Benin		Fon	E2-M75	L1, L3, L4, L1b1, L1b1a, L1b1a3, L1c3a, L1c3b2a, L2a, L2a1, L2a1c1, L2a1f1c, L2a1f1d, L2a1f4, L2a1h, L2a1q, L2b3, L2b3a1, L2c, L2c2, L3b, L3b3a, L3d, L3d1c, L3e2, L3e2a1, L3e2b, L4b1a		Fon
+Benin		Yoruba	E1b1a1a1c1a1-U174*, B2a-M150			Yoruba
+Botswana		Gui / Gana / Kgalagari		L0d, L1c		Gui; Gana; Kgalagari
+Botswana		Naro		L0d		Naro
+Botswana		Tswana		L0d, L0a, L1c, L2a, L2b, L4, L3d, L3e		Setswana
+Burkina Faso		Bissa	E1b1a, E1b1a8, E1b1a7, E1a			Bissa
+Burkina Faso		Burkina Faso		L1b, L2*, L2a, L1c, L0a, M'N(R), L3*, L3f, L3e, L3d, L3b, L4		Mossi; Fula; Dyula
+Burkina Faso		Fulani (Banfora)		L1*, L1b, L2a, L2b, L2c, L3b/d, U5, J1b		
+Burkina Faso		Fulani (Tindangou)		L1b, L2a, L2b, L2c, L2d, L3b/d, L3f, J1b		
+Burkina Faso		Fulani Banfora				Fula
+Burkina Faso		Fulani Tindangou				Fula
+Burkina Faso		Kassena	E1b1a8, E1b1a7, E1b1a7a, E1b1a			Kassena
+Burkina Faso		Lyela	E1b1a, E1b1a8, E1b1a7, E1a, E*, E1b1a7a			Lyela
+Burkina Faso		Marka	E1b1a, E1b1a8, E1b1a7, E1a, B, R			Marka
+Burkina Faso		Mossi	E1b1a, E1b1a8, E1b1a7, E1a, E1b1b1			Mossi
+Burkina Faso		Nuna	E1b1b1, E1b1a, E1b1a8, E1b1a7, E1b1a7a, B			Nuna
+Burkina Faso		Pana	E1b1a7a, E1b1a, E1b1a8, E2, B, E1b1b1, E1b1a7			Pana
+Burkina Faso		Samo North	E*, E1b1a, E1b1a8, E1b1a7, B, R, E1b1a7a, E1a, E1b1b1			Samo
+Burkina Faso		Tuareg (Gorom-Gorom)	A, B, E1b1a, E1b1a7a, E1b1a8, R	H1a?, U3/H?, H1a, H1, V, L2a, L3b, L4g, M1a2		Tamasheq
+Cameroon		Bakola		L0d, L5, L0f		Bakola
+Cameroon		Bantu-speaking groups		L2a, L3e, L3b, L3d		Various Bantu languages
+Cameroon		Cameroon			High-resolution autosomal genotype dataset; genome-wide SNP data for multi-ethnic sampling	Fang; Bamileke; Duala; Fulfulde
+Cameroon		Lisongo	A, B2a, B2b, B1, B, E3a, E3b, E, D	L2, L3		Lesongo
+Cameroon		Mbo			Y-haplogroup A00 observed at low frequencies	Mbo
+Cameroon		North Tupuri	A-M13			Tupuri
+Cameroon		Ouldeme Mada	R1b-V88			Ouldeme; Mada
+Cameroon		South Ngumba	B2a1a1a1 (B-M109)			Ngumba
+Central African Republic		Biaka	A, B2a, B2b, B1, B, E3a, E3b, E, D	L2, L3		Aka (Biaka)
+Comoros		Comorian Islanders	E1b1a (M2), E2 (M75), J1 (M267), J2a (M410), G2a, R1a1, R2, O1a2 (M50), C* (M216), K* (M9), L1	L0, L1, L2, L3′4(xMN), F3b, M7c1c, M(xD,E,M1,M2,M7)		Comorian
+Cote d'Ivoire		Ahizi	E1b1a1a1d1a-U290*, E2-M75			Ahizi
+Cote d'Ivoire		Yacouba	E1b1a1a1d1a-U290*			Yacouba
+Democratic Republic of the Congo		Mbuti	A, B2a, B2b, B1, B, E3a, E3b, E, D	L2, L3		Mbuti (Efe); Asua
+Eritrea		Afar	E, J, A, B			Afar
+Eritrea		Bilen	E, J, A, B			Bilen
+Eritrea		Hedareb	E, J, A, B			Tigre
+Eritrea		Kunama	E, A, B, J			Kunama
+Eritrea		Tigre	E (especially E-V32), J			Tigre
+Eswatini		Swazi		L0d, L3e		Swazi
+Ethiopia		Afar	E1b1b	L		Afar
+Ethiopia		Amhara	E1b1b, J1, A3b2, B, T	L0, L1, L2, L3 and N/M		Amharic
+Ethiopia		Anuak	African L mtDNA predominant; A, B, E			Anuak
+Ethiopia		Ari	E, A	L		Aari
+Ethiopia		Ethiopian Somali	E1b1b	L		Somali
+Ethiopia		Gumuz	A, B, E	L		Gumuz
+Ethiopia		Oromo	E1b1b, A3b2, J	L0, L1, L2, L3 and N/M		Oromo
+Ethiopia		Tigray	E1b1b, J1 and T	L0–L3 ; M1, N		Tigrinya
+Ethiopia		Wolayta	E, A, B	L		Wolaytta
+Kenya		Elite distance athletes		L0, L3		Kalenjin; Kikuyu; Luo
+Kenya		Maasai		L0d, L5, L0f		Maa
+Kenya		Mijikenda		L2, L3		Mijikenda
+Kenya		Rendille	E	L		Rendille
+Kenya		Samburu	E	L		Samburu
+Kenya		Taita		L0a, L0f, L2a, L3b and L4		Taita
+Kenya		Turkana	E	L0-L4		Turkana
+Kenya		Various Coastal		L3, L0, L2, L1, L4, M, L5 and N		Swahili; Mijikenda
+Kenya		Waso Borana	E	L		Borana
+Lesotho		Sotho		L0d, L0a, L1c, L2a, L2b, L4, L3d, L3e		Sesotho
+Libya		Ancient Libyans (Takarkori)		U6, M1		Libyco-Berber
+Libya		Tuareg		H1, V, M1		
+Libya		Tuareg (Sahara / Fezzan)				Tamasheq
+Madagascar		Antemoro	E1b1a1, J1, T1	L0a, L2a, L3b, B4a1a1a		Malagasy
+Madagascar		Malagasy	E1b1a1, O2a1a1, O1a, O2a	L0*, L1*, L2*, L3*, M23, B4a1a1a, F3b, E1a1a, M46, M*; B4a1a1a & L; L clades and B4a1a1a, M23		Malagasy
+Malawi		Chewa	E1b1a1	L0a, L2a, L3b, L3e		Chewa
+Malawi		Ngoni	E1b1a1	L2a, L3b, L3d		Ngoni
+Malawi		Tumbuka	E1b1a1	L0a, L2a, L3b		Tumbuka
+Malawi		Yao	E1b1a1, E2	L0a, L2a, L3e		Yao
+Mauritius		Franco-Mauritian	R1b, I	H, J, T, U5		French
+Mauritius		Indo-Mauritian	H1, R1a, L, J2	M2, M3, M5, R5, U2		Bhojpuri; Tamil; Hindi
+Mauritius		Mauritian	E1b1a1, H1, R1a, O2, R1b	L0a, L2a, L3b, M*, R*, H		Creole; English; French
+Mauritius		Sino-Mauritian	O1a, O2	B4, F1, M7, D4		Chinese (Hakka)
+Morocco		Moroccoan Berber (Chleuh)		U6, H, J, T, L		Shilha
+Morocco		Moroccoan Berber (Riffians Amazigh)		U6, M1, H, L		Riffian
+Mozambique		Chopi	DYS393, DYS19, DYS390, DYS391, DYS388, DYS392	LI a, Lli, L2, L3a, L3b		Chopi
+Mozambique		Makua	E1b1a1	L0a, L2a, L3b, L3e		Makhuwa
+Mozambique		Manyanga		L0a, L1b, L2a, L2c, L3b, L3d, L3e, L3f		Shona
+Mozambique		Mozambican Bantu speakers	E1b1a1	L0a, L2a, L3b, L3e		Various Bantu languages
+Mozambique		Ronga	DYS393, DYS19, DYS390, DYS391, DYS388, DYS392	LI a, Lli, L2, L3a, L3b		Ronga
+Mozambique		Sena	E1b1a1	L0a, L2a, L3e		Sena
+Mozambique		Shangane	DYS393, DYS19, DYS390, DYS391, DYS388, DYS392	LI a, Lli, L2, L3a, L3b		Tsonga
+Mozambique		Thonga (or Bathonga)	DYS393, DYS19, DYS390, DYS391, DYS388, DYS392	LI a, Lli, L2, L3a, L3b		Tsonga
+Mozambique		Tsonga / Shangaan	E1b1a1	L0a, L2a, L3b, L3d		Tsonga
+Namibia		Damara		L3d		Nama
+Namibia		Herero		L0d, L1c, L3c, L3d, L3e, L3f; L3f, L3d		Otjiherero
+Namibia		Himba		L3f, L3d		Otjihimba
+Namibia		Ju/’hoansi		L0d, L0k, L4		Juǀʼhoan
+Namibia		Nama		L0d, L0k, L1c, L5, L3d, L3f		Nama
+Rwanda		Batwa / Twa	B2	L0d, L0a, L2a		Kinyarwanda
+Rwanda		Hutu	E1b1a1	L0a, L2a, L3e, L3d; L2a, L3e, L3b		Kinyarwanda
+Rwanda		Tutsi	E1b1a1, B	L0a, L3e, L3d; L3e, L3d		Kinyarwanda
+Rwanda		Twa	B2	L0d, L2a, L3b		Kinyarwanda
+Seychelles		Creole	E1b1a1, E2	L0a, L1b, L2a, L3b, L3e		Seychellois Creole
+Seychelles		Euro-Seychellois	R1b, I	H, J, T, U5		French
+Seychelles		Indo-Seychellois	H1, R1a, L, J2	M2, M3, M5, R5, U2		Tamil; Hindi
+Seychelles		Seychellois	E1b1a1, R1b, H1, J2	L0a, L2a, L3b, M*, R*, H		Seychellois Creole
+Seychelles		Seychellois Creole	E1b1a1, E2	L0a, L1b, L2a, L3b, L3e		Seychellois Creole
+Sierra Leone		Limba		H, L1a1, L1b, L1b1, L1c, L1c1, L2a, L2a1, L2b1, L2c, L2c1, L2c2, L2d1, L2d2, L3b, L3b1, L3d, L3d2, L3e2, L3e2b, L3e4, L3f1		Limba
+Sierra Leone		Loko		L1a1, L1b, L1b1, L1c1, L2a, L2a1, L2b, L2b1, L2c, L2c2, L2d2, L3b, L3b1, L3d, L3d2, L3e1, L3e2, L3e4, L3f1		Loko
+Sierra Leone		Mendi		A2, L1a1, L1b, L1b1, L1c1, L2a, L2a1, L2b, L2c, L2c2, L2d2, L3, L3b, L3b1, L3d, L3d2, L3e2b, L3f1, L3g		Mende
+Sierra Leone		Sierra Leone	E1b1a1a1a2a1a3b1d, E1b1a1a1a1c1a1a, E1b1a1a1a2a1a3b1a2a2, E1b1a1a1a2a1a3b1, E1b1a1, E1b1a1a1a2a1a3b1d, E1b1a1a1a2a1a3a1d, E1b1a1a1a1c1a1a3, E1b1a1a1a2a1a3b1a2a2, E1b1a1a1a2a1a3b1, E1b1a1a1a2a1a3b1d1c1a, B2a1a1a1, E1b1a1a1a2a1a3b1d1c1a, E1b1a1a1a1c1a1a3a1c1, E1b1a1a1a2a1a3a1d, E1b1a1a1a1c1a1a3a1c, E1b1a1a1a1c1a1	L1b1a10b, L2a1f, L2a1a3c, L1c3a, L0a1b2a, L0a1e, L2a1f1, L3, L3e1e, L3e3b2, L3e1a3a, L2b1a, L3f1b1a, L3d3a1, L3e2b1, L2a1f, L3e1d1a, L1b1a10, L2a1f1, L2b1a		Krio; Mende; Temne
+Sierra Leone		Temne		L1a1, L1b, L1b1, L1c, L1c1, L2a, L2a1, L2b, L2c2, L2d2, L3b, L3d, L3d2, U6		Temne
+Somalia		Somali		L0a, L2a1h, L3f		Somali
+Somalia		Somali pastoralists	E1b1b, T			Somali
+South Africa		Afrikaner		L0d, L0a, L3b, M, N, R		Afrikaans
+South Africa		Ancient foragers	B2, BT	L0d1, L0d3, L0k1, L0k2, L5b		Khoisan languages
+South Africa		Bantu	DYS19, DYS388, DYS390, DYS391, DYS392, DYS393	L0k1b, L0k2		Various Bantu languages
+South Africa		Cape Coloured		L0d, L0a, L1c, L2a, L3e, M, N, R		Afrikaans
+South Africa		Duma San		L0d		!Xóõ
+South Africa		Jewish	DYS19, DYS388, DYS390, DYS391, DYS392, DYS393			Hebrew; Yiddish; English
+South Africa		Karoo Coloured		L0d, L0a, L1b, L2a, L2b, L3d, L3e, M, N, R		Afrikaans
+South Africa		Karretjie people		L0d		Nama
+South Africa		Khomani		L0d, L0a		Nama
+South Africa		Lemba / Remba	DYS19, DYS388, DYS390, DYS391, DYS392, DYS393; DYS393, DYS19, DYS390, DYS391, DYS388, DYS392	LI a, Lli, L2, L3a, L3b		Venda
+South Africa		Northern Cape Coloured		L0d, L4, M, R		Afrikaans
+South Africa		San	A, B2a, B2b, B1, B, E3a, E3b, E, D	L2, L3		Various Khoisan languages
+South Africa		Venda	DYS393, DYS19, DYS390, DYS391, DYS388, DYS392	LI a, Lli, L2, L3a, L3b		Venda
+South Africa		Xegwi		L0d, L0a		!Xegwi
+South Africa		Xhosa		L0d, L0a, L0k, L1c, L5, L2a, L2c, L3d, L3e, L3f		isiXhosa
+South Africa		Zulu		L0d, L0a, L0k, L1c, L5, L2a, L2c, L3d, L3e, L3f		isiZulu
+Sudan		Beja	E1b1b, J1, R1b	L0a, L3b, L3d, M1		Beja
+Sudan		Darfur populations	E1b1b, J1	L0a, L1b, L2a, L3b		Fur; Zaghawa; Masalit
+Sudan		Northern Sudanese Arabs	J1, R1b, E1b1b	L0a, L2a, L3b, H, U		Arabic
+Sudan		Nuba Mountains	E1b1b, A3b2	L0a, L2a, L3e		Various Nuba languages
+Sudan		Sudan	E1b1b, J1, R1b, A3b2	L0a, L2a, L3b, L3e, M1, H, U		Arabic; English
+Tanzania		Burunge		L0d, L5, L0f		Burunge
+Tanzania		Chaga	E1b1a1	L0a, L2a, L3b		Chaga
+Tanzania		Datoga	A, B2a, B2b, B1, B, E3a, E3b, E, D	L2, L3		Datooga
+Tanzania		Hadza	B2, A3b2	L0d, L5, L0f; L0d, L0k		Hadza
+Tanzania		Hadzabe	A, B2a, B2b, B1, B, E3a, E3b, E, D	L2, L3		Hadza
+Tanzania		Iraqw	A, B2a, B2b, B1, B, E3a, E3b, E, D	L2, L3		Iraqw
+Tanzania		Maasai	A3b2, B2, E1b1b	L0a, L2a, L3d		Maa
+Tanzania		Sandawe		L0d, L5, L0f		Sandawe
+Tanzania		Sukuma	A, B2a, B2b, B1, B, E3a, E3b, E, D; E1b1a1	L2, L3; L0a, L2a, L3b, L3e		Sukuma
+Tanzania		Tanzania	E1b1a1, A3b2, B2	L0a, L2a, L3b, L3d, L3e		Swahili; English
+Tanzania		Turu		L0d, L5, L0f		Rimi
+Tunisia		Tunisian Berber		U6, H, L; M1, L, U6; U6, H		
+Tunisia		Tunisian Berber (Central Tunisia)				Siwi; Arabic
+Tunisia		Tunisian Berber (Chenini–Douiret)				Chenini Berber
+Uganda		Acholi	A3b2, E1b1b, B2	L0a, L2a, L3b, L3d		Acholi
+Uganda		Baganda	E1b1a1	L0a, L2a, L3b, L3e		Luganda
+Uganda		Basoga	E1b1a1	L0a, L2a, L3b		Lusoga
+Uganda		Iteso	E1b1a1, B2	L0a, L2a, L3e		Ateso
+Uganda		Uganda	E1b1a1, A3b2, B2	L0a, L2a, L3b, L3d, L3e		English; Swahili; Luganda
+Zimbabwe		Ndebele	E1b1a1	L0a, L1c, L2a, L3b, L3e		Ndebele
+Zimbabwe		Shona	ZHID183, ZHID312, ZHID210, ZHID341, ZHID300, ZHID436, ZHID438, ZHID442; E1b1a1	L0a1a, L0a2; L0a, L1c, L2a, L3b, L3d, L3e		Shona
+Zimbabwe		Tonga	E1b1a1	L0a, L2a, L3b, L3d		Tonga
+Zimbabwe		Zimbabwe	E1b1a1	L0a, L1c, L2a, L3b, L3d, L3e		English

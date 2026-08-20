@@ -13,6 +13,7 @@ Ontology(<http://purl.obolibrary.org/obo/afpo.owl>
 Import(<http://purl.obolibrary.org/obo/afpo/imports/hancestro_import.owl>)
 Import(<http://purl.obolibrary.org/obo/afpo/imports/obi_import.owl>)
 Import(<http://purl.obolibrary.org/obo/afpo/imports/omo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/afpo/components/more_data.owl>)
 Annotation(dcterms:contributor <https://orcid.org/0000-0001-5868-4204>)
 Annotation(dcterms:contributor <https://orcid.org/0000-0001-8351-264X>)
 Annotation(dcterms:contributor <https://orcid.org/0000-0001-8801-5781>)
